@@ -1,0 +1,54 @@
+name: Conditional Daily Deployment Preparation (Weekdays Only)
+
+on:
+  schedule:
+    # Runs at 9:00 AM GMT, Monday through Friday
+    - cron: '0 9 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  check-for-changes:
+    runs-on: ubuntu-latest
+
+    outputs:
+      changes-detected: ${{ steps.changes.outputs.changes-detected }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install jq (for JSON processing)
+        run: sudo apt-get install jq
+
+      - name: Get latest non-draft release tag using GitHub API
+        id: latest-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          LATEST_NON_DRAFT_TAG=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/releases" | \
+            jq -r '[.[] | select(.draft == false)][0].tag_name')
+          echo "Latest non-draft release tag: $LATEST_NON_DRAFT_TAG"
+          echo "::set-output name=latest-non-draft-tag::$LATEST_NON_DRAFT_TAG"
+
+      - name: Check for changes between main and last non-draft release tag
+        id: changes
+        run: |
+          LAST_TAG=${{ steps.latest-release.outputs.latest-non-draft-tag }}
+          CHANGES=$(git diff --name-only $LAST_TAG..main)
+          if [ -n "$CHANGES" ]; then
+            echo "Changes detected between $LAST_TAG and main."
+            echo "::set-output name=changes-detected::true"
+          else
+            echo "No changes detected between $LAST_TAG and main."
+            echo "::set-output name=changes-detected::false"
+          fi
+  
+  run-scripts:
+    needs: check-for-changes
+    if: needs.check-for-changes.outputs.changes-detected == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
