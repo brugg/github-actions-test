@@ -27,7 +27,12 @@ jobs:
       - name: Fetch the latest release that is not a draft or pre-release
         id: latest_release
         run: |
-          LATEST_RELEASE=$(gh api repos/:owner/:repo/releases --paginate | jq -r '.[] | select(.draft == false and .prerelease == false) | .tag_name' | head -n 1)
+          RELEASES=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/repos/${{ github.repository }}/releases?per_page=10")
+          echo "Fetched releases:"
+          echo "$RELEASES" | jq '.'  # Print the details of fetched releases
+
+          LATEST_RELEASE=$(echo "$RELEASES" | jq -r '.[] | select(.draft == false and .prerelease == false) | .tag_name' | head -n 1)
           if [ -z "$LATEST_RELEASE" ]; then
             echo "No suitable release found."
             echo "::set-output name=tag::"
