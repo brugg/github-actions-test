@@ -7,10 +7,10 @@ on:
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
-  check_changes:
+  check-for-changes:
     runs-on: ubuntu-latest
     outputs:
-      has_changes: ${{ steps.check_changes.outputs.has_changes }}
+      has_changes: ${{ steps.check-for-changes.outputs.has_changes }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
