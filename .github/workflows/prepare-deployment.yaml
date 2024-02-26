@@ -9,6 +9,8 @@ on:
 jobs:
   check_changes:
     runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.check_changes.outputs.has_changes }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -35,24 +37,25 @@ jobs:
           fi
 
       - name: Check for changes between latest non-pre-release tag and main
+        id: check_changes
         if: steps.latest_tag.outputs.tag
         run: |
           LAST_TAG=${{ steps.latest_tag.outputs.tag }}
           CHANGES=$(git diff --name-only $LAST_TAG..main)
           if [ -n "$CHANGES" ]; then
             echo "Changes detected between $LAST_TAG and main."
-            echo "Changes: $CHANGES"
+            echo "::set-output name=has_changes::true"
           else
             echo "No changes detected between $LAST_TAG and main."
+            echo "::set-output name=has_changes::false"
           fi
 
   run-scripts:
-    needs: check-for-changes
-    if: needs.check-for-changes.outputs.changes-detected == 'true'
     runs-on: ubuntu-latest
-
+    needs: check_changes
+    if: needs.check_changes.outputs.has_changes == 'true'
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      # Add your steps here to set up the environment, run scripts, etc.
+      - name: Run scripts because changes were detected
+        run: |
+          echo "Running scripts because changes were detected..."
+          # Add your script execution commands here
