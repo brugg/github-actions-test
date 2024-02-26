@@ -7,47 +7,43 @@ on:
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
-  check-for-changes:
+  check_changes:
     runs-on: ubuntu-latest
-
-    outputs:
-      changes-detected: ${{ steps.changes.outputs.changes-detected }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 0  # Fetches all history for all branches and tags
 
-      - name: Get latest non-draft release tag
-        id: latest-release
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Install GitHub CLI (if not already installed)
         run: |
-          RELEASES=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-          "https://api.github.com/repos/${{ github.repository }}/releases?per_page=5")
-          echo "Fetched releases:"
-          echo "$RELEASES" | jq '.'  # Print the details of fetched releases
+          if ! gh --version; then
+            sudo apt update
+            sudo apt install gh
+          fi
 
-          LATEST_RELEASE=$(echo "$RELEASES" | jq -r '.[] | select(.draft==false and .prerelease==false) | .tag_name' | head -n 1)
-          echo "Latest non-draft, non-prerelease release tag: $LATEST_RELEASE"
-          echo "::set-output name=latest-release-tag::$LATEST_RELEASE"
-
-      - name: Check for changes between latest release tag and main
-        id: changes
+      - name: Fetch the latest non-pre-release tag
+        id: latest_tag
         run: |
-          if [ -z "${{ steps.latest-release.outputs.latest-release-tag }}" ]; then
-            echo "No non-draft releases found."
-            echo "::set-output name=changes-detected::false"
+          LATEST_TAG=$(gh release list --exclude-drafts --limit 10 | grep -v 'Pre-release' | head -n 1 | cut -f3)
+          if [ -z "$LATEST_TAG" ]; then
+            echo "No non-pre-release tag found."
+            echo "::set-output name=tag::"
           else
-            CHANGES=$(git diff --name-only ${{ steps.latest-release.outputs.latest-release-tag }}..main)
-            if [ -n "$CHANGES" ]; then
-              echo "Changes detected between ${{ steps.latest-release.outputs.latest-release-tag }} and main."
-              echo "::set-output name=changes-detected::true"
-            else
-              echo "No changes detected between ${{ steps.latest-release.outputs.latest-release-tag }} and main."
-              echo "::set-output name=changes-detected::false"
-            fi
+            echo "Latest non-pre-release tag: $LATEST_TAG"
+            echo "::set-output name=tag::$LATEST_TAG"
+          fi
+
+      - name: Check for changes between latest non-pre-release tag and main
+        if: steps.latest_tag.outputs.tag
+        run: |
+          LAST_TAG=${{ steps.latest_tag.outputs.tag }}
+          CHANGES=$(git diff --name-only $LAST_TAG..main)
+          if [ -n "$CHANGES" ]; then
+            echo "Changes detected between $LAST_TAG and main."
+            echo "Changes: $CHANGES"
+          else
+            echo "No changes detected between $LAST_TAG and main."
           fi
 
   run-scripts:
