@@ -16,16 +16,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Fetches all history for all branches and tags
 
       - name: Get latest non-draft release tag
         id: latest-release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
-          LATEST_RELEASE=$(curl -H "Authorization: token $GITHUB_TOKEN" \
-          "https://api.github.com/repos/${{ github.repository }}/releases?per_page=1" \
-          | jq -r '.[] | select(.draft==false) | .tag_name' | head -n 1)
-          echo "Latest non-draft release tag: $LATEST_RELEASE"
+          RELEASES=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/repos/${{ github.repository }}/releases?per_page=5")
+          echo "Fetched releases:"
+          echo "$RELEASES" | jq '.'  # Print the details of fetched releases
+
+          LATEST_RELEASE=$(echo "$RELEASES" | jq -r '.[] | select(.draft==false and .prerelease==false) | .tag_name' | head -n 1)
+          echo "Latest non-draft, non-prerelease release tag: $LATEST_RELEASE"
           echo "::set-output name=latest-release-tag::$LATEST_RELEASE"
 
       - name: Check for changes between latest release tag and main
