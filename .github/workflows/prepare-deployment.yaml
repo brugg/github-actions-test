@@ -10,7 +10,7 @@ jobs:
   check-for-changes:
     runs-on: ubuntu-latest
     outputs:
-      has_changes: ${{ steps.set_output.outputs.has_changes }}
+      has_changes: ${{ steps.check_changes.outputs.has_changes }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3  # Updated for Node.js 20 support
@@ -42,23 +42,17 @@ jobs:
           if [ -n "$LATEST_RELEASE" ]; then
             CHANGES=$(git diff --name-only "$LATEST_RELEASE"..main)
             if [ -n "$CHANGES" ]; then
-              echo "::set-output name=has_changes::true"
+              echo "has_changes=true" >> "$GITHUB_OUTPUT"
             else
-              echo "::set-output name=has_changes::false"
+              echo "has_changes=false" >> "$GITHUB_OUTPUT"
             fi
           else
-            echo "::set-output name=has_changes::false"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: Set output
-        id: set_output
-        run: echo "has_changes=${{ steps.check_changes.outputs.has_changes }}" >> $GITHUB_ENV
-        outputs:
-          has_changes: ${{ steps.check_changes.outputs.has_changes }}
 
   run-scripts:
     needs: check-for-changes
-    if: needs.check-for-changes.outputs.has_changes == 'true'
+    if: steps.check_changes.outputs.has_changes == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
