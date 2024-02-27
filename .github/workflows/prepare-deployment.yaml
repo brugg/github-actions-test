@@ -87,16 +87,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - env: 
-          RELEASE_NAME: ${{needs.create-release-name.outputs.release_name}}
-          TEST: ${{needs.create-release-name.outputs.test}}
+      - name: Show RELEASE_NAME and TEST
+        env: 
+          RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
+          TEST: ${{ needs.create-tag-name.outputs.test }}
         run: |
-          echo RELEASE_NAME:" $RELEASE_NAME"
-          echo "$TEST"
+          echo "RELEASE_NAME: $RELEASE_NAME"
+          echo "TEST: $TEST"
 
       - name: Generate step1.md
         run: |
-          echo RELEASE_NAME:" $RELEASE_NAME"
+          echo "Generating step1.md with RELEASE_NAME: $RELEASE_NAME"
+          mkdir -p "$RELEASE_NAME"
           echo "step1" > "$RELEASE_NAME"/step1.md
       
       - name: Upload step1.md as artifact
@@ -112,13 +114,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - env: 
-          RELEASE_NAME: ${{needs.create-release-name.outputs.release_name}}
-        run: echo RELEASE_NAME:" $RELEASE_NAME"
+      - name: Show RELEASE_NAME and TEST
+        env: 
+          RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
+          TEST: ${{ needs.create-tag-name.outputs.test }}
+        run: |
+          echo "RELEASE_NAME: $RELEASE_NAME"
+          mkdir -p "$RELEASE_NAME"
+          echo "TEST: $TEST"
 
       - name: Generate step2.md
         run: |
-          echo RELEASE_NAME:" $RELEASE_NAME"
+          echo "Generating step2.md with RELEASE_NAME: $RELEASE_NAME"
           echo "step2" > "$RELEASE_NAME"/step2.md
       
       - name: Upload step2.md as artifact
