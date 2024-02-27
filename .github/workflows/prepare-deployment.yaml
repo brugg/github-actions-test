@@ -57,16 +57,15 @@ jobs:
             CHANGES=$(git diff --name-only "$LAST_RELEASE"..main)
             if [ -z "$CHANGES" ]; then
               echo "No changes detected between $LAST_RELEASE and main."
-              echo "has_changes=false" >> $GITHUB_ENV
+              echo "::set-output name=has_changes::false"
             else
               echo "Changes detected between $LAST_RELEASE and main."
-              echo "has_changes=true" >> $GITHUB_ENV
+              echo "::set-output name=has_changes::true"
             fi
           else
             echo "Tag $LAST_RELEASE not found in the repository."
-            echo "has_changes=false" >> $GITHUB_ENV
+            echo "::set-output name=has_changes::false"
           fi
-
 
   run-scripts:
     needs: check-for-changes
