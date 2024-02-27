@@ -90,40 +90,30 @@ jobs:
       
       - name: Generate step1.md
         run: |
-          echo "Generating step1.md with RELEASE_NAME: $RELEASE_NAME"
-          mkdir -p "$RELEASE_NAME"
-          echo "step1" > "$RELEASE_NAME"/step1.md
+          echo "step1" > step1.md
       
       - name: Upload step1.md as artifact
         uses: actions/upload-artifact@v4
         with:
           name: step1.md
-          path: "$RELEASE_NAME/step1.m"
+          path: step1.md
 
   step2:
     needs: create-tag-name
     runs-on: ubuntu-latest
-    env: 
-      RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Show RELEASE_NAME
-        run: |
-          echo "RELEASE_NAME: $RELEASE_NAME"
-          mkdir -p "$RELEASE_NAME"
-
       - name: Generate step2.md
         run: |
-          echo "Generating step2.md with RELEASE_NAME: $RELEASE_NAME"
-          echo "step2" > "$RELEASE_NAME"/step2.md
+          echo "step2" > step2.md
       
       - name: Upload step2.md as artifact
         uses: actions/upload-artifact@v4
         with:
           name: step2.md
-          path: "$RELEASE_NAME/step2.md"
+          path: step2.md
 
   create-draft-release:
     needs: [step1, step2, create-tag-name]
@@ -141,4 +131,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "$RELEASE_NAME" --draft --title "$TAG_NAME" --notes "This is an auto-generated draft release." "$RELEASE_NAME"/step1.md "$RELEASE_NAME"/step2.md
+          gh release create "$RELEASE_NAME" --draft --title "$TAG_NAME" --notes "This is an auto-generated draft release." step1.md step2.md
