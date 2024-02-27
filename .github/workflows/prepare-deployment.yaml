@@ -77,24 +77,17 @@ jobs:
           DATE=$(date +'%y-%m-%d')
           TAG_NAME="v$DATE"
           echo "release_name=$TAG_NAME" >> $GITHUB_OUTPUT
-          echo "test=teste" >> $GITHUB_OUTPUT
           echo $TAG_NAME
 
   step1:
     runs-on: ubuntu-latest
     env: 
       RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
-      TEST: ${{ needs.create-tag-name.outputs.test }}
     needs: create-tag-name
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Show RELEASE_NAME and TEST
-        run: |
-          echo "RELEASE_NAME: $RELEASE_NAME"
-          echo "TEST: $TEST"
-
       - name: Generate step1.md
         run: |
           echo "Generating step1.md with RELEASE_NAME: $RELEASE_NAME"
@@ -105,23 +98,21 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: step1.md
-          path: "$RELEASE_NAME"
+          path: "$RELEASE_NAME/step1.m"
 
   step2:
     needs: create-tag-name
     runs-on: ubuntu-latest
     env: 
       RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
-      TEST: ${{ needs.create-tag-name.outputs.test }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Show RELEASE_NAME and TEST
+      - name: Show RELEASE_NAME
         run: |
           echo "RELEASE_NAME: $RELEASE_NAME"
           mkdir -p "$RELEASE_NAME"
-          echo "TEST: $TEST"
 
       - name: Generate step2.md
         run: |
@@ -132,7 +123,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: step2.md
-          path: "$RELEASE_NAME"
+          path: "$RELEASE_NAME/step2.md"
 
   create-draft-release:
     needs: [step1, step2, create-tag-name]
