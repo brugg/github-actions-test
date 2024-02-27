@@ -17,6 +17,9 @@ jobs:
         with:
           fetch-depth: 0  # Fetches all history for all branches and tags
 
+      - name: Fetch all tags
+        run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* 
+
       - name: Install GitHub CLI (if not already installed)
         run: |
           if ! gh --version &>/dev/null; then
@@ -48,13 +51,20 @@ jobs:
         id: check_changes
         run: |
           LAST_RELEASE=${{ steps.latest_release.outputs.tag }}
-          CHANGES=$(git diff --name-only $LAST_RELEASE..main)
-          if [ -z "$CHANGES" ]; then
-            echo "No changes detected between $LAST_RELEASE and main."
-            echo "::set-output name=has_changes::false"
+          echo "Checking for changes between $LAST_RELEASE and main..."
+          # Verify that the tag exists
+          if git rev-parse "$LAST_RELEASE"^{tag} --; then
+            CHANGES=$(git diff --name-only "$LAST_RELEASE"..main)
+            if [ -z "$CHANGES" ]; then
+              echo "No changes detected between $LAST_RELEASE and main."
+              echo "::set-output name=has_changes::false"
+            else
+              echo "Changes detected between $LAST_RELEASE and main."
+              echo "::set-output name=has_changes::true"
+            fi
           else
-            echo "Changes detected between $LAST_RELEASE and main."
-            echo "::set-output name=has_changes::true"
+            echo "Tag $LAST_RELEASE not found in the repository."
+            echo "::set-output name=has_changes::false"
           fi
 
   run-scripts:
