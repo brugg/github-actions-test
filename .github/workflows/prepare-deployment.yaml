@@ -131,4 +131,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "$RELEASE_NAME" --draft --title "$RELEASE_NAME" --notes "This is an auto-generated draft release." step1-artifact step2-artifact
+          gh release create "$RELEASE_NAME" --draft --title "$RELEASE_NAME" --notes "This is an auto-generated draft release." step1-artifact/step1.md step2-artifact/step2.md
