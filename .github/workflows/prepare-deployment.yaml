@@ -19,50 +19,49 @@ jobs:
 
       - name: Install GitHub CLI (if not already installed)
         run: |
-          if ! gh --version; then
+          if ! gh --version &>/dev/null; then
             sudo apt update
-            sudo apt install gh
+            sudo apt install -y gh
           fi
 
       - name: Fetch the latest release that is not a draft or pre-release
         id: latest_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          RELEASES=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-          "https://api.github.com/repos/${{ github.repository }}/releases?per_page=10")
+          RELEASES=$(gh api repos/${{ github.repository }}/releases --paginate)
           echo "Fetched releases:"
           echo "$RELEASES" | jq '.'  # Print the details of fetched releases
 
           LATEST_RELEASE=$(echo "$RELEASES" | jq -r '.[] | select(.draft == false and .prerelease == false) | .tag_name' | head -n 1)
           if [ -z "$LATEST_RELEASE" ]; then
             echo "No suitable release found."
-            echo "::set-output name=tag::"
+            echo "::set-output name=has_changes::false"
           else
             echo "Latest suitable release: $LATEST_RELEASE"
             echo "::set-output name=tag::$LATEST_RELEASE"
+            echo "::set-output name=has_changes::true"
           fi
 
       - name: Check for changes between latest suitable release and main
+        if: steps.latest_release.outputs.has_changes == 'true'
         id: check_changes
-        if: steps.latest_release.outputs.tag
         run: |
           LAST_RELEASE=${{ steps.latest_release.outputs.tag }}
           CHANGES=$(git diff --name-only $LAST_RELEASE..main)
-          if [ -n "$CHANGES" ]; then
-            echo "Changes detected between $LAST_RELEASE and main."
-            echo "::set-output name=has_changes::true"
-          else
+          if [ -z "$CHANGES" ]; then
             echo "No changes detected between $LAST_RELEASE and main."
             echo "::set-output name=has_changes::false"
+          else
+            echo "Changes detected between $LAST_RELEASE and main."
+            echo "::set-output name=has_changes::true"
           fi
-
 
   run-scripts:
     needs: check-for-changes
     if: needs.check-for-changes.outputs.has_changes == 'true'
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
       # Add your steps here to set up the environment, run scripts, etc.
