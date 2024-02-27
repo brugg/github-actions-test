@@ -31,7 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           RELEASES=$(gh api repos/${{ github.repository }}/releases --paginate)
-          LATEST_RELEASE=$(echo "$RELEASES" | jq -r '.[] | select(.draft == false and .prerelease == false) | .tag_name' | head -n 1)
+          LATEST_RELEASE=$(echo "$RELEASES" | jq -r '.[] | select(.draft == false and .prerelease == false) | .tag _name' | head -n 1)
           if [ -n "$LATEST_RELEASE" ]; then
             echo "LATEST_RELEASE=$LATEST_RELEASE" >> $GITHUB_ENV
           fi
@@ -52,7 +52,7 @@ jobs:
 
   run-scripts:
     needs: check-for-changes
-    if: steps.check_changes.outputs.has_changes == 'true'
+    if: needs.check-for-changes.outputs.has_changes == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
