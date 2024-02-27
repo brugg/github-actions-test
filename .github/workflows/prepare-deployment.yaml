@@ -82,15 +82,15 @@ jobs:
 
   step1:
     runs-on: ubuntu-latest
+    env: 
+      RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
+      TEST: ${{ needs.create-tag-name.outputs.test }}
     needs: create-tag-name
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       
       - name: Show RELEASE_NAME and TEST
-        env: 
-          RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
-          TEST: ${{ needs.create-tag-name.outputs.test }}
         run: |
           echo "RELEASE_NAME: $RELEASE_NAME"
           echo "TEST: $TEST"
@@ -110,14 +110,14 @@ jobs:
   step2:
     needs: create-tag-name
     runs-on: ubuntu-latest
+    env: 
+      RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
+      TEST: ${{ needs.create-tag-name.outputs.test }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Show RELEASE_NAME and TEST
-        env: 
-          RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
-          TEST: ${{ needs.create-tag-name.outputs.test }}
         run: |
           echo "RELEASE_NAME: $RELEASE_NAME"
           mkdir -p "$RELEASE_NAME"
@@ -137,13 +137,12 @@ jobs:
   create-draft-release:
     needs: [step1, step2, create-tag-name]
     runs-on: ubuntu-latest
+    env: 
+      RELEASE_NAME: ${{ needs.create-tag-name.outputs.release-name }}
+      TEST: ${{ needs.create-tag-name.outputs.test }}        
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - env: 
-          RELEASE_NAME: ${{needs.create-release-name.outputs.release_name}}
-        run: echo RELEASE_NAME:" $RELEASE_NAME"
 
       - name: Download artifacts
         uses: actions/download-artifact@v4
