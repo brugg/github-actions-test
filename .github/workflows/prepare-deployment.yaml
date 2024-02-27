@@ -95,7 +95,7 @@ jobs:
       - name: Upload step1.md as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: step1.md
+          name: step1-artifact
           path: step1.md
 
   step2:
@@ -112,7 +112,7 @@ jobs:
       - name: Upload step2.md as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: step2.md
+          name: step2-artifact
           path: step2.md
 
   create-draft-release:
@@ -131,4 +131,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "$RELEASE_NAME" --draft --title "$TAG_NAME" --notes "This is an auto-generated draft release." step1.md step2.md
+          gh release create "$RELEASE_NAME" --draft --title "$RELEASE_NAME" --notes "This is an auto-generated draft release." step1.md step2.md
