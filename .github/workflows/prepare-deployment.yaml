@@ -66,6 +66,11 @@ jobs:
             echo "Tag $LAST_RELEASE not found in the repository."
             echo "::set-output name=has_changes::false"
           fi
+      
+      - name: Echo for debugging
+        run: |
+          echo "Tag: ${{ steps.latest_release.outputs.tag }}"
+          echo "Has changes: ${{ steps.check_changes.outputs.has_changes }}"
 
   run-scripts:
     needs: check-for-changes
