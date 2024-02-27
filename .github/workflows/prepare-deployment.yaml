@@ -87,14 +87,14 @@ jobs:
       
       - name: Generate step1.md
         run: |
-          echo ${{needs.create-release-name.outputs.release_name}}
-          echo "step1" > "${{needs.create-release-name.outputs.release_name}}/step1.md"
+          echo ${{steps.create-release-name.outputs.release_name}}
+          echo "step1" > "${{steps.create-release-name.outputs.release_name}}/step1.md"
       
       - name: Upload step1.md as artifact
         uses: actions/upload-artifact@v4
         with:
           name: step1.md
-          path: ${{needs.create-release-name.outputs.release_name}}
+          path: ${{steps.create-release-name.outputs.release_name}}
 
   step2:
     needs: create-tag-name
@@ -105,13 +105,13 @@ jobs:
       
       - name: Generate step2.md
         run: |
-          echo "step2" > ${{needs.create-release-name.outputs.release_name}}/step2.md
+          echo "step2" > ${{steps.create-release-name.outputs.release_name}}/step2.md
       
       - name: Upload step2.md as artifact
         uses: actions/upload-artifact@v4
         with:
           name: step2.md
-          path: ${{needs.create-release-name.outputs.release_name}}
+          path: ${{steps.create-release-name.outputs.release_name}}
 
   create-draft-release:
     needs: [step1, step2, create-tag-name]
@@ -123,10 +123,10 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-          path: ${{needs.create-release-name.outputs.release_name}}
+          path: ${{steps.create-release-name.outputs.release_name}}
       
       - name: Create Draft Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "$TAG_NAME" --draft --title "$TAG_NAME" --notes "This is an auto-generated draft release." step1.md step2.md
+          gh release create "${{steps.create-release-name.outputs.release_name}}" --draft --title "$TAG_NAME" --notes "This is an auto-generated draft release." step1.md step2.md
