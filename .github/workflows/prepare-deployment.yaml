@@ -47,25 +47,26 @@ jobs:
           fi
 
       - name: Check for changes between latest suitable release and main
-        if: steps.latest_release.outputs.has_changes == 'true'
+        if: steps.latest_release.outputs.tag
         id: check_changes
         run: |
           LAST_RELEASE=${{ steps.latest_release.outputs.tag }}
           echo "Checking for changes between $LAST_RELEASE and main..."
-          # Verify that the tag exists
-          if git rev-parse "$LAST_RELEASE"^{tag} --; then
+          # Simplified check for the existence of the tag
+          if git rev-parse "$LAST_RELEASE" --; then
             CHANGES=$(git diff --name-only "$LAST_RELEASE"..main)
             if [ -z "$CHANGES" ]; then
               echo "No changes detected between $LAST_RELEASE and main."
-              echo "::set-output name=has_changes::false"
+              echo "has_changes=false" >> $GITHUB_ENV
             else
               echo "Changes detected between $LAST_RELEASE and main."
-              echo "::set-output name=has_changes::true"
+              echo "has_changes=true" >> $GITHUB_ENV
             fi
           else
             echo "Tag $LAST_RELEASE not found in the repository."
-            echo "::set-output name=has_changes::false"
+            echo "has_changes=false" >> $GITHUB_ENV
           fi
+
 
   run-scripts:
     needs: check-for-changes
