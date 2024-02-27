@@ -87,7 +87,8 @@ jobs:
       
       - name: Generate step1.md
         run: |
-          echo "step1" > ${{needs.create-release-name.outputs.release_name}}/step1.md
+          echo ${{needs.create-release-name.outputs.release_name}}
+          echo "step1" > "${{needs.create-release-name.outputs.release_name}}/step1.md"
       
       - name: Upload step1.md as artifact
         uses: actions/upload-artifact@v4
