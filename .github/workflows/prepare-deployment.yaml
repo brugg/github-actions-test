@@ -75,7 +75,8 @@ jobs:
         run: |
           DATE=$(date +'%y-%m-%d')
           TAG_NAME="v$DATE"
-          echo "release_name=$TAG_NAME" >> $GITHUB_OUTPUT 
+          echo "release_name=$TAG_NAME" >> $GITHUB_OUTPUT
+          echo $TAG_NAME
 
   step1:
     runs-on: ubuntu-latest
