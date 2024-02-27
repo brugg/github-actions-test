@@ -86,14 +86,13 @@ jobs:
       
       - name: Generate step1.md
         run: |
-          echo "step1" > step1.md
+          echo "step1" > ${{needs.create-release-name.outputs.release_name}}/step1.md
       
       - name: Upload step1.md as artifact
         uses: actions/upload-artifact@v4
         with:
           name: step1.md
-          path: step1          
-
+          path: ${{needs.create-release-name.outputs.release_name}}
 
   step2:
     needs: create-tag-name
@@ -104,15 +103,16 @@ jobs:
       
       - name: Generate step2.md
         run: |
-          echo "step2" > step2.md
+          echo "step2" > ${{needs.create-release-name.outputs.release_name}}/step2.md
       
       - name: Upload step2.md as artifact
         uses: actions/upload-artifact@v4
         with:
           name: step2.md
+          path: ${{needs.create-release-name.outputs.release_name}}
 
   create-draft-release:
-    needs: [step1, step2]
+    needs: [step1, step2, create-tag-name]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -120,6 +120,8 @@ jobs:
 
       - name: Download artifacts
         uses: actions/download-artifact@v4
+        with:
+          path: ${{needs.create-release-name.outputs.release_name}}
       
       - name: Create Draft Release
         env:
