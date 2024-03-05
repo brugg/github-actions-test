@@ -51,7 +51,8 @@ jobs:
         id: curriculum_report
         run: |
           CONTENT=$(cat files/deploys/$LATEST_DRAFT_TAG/git-diff-changes.md)
-          echo "changes=$CONTENT" >> $GITHUB_OUTPUT
+          ENCODED_CONTENT=$(echo "$CONTENT" | base64 | tr -d '\n')
+          echo "changes=$ENCODED_CONTENT" >> $GITHUB_OUTPUT
 
   process_changes:
     needs: download_latest_draft_release_artifacts
@@ -78,4 +79,4 @@ jobs:
       - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
         run: make --no-print-directory require-virtualenv
 
-      - run: echo "$CHANGES"
+      - run: echo "$CHANGES" | base64 --decode
