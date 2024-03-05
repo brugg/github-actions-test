@@ -47,7 +47,6 @@ jobs:
 
       - name: Unzip artifacts
         run: |
-          echo "Directories after unzipping:" && ls -l ./files
           unzip files.zip -d ./files && echo "Directories after unzipping:" && ls -l ./files
 
       - name: Read curriculum-deploy-report and set output
