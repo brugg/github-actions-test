@@ -39,9 +39,9 @@ jobs:
 
       - name: Download artifact from the latest draft release
         run: |
-          LATEST_DRAFT_URL=$(gh release list --json isDraft,name --jq '.[] | select(.isDraft == true) | .name' --limit 1)
+          LATEST_DRAFT_TAG=$(gh release list --json isDraft,tagName --jq '.[] | select(.isDraft == true) | .tagName' --limit 1)
           echo "$LATEST_DRAFT_URL"
-          gh release download --repo $GITHUB_REPOSITORY --dir "./" "$LATEST_DRAFT_URL"
+          gh release download "$LATEST_DRAFT_TAG"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
