@@ -28,6 +28,9 @@ jobs:
     outputs:
       curriculum_report: ${{ steps.curriculum_report.outputs.report }}
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Install GitHub CLI
         run: sudo apt update && sudo apt install gh
       
