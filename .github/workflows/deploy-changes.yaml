@@ -26,7 +26,7 @@ jobs:
   download_latest_draft_release_artifacts:
     runs-on: ubuntu-latest
     outputs:
-      curriculum_report: ${{ steps.curriculum_report.outputs.report }}
+      changes: ${{ steps.curriculum_report.outputs.changes }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,9 +34,6 @@ jobs:
       - name: Install GitHub CLI
         run: sudo apt update && sudo apt install gh
       
-      # - name: Authenticate
-      #   run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
-
       - name: Download artifact from the latest draft release
         run: |
           LATEST_DRAFT_TAG=$(gh release list --json isDraft,tagName --jq '.[] | select(.isDraft == true) | .tagName' --limit 1)
@@ -50,41 +47,35 @@ jobs:
         run: |
           unzip files.zip -d ./files && echo "Directories after unzipping:" && ls -l ./files
 
-      - name: Read curriculum-deploy-report and set output
+      - name: Read git-diff-changes.md and set content as output
         id: curriculum_report
         run: |
-          CONTENT=$(cat ./files/deploys/$LATEST_DRAFT_TAG/git-diff-changes.m)
-          echo "##[set-output name=report;]$(echo "$CONTENT" | base64)"
+          CONTENT=$(cat files/deploys/$LATEST_DRAFT_TAG/git-diff-changes.md)
+          echo "changes=$CONTENT" >> $GITHUB_OUTPUT
+
+  process_changes:
+    needs: download_latest_draft_release_artifacts
+    runs-on: ubuntu-latest
+    env: 
+      CHANGES: ${{ needs.download_latest_draft_release_artifacts.outputs.changes }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        id: setup-python
+        with:
+          python-version: "3.9"
       
-      # - name: Fetch Latest Draft Release
-      #   id: latest_draft_release
-      #   run: |
-      #     LATEST_DRAFT=$(gh api repos/${{ github.repository }}/releases --jq '.[] | select(.draft==true) | .id' | head -n 1)
-      #     echo "::set-output name=release_id::$LATEST_DRAFT"
+      - uses: actions/cache@v3
+        id: cache-virtualenv
+        with:
+          path: ".virtualenv"
+          key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
 
-      # - name: Download Artifacts from Latest Draft Release
-      #   run: |
-      #     gh release download ${{ steps.latest_draft_release.outputs.release_id }} --pattern '*pattern*'
+      # If we weren't able to pull down a cache of the virtual environment then
+      # build one.
+      - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+        run: make --no-print-directory require-virtualenv
 
-      # - name: Checkout repository
-      #   uses: actions/checkout@v4 
-
-
-
-
-
-      # - uses: actions/setup-python@v5
-      #   id: setup-python
-      #   with:
-      #     python-version: "3.9"
-      
-      # - uses: actions/cache@v3
-      #   id: cache-virtualenv
-      #   with:
-      #     path: ".virtualenv"
-      #     key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
-
-      # # If we weren't able to pull down a cache of the virtual environment then
-      # # build one.
-      # - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
-      #   run: make --no-print-directory require-virtualenv
+      - run: echo "$CHANGES"
