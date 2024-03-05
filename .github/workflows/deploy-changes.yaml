@@ -39,7 +39,7 @@ jobs:
 
       - name: Download artifact from the latest draft release
         run: |
-          LATEST_DRAFT_URL=$(gh release list --limit 1 | cut -f4)
+          LATEST_DRAFT_URL=$(gh release list --json isDraft,name --jq '.[] | select(.isDraft == true) | .name' --limit 1)
           echo "$LATEST_DRAFT_URL"
           gh release download --repo $GITHUB_REPOSITORY --dir "./" "$LATEST_DRAFT_URL"
         env:
