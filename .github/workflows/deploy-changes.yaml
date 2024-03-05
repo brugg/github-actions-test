@@ -1,0 +1,73 @@
+name: Deploy changed courses
+
+on:
+  workflow_dispatch:  # Allows manual triggering of the workflow
+    inputs:
+      environment: 
+        description: 'Environment'
+        required: true
+        options: 
+          - dev
+          - demo
+          - prod
+
+jobs:
+  download_latest_draft_release_artifacts:
+    runs-on: ubuntu-latest
+    outputs:
+      curriculum_report: ${{ steps.curriculum_report.outputs.report }}
+    steps:
+      - name: Install GitHub CLI
+        run: sudo apt update && sudo apt install gh
+      
+      # - name: Authenticate
+      #   run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Download artifact from the latest draft release
+        run: |
+          LATEST_DRAFT_URL=$(gh release list --draft --limit 1 | cut -f4)
+          gh release download --repo $GITHUB_REPOSITORY --name "files.zip" --dir "./" "$LATEST_DRAFT_URL"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Unzip artifacts
+        run: unzip files.zip -d ./files && echo "Directories after unzipping:" && ls -l ./files
+
+      - name: Read curriculum-deploy-report and set output
+        id: curriculum_report
+        run: |
+          CONTENT=$(cat curriculum-deploy-report-changes-only.md)
+          echo "##[set-output name=report;]$(echo "$CONTENT" | base64)"
+      
+      # - name: Fetch Latest Draft Release
+      #   id: latest_draft_release
+      #   run: |
+      #     LATEST_DRAFT=$(gh api repos/${{ github.repository }}/releases --jq '.[] | select(.draft==true) | .id' | head -n 1)
+      #     echo "::set-output name=release_id::$LATEST_DRAFT"
+
+      # - name: Download Artifacts from Latest Draft Release
+      #   run: |
+      #     gh release download ${{ steps.latest_draft_release.outputs.release_id }} --pattern '*pattern*'
+
+      # - name: Checkout repository
+      #   uses: actions/checkout@v4 
+
+
+
+
+
+      # - uses: actions/setup-python@v5
+      #   id: setup-python
+      #   with:
+      #     python-version: "3.9"
+      
+      # - uses: actions/cache@v3
+      #   id: cache-virtualenv
+      #   with:
+      #     path: ".virtualenv"
+      #     key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
+
+      # # If we weren't able to pull down a cache of the virtual environment then
+      # # build one.
+      # - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+      #   run: make --no-print-directory require-virtualenv
