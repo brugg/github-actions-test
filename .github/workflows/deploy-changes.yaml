@@ -76,7 +76,7 @@ jobs:
 
       # If we weren't able to pull down a cache of the virtual environment then
       # build one.
-      - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
-        run: make --no-print-directory require-virtualenv
+      # - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+      #   run: make --no-print-directory require-virtualenv
 
       - run: echo "$CHANGES" | base64 --decode
