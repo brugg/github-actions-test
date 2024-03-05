@@ -41,6 +41,7 @@ jobs:
         run: |
           LATEST_DRAFT_TAG=$(gh release list --json isDraft,tagName --jq '.[] | select(.isDraft == true) | .tagName' --limit 1)
           echo "$LATEST_DRAFT_URL"
+          echo "LATEST_RELEASE=$LATEST_RELEASE" >> $GITHUB_ENV
           gh release download "$LATEST_DRAFT_TAG"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -52,7 +53,7 @@ jobs:
       - name: Read curriculum-deploy-report and set output
         id: curriculum_report
         run: |
-          CONTENT=$(cat curriculum-deploy-report-changes-only.md)
+          CONTENT=$(cat ./files/deploys/$LATEST_DRAFT_URL/git-diff-changes.m)
           echo "##[set-output name=report;]$(echo "$CONTENT" | base64)"
       
       # - name: Fetch Latest Draft Release
