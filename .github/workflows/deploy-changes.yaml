@@ -40,12 +40,15 @@ jobs:
       - name: Download artifact from the latest draft release
         run: |
           LATEST_DRAFT_URL=$(gh release list --limit 1 | cut -f4)
-          gh release download --repo $GITHUB_REPOSITORY --name "files.zip" --dir "./" "$LATEST_DRAFT_URL"
+          echo "$LATEST_DRAFT_URL"
+          gh release download --repo $GITHUB_REPOSITORY --dir "./" "$LATEST_DRAFT_URL"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Unzip artifacts
-        run: unzip files.zip -d ./files && echo "Directories after unzipping:" && ls -l ./files
+        run: |
+          echo "Directories after unzipping:" && ls -l ./files
+          unzip files.zip -d ./files && echo "Directories after unzipping:" && ls -l ./files
 
       - name: Read curriculum-deploy-report and set output
         id: curriculum_report
