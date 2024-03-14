@@ -1,82 +1,76 @@
-name: Deploy changed courses
+name: Course Change Detection
 
 on:
   workflow_dispatch:  # Allows manual triggering of the workflow
-    inputs:
-      environment: 
-        description: 'Environment'
-        required: true
-        options: 
-          - dev
-          - demo
-          - prod
+  push:
+    branches:
+      - main
+    paths:
+      - 'courses/**'
 
 jobs:
-  validate-input:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Validate environment input
-        run: |
-          if [[ ! "${{ github.event.inputs.environment }}" =~ ^(dev|demo|prod)$ ]]; then
-            echo "Error: Environment must be one of 'dev', 'demo', 'prod'"
-            exit 1
-          fi
-        shell: bash
-
-  download_latest_draft_release_artifacts:
+  prepare-release:
     runs-on: ubuntu-latest
     outputs:
-      changes: ${{ steps.curriculum_report.outputs.changes }}
+      release-tag: ${{ steps.create-release.outputs.tag }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install GitHub CLI
-        run: sudo apt update && sudo apt install gh
       
-      - name: Download artifact from the latest draft release
-        run: |
-          LATEST_DRAFT_TAG=$(gh release list --json isDraft,tagName --jq '.[] | select(.isDraft == true) | .tagName' --limit 1)
-          echo "$LATEST_DRAFT_TAG"
-          echo "LATEST_DRAFT_TAG=$LATEST_DRAFT_TAG" >> $GITHUB_ENV
-          gh release download "$LATEST_DRAFT_TAG"
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%y.%m.%d')"
+      
+      - name: Create Release Tag
+        id: create-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Unzip artifacts
         run: |
-          unzip files.zip -d ./files && echo "Directories after unzipping:" && ls -l ./files
+          DATE=$(date +'%y.%m.%d')
+          TAG="v$DATE-1"
+          echo "::set-output name=tag::$TAG"
+          echo "RELEASE_TAG=$TAG" >> $GITHUB_ENV
 
-      - name: Read git-diff-changes.md and set content as output
-        id: curriculum_report
-        run: |
-          CONTENT=$(cat files/deploys/$LATEST_DRAFT_TAG/git-diff-changes.md)
-          ENCODED_CONTENT=$(echo "$CONTENT" | base64 | tr -d '\n')
-          echo "changes=$ENCODED_CONTENT" >> $GITHUB_OUTPUT
-
-  process_changes:
-    needs: download_latest_draft_release_artifacts
+  create-release:
+    needs: detect-changes
     runs-on: ubuntu-latest
-    env: 
-      CHANGES: ${{ needs.download_latest_draft_release_artifacts.outputs.changes }}
+    steps:
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ needs.prepare-release.outputs.release-tag }}
+          release_name: Release ${{ needs.prepare-release.outputs.release-tag }}
+          draft: false
+          prerelease: false
+
+  detect-changes:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        id: setup-python
-        with:
-          python-version: "3.9"
       
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         id: cache-virtualenv
         with:
           path: ".virtualenv"
           key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
 
-      # If we weren't able to pull down a cache of the virtual environment then
-      # build one.
-      # - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
-      #   run: make --no-print-directory require-virtualenv
+      - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+        run: make --no-print-directory require-virtualenv
 
-      - run: echo "$CHANGES" | base64 --decode
+      - uses: actions/setup-python@v5
+        id: setup-python
+        with:
+          python-version: "3.9"
+            
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub
+      
+      - name: Detect Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/detect_changes.py
