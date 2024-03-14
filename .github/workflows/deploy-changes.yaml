@@ -9,16 +9,6 @@ on:
       - 'courses/**'
 
 jobs:
-
-  explore-github-context:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print github context object
-        run: echo "${{ toJson(github) }}"
-      
-      - name: Print GITHUB_ prefixed environment variables
-        run: printenv | grep GITHUB_
-
   prepare-and-create-release:
     runs-on: ubuntu-latest
     outputs:
@@ -35,18 +25,16 @@ jobs:
           NEW_TAG="v$DATE-${RUN_NUMBER}"
           echo "New tag will be $NEW_TAG"
           echo "TAG=$NEW_TAG" >> $GITHUB_ENV
-          echo "::set-output name=tag::$NEW_TAG"
+          echo "tag=$NEW_TAG" >> "$GITHUB_OUTPUT"
 
-      - name: Create GitHub Release
-        uses: actions/create-release@v1
+      - name: Create GitHub Release with GitHub CLI
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ env.TAG }}
-          release_name: ${{ env.TAG }}
-          draft: false
-          prerelease: false
-
+        run: |
+          gh release create ${{ env.TAG }} \
+            --title "Release ${{ env.TAG }}" \
+            --notes "Release notes or description" \
+            --draft=false
 
   detect-changes:
     runs-on: ubuntu-latest
