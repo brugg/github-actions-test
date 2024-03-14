@@ -59,6 +59,12 @@ if previous_tag:
 else:
     comparison = repo.compare("initial_commit_sha", latest_tag)
 
+print("---")
+print(" ")
+print(f"comparison: {comparison}")
+print(" ")
+print("---")
+
 # Analyze file changes
 for file in comparison.files:
     categorize_change(file)
