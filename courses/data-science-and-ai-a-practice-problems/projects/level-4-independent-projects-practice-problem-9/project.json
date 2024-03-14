@@ -1,0 +1,103 @@
+{
+    "id": "dcc99d1b-36c4-4c7e-9964-757f11e5ad61",
+    "name": "Independent Projects #9",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-9.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #9",
+    "language": "CoBlocks",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "25a49637-a4f8-4d54-bd54-3d5786668f03",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "8572e8f7-4cc5-42b8-a73b-d379a02b45dd",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "b230c306-f5ff-4218-acc1-b1ac4f66b7b4",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>fruits</span> = [<span class='python-string'>\"apples\"</span>, <span class='python-string'>\"oranges\"</span>, <span class='python-string'>\"grapes\"</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>user_fruit</span> = input(<span class='python-string'>\"What is your favorite kind of fruit? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>if <span class='python-variable'>user_fruit</span> in <span class='python-variable'>fruits</span>:</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>f\"I like </span>{<span class='python-variable'>user_fruit</span>}<span class='python-string'> too!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>f\"That's ok, but I prefer </span>{<span class='python-variable'>fruits</span>[2]}<span class='python-string'>.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "The user inputs \"apple\". What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "db74de4a-ad9d-4c03-9114-3902ecceb191",
+                                                    "text": "<code>I like apple too!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "fe9177c4-8070-449f-abb5-c17a361a3bd1",
+                                                    "text": "<code>I like apples too!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "ceb2d1cd-1625-434f-9e91-e9d00324175a",
+                                                    "text": "<code>That's ok, but I prefer grapes.</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "11ab7996-5ea9-456c-8fb9-7a61b09ace4d",
+                                                    "text": "<code>That's ok, but I prefer oranges.</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "b230c306-f5ff-4218-acc1-b1ac4f66b7b4",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "b230c306-f5ff-4218-acc1-b1ac4f66b7b4"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

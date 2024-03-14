@@ -1,0 +1,103 @@
+{
+    "id": "580250a8-cad0-497e-91ef-4f18ff71b435",
+    "name": "Independent Projects #5",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-5.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #5",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "f3db39e6-2758-4f47-bca9-43aeac71cf09",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "4d54ad39-d7f8-4174-b225-f0ad0385bc78",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "f2d29bad-9ec8-4f19-a7c6-10a6acfb4f75",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>nums</span> = [<span class='python-number'>3</span>, <span class='python-number'>5</span>, <span class='python-number'>7</span>, <span class='python-number'>11</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>total</span> = <span class='python-variable'>nums</span>[<span class='python-number'>1</span>] + <span class='python-variable'>nums</span>[<span class='python-number'>2</span>]</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>total</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "9eda566e-d808-46f3-8c29-629f1a966cc3",
+                                                    "text": "<code>35</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "ee0a863f-3a76-45ca-b82a-8ab401afeab9",
+                                                    "text": "<code>8</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "463992d5-bebc-4786-9b34-adbffaa17b86",
+                                                    "text": "<code>57</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "3075f53a-a716-4cba-bb9d-2db93b2aff3f",
+                                                    "text": "<code>12</code>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "f2d29bad-9ec8-4f19-a7c6-10a6acfb4f75",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "f2d29bad-9ec8-4f19-a7c6-10a6acfb4f75"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

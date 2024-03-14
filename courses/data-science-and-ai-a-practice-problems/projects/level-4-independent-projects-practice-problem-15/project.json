@@ -1,0 +1,103 @@
+{
+    "id": "5c69ff76-d3ec-47aa-969a-34397fe2cb0b",
+    "name": "Independent Projects #15",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-15.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #15",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "6f54fd07-7b87-4968-9bcf-db3f9655ea08",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "73a3ebea-e811-4d2c-86d7-1621eba99dd6",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "e6fa6acf-025c-4676-8725-91eda992b4fb",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>word</span> = <span class='python-string'>\"jazz\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>letter</span> = <span class='python-variable'>word</span>.<span class='python-property'>title</span>()[<span class='python-number'>2</span>]</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>letter</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "828162be-7417-4e05-aeb1-5b5c09af8052",
+                                                    "text": "<code>A</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "47f08899-9f26-49d1-8081-0801815a10b0",
+                                                    "text": "<code>z</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "995b48a8-e223-4b80-b57b-ce5b8dd13eb7",
+                                                    "text": "<code>Z</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1daaf250-2a12-4b6b-8cd1-a07a75e92ab2",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "e6fa6acf-025c-4676-8725-91eda992b4fb",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "e6fa6acf-025c-4676-8725-91eda992b4fb"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

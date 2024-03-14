@@ -1,0 +1,94 @@
+{
+    "id": "b7d497ef-8bb1-4825-80f9-50dd666e838b",
+    "name": "Independent Projects #12",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-12.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #12",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "2f29c354-deab-4980-80ca-1bed4e4e687a",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "43165d08-c379-4464-b30b-31106e2591b6",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "20b1d774-4ca9-4e68-8d85-e0ec54810552",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "What is the <b>index</b> of a list or string? Give an example."
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "6d8488f6-53ea-43e8-be12-2ac9c59f3687",
+                                                    "text": "The position of one item in a list, or one letter in a string, when counting from beginning to end.<br>For example, the index of <code>\"g\"</code> in <code>\"dog\"</code> is <code>[2]</code>.",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "2682ebf2-8862-43d7-b71f-cd8dc039d33f",
+                                                    "text": "The length of a list, or a string, when counting from beginning to end.<br>For example, the index of <code>\"dog\"</code> is <code>3</code>.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1db911fd-72c6-4c72-9ae4-361e691c3b17",
+                                                    "text": "The position of one item in a list, when counting from beginning to end. Strings do not have an index.<br>For example, in <code>[\"A\", \"B\", \"C\"]</code>, the index of <code>\"C\"</code> is <code>[2]</code>.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "e9377c49-94e7-4b9d-a657-a897c09153eb",
+                                                    "text": "The length of a list, when counting from beginning to end. Strings do not have an index.<br>For example, the index of <code>[\"A\", \"B\", \"C\"]</code> is <code>3</code>.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "20b1d774-4ca9-4e68-8d85-e0ec54810552",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "20b1d774-4ca9-4e68-8d85-e0ec54810552"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

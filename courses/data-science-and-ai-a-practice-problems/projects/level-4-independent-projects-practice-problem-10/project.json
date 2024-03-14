@@ -1,0 +1,103 @@
+{
+    "id": "725c205e-b1d0-4280-9739-afca3156e940",
+    "name": "Independent Projects #10",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-10.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #10",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "602be053-06c0-49ee-b689-ac74958159fc",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "af41bc0e-9434-4b3b-b2bc-706b89a1427c",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "60b6591d-63a5-4ae4-8a92-59eea3d30afa",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>flavors</span> = [<span class='python-string'>\"mint chocolate chip\"</span>, <span class='python-string'>\"dark chocolate\"</span>, <span class='python-string'>\"Mexican vanilla\"</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>user_choice</span> = input(<span class='python-string'>\"What is your favorite ice cream flavor? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>if <span class='python-variable'>user_choice</span> in <span class='python-variable'>flavors</span>:</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>f\"Great! We have </span>{<span class='python-variable'>user_choice</span>}<span class='python-string'> ice cream!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>elif <span class='python-string'>\"chocolate\"</span> in <span class='python-variable'>user_choice</span>:</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"We have dark chocolate ice cream. Would you like to try it?\"</span>)</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"I'm sorry, we don't have that flavor.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "The user inputs \"chocolate\". What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "5ff9afaa-157d-4c17-b2db-f2f04d35fa0b",
+                                                    "text": "<code>Great! We have mint chocolate chip ice cream!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "9b1e4d37-9393-4a23-930b-a4e9ee69b2af",
+                                                    "text": "<code>We have dark chocolate ice cream. Would you like to try it?</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "e7f8cf6d-f6d5-4b18-8d43-326c522f3d95",
+                                                    "text": "<code> I'm sorry, we don't have that flavor.</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "036cc3bf-70bc-4368-8362-93db0eb67b87",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "60b6591d-63a5-4ae4-8a92-59eea3d30afa",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "60b6591d-63a5-4ae4-8a92-59eea3d30afa"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

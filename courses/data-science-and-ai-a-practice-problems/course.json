@@ -605,6 +605,77 @@
                             "weight": 1
                         }
                     ]
+                },
+                {
+                    "id": "b16e2977-365d-4a1a-a0b1-d830f578136e",
+                    "title": "Independent Projects",
+                    "required": 0,
+                    "projects": [
+                        {
+                            "id": "f60799ac-db3c-4ac2-97f9-0f9dbfcc060f",
+                            "weight": 1
+                        },
+                        {
+                            "id": "0c357fcd-13b6-433f-994b-39edda4bcce4",
+                            "weight": 1
+                        },
+                        {
+                            "id": "dc0c3956-6a00-4468-a410-3f6bfeec12ce",
+                            "weight": 1
+                        },
+                        {
+                            "id": "1043ecf1-3b46-44d5-b306-6aad9a0e1850",
+                            "weight": 1
+                        },
+                        {
+                            "id": "580250a8-cad0-497e-91ef-4f18ff71b435",
+                            "weight": 1
+                        },
+                        {
+                            "id": "c3b791d3-e203-47b3-a42d-f94335df730e",
+                            "weight": 1
+                        },
+                        {
+                            "id": "16c53ed8-2ab6-44e8-9e94-317d84b5cf53",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a88cbab3-2837-4cba-89f3-209c8928be5c",
+                            "weight": 1
+                        },
+                        {
+                            "id": "dcc99d1b-36c4-4c7e-9964-757f11e5ad61",
+                            "weight": 1
+                        },
+                        {
+                            "id": "725c205e-b1d0-4280-9739-afca3156e940",
+                            "weight": 1
+                        },
+                        {
+                            "id": "4d82820b-ef79-4eb3-b885-5627166f3b75",
+                            "weight": 1
+                        },
+                        {
+                            "id": "b7d497ef-8bb1-4825-80f9-50dd666e838b",
+                            "weight": 1
+                        },
+                        {
+                            "id": "4df55347-2c9a-4736-ae8d-e7f5c0f45c83",
+                            "weight": 1
+                        },
+                        {
+                            "id": "28787df7-150c-4a03-8af2-203dda9e1018",
+                            "weight": 1
+                        },
+                        {
+                            "id": "5c69ff76-d3ec-47aa-969a-34397fe2cb0b",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8774745a-8f08-4dae-ae4c-83a8bcfa5d4a",
+                            "weight": 1
+                        }
+                    ]
                 }
             ]
         }

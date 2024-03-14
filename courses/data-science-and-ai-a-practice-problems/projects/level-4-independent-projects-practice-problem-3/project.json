@@ -1,0 +1,103 @@
+{
+    "id": "dc0c3956-6a00-4468-a410-3f6bfeec12ce",
+    "name": "Independent Projects #3",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-3.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #3",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "a0b11b4d-f878-4817-b13f-4ac466980396",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "5b68a42a-245d-4a31-927d-82658fde1161",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "39d78ef5-eb9c-4ac0-a490-3a39f66f190a",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>countries</span> = [<span class='python-string'>\"Nigeria\"</span>, <span class='python-string'>\"Ethiopia\"</span>, <span class='python-string'>\"Kenya\"</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>sentence</span> = <span class='python-string'>\"The answer is \"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>sentence</span> += <span class='python-variable'>countries</span>[<span class='python-number'>1</span>]</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>sentence</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "37303b4c-41fc-4e6f-8682-9ad82f71e295",
+                                                    "text": "<code>The answer is Ethiopia</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "4324f5f7-4aaf-4c6c-852f-07e556aa9389",
+                                                    "text": "<code>The answer is&nbsp;&nbsp;Ethiopia</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "84564585-63be-4337-9047-9043a813ad70",
+                                                    "text": "<code>The answer is Nigeria</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "38021212-5eb1-492a-9529-7e63cd28f4e9",
+                                                    "text": "<code>The answer isNigeria</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "39d78ef5-eb9c-4ac0-a490-3a39f66f190a",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "39d78ef5-eb9c-4ac0-a490-3a39f66f190a"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

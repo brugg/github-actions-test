@@ -1,0 +1,283 @@
+{
+    "id": "a88cbab3-2837-4cba-89f3-209c8928be5c",
+    "name": "Independent Projects #8",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-8.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #8",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "f55031b1-05fa-4d56-b19c-f06ea9c9043d",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "0001a5d8-0bd0-4729-9cfb-c7e87bf192e3",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "6a5715da-954b-409c-9809-d7c967c02db5",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>data</span> = [<span class='python-string'>\"Mahomes\"</span>, <span class='python-number'>219</span>, <span class='python-number'>63</span>, <span class='python-string'>\"15\"</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>total</span> = <span class='python-variable'>data</span>[<span class='python-number'>2</span>] + <span class='python-variable'>data</span>[<span class='python-number'>3</span>]</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>total</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "ab1c5539-c2cb-49f3-8e8b-761485b03c7f",
+                                                    "text": "<code>282</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "cb0f37ec-31db-433b-b320-ad487721e250",
+                                                    "text": "<code>78</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "ad519788-5e65-4735-8a51-970ee06190ad",
+                                                    "text": "<code>6315</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "998d4ee6-e157-4b1c-a324-d9d8a904846d",
+                                                    "text": "Error message",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "208fabcf-da4c-4a89-9286-cefce05eac5a",
+                            "title": "#2",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "08dadd15-319d-44c8-9ab6-b460b4e19f97",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>data</span> = [<span class='python-string'>\"Mahomes\"</span>, <span class='python-number'>219</span>, <span class='python-number'>63</span>, <span class='python-string'>\"15\"</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>total</span> = <span class='python-variable'>data</span>[<span class='python-number'>1</span>] + <span class='python-variable'>data</span>[<span class='python-number'>2</span>]</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>total</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "673bbc4c-ffbe-4384-b370-b96041ded666",
+                                                    "text": "<code>282</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "2a7d549a-5343-4602-a2a8-a5831722c786",
+                                                    "text": "<code>21963</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1e7311dc-6fa9-4d7a-9962-d16a661904db",
+                                                    "text": "<code>Mahomes219</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "154fd70c-1c41-4b1a-ba92-7f2355071628",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "dbe3262d-ac81-47f7-851f-a02cecdc63cd",
+                            "title": "#3",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "f8b95609-a164-4531-975b-53529688187c",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>data</span> = [<span class='python-string'>\"Mahomes\"</span>, <span class='python-number'>219</span>, <span class='python-number'>63</span>, <span class='python-string'>\"15\"</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>total</span> = <span class='python-variable'>data</span>[<span class='python-number'>3</span>] + <span class='python-variable'>data</span>[<span class='python-number'>0</span>]</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>total</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "fed6030f-860e-4c6c-9b01-c26c3d950c1b",
+                                                    "text": "<code>Mahomes15</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "4108d925-d74b-4534-b7d0-adf8344418dd",
+                                                    "text": "<code>Mahomes 15</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "04119a55-f091-4122-9f61-fa67935af11a",
+                                                    "text": "<code>15Mahomes</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "14ef8e7e-d2a8-45fd-a558-2f8c43e207c6",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3529968e-8848-492f-9c2c-011479feda89",
+                            "title": "#4",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "6d313ae9-493a-4a2a-a96f-772de7a0323e",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>data</span> = [<span class='python-string'>\"Mahomes\"</span>, <span class='python-number'>219</span>, <span class='python-number'>63</span>, <span class='python-string'>\"15\"</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>total</span> = <span class='python-variable'>data</span>[<span class='python-number'>1</span>] + <span class='python-variable'>data</span>[<span class='python-number'>1</span>]</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>total</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "5f74bb6d-9a75-4883-849d-8e0b9976a51d",
+                                                    "text": "<code>MahomesMahomes</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "198914bc-87e9-47c1-b6d6-8fa6e22a2495",
+                                                    "text": "<code>219219</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6b5e7b97-f294-4b08-bb90-bb93dd202ad4",
+                                                    "text": "<code>438</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "96aa6272-92f5-4de7-a6c4-180a8d591547",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "6a5715da-954b-409c-9809-d7c967c02db5",
+                        "type": "checkpoint",
+                        "weight": 25
+                    },
+                    {
+                        "id": "08dadd15-319d-44c8-9ab6-b460b4e19f97",
+                        "type": "checkpoint",
+                        "weight": 25
+                    },
+                    {
+                        "id": "f8b95609-a164-4531-975b-53529688187c",
+                        "type": "checkpoint",
+                        "weight": 25
+                    },
+                    {
+                        "id": "6d313ae9-493a-4a2a-a96f-772de7a0323e",
+                        "type": "checkpoint",
+                        "weight": 25
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "6a5715da-954b-409c-9809-d7c967c02db5",
+                            "08dadd15-319d-44c8-9ab6-b460b4e19f97",
+                            "f8b95609-a164-4531-975b-53529688187c",
+                            "6d313ae9-493a-4a2a-a96f-772de7a0323e"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

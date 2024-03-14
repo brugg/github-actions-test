@@ -1,0 +1,94 @@
+{
+    "id": "0c357fcd-13b6-433f-994b-39edda4bcce4",
+    "name": "Independent Projects #2",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-2.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #2",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "58dc11e4-c16c-4892-8014-db6c27acaf5b",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "6da8aaad-b22b-4d8f-8fb9-b090fb2e32e0",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "06d558c2-f667-4137-a399-c8391f2f9302",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which of these is a random method?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "caba0dfa-d0e4-4b12-86ea-26cf468a55ad",
+                                                    "text": "<code>input()</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b4a91f45-3da4-453b-ac6a-e7d753a68b97",
+                                                    "text": "<code>title()</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "dd0fe567-ffa5-49d4-a796-423fcee3a41e",
+                                                    "text": "<code>randint()</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "78fe8054-da9a-4ee2-8c49-d757820a2544",
+                                                    "text": "<code>choose()</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "06d558c2-f667-4137-a399-c8391f2f9302",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "06d558c2-f667-4137-a399-c8391f2f9302"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "id": "16c53ed8-2ab6-44e8-9e94-317d84b5cf53",
+    "name": "Independent Projects #7",
+    "media": {
+        "url": "project://assets/level-4-independent-projects-7.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #7",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "f9b640ea-047b-4868-b755-972cfdf3387a",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "a5fc1c0c-402a-4104-a46e-7000700448f6",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "a18185bc-80c5-4394-9e31-823947f9b25d",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>name</span> = <span class='python-string'>\"ANDRE\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>name</span>.<span class='python-property'>lower</span>()</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>name</span>.<span class='python-property'>title</span>()</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>name</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "15705b5c-36bd-4f66-b4a0-4afa4b03f778",
+                                                    "text": "<code>ANDRE</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "4afdc23b-f899-435a-8c08-17127011e6d0",
+                                                    "text": "<code>andre</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "689a7ee0-ce87-4f07-8f97-cb2903a50f4c",
+                                                    "text": "<code>Andre</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "026e5a2c-891c-492a-a994-c750bc34ca69",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "a18185bc-80c5-4394-9e31-823947f9b25d",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "a18185bc-80c5-4394-9e31-823947f9b25d"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
