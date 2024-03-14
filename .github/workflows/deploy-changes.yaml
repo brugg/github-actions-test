@@ -9,6 +9,16 @@ on:
       - 'courses/**'
 
 jobs:
+
+  explore-github-context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print github context object
+        run: echo "${{ toJson(github) }}"
+      
+      - name: Print GITHUB_ prefixed environment variables
+        run: printenv | grep GITHUB_
+        
   prepare-release:
     runs-on: ubuntu-latest
     outputs:
@@ -57,8 +67,8 @@ jobs:
           path: ".virtualenv"
           key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
 
-      - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
-        run: make --no-print-directory require-virtualenv
+      # - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+      #   run: make --no-print-directory require-virtualenv
 
       - uses: actions/setup-python@v5
         id: setup-python
