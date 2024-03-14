@@ -1,9 +1,9 @@
 name: Conditional Daily Deployment Preparation (Weekdays Only)
 
 on:
-  schedule:
+  # schedule:
     # Runs at 9:00 AM GMT, Monday through Friday
-    - cron: '0 9 * * 1-5'
+    # - cron: '0 9 * * 1-5'
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:

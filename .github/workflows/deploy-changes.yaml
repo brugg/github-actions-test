@@ -32,7 +32,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create ${{ env.TAG }} \
-            --title "Release ${{ env.TAG }}" \
+            --title "${{ env.TAG }}" \
             --notes "Release notes or description" \
             --draft=false
 
@@ -70,4 +70,5 @@ jobs:
       - name: Detect Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY_NAME: ${{ github.repository }}
         run: python3 tools/detect_changes.py

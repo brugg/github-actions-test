@@ -3,12 +3,14 @@ import os
 
 # Initialize GitHub API client
 g = Github(os.getenv('GITHUB_TOKEN'))
-repo = g.get_repo("your_github_username/your_repository_name")
+repo = g.get_repo(os.getenv('REPOSITORY_NAME'))
 
 # Get the latest and previous tags (assuming tags are used for releases)
 tags = list(repo.get_tags())
 latest_tag = tags[0].name
+print(f"latest_tag: {latest_tag}")
 previous_tag = tags[1].name if len(tags) > 1 else None
+print(f"previous_tag: {previous_tag}")
 
 # Compare two tags if previous exists, else compare with the initial commit
 if previous_tag:
