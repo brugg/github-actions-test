@@ -1,0 +1,101 @@
+{
+    "id": "763875ef-170b-4d1b-be73-48be7cabd15f",
+    "name": "Interactive Story #2",
+    "media": {
+        "url": "project://assets/interactive-story-2.png",
+        "type": "image"
+    },
+    "title": "Interactive Story #2",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "94b8705a-d0ff-42d5-8203-ba59f07a6134",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "b3366eea-71b0-4c52-a7b9-b08b32924382",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "3c2cf128-6b47-4d29-ae07-f49d2a0b05f4",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Code with missing or extra symbols will cause a <strong><code>SyntaxError</code></strong>. Which option below will cause a <strong><code>SyntaxError</code></strong>?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "0043d2e9-5061-4471-b819-4884d39569b7",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"I'm a string!\"</span></div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "63885127-a3a0-4d5a-b65d-4a5515058e22",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>input(<span class='python-string'>'>'</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "ba98f006-9c60-4d08-8bc9-a99a74279a71",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print()</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a9082adc-dd5e-40df-8b3b-afa364f426ac",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"17\"</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "3c2cf128-6b47-4d29-ae07-f49d2a0b05f4",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "3c2cf128-6b47-4d29-ae07-f49d2a0b05f4"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

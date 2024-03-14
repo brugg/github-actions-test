@@ -1,0 +1,113 @@
+{
+    "id": "91a36ca7-9e20-4aaa-a3f5-7a862061ebfa",
+    "name": "Fortune Teller #3",
+    "media": {
+        "url": "project://assets/fortune-teller-3.png",
+        "type": "image"
+    },
+    "title": "Fortune Teller #3",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "b498a640-db39-49fa-bf52-8964a34ec5ff",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "b5765b34-4be4-4670-911f-4aa4850c0fc3",
+                            "title": "#1",
+                            "activity_id": "practice-problem-view",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "0490ef46-b00a-45e3-b6a6-7e29b65e47b9",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "What is Emily's favorite season? <br><br> Press play <img style='margin: 0; vertical-align: -1.75px;' src='course://assets/pickcode-run.png'> to find the answer."
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "9bde7a3e-5f5c-4c1e-82d7-7387e1c034f8",
+                                                    "text": "Summer",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "47eb3254-4078-435e-af5d-31b2aec56151",
+                                                    "text": "Fall",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "12481af6-56e5-4d11-9a8a-0fe6df49c2bd",
+                                                    "text": "Winter",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "bdf4ce94-a53d-40cc-842b-9035043ea4fb",
+                                                    "text": "Spring",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "0490ef46-b00a-45e3-b6a6-7e29b65e47b9",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "0490ef46-b00a-45e3-b6a6-7e29b65e47b9"
+                ]
+            }
+          ]
+        }
+      ]
+    },
+    "activities": {
+        "practice-problem-view": {
+            "id": "dsai-pp-fortune-teller-3",
+            "tool": "pickcode",
+            "action": "render",
+            "pickcode": {
+                "title": "Practice Problem",
+                "language": "Python",
+                "files": [
+                {
+                    "filename": "main.py",
+                    "contents": [
+                        "print(\"Emily: What's your favorite season?\")", "input(\"> \")", "print(\"Emily: That's nice. My favorite season is winter. I love the cold!\")"
+                    ]
+                }
+                ]
+            }
+        }
+    }
+}

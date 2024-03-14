@@ -1,0 +1,107 @@
+{
+    "id": "5aa1a7b5-a3a2-41f8-8a7b-928d751a91a3",
+    "name": "Independent Projects #19",
+    "media": {
+        "url": "project://assets/independent-projects-19.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #19",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "1334d56e-6e4e-41d3-acaf-49173b6c5254",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "269d0928-39c6-4189-ab59-48295f2f33c0",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "cc3bb70c-fc10-46c9-87ec-75ed1afa5cc6",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "What would be a good line of code based on the pseudocode below?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-comment'># Ask the user if they like ice cream and wait for their response</span></div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "3faca3ae-2495-48b7-8dbb-652c6f9b38c5",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>input(<span class='python-string'>\"Do you like ice cream?\"</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "e97f8824-dc8b-4707-aa01-1d71e167eb90",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"Do you like ice cream?\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "41409455-5702-43a9-b04e-f1ccbd8ade8e",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>input(Do you like ice cream?)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c4870d2a-bb49-4398-8df0-21460ad9cca1",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>input(<span class='python-string'>\"Ask the user if they like ice cream and wait for their response\"</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "cc3bb70c-fc10-46c9-87ec-75ed1afa5cc6",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "cc3bb70c-fc10-46c9-87ec-75ed1afa5cc6"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

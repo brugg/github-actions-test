@@ -1,0 +1,103 @@
+{
+    "id": "81c0e659-af0f-48bd-9f66-29e7526525e2",
+    "name": "Horoscope #6",
+    "media": {
+        "url": "project://assets/horoscope-6.png",
+        "type": "image"
+    },
+    "title": "Horoscope #6",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "8f9f07e4-4801-44c0-b4b3-849afd90f609",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "11063c92-746b-4c9b-a712-9d3fde34ce56",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "7f55f2ec-6a28-4a67-ae43-9ecf619dfb9c",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>word</span> = <span class='python-string'>\"Monster\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>letters</span> = input(<span class='python-string'>\"Type two letters: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>if <span class='python-variable'>letters</span> in <span class='python-variable'>word</span>:</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"True\"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"False\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Only one of these possible inputs will lead the program to output \"True\". Which input will lead to that output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "0b11ddca-739e-40d7-a83a-d95ae6c1759e",
+                                                    "text": "<code>mo</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b152597b-cd07-422a-a337-8a14fa21a121",
+                                                    "text": "<code>nt</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "4a9806c5-0559-424d-ac83-0b2586bac90a",
+                                                    "text": "<code>NT</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "7371c198-a09c-494a-a958-daac9f108b84",
+                                                    "text": "<code>Mo</code>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "7f55f2ec-6a28-4a67-ae43-9ecf619dfb9c",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "7f55f2ec-6a28-4a67-ae43-9ecf619dfb9c"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

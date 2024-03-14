@@ -1,0 +1,103 @@
+{
+    "id": "6eca7ab7-8281-4232-8223-54ddd9d55bde",
+    "name": "Independent Projects #7",
+    "media": {
+        "url": "project://assets/independent-projects-7.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #7",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "7f447b74-4711-4aae-941e-18b84d5ec9d7",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "2006dc36-aff7-4817-aee2-49e4fdd7cc37",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "a3de7353-3150-4b8b-8cc0-8034267f207b",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which line in the code below is a comment?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>header</span> = <span class='python-string'>\"Welcome to the best show on Earth!\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-comment'># Ask the user for their talent</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>input(<span class='python-string'>\"What's your secret talent?\"</span>)</div></div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "392913a9-b569-4c92-b050-4617f339fb24",
+                                                    "type": "text",
+                                                    "text": "1",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "aa06b927-facb-499d-bf28-a18b0875b9c8",
+                                                    "type": "text",
+                                                    "text": "2",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "0656e374-dc3a-4441-ba4c-c381e22adb2c",
+                                                    "type": "text",
+                                                    "text": "3",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "5ae7f26e-adea-4d70-b6c7-15b087d40d13",
+                                                    "type": "text",
+                                                    "text": "4",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "a3de7353-3150-4b8b-8cc0-8034267f207b",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "a3de7353-3150-4b8b-8cc0-8034267f207b"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

@@ -1,0 +1,283 @@
+{
+    "id": "0a7b24d2-cead-415d-9a53-01496578ac03",
+    "name": "Gabby The Chatbot #8",
+    "media": {
+        "url": "project://assets/gabby-the-chatbot-8.png",
+        "type": "image"
+    },
+    "title": "Gabby The Chatbot #8",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "3ddb0c64-9f0c-4a31-ab81-7e672131d621",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "329cfaf9-4df1-481a-9faa-dd612d489d6c",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "f03c7c84-89f1-484f-8c97-c4b122c439f8",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "In this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>family</span> = [<span class='python-string'>\"Homer\"</span>, <span class='python-string'>\"Marge\"</span>, <span class='python-string'>\"Bart\"</span>, <span class='python-string'>\"Lisa\"</span>, <span class='python-string'>\"Maggie\"</span>]</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What element is found at index 4 of the list?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "7ca0dfb4-b021-4f83-ab46-1a72d50215d9",
+                                                    "text": "<code>\"Lisa\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "9c652005-42f5-467b-9691-8eb66f170c0c",
+                                                    "text": "<code>\"Maggie\"</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "55fe8fe2-acc2-4fc2-8d4f-65972b7052d8",
+                                                    "text": "<code>\"e\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2f1f76da-359b-4fd4-b6ef-91e4dcae97b7",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b83de534-4693-42e2-8c1f-0b887c16043c",
+                            "title": "#2",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "1bb7455e-7fb5-461b-aec0-f666708a68b0",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "In this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>family</span> = [<span class='python-string'>\"Homer\"</span>, <span class='python-string'>\"Marge\"</span>, <span class='python-string'>\"Bart\"</span>, <span class='python-string'>\"Lisa\"</span>, <span class='python-string'>\"Maggie\"</span>]</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What element is found at index -1 of the list?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "8d3dcf8f-25ca-4fd9-bc73-b2703287afe6",
+                                                    "text": "<code>\"Lisa\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "71560740-7399-40a6-9374-b0ab60662d12",
+                                                    "text": "<code>\"Maggie\"</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "2e6290f0-8073-4a5a-a934-08ae595393e6",
+                                                    "text": "<code>\"e\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "54105d5f-29e0-4d0b-8334-132135d51b89",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "67c38629-557d-41a3-a625-99ff845f3b40",
+                            "title": "#3",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "382e2d2f-c080-4d47-a68e-c0f683af1de5",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "In this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>family</span> = [<span class='python-string'>\"Homer\"</span>, <span class='python-string'>\"Marge\"</span>, <span class='python-string'>\"Bart\"</span>, <span class='python-string'>\"Lisa\"</span>, <span class='python-string'>\"Maggie\"</span>]</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What element is found at index 5 of the list?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "5a2e101d-336d-454f-a0b6-cec7bbfb6999",
+                                                    "text": "<code>\"Lisa\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2416f5d6-26fe-41e2-bdfd-a5da5665daf0",
+                                                    "text": "<code>\"Maggie\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "7d5fad7f-9ff0-4f22-b8a1-84e72faaa0dc",
+                                                    "text": "<code>\"Homer\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "57f5a07c-4005-4f9b-ab2c-a56240796868",
+                                                    "text": "Error message",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4dec0f26-9e38-4f69-bbb6-5eb0f397dc68",
+                            "title": "#4",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "27c0a2d4-ffd1-41e7-a2ef-27c6130a4982",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "In this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>family</span> = [<span class='python-string'>\"Homer\"</span>, <span class='python-string'>\"Marge\"</span>, <span class='python-string'>\"Bart\"</span>, <span class='python-string'>\"Lisa\"</span>, <span class='python-string'>\"Maggie\"</span>]</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What element is found at index 0 of the list?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "254e0ebe-1822-4105-ba72-22fed5b55490",
+                                                    "text": "<code>\"Homer\"</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "ab598f14-2c0c-44fb-a025-24dca5c45fdd",
+                                                    "text": "<code>\"Maggie\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "70fc4a84-aa28-4b7a-9ba6-cb2152280f73",
+                                                    "text": "<code>\"H\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c526008d-906c-4c75-87a6-f53bf6f61991",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "f03c7c84-89f1-484f-8c97-c4b122c439f8",
+                        "type": "checkpoint",
+                        "weight": 100
+                    },
+                    {
+                        "id": "1bb7455e-7fb5-461b-aec0-f666708a68b0",
+                        "type": "checkpoint",
+                        "weight": 100
+                    },
+                    {
+                        "id": "382e2d2f-c080-4d47-a68e-c0f683af1de5",
+                        "type": "checkpoint",
+                        "weight": 100
+                    },
+                    {
+                        "id": "27c0a2d4-ffd1-41e7-a2ef-27c6130a4982",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "f03c7c84-89f1-484f-8c97-c4b122c439f8",
+                            "1bb7455e-7fb5-461b-aec0-f666708a68b0",
+                            "382e2d2f-c080-4d47-a68e-c0f683af1de5",
+                            "27c0a2d4-ffd1-41e7-a2ef-27c6130a4982"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

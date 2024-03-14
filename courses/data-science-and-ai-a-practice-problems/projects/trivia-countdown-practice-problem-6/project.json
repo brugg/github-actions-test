@@ -1,0 +1,103 @@
+{
+    "id": "d492103a-8b2a-4d66-ba28-c7943fc0e9b5",
+    "name": "Trivia Countdown #6",
+    "media": {
+        "url": "project://assets/trivia-countdown-6.png",
+        "type": "image"
+    },
+    "title": "Trivia Countdown #6",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "777d8422-7180-49f5-a587-6958d7f98fba",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "a81e4b93-9345-4e71-a65b-921255c600bd",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "01487678-d10f-48ce-a8c1-37ccbce53a25",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>weather</span> = input(<span class='python-string'>\"Type the weather: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>if <span class='python-string'>\"sunny\"</span> in <span class='python-variable'>weather</span>:</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Bring your sunglasses!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;if <span class='python-string'>\"rainy\"</span> in <span class='python-variable'>weather</span>:</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Bring your umbrella!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;else:</div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if <span class='python-string'>\"windy\"</span> in <span class='python-variable'>weather</span>:</div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Bring your coat!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>10</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:</div></div><div class='snippet-row'><div class='line-number'>11</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"See you soon!\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "The user inputs <code data-python-type><b>\"cloudy with a chance of sunshine\"</b></code>. What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "8fd1ff2a-c0d7-42d1-b31a-258e6ecd823d",
+                                                    "text": "<code>Bring your sunglasses!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "44f4d59c-68a6-4194-90dd-76f34b2151a1",
+                                                    "text": "<code>See you soon!</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "449f11dc-5018-48e5-a124-8513b7b2be76",
+                                                    "text": "<code>SyntaxError</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "89a59057-a58b-42c1-a194-09848ba51c15",
+                                                    "text": "Nothing will print, given this input.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "01487678-d10f-48ce-a8c1-37ccbce53a25",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "01487678-d10f-48ce-a8c1-37ccbce53a25"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

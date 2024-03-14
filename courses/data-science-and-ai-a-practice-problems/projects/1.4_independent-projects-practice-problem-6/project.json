@@ -1,0 +1,102 @@
+{
+    "id": "34ec7678-4a5f-421c-bb67-5daf2d6eccce",
+    "name": "Independent Projects #6",
+    "media": {
+        "url": "project://assets/independent-projects-6.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #6",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "37224330-e1b1-4ca6-a15c-ffaecffc36b7",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "19a04443-670a-4414-a88d-930a182ab8af",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "d0bd583e-b4e8-4fcc-8dc0-17910faee935",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option uses proper Python syntax to create a multiline string?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "441a39f8-9978-4bf1-805e-461c874278c4",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>long_string</span> = <span class='python-string'>'''</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-string'>I'm a multiline</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-string'>string!!!</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-string'>'''</span></div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "613e32eb-8c5e-4504-8196-33b6d3869e7c",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>long_string</span> = <span class='python-string'>\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>I'm a multiline</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>string!!!</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-string'>\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "ae273b28-0893-4cc9-88f3-993a76798cbc",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>long_string</span> = <span class='python-string'>\"I'm a multiline string!!\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "70829ce4-bbd7-4787-9b7c-1446678e1e90",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>long_string</span> = <span class='python-string'>'</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>I'm a multiline</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>string!!!</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-string'>'</span></div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "d0bd583e-b4e8-4fcc-8dc0-17910faee935",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "d0bd583e-b4e8-4fcc-8dc0-17910faee935"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

@@ -1,0 +1,322 @@
+{
+    "id": "bce6a46d-8dc5-4bbd-8d39-f432f3ec2d40",
+    "name": "Independent Projects #8",
+    "media": {
+        "url": "project://assets/independent-projects-8.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #8",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "021ff319-8e85-47c1-a635-789d7c18a3ce",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "e2764431-e078-4d80-bc07-8d7293cc427b",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "variant": "transparent",
+                                    "blocks": [
+                                        {
+                                        "id": "UUID",
+                                        "type": "text",
+                                        "text": "<b>Answer the following four questions.</b>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "2b066bc7-22ed-4d0a-8dd3-aac9054bd676",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>drink_choice</span> = input(<span class='python-string'>\"Which drink would you like (water, milk, chocolate milk)? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>order_summary</span> = <span class='python-string'>f\"Okay, </span>{<span class='python-variable'>food_choice</span>}<span class='python-string'> and a </span>{<span class='python-variable'>drink_choice</span>}<span class='python-string'> coming right up!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>food_choice</span> = input(<span class='python-string'>\"Which meal would you like (chicken fingers, hot dog, or cheeseburger? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>order_summary</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which line in the program has an error?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "ee3c74f9-0748-436f-9d63-31ff1592abb7",
+                                                    "type": "text",
+                                                    "text": "1",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "768e8b48-a4a3-4e5f-814c-7b0c38628582",
+                                                    "type": "text",
+                                                    "text": "2",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "b541b029-7873-4e07-9ee4-6e863cc15a18",
+                                                    "type": "text",
+                                                    "text": "3",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "17731769-f582-441f-9357-4ba9c31fd488",
+                                                    "type": "text",
+                                                    "text": "4",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1c687d4a-b03b-49f2-b8ab-aa282cb12d07",
+                            "title": "#2",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "a3daffd5-2315-4dc9-808c-73eaaf7cd24f",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>drink_choice</span> = input(<span class='python-string'>\"Which drink would you like (water, milk, chocolate milk)? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>order_summary</span> = <span class='python-string'>f\"Okay, </span>{<span class='python-variable'>food_choice</span>}<span class='python-string'> and a </span>{<span class='python-variable'>drink_choice</span>}<span class='python-string'> coming right up!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>food_choice</span> = input(<span class='python-string'>\"Which meal would you like (chicken fingers, hot dog, or cheeseburger? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>order_summary</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Why is line 2 causing a <strong><code>NameError</code></strong>?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "aeed23f4-8fd4-4ae7-a59d-bf7a8b415df3",
+                                                    "type": "text",
+                                                    "text": "The <code>f</code> should be removed",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6a8ebb5a-f7be-4c6d-a469-3f9926c71e37",
+                                                    "type": "text",
+                                                    "text": "It's using the variable <strong><code>food_choice</code></strong> before it's been assigned a value",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "5f632979-a830-45ff-b67f-38eb86753688",
+                                                    "type": "text",
+                                                    "text": "It's missing <code>()</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a4f1fb4f-bac0-454c-bbfc-71b80555743a",
+                                                    "type": "text",
+                                                    "text": "It's using the variable <strong><code>drink_choice</code></strong> before it's been assigned a value",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2f55d53b-6f7f-4cc9-809a-652802f482f6",
+                            "title": "#3",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "f0cadb9c-88c7-4fab-926b-ed0fac71e93d",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>drink_choice</span> = input(<span class='python-string'>\"Which drink would you like (water, milk, chocolate milk)? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>order_summary</span> = <span class='python-string'>f\"Okay, </span>{<span class='python-variable'>food_choice</span>}<span class='python-string'> and a </span>{<span class='python-variable'>drink_choice</span>}<span class='python-string'> coming right up!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>food_choice</span> = input(<span class='python-string'>\"Which meal would you like (chicken fingers, hot dog, or cheeseburger? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>order_summary</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "This program is supposed to print a string that includes user input."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "Which drink would you like (water, milk, chocolate milk)? milk<br>Which meal would you like (chicken fingers, hot dog, or cheeseburger)? chicken fingers<br>Okay, chicken fingers and a milk coming right up!"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option fixes the code?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "056e86cf-763f-4807-af64-2670d0838dd3",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>drinkChoice</span> = input(<span class='python-string'>\"Which drink would you like (water, milk, chocolate milk)? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>orderSummary</span> = <span class='python-string'>f\"Okay, <span class='python-code'>{</span><span class='python-variable'>foodChoice</span><span class='python-code'>}</span> and a <span class='python-code'>{</span><span class='python-variable'>drinkChoice</span><span class='python-code'>}</span> coming right up!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>foodChoice</span> = input(<span class='python-string'>\"What's your favorite food? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>orderSummary</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "01eea32b-c86a-40ed-991d-17d5e4767c3a",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>drink_choice</span> = input(<span class='python-string'>\"Which drink would you like (water, milk, chocolate milk)? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>food_choice</span> = input(<span class='python-string'>\"What's your favorite food? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>order_summary</span> = <span class='python-string'>f\"Okay, <span class='python-code'>{</span><span class='python-variable'>food_choice</span><span class='python-code'>}</span> and a <span class='python-code'>{</span><span class='python-variable'>drink_choice</span><span class='python-code'>}</span> coming right up!\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>order_summary</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "33046b0b-9a17-4c5e-8135-4f1832a9b448",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>order_summary</span> = <span class='python-string'>f\"Okay, <span class='python-code'>{</span><span class='python-variable'>food_choice</span><span class='python-code'>}</span> and a <span class='python-code'>{</span><span class='python-variable'>drink_choice</span><span class='python-code'>}</span> coming right up!\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>drink_choice</span> = input(<span class='python-string'>\"Which drink would you like (water, milk, chocolate milk)? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>food_choice</span> = input(<span class='python-string'>\"What's your favorite food? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>order_summary</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "f016bd89-3070-418a-9f23-ec4a1e3bd660",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>food_choice</span> = input(<span class='python-string'>\"What's your favorite food? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>order_summary</span> = <span class='python-string'>f\"Okay, <span class='python-code'>{</span><span class='python-variable'>food_choice</span><span class='python-code'>}</span> and a <span class='python-code'>{</span><span class='python-variable'>drink_choice</span><span class='python-code'>}</span> coming right up!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>drink_choice</span> = input(<span class='python-string'>\"Which drink would you like (water, milk, chocolate milk)? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>order_summary</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "47eb556f-a12e-4916-9038-06dea62ebddb",
+                            "title": "#4",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "65beeaae-8dcb-4ff7-bca2-7246a7efd2e5",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>drink_choice</span> = input(<span class='python-string'>\"Which drink would you like (water, milk, chocolate milk)? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>order_summary</span> = <span class='python-string'>f\"Okay, </span>{<span class='python-variable'>food_choice</span>}<span class='python-string'> and a </span>{<span class='python-variable'>drink_choice</span>}<span class='python-string'> coming right up!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>food_choice</span> = input(<span class='python-string'>\"Which meal would you like (chicken fingers, hot dog, or cheeseburger? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>order_summary</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What is the argument on line 1?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "e83af98a-2e7e-4638-82a8-ed95ffb3fd50",
+                                                    "type": "text",
+                                                    "text": "<strong><code>input</code></strong>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "042fd7a6-f4eb-408c-a709-3dff7cedbfaa",
+                                                    "type": "text",
+                                                    "text": "<strong><code>drink_choice</code></strong>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c0d72ab5-0d22-4efe-9e52-507f2d89999d",
+                                                    "type": "text",
+                                                    "text": "<strong><code>()</code></strong>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a8517617-818f-4b35-ad76-b6093ba1aa72",
+                                                    "type": "text",
+                                                    "text": "\"\"Which drink would you like (water, milk, chocolate milk)? \"",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problems",
+          "components": [
+            {
+              "id": "2b066bc7-22ed-4d0a-8dd3-aac9054bd676",
+              "type": "checkpoint",
+              "weight": 25
+            },
+            {
+                "id": "a3daffd5-2315-4dc9-808c-73eaaf7cd24f",
+                "type": "checkpoint",
+                "weight": 25
+            },
+            {
+                "id": "f0cadb9c-88c7-4fab-926b-ed0fac71e93d",
+                "type": "checkpoint",
+                "weight": 25
+            },
+            {
+                "id": "65beeaae-8dcb-4ff7-bca2-7246a7efd2e5",
+                "type": "checkpoint",
+                "weight": 25
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problems",
+                "checkpoints": [
+                  "2b066bc7-22ed-4d0a-8dd3-aac9054bd676",
+                  "a3daffd5-2315-4dc9-808c-73eaaf7cd24f",
+                  "f0cadb9c-88c7-4fab-926b-ed0fac71e93d",
+                  "65beeaae-8dcb-4ff7-bca2-7246a7efd2e5"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "id": "ac867d76-8dbd-44bd-aa04-031e7947e0b5",
+    "name": "The G.O.A.T. #5",
+    "media": {
+        "url": "project://assets/the-goat-5.png",
+        "type": "image"
+    },
+    "title": "The G.O.A.T. #5",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "ae75b36e-aedd-4e28-809b-5151aa37e81d",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "28907b1f-c309-47b3-acb4-761035f162db",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "90f732d1-4ccd-4eab-97f3-39b22721ad07",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>number_of_planets</span> = input(<span class='python-number'>\"How many planets are there in the solar system? \"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What is the data type of <code>number_of_planets</code>?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "498521bc-66fc-4344-977e-29eab890c866",
+                                                    "text": "float",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c8958795-67e1-4d56-aa08-071d4811d3a3",
+                                                    "text": "integer",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c61cbcf9-f3ad-424e-b4d6-0ada9f61b8ee",
+                                                    "text": "string",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "ce8c0e8d-dd27-4159-b5a5-2c862521debc",
+                                                    "text": "number",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "90f732d1-4ccd-4eab-97f3-39b22721ad07",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "90f732d1-4ccd-4eab-97f3-39b22721ad07"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

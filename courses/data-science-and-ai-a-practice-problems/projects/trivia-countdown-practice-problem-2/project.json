@@ -1,0 +1,102 @@
+{
+    "id": "e51c4023-8688-43f5-b2c2-2a4ed6843aa6",
+    "name": "Trivia Countdown #2",
+    "media": {
+        "url": "project://assets/trivia-countdown-2.png",
+        "type": "image"
+    },
+    "title": "Trivia Countdown #2",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "e26c39a8-b75c-4be5-a46b-22486b6110e4",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "56c04ae2-ce42-4ac6-9c85-5f03d5c2b51e",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "743a35ee-ca53-4434-87e3-4c9a7b09b6ba",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which of these code snippets has good syntax?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "bf8bf13f-3093-4da4-af38-efde6326b01a",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>if <span class='python-variable'>flavor</span> == <span class='python-string'>\"chocolate\"</span> or if <span class='python-variable'>flavor</span> == <span class='python-string'>\"vanilla\"</span>:</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Here's your ice cream!\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "bd05b3b9-9396-495d-b988-cca6f41975f0",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>if <span class='python-variable'>dessert</span> != <span class='python-string'>\"ice cream\"</span>:</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Here's your cake!\"</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "91674706-4d6e-49ff-b129-f49acd30422e",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>if <span class='python-variable'>topping</span> !== <span class='python-string'>\"sprinkles\"</span>:</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"No sprinkles for you!\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6577f5c4-594e-461b-887c-4c070dda4296",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>if <span class='python-variable'>order</span> == <span class='python-string'>\"milkshake\"</span> or <span class='python-string'>\"smoothie\"</span>:</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Sorry, no drinks here.\"</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "743a35ee-ca53-4434-87e3-4c9a7b09b6ba",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "743a35ee-ca53-4434-87e3-4c9a7b09b6ba"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

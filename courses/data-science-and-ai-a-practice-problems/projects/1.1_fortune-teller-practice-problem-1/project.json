@@ -1,0 +1,101 @@
+{
+    "id": "0eecce6b-a38a-494b-bb74-215121d5d491",
+    "name": "Fortune Teller #1",
+    "media": {
+        "url": "project://assets/fortune-teller-1.png",
+        "type": "image"
+    },
+    "title": "Fortune Teller #1",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "ad81a924-f82e-4fca-b6f7-c64e3b21c3aa",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "0a6d38ec-11f1-4675-b9e4-102bde314a28",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "25f25940-bd3c-4252-be74-2500e87a583c",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "What do you call the area of the screen where you write your code?"
+                                                },
+                                                {
+                                                    "type": "media",
+                                                    "media": {
+                                                        "type": "image",
+                                                        "url": "project://assets/pp1-image.png"
+                                                    }
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "f5334e6b-9210-4fa0-bf7c-98eec7a96b84",
+                                                    "text": "console",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "69d616b1-3b5c-47fb-91c9-60a8e096edb7",
+                                                    "text": "codex",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "213cde38-d14c-4f56-9c9c-ae1a7cd2db1e",
+                                                    "text": "editor",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "d0e6c500-7c64-4f7b-a1bc-639fd272c504",
+                                                    "text": "caller",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "25f25940-bd3c-4252-be74-2500e87a583c",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "25f25940-bd3c-4252-be74-2500e87a583c"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

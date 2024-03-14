@@ -1,0 +1,326 @@
+{
+    "id": "916d0ad9-25b9-4488-a26d-d17f15baa527",
+    "name": "Independent Projects #24",
+    "media": {
+        "url": "project://assets/independent-projects-24.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #24",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "b1aa89cc-4881-4313-88e1-676c061a0742",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "024999f7-5851-4c70-8d5a-b815582533e1",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "variant": "transparent",
+                                    "blocks": [
+                                        {
+                                        "id": "UUID",
+                                        "type": "text",
+                                        "text": "<b>Answer the following four questions.</b>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "3728947d-6dcb-4704-8207-09a870220896",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"</span>{<span class='python-variable'>hero</span>}<span class='python-string'> is my hero because </span>{<span class='python-variable'>why</span>}<span class='python-string'>\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which line in the program has an error?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "295233ad-b1c3-4db5-b8f3-fe3c58ecdefd",
+                                                    "type": "text",
+                                                    "text": "2",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "3f38f17d-a205-45c0-b521-b0666b380d96",
+                                                    "type": "text",
+                                                    "text": "3",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "4af86d68-a3cd-4bb8-af2c-8286aaf94f60",
+                                                    "type": "text",
+                                                    "text": "4",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "42548b95-bcf4-41dc-a94d-a6cb349a5e90",
+                                                    "type": "text",
+                                                    "text": "5",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5186ab77-3996-4125-9d7f-be48e3c2dcf2",
+                            "title": "#2",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "cbcd1779-8f6f-4e85-b7bf-05654ea35b42",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"</span>{<span class='python-variable'>hero</span>}<span class='python-string'> is my hero because </span>{<span class='python-variable'>why</span>}<span class='python-string'>\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option fixes line 5?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "8e59922f-c685-449f-a6e6-9cb85703079c",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>\"{hero} is my hero because {why}\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2a395ad5-6694-4b6d-ab91-885c19dc5880",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"hero is my hero because why\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "fc006bd0-671c-4de5-b1d5-145299d1a06b",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}</span>\"</span></div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "89318366-6b6a-4675-b4cf-6f5aeb65aebf",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>\"{hero} is my hero because {why_hero}\"</span></div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fcdd3ad4-d04a-417b-aec5-dba613a58786",
+                            "title": "#3",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "e1abb5c1-43e0-418a-8a84-40207a9a519e",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"</span>{<span class='python-variable'>hero</span>}<span class='python-string'> is my hero because </span>{<span class='python-variable'>why</span>}<span class='python-string'>\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option adds a blank line between the user input questions and the summary?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "42387247-d09e-4ce0-86da-4fa9af0a5747",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}</span>\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>print()</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "616d578b-3dea-4937-ac8c-8f358c4dc706",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}</span>\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>input(<span class='python-variable'>summary</span>)</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "cd473981-e37e-4f3e-aa95-de4a39f30b4b",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}</span>\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>print(<span class='python-string'>\"blank line\"</span>)</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1b8e902b-8b80-4e74-a9ae-2727de2e959c",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}</span>\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>input(<span class='python-string'>\"blank line\"</span>)</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e85bab42-897d-4706-903a-ebbb969369fe",
+                            "title": "#4",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "77c6d309-4e2b-4b0b-bc82-c4be1e74d435",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"</span>{<span class='python-variable'>hero</span>}<span class='python-string'> is my hero because </span>{<span class='python-variable'>why</span>}<span class='python-string'>\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option adjusts the program to match the console output below?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "Enter your hero: my dad<br>Why are they your hero? he makes me a smoothie every morning<br>How would you thank your hero? thanks for everything you do dad!<br><br>my dad is my hero because he makes me a smoothie every morning. thanks for everything you do dad!"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "b9d7087e-093c-4590-8db0-d0d344007e85",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>thank_hero</span> = input(<span class='python-string'>\"How would you thank your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}.</span>\"</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>print()</div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2fab1813-7249-4623-b4f9-0564d518d625",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>thank_hero</span> = input(<span class='python-string'>\"How would you thank your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}</span>. <span class='python-code'>{</span><span class='python-variable'>thank_hero</span><span class='python-code'>}</span>\"</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>print</div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "d9110043-d937-420e-aee8-62208e581bf1",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>thank_hero</span> = input(<span class='python-string'>\"How would you thank your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}</span>. thank_hero\"</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>print()</div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "614046f7-fd80-458c-b69f-c26fc37ffa59",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Ask the user about their hero</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hero</span> = input(<span class='python-string'>\"Enter your hero: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>why_hero</span> = input(<span class='python-string'>\"Why are they your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>thank_hero</span> = input(<span class='python-string'>\"How would you thank your hero? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Display the user's answers</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>summary</span> = <span class='python-string'>f\"<span class='python-code'>{</span><span class='python-variable'>hero</span><span class='python-code'>}</span> is my hero because <span class='python-code'>{</span><span class='python-variable'>why_hero</span><span class='python-code'>}</span>. thankHero\"</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>print()</div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'>print(<span class='python-variable'>summary</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problems",
+          "components": [
+            {
+              "id": "3728947d-6dcb-4704-8207-09a870220896",
+              "type": "checkpoint",
+              "weight": 25
+            },
+            {
+                "id": "cbcd1779-8f6f-4e85-b7bf-05654ea35b42",
+                "type": "checkpoint",
+                "weight": 25
+            },
+            {
+                "id": "e1abb5c1-43e0-418a-8a84-40207a9a519e",
+                "type": "checkpoint",
+                "weight": 25
+            },
+            {
+                "id": "77c6d309-4e2b-4b0b-bc82-c4be1e74d435",
+                "type": "checkpoint",
+                "weight": 25
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problems",
+                "checkpoints": [
+                  "3728947d-6dcb-4704-8207-09a870220896",
+                  "cbcd1779-8f6f-4e85-b7bf-05654ea35b42",
+                  "e1abb5c1-43e0-418a-8a84-40207a9a519e",
+                  "77c6d309-4e2b-4b0b-bc82-c4be1e74d435"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

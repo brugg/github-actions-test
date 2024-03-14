@@ -1,0 +1,94 @@
+{
+    "id": "23aa59f1-1714-41de-af8e-b6f045ade5f3",
+    "name": "Special Request #3",
+    "media": {
+        "url": "project://assets/special-request-3.png",
+        "type": "image"
+    },
+    "title": "Special Request #3",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "8e3e77e9-45f5-4df1-aa15-9959401cdd15",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "8b967ff8-cea5-48f6-b72f-b4ca9865e22d",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "d82135cc-53e1-48d8-9bfa-3782a522c5b9",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "One of these statements about nested code blocks in Python is false. Which answer is false?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "3835686b-73ec-4daf-b44b-897d00ca01c3",
+                                                    "text": "Nested code in Python can be indented to the right of the code above it.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "4a1b2a77-f670-4a39-8f04-7ac2de01ab73",
+                                                    "text": "Nested code does not produce any output.",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "e952c16d-9f7d-419b-aa17-c35e14904dc7",
+                                                    "text": "Some nested code blocks will not run except when directed by the line of code above it.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "49917552-19e2-466e-abb2-141ad2a7cce1",
+                                                    "text": "Nested code may appear \"inside\" another code block.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "d82135cc-53e1-48d8-9bfa-3782a522c5b9",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "d82135cc-53e1-48d8-9bfa-3782a522c5b9"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

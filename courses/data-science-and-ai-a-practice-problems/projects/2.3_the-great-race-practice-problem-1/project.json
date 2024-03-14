@@ -1,0 +1,112 @@
+{
+    "id": "f1dc017a-74d4-4aaf-b2fb-45ad825a5348",
+    "name": "The Great Race #1",
+    "media": {
+        "url": "project://assets/the-great-race-1.png",
+        "type": "image"
+    },
+    "title": "The Great Race #1",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "bc0c6ba1-801a-4a04-8fe3-cde8cbf77eb6",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "295e2a0e-dd8c-4574-9aa8-95760887857a",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "8473b4f7-54e3-445e-aa89-2725fdd537b5",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>apples</span> = input(<span class='python-string'>\"How many apples do you want to buy? \"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this user input."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "How many apples do you want to buy? 3"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What is the value of <code>apples</code>?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "ac227a6c-a97a-44a2-9fad-2154480ed8fa",
+                                                    "text": "<code>\"3\"</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "8aad1572-0cde-4cc0-beb2-93624f04fb92",
+                                                    "text": "<code>3</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "86f52e5d-2b6d-41ab-aa5b-9902779c91ee",
+                                                    "text": "<code>3.0</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "378bdb5a-3c30-44a0-8cdf-8e4183d72a9a",
+                                                    "text": "<code>input()</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "8473b4f7-54e3-445e-aa89-2725fdd537b5",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "8473b4f7-54e3-445e-aa89-2725fdd537b5"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "id": "25c65a77-9932-46e4-aa6a-e0e38c50f643",
+    "name": "Independent Projects #14",
+    "media": {
+        "url": "project://assets/independent-projects-14.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #14",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "a38b6ba9-1c4a-4344-8fa3-d62d30086258",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "5adfe5c3-ddd4-4a34-85f7-2c9fcc17a9c9",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "61c80bdf-4b00-4b73-b193-0b684da39539",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>user_feeling</span> = input(<span class='python-string'>\"How are you feeling? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>description</span> = <span class='python-string'>\"When I'm happy and you're happy, we're all happy!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>description</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option replaces the word <strong><code>\"happy\"</code></strong> in <strong><code>description</code></strong> with the user's input?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "fa88c545-92c6-440d-9de9-1504acdb68b5",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>user_feeling</span> = input(<span class='python-string'>\"How are you feeling?\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>description</span> = <span class='python-string'>f\"When I'm <span class='python-code'>{</span><span class='python-variable'>happy</span><span class='python-code'>}</span> and you're <span class='python-code'>{</span><span class='python-variable'>happy</span><span class='python-code'>}</span>, we're all <span class='python-code'>{</span><span class='python-variable'>happy</span><span class='python-code'>}</span>!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>description</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "98845edb-d80d-4721-90e7-863c6e9463ef",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>user_feeling</span> = input(<span class='python-string'>\"How are you feeling?\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>description</span> = <span class='python-string'>f\"When I'm <span class='python-code'>{</span><span class='python-variable'>feeling</span><span class='python-code'>}</span> and you're <span class='python-code'>{</span><span class='python-variable'>feeling</span><span class='python-code'>}</span>, we're all <span class='python-code'>{</span><span class='python-variable'>feeling</span><span class='python-code'>}</span>!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>description</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a741ff35-c51d-4377-9e4b-2d9d96ed2858",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>user_feeling</span> = input(<span class='python-string'>\"How are you feeling?\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>description</span> = <span class='python-string'>f\"When I'm <span class='python-code'>{</span><span class='python-variable'>user_feeling</span><span class='python-code'>}</span> and you're <span class='python-code'>{</span><span class='python-variable'>user_feeling</span><span class='python-code'>}</span>, we're all <span class='python-code'>{</span><span class='python-variable'>user_feeling</span><span class='python-code'>}</span>!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>description</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "3edcead8-684e-4eb7-8085-723e34751fe7",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>user_feeling</span> = input(<span class='python-string'>\"How are you feeling?\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>description</span> = <span class='python-string'>\"When I'm user_feeling and you're user_feeling, we're all user_feeling!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>description</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "61c80bdf-4b00-4b73-b193-0b684da39539",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "61c80bdf-4b00-4b73-b193-0b684da39539"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

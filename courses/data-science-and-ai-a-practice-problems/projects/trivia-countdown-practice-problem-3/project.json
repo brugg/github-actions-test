@@ -1,0 +1,103 @@
+{
+    "id": "425282bd-0689-4e2c-85b0-fbe051ac405d",
+    "name": "Trivia Countdown #3",
+    "media": {
+        "url": "project://assets/trivia-countdown-3.png",
+        "type": "image"
+    },
+    "title": "Trivia Countdown #3",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "e09435c2-58dc-47f2-88d8-accd36d205f4",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "c24f4d09-4d06-492a-b258-398f320e387a",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "fd00ef06-df1c-4714-8b77-d35178088535",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>soda</span> = input(<span class='python-string'>\"Type your soda flavor: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>if <span class='python-variable'>soda</span> != <span class='python-string'>\"cola\"</span> or <span class='python-variable'>soda</span> != <span class='python-string'>\"lemon-lime\"</span>:</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"We also have root beer!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Try our new lemon cola!\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "The user inputs <code data-python-type><b>\"cola\"</b></code>. What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "cb4ec3d5-ca8b-4207-8b95-22690a2f227a",
+                                                    "text": "<code>We also have root beer!</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "2849d819-de09-4414-8e95-16bd008e2a14",
+                                                    "text": "<code>Try our new lemon cola!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "5c84f996-935e-4809-9241-21ba6ee9b2b7",
+                                                    "text": "<code>SyntaxError</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "7b634ac5-df5a-4087-9223-4c0d69cfa45c",
+                                                    "text": "Nothing will print, given this input.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "fd00ef06-df1c-4714-8b77-d35178088535",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "fd00ef06-df1c-4714-8b77-d35178088535"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "id": "05d0b9b3-664b-4fdb-9963-370d578fc8c2",
+    "name": "Text Adventure #5",
+    "media": {
+        "url": "project://assets/text-adventure-5.png",
+        "type": "image"
+    },
+    "title": "Text Adventure #5",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "52a91eda-6110-4977-89a3-aa341f4992ed",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "a5383a73-ad22-4a1b-ae5d-7496eb8ac9e7",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "57f11f2f-2297-479b-b996-15200a571615",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>age</span> = input(<span class='python-string'>\"Type your age: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>age</span> = int(<span class='python-variable'>age</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>if <span class='python-variable'>age</span> <= <span class='python-number'>12</span>:</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"You are a child\"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>elif <span class='python-variable'>age</span> < <span class='python-number'>20</span>:</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"You are a teenager\"</span>)</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"You are an adult\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "The user inputs <code data-python-type><b>\"12\"</b></code>. What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "54e717b7-0dbc-4389-a43a-f804d72fd632",
+                                                    "text": "<code>You are a child</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "5140e032-61c0-4384-8d15-8cfd032577cb",
+                                                    "text": "<code>You are a teenager</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "5585e228-1da4-4176-9be0-3df9ac0ff642",
+                                                    "text": "<code>You are an adult</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "650e8c91-31b4-45ae-b5a8-87b262d00384",
+                                                    "text": "<code>SyntaxError</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "57f11f2f-2297-479b-b996-15200a571615",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "57f11f2f-2297-479b-b996-15200a571615"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

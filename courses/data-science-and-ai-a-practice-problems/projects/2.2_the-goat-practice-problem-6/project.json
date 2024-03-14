@@ -1,0 +1,118 @@
+{
+    "id": "73db0182-a912-4c01-8f60-03a984657e06",
+    "name": "The G.O.A.T. #6",
+    "media": {
+        "url": "project://assets/the-goat-6.png",
+        "type": "image"
+    },
+    "title": "The G.O.A.T. #6",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "b78dfff2-eb45-4235-8c0d-6a85ea4b7a7f",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "25fc5add-36cb-46c7-b3da-b48ea9b90f87",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "55a453c5-dafb-4201-8eaa-73b1f752bf1a",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code, with Line 2 missing."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>cost_per_person</span> = <span class='python-number'>32.99</span> / <span class='python-number'>4</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-comment'># Code missing</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>cost_per_person</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this output."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "8.25"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What option updates Line 2 to produce this output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "a1aaa2fe-cc0f-4c41-a5a5-19d88f53d104",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>cost_per_person</span> = round(<span class='python-variable'>cost_per_person</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "341c96e5-1a20-4ee2-9292-822cb3a779d7",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>cost_per_person</span> = round(<span class='python-variable'>cost_per_person</span>, <span class='python-number'>2</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "dc74f2c2-ac65-4b82-98de-cf5ddbf2411c",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>2</div><div class='code'>round(<span class='python-variable'>cost_per_person</span>, <span class='python-number'>2</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "bc576ddb-af1f-4a2a-b888-1a716d460579",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>cost_per_person</span> = float(<span class='python-variable'>cost_per_person</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "55a453c5-dafb-4201-8eaa-73b1f752bf1a",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "55a453c5-dafb-4201-8eaa-73b1f752bf1a"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

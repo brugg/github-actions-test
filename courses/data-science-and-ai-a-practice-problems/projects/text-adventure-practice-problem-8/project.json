@@ -1,0 +1,247 @@
+{
+    "id": "f470b3fa-7c22-4708-bbb5-d26638e456af",
+    "name": "Text Adventure #8",
+    "media": {
+        "url": "project://assets/text-adventure-8.png",
+        "type": "image"
+    },
+    "title": "Text Adventure #8",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "b30ac808-fabe-41e5-a507-cd53a9595b5b",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "26521feb-cfff-44d0-8f13-af9828aaac0e",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "cdec4c60-c38f-46bd-9a37-a495de8bf598",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Only one of these lines of code will run without an error.<br><br>Which one of these conditional statements does <b>not</b> have an error?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "4110769e-0cd4-4ba8-9245-666c410fa170",
+                                                    "text": "<code>if days_in_year = 366:</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c5364ddd-dddf-4998-9ee3-17d02601c73a",
+                                                    "text": "<code>else if days_in_year < 366:</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "7027708c-67e8-4d59-8589-68a7f70d3e3b",
+                                                    "text": "<code>else days_in_year > 365:</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "628bc290-7766-466c-84a1-00f70d96cc14",
+                                                    "text": "<code>if int(days_in_year) <= 365:</code>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a0e201bf-b500-4ca1-8853-d1bb6f973c6c",
+                            "title": "#2",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "75016cde-36cc-4881-9144-c735f2e55f83",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Only one of these lines of code will run without an error.<br><br>Which one of these conditional statements does <b>not</b> have an error?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "7ad46bdb-7089-4970-b8fb-6ebff46db0dd",
+                                                    "text": "<code>if season == \"spring\":</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "e4a8fb76-9411-4abc-ac86-1ea7df96a371",
+                                                    "text": "<code>elif (season == \"summer\"):</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b2b5331f-59e5-4965-9bca-d5de685b21d4",
+                                                    "text": "<code>else:</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "13f552a0-b5b8-4b30-a280-e39e26a4c406",
+                                                    "text": "<code>elif not if:</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "43ef5aff-44b3-4614-91e7-8df68f7f5469",
+                            "title": "#3",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "e1b9b602-ac35-4eab-948c-922ff853126a",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Only one of these lines of code will run without an error.<br><br>Which one of these conditional statements does <b>not</b> have an error?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "6f4605e8-9eaf-48d6-abea-1d37efb90b96",
+                                                    "text": "<code>if price => 29.99:</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1cbd68f9-a7dd-4510-b733-0fa67f43701b",
+                                                    "text": "<code>elif price =< 9.99:</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "27499dd4-6664-4b33-99d3-6f88b0408bf3",
+                                                    "text": "<code>else price == 19.99:</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "7033ec37-7db5-49a1-9266-d553f327f3e6",
+                                                    "text": "<code>if price > (budget - 10):</code>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "218fccd6-806b-4739-92e6-4437498f047c",
+                            "title": "#4",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "ed6fd753-56ef-49c5-b1af-b351b22728f3",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Only one of these lines of code will run without an error.<br><br>Which one of these conditional statements does <b>not</b> have an error?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "968ae97a-4de2-467f-a04c-6d13eac6988d",
+                                                    "text": "<code>if month == 'January':</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "33005750-5a96-411c-b20c-0b10bd0cbc59",
+                                                    "text": "<code>elif month = \"February\":</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "47f890d3-b10e-4d1d-b251-b74a6d3ab426",
+                                                    "text": "<code>elif \"month == March\":</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "34b1694d-8051-41b6-9985-cd2a4c426633",
+                                                    "text": "<code>if month > '''April''':</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "cdec4c60-c38f-46bd-9a37-a495de8bf598",
+                        "type": "checkpoint",
+                        "weight": 100
+                    },
+                    {
+                        "id": "75016cde-36cc-4881-9144-c735f2e55f83",
+                        "type": "checkpoint",
+                        "weight": 100
+                    },
+                    {
+                        "id": "e1b9b602-ac35-4eab-948c-922ff853126a",
+                        "type": "checkpoint",
+                        "weight": 100
+                    },
+                    {
+                        "id": "ed6fd753-56ef-49c5-b1af-b351b22728f3",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "cdec4c60-c38f-46bd-9a37-a495de8bf598",
+                            "75016cde-36cc-4881-9144-c735f2e55f83",
+                            "e1b9b602-ac35-4eab-948c-922ff853126a",
+                            "ed6fd753-56ef-49c5-b1af-b351b22728f3"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

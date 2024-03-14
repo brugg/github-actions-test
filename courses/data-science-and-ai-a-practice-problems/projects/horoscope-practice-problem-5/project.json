@@ -1,0 +1,94 @@
+{
+    "id": "344b57e4-9e54-4ffd-a6fe-ad28dfd9f817",
+    "name": "Horoscope #5",
+    "media": {
+        "url": "project://assets/horoscope-5.png",
+        "type": "image"
+    },
+    "title": "Horoscope #5",
+    "language": "CoBlocks",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "99ef3a2b-3383-498a-b0b7-e5b7918f6db7",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "e722d9f9-51f6-4c19-8aa1-a1a14d57fefe",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "30620ae4-5292-45cd-a79c-d5b6292e16d1",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "In your Python code, where is a good place to <code>import</code> a module?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "51e4fb23-2da5-4cb0-b22f-00b3e2123a77",
+                                                    "text": "At the top of your code, before anything else",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "f7e705d1-bcd5-4011-9f30-3e70f718c526",
+                                                    "text": "At the bottom of your code, after everything else",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "4c93ee09-c29f-4e0c-bb75-2d8bf57baef7",
+                                                    "text": "On the same line of code that you use the module",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "677454f0-d68a-4042-9409-04b661f57362",
+                                                    "text": "Modules do not need to be \"imported\" to be used.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "30620ae4-5292-45cd-a79c-d5b6292e16d1",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "30620ae4-5292-45cd-a79c-d5b6292e16d1"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "id": "0abcab88-5eda-4c76-9be6-308cceef1c58",
+    "name": "Horoscope #2",
+    "media": {
+        "url": "project://assets/horoscope-2.png",
+        "type": "image"
+    },
+    "title": "Horoscope #2",
+    "language": "CoBlocks",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "e724f2a9-743f-4884-be18-7627c9d94c52",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "d83320aa-b7b9-4117-b2fe-d91456ddb33d",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "722f9673-83cb-4497-8e92-250000a1bd23",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>greeting</span> = <span class='python-string'>\"HELLO!\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>greeting</span> = <span class='python-variable'>greeting</span>.<span class='python-property'>lower</span>()</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>greeting</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "47b6feef-42ce-4105-99e2-0b67851736d6",
+                                                    "text": "<code>HELLO!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "47180e2d-038a-4947-a198-f4b4f1ea4a65",
+                                                    "text": "<code>Hello!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "4d771a9d-db1a-4159-a4dd-d51447fa864a",
+                                                    "text": "<code>hello!</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "5b47c3a1-c91e-4266-ab4e-121f1fa92df5",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "722f9673-83cb-4497-8e92-250000a1bd23",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "722f9673-83cb-4497-8e92-250000a1bd23"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

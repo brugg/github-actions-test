@@ -1,0 +1,94 @@
+{
+    "id": "105d19a0-50a0-42a8-a700-c3abfc1a933f",
+    "name": "Gabby The Chatbot #7",
+    "media": {
+        "url": "project://assets/gabby-the-chatbot-7.png",
+        "type": "image"
+    },
+    "title": "Gabby The Chatbot #7",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "32de7b4c-d4e1-4f82-8604-987898dbc31f",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "d8c0d72d-ff03-4cae-8e55-a3513d240464",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "de30df99-465e-40bb-8d74-c6ba54478563",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "You want to change the string \"bill's grocery\" to the string \"Bill's Grocery\". Which line of code would make that change?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "8e1a2961-163a-42a9-aee9-fc74dbeca1fc",
+                                                    "text": "<code>title(\"bill's grocery\")</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b64c26a0-da90-474d-8185-e8c627896b7c",
+                                                    "text": "<code>string.title(\"bill's grocery\")</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6bf66919-06b4-4fb0-ae56-f7921d575813",
+                                                    "text": "<code>\"bill's grocery\".title()</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "94ddaa5e-4353-40ca-8b3e-32e348f98677",
+                                                    "text": "<code>title(\"bill's grocery\").string</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "de30df99-465e-40bb-8d74-c6ba54478563",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "de30df99-465e-40bb-8d74-c6ba54478563"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

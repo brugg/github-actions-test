@@ -1,0 +1,102 @@
+{
+    "id": "fa25dc62-23d9-41e6-a52e-6ee34257c6f6",
+    "name": "User Namer #3",
+    "media": {
+        "url": "project://assets/user-namer-3.png",
+        "type": "image"
+    },
+    "title": "User Namer #3",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "ae1a5c65-50ab-464e-a1cf-3a0d8c912c76",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "87eaeafd-a198-4321-b518-714452964bb0",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "60852580-9ec1-4501-9eb2-c63e17d869e1",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which variable assignment uses proper \"snakecase\"?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "beb44d78-07ba-40a5-a219-d73fa19749c7",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>houseColor</span> = <span class='python-string'>\"red\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b0624b2b-0735-4209-aa1e-4c9336d54c9b",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>house color</span> = <span class='python-string'>\"red\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "fff191b8-01e4-442a-af7d-71ba99931797",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>HouseColor</span> = <span class='python-string'>\"red\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c474918a-66a1-415f-a4d2-092db937e601",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>house_color</span> = <span class='python-string'>\"red\"</span></div></div>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "60852580-9ec1-4501-9eb2-c63e17d869e1",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "60852580-9ec1-4501-9eb2-c63e17d869e1"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

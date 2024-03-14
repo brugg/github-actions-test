@@ -1,0 +1,103 @@
+{
+    "id": "af1154ea-0a87-454f-a650-d5ee37ad1c0a",
+    "name": "Horoscope #4",
+    "media": {
+        "url": "project://assets/horoscope-4.png",
+        "type": "image"
+    },
+    "title": "Horoscope #4",
+    "language": "CoBlocks",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "42cf046b-8957-470e-9108-ec3aa443fd8b",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "93617fce-5760-4c9c-bfab-4b3a0cbf9ad0",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "95abab97-3725-44d8-a58b-983e38d5fd62",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>import <span class='python-variable'>random</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>num</span> = <span class='python-variable'>random</span>.<span class='python-property'>randint</span>(<span class='python-number'>1</span>, <span class='python-number'>5</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-variable'>num</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Three of the answers below are not a possible output. Only one of the answers below can be output by the code above. Which of these is a possible output of the code?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "08eb8c44-a45e-4ab5-b70d-5e7422b87b3e",
+                                                    "text": "<code>1</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "34ffeeca-4b58-4645-a0f0-41198bb32b0b",
+                                                    "text": "<code>5</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c1cf5b0e-70a4-4b8c-8d4e-e327ca1c4430",
+                                                    "text": "<code>2.5</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "8c9d0ea6-99f3-49e8-82d4-d8626104a3b3",
+                                                    "text": "<code>6</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "95abab97-3725-44d8-a58b-983e38d5fd62",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "95abab97-3725-44d8-a58b-983e38d5fd62"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

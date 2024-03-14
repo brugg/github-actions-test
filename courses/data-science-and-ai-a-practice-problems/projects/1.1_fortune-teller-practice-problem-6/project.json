@@ -1,0 +1,101 @@
+{
+    "id": "b0811e63-0367-42db-b843-82d8743da1ac",
+    "name": "Fortune Teller #6",
+    "media": {
+        "url": "project://assets/fortune-teller-6.png",
+        "type": "image"
+    },
+    "title": "Fortune Teller #6",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "44eedcf0-9246-49fa-8dd1-5ed678892a4e",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "558f87a5-e5c7-490b-985c-a89aacb8877d",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "301f37ff-6809-41db-9c01-1185e360a749",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Console errors usually tell the coder which line of code has the error. According to error message below, which line of code has a <code>SyntaxError</code>?"
+                                                },
+                                                {
+                                                    "type": "media",
+                                                    "media": {
+                                                        "type": "image",
+                                                        "url": "project://assets/fortune-teller-6-error.png"
+                                                    }
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "e0a867fa-77ab-4e67-a1b1-658b0aa226fa",
+                                                    "text": "12",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "f95a15c0-e7d9-4872-9a6d-8bc23bb35c90",
+                                                    "text": "13",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "dc2dce84-9532-424a-8520-c30c93d4a325",
+                                                    "text": "1",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "fa914e69-d8ba-4a76-919f-8f3070c4cd68",
+                                                    "text": "2",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "301f37ff-6809-41db-9c01-1185e360a749",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "301f37ff-6809-41db-9c01-1185e360a749"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

@@ -1,0 +1,266 @@
+{
+    "id": "861e6ca9-269b-403c-a19e-caf7f0f4ad64",
+    "name": "Snack Shack #8",
+    "media": {
+        "url": "project://assets/snack-shack-8.png",
+        "type": "image"
+    },
+    "title": "Snack Shack #8",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "2527b15d-f6bc-4a93-a71c-b1213f1e4e90",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "5f06a9aa-ee66-4382-889a-fb13344aab67",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "feb15426-9961-4412-8301-09d3187df04f",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code, what will print in the console?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>x</span> = round(<span class='python-number'>4.00033</span>, <span class='python-number'>2</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(<span class='python-variable'>x</span>)</div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "a2d18df6-62ca-4168-8a52-2b916406fa00",
+                                                    "text": "<code>4</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2b1a118a-60a5-45ad-be3f-53a7935c8e8a",
+                                                    "text": "<code>4.0</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "ac6e8192-e596-4c5f-ad3a-effba5bb2a70",
+                                                    "text": "<code>4.00</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "f4f053cd-00df-4af0-8ce8-772bc902eb2a",
+                                                    "text": "<code>4.01</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c05dd848-e06c-4817-8405-95fb4956f672",
+                            "title": "#2",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "dcf10e18-67f0-4da1-b6e3-3991aa43667a",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code, what will print in the console?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>y</span> = round(<span class='python-number'>31.556</span>, <span class='python-number'>1</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(<span class='python-variable'>y</span>)</div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "364cb683-44ee-40b4-a14f-47d527bbe7cc",
+                                                    "text": "<code>32</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c9e5c330-f283-4044-b3f9-84f944a733df",
+                                                    "text": "<code>31.5</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "ffc0b43f-56e3-431d-b7df-f290ddad2335",
+                                                    "text": "<code>31.6</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "3aa41aaa-2976-4101-b9d0-d6cb47b52f11",
+                                                    "text": "<code>31.0</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bdfe0459-a3f0-4e99-bc02-9f7411090130",
+                            "title": "#3",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "dd94b44e-4901-4efe-b694-a5bf7710e38c",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code, what will print in the console?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>z</span> = round(<span class='python-number'>-8.777777</span>, <span class='python-number'>2</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(<span class='python-variable'>z</span>)</div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "022c51dd-c4e5-4b68-85ec-03c00774809b",
+                                                    "text": "<code>-8.7</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "745a4a07-5770-40f3-bebf-12508140f532",
+                                                    "text": "<code>-8.77</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "9589d870-0b99-4b0b-8583-ebe1f877dc4c",
+                                                    "text": "<code>-8.78</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "c7ed6585-6dcd-41e8-8762-56001df5b599",
+                                                    "text": "<code>-8.80</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "51076e2e-1d34-4902-95e5-4d7caff48a4d",
+                            "title": "#4",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "efb2ad19-8de7-49f6-bb99-92cd8d4dbf88",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code, what will print in the console?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>a</span> = round(<span class='python-number'>1.495</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(<span class='python-variable'>a</span>)</div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "0bb59847-ce6c-49b6-bf93-bf0b83362120",
+                                                    "text": "<code>1</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "f7b81808-03ee-4137-95b5-9930b7ae8a4b",
+                                                    "text": "<code>1.0</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "d596e087-18da-4806-b05a-32208294a78e",
+                                                    "text": "<code>1.5</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "914cf9c6-9d4b-4086-aba9-677e501ebf79",
+                                                    "text": "<code>2</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "feb15426-9961-4412-8301-09d3187df04f",
+                        "type": "checkpoint",
+                        "weight": 25
+                    },
+                    {
+                        "id": "dcf10e18-67f0-4da1-b6e3-3991aa43667a",
+                        "type": "checkpoint",
+                        "weight": 25
+                    },
+                    {
+                        "id": "dd94b44e-4901-4efe-b694-a5bf7710e38c",
+                        "type": "checkpoint",
+                        "weight": 25
+                    },
+                    {
+                        "id": "efb2ad19-8de7-49f6-bb99-92cd8d4dbf88",
+                        "type": "checkpoint",
+                        "weight": 25
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "feb15426-9961-4412-8301-09d3187df04f",
+                            "dcf10e18-67f0-4da1-b6e3-3991aa43667a",
+                            "dd94b44e-4901-4efe-b694-a5bf7710e38c",
+                            "efb2ad19-8de7-49f6-bb99-92cd8d4dbf88"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

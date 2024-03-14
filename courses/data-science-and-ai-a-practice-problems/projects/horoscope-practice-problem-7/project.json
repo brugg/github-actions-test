@@ -1,0 +1,103 @@
+{
+    "id": "c6cf4104-695c-4d6d-84b4-6094ca4e6932",
+    "name": "Horoscope #7",
+    "media": {
+        "url": "project://assets/horoscope-7.png",
+        "type": "image"
+    },
+    "title": "Horoscope #7",
+    "language": "CoBlocks",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "8b2e0bbe-8f05-4388-a03d-d0bb1d0374ff",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "48eef9a5-3c8a-4ecc-8c10-f13a5b92255b",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "e7841423-a230-4635-9252-c6cac70f0e9d",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>nums</span> = [<span class='python-number'>1</span>, <span class='python-number'>3</span>, <span class='python-number'>5</span>]</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>user_num</span> = input(<span class='python-string'>\"Type a number: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>if <span class='python-variable'>user_num</span> in <span class='python-variable'>nums</span>:</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"True\"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"False\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "When the user inputs <code>3</code>, the program outputs \"False\". Why does it output \"False\"?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "9edc8bc8-2c04-43da-99a4-15e2ca5f2776",
+                                                    "text": "The <code>in</code> operator only works with strings, not lists.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6af2b932-7913-4d4b-bd21-086e1032d0a9",
+                                                    "text": "The user needs to input all three numbers to match the list.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "5a751024-0b3c-46fa-9b6e-acd50df6ce29",
+                                                    "text": "In the code, the user input needs to be cast to an integer using <code>int()</code>.",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "6f2868e1-56f5-4602-9b2d-fc22e441ad22",
+                                                    "text": "The conditional statement <code>if user_num in nums:</code> is written incorrectly.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "e7841423-a230-4635-9252-c6cac70f0e9d",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "e7841423-a230-4635-9252-c6cac70f0e9d"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

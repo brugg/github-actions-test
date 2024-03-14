@@ -1,0 +1,99 @@
+{
+    "id": "ff1dc84a-3961-4d5d-9b5b-2eeea0ae17cf",
+    "name": "Fortune Teller #7",
+    "media": {
+        "url": "project://assets/fortune-teller-7.png",
+        "type": "image"
+    },
+    "title": "Fortune Teller #7",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "2783e09d-1817-40d6-9cb3-2e54539e31a0",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "c936f572-4e18-4838-a3e4-3f7b4c36964f",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "4cb930df-0297-4001-b0e2-0f2cab94fc40",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "The pieces of information passed to a function are called arguments. Functions can accept multiple arguments. <br><br> How many arguments are being passed to the <strong><code>max()</code></strong> function below?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>max(<span class='python-number'>4</span>, <span class='python-number'>10</span>, <span class='python-number'>9</span>, <span class='python-number'>12</span>, <span class='python-number'>32</span>, <span class='python-number'>1</span>)</div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "58a5e262-ce37-4104-8a05-6c9856d201ce",
+                                                    "text": "4",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "f04e2743-018d-489f-9a3d-67fb4ef24fc0",
+                                                    "text": "1",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6511355c-9671-4fff-9244-83d813c280c9",
+                                                    "text": "6",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "1ffff6a2-e5c8-4187-8f5f-85ef8d6a3007",
+                                                    "text": "2",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "4cb930df-0297-4001-b0e2-0f2cab94fc40",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "4cb930df-0297-4001-b0e2-0f2cab94fc40"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

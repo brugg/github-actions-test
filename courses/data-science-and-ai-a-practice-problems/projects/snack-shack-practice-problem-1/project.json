@@ -1,0 +1,93 @@
+{
+    "id": "8ccb0f29-bd28-4158-894d-7db2dac6338e",
+    "name": "Snack Shack #1",
+    "media": {
+        "url": "project://assets/snack-shack-1.png",
+        "type": "image"
+    },
+    "title": "Snack Shack #1",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "7cb70477-09d6-494b-89fe-3c26c6edc307",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "c3c718ed-956f-4c0e-93cb-b4419ebe5981",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "a673487a-3aa1-4912-9f25-0ffc4e435bf6",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which of these is a good reason to use comments in your code?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "07ee3d32-98ec-45a4-8206-38fdb554a3b7",
+                                                    "text": "\"Hide\" a line of code during testing, so that it does not run",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1b83324f-57a6-4b7e-8a12-0d1d7a5b896b",
+                                                    "text": "Leave a note for yourself to explain a line of code",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "290cb942-d4d7-477a-b152-5aed82dfc918",
+                                                    "text": "Write an outline of what your program is doing using pseudocode",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "227e7a23-6f19-4927-b9af-479715b386ef",
+                                                    "text": "All of the above",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "a673487a-3aa1-4912-9f25-0ffc4e435bf6",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "a673487a-3aa1-4912-9f25-0ffc4e435bf6"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

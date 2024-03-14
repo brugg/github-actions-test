@@ -1,0 +1,612 @@
+{
+    "id": "6f778e76-f56b-4f7e-a37b-98508f33a25d",
+    "name": "Data Science & AI Practice Problems",
+    "title": "Data Science & AI Practice Problems",
+    "chips": [
+        "Course A",
+        "Python"
+    ],
+    "language": "Python",
+    "sort_key": "031-D",
+    "media": {
+        "type": "image",
+        "url": "course://assets/course-card.gif"
+    },
+    "levels": [
+        {
+            "id": "a08ca01f-4a29-4751-9d7a-34c987c77c95",
+            "name": "Level One",
+            "project_groups": [
+                {
+                    "id": "0cffca07-a751-4889-bbd7-da659f8f7eaf",
+                    "title": "Fortune Teller",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "0eecce6b-a38a-494b-bb74-215121d5d491",
+                            "weight": 1
+                        },
+                        {
+                            "id": "c5f9fd8c-d16b-48fd-8691-3372b64fa3d0",
+                            "weight": 1
+                        },
+                        {
+                            "id": "91a36ca7-9e20-4aaa-a3f5-7a862061ebfa",
+                            "weight": 1
+                        },
+                        {
+                            "id": "4531c86d-dd04-4e6d-8e64-7da010c0be1f",
+                            "weight": 1
+                        },
+                        {
+                            "id": "30dbef1c-41fe-429f-b49e-c5119f1ec115",
+                            "weight": 1
+                        },
+                        {
+                            "id": "b0811e63-0367-42db-b843-82d8743da1ac",
+                            "weight": 1
+                        },
+                        {
+                            "id": "ff1dc84a-3961-4d5d-9b5b-2eeea0ae17cf",
+                            "weight": 1
+                        },
+                        {
+                            "id": "df6596b8-a086-4f38-98eb-0571784dfaca",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "2755ee06-34e9-4d05-9767-3db7df76e041",
+                    "title": "Interactive Story",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "6256ded7-a7fc-4135-9029-a00a5bfcfa5d",
+                            "weight": 1
+                        },
+                        {
+                            "id": "763875ef-170b-4d1b-be73-48be7cabd15f",
+                            "weight": 1
+                        },
+                        {
+                            "id": "d6214594-9258-412e-8924-8aaa3cdb14b4",
+                            "weight": 1
+                        },
+                        {
+                            "id": "dfd3c827-f371-48e5-82f4-758da8bc7fd2",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a55298b3-a9ec-4d05-af43-30479fa7e967",
+                            "weight": 1
+                        },
+                        {
+                            "id": "b8dc492c-d552-4b74-828d-85a241e09a55",
+                            "weight": 1
+                        },
+                        {
+                            "id": "355d98b5-8617-4d1f-8dd7-d7ad85dcd313",
+                            "weight": 1
+                        },
+                        {
+                            "id": "3a0cd308-09c0-4f5a-8d36-1cd89f111547",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "b9fd21a2-e80f-499d-940d-d8d43da2d072",
+                    "title": "User Namer",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "2d5a02bf-4841-45da-84c9-385448129d90",
+                            "weight": 1
+                        },
+                        {
+                            "id": "e36697ca-0468-42e4-a7d9-34bddf289e76",
+                            "weight": 1
+                        },
+                        {
+                            "id": "fa25dc62-23d9-41e6-a52e-6ee34257c6f6",
+                            "weight": 1
+                        },
+                        {
+                            "id": "24d4995f-8961-4d63-adf7-e0705ba7f9ee",
+                            "weight": 1
+                        },
+                        {
+                            "id": "6dfff8b3-a907-4a51-95e6-ed86ef25b84e",
+                            "weight": 1
+                        },
+                        {
+                            "id": "c84815a7-d4f9-41cf-b6b2-5c87d28cb317",
+                            "weight": 1
+                        },
+                        {
+                            "id": "d2e087bb-2ac9-4545-9ec6-d2e9c336d3e3",
+                            "weight": 1
+                        },
+                        {
+                            "id": "912cddc3-db10-46e6-ae52-86f803ef3dde",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "3865b852-e2ba-49d5-bd76-763ae6a8bbd6",
+                    "title": "Independent Projects",
+                    "required": 24,
+                    "projects": [
+                        {
+                            "id": "70d41473-1da3-4940-a314-7ebef254e0db",
+                            "weight": 1
+                        },
+                        {
+                            "id": "62788229-1191-41da-9730-bac48b2dbf9a",
+                            "weight": 1
+                        },
+                        {
+                            "id": "61c7cfa4-97c3-4318-89fe-2aad16feccce",
+                            "weight": 1
+                        },
+                        {
+                            "id": "e7616d1b-31f0-41d0-a4e4-3f38aec571d2",
+                            "weight": 1
+                        },
+                        {
+                            "id": "5f225dee-f16a-4ad7-bb96-ad133d6518c4",
+                            "weight": 1
+                        },
+                        {
+                            "id": "34ec7678-4a5f-421c-bb67-5daf2d6eccce",
+                            "weight": 1
+                        },
+                        {
+                            "id": "6eca7ab7-8281-4232-8223-54ddd9d55bde",
+                            "weight": 1
+                        },
+                        {
+                            "id": "bce6a46d-8dc5-4bbd-8d39-f432f3ec2d40",
+                            "weight": 1
+                        },
+                        {
+                            "id": "7f71a007-b0e9-4051-8c9c-ab9eb50f5f24",
+                            "weight": 1
+                        },
+                        {
+                            "id": "953b6870-62e7-4710-8334-06c35fb3a227",
+                            "weight": 1
+                        },
+                        {
+                            "id": "edea9ae8-73cd-4b28-9b2b-2db3cdebddb5",
+                            "weight": 1
+                        },
+                        {
+                            "id": "805cf28c-d48f-4f03-be03-9895914f3f95",
+                            "weight": 1
+                        },
+                        {
+                            "id": "3c1e0a9f-ef84-4423-80a6-38fc9d635864",
+                            "weight": 1
+                        },
+                        {
+                            "id": "25c65a77-9932-46e4-aa6a-e0e38c50f643",
+                            "weight": 1
+                        },
+                        {
+                            "id": "95490b8f-5234-4b79-8c27-5788b1e1a9a7",
+                            "weight": 1
+                        },
+                        {
+                            "id": "3789c051-af4e-4a69-b758-c7fc6fe0301b",
+                            "weight": 1
+                        },
+                        {
+                            "id": "4822ef37-0ec5-4ba1-96f3-f61d0751f56e",
+                            "weight": 1
+                        },
+                        {
+                            "id": "f1b91d3f-f94d-428e-89e2-fb9b8b38630e",
+                            "weight": 1
+                        },
+                        {
+                            "id": "5aa1a7b5-a3a2-41f8-8a7b-928d751a91a3",
+                            "weight": 1
+                        },
+                        {
+                            "id": "34943943-480d-400d-87a5-9c4a1e09a1d7",
+                            "weight": 1
+                        },
+                        {
+                            "id": "33f281c6-608f-4e55-ac0f-d98a24b7fae1",
+                            "weight": 1
+                        },
+                        {
+                            "id": "880b78de-e0c7-4c7d-9eef-4f5a6802cf2a",
+                            "weight": 1
+                        },
+                        {
+                            "id": "f6581c38-2cd8-473c-a3a8-289b0460c0c3",
+                            "weight": 1
+                        },
+                        {
+                            "id": "916d0ad9-25b9-4488-a26d-d17f15baa527",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9c2e1580-e5ab-457e-898e-8572b6c9d95a",
+            "name": "Level Two",
+            "project_groups": [
+                {
+                    "id": "1d8bf57d-d773-40d6-99bd-33d94eb5b301",
+                    "title": "Can I Take Your Order?",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "314b7e88-6e7a-442e-a5ff-735235bed743",
+                            "weight": 1
+                        },
+                        {
+                            "id": "079e6e4c-1c64-4aff-8bba-208f12e62314",
+                            "weight": 1
+                        },
+                        {
+                            "id": "155b1faf-5c11-4d33-9467-14d4f7db1848",
+                            "weight": 1
+                        },
+                        {
+                            "id": "1600b42e-f3da-436d-8982-9fb929c4509c",
+                            "weight": 1
+                        },
+                        {
+                            "id": "d9f6599a-0c49-4dca-a8c2-0bf4792f75cb",
+                            "weight": 1
+                        },
+                        {
+                            "id": "2370fc5f-8b11-405b-9884-a8224df064e9",
+                            "weight": 1
+                        },
+                        {
+                            "id": "098771aa-7901-4285-9175-da75d61e451f",
+                            "weight": 1
+                        },
+                        {
+                            "id": "05421fcc-0de5-472e-9729-572fcde3ac30",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "10480d4e-5d2c-4331-8315-b9e347002b50",
+                    "title": "The G.O.A.T.",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "e5a71767-1579-4561-908f-ef6b26ae2187",
+                            "weight": 1
+                        },
+                        {
+                            "id": "2716f3ea-60d9-42f8-922d-38a28a42dbd6",
+                            "weight": 1
+                        },
+                        {
+                            "id": "d90f9a01-b050-4609-b16a-f578214e760e",
+                            "weight": 1
+                        },
+                        {
+                            "id": "570e1255-d175-41f1-9213-33235bce591c",
+                            "weight": 1
+                        },
+                        {
+                            "id": "ac867d76-8dbd-44bd-aa04-031e7947e0b5",
+                            "weight": 1
+                        },
+                        {
+                            "id": "73db0182-a912-4c01-8f60-03a984657e06",
+                            "weight": 1
+                        },
+                        {
+                            "id": "8bb2577f-5bf7-43da-a6ed-aaa513962f21",
+                            "weight": 1
+                        },
+                        {
+                            "id": "59b346d9-3b96-4afd-9b6f-d7bc2ed0bb6e",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "fab833ac-7c66-4215-bf2a-390ed3d1938a",
+                    "title": "The Great Race",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "f1dc017a-74d4-4aaf-b2fb-45ad825a5348",
+                            "weight": 1
+                        },
+                        {
+                            "id": "990142ee-84ed-4c68-8c84-629211e929e8",
+                            "weight": 1
+                        },
+                        {
+                            "id": "52821e99-7148-4c50-8726-94e657778d8d",
+                            "weight": 1
+                        },
+                        {
+                            "id": "c9e16095-0f8f-424b-a5e1-f3720d4b28c8",
+                            "weight": 1
+                        },
+                        {
+                            "id": "cdf0de39-c8a4-4fc4-9def-efb7b8c66be9",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a90dffbe-2436-45ce-93eb-767958e9780b",
+                            "weight": 1
+                        },
+                        {
+                            "id": "eabeb8f9-c53d-4af5-ad6e-c908d4caa5ad",
+                            "weight": 1
+                        },
+                        {
+                            "id": "310fb65b-91e9-4026-828c-73a10bfee334",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "39bee6e1-5e5b-4975-9d32-dcc3a07dba65",
+            "name": "Level Three",
+            "project_groups": [
+                {
+                    "id": "bf21b068-afb1-4c1a-9e10-5deda617e08c",
+                    "title": "Snack Shack",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "8ccb0f29-bd28-4158-894d-7db2dac6338e",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a5d4d799-2065-421d-ad48-721dfe643b62",
+                            "weight": 1
+                        },
+                        {
+                            "id": "2ed9f155-d42d-42dc-8465-281f13e471a4",
+                            "weight": 1
+                        },
+                        {
+                            "id": "7c711414-6097-4415-afa6-e63b2e02846d",
+                            "weight": 1
+                        },
+                        {
+                            "id": "3d046641-1e79-4402-bb8f-aeb27c61ffc8",
+                            "weight": 1
+                        },
+                        {
+                            "id": "c2a5a38f-940c-4b46-95e8-20bf7196f300",
+                            "weight": 1
+                        },
+                        {
+                            "id": "16a676b0-85af-41fb-97c6-df9e431cf235",
+                            "weight": 1
+                        },
+                        {
+                            "id": "861e6ca9-269b-403c-a19e-caf7f0f4ad64",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "9462dc83-d42e-4052-a3fb-8349014040fe",
+                    "title": "Text Adventure",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "7b92cf7e-01d9-4d13-b644-04a9159a859d",
+                            "weight": 1
+                        },
+                        {
+                            "id": "b0ef18e9-028c-4304-8fab-0f1b8fca8b58",
+                            "weight": 1
+                        },
+                        {
+                            "id": "84c156cc-ce8e-46c4-b48a-87a498ba9131",
+                            "weight": 1
+                        },
+                        {
+                            "id": "96f53336-3451-4036-bdc5-ed8589861c37",
+                            "weight": 1
+                        },
+                        {
+                            "id": "05d0b9b3-664b-4fdb-9963-370d578fc8c2",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a436e51e-1ef4-4d26-b7a0-0a1614462d55",
+                            "weight": 1
+                        },
+                        {
+                            "id": "df9a1c97-cde2-416a-a657-71c695aa9034",
+                            "weight": 1
+                        },
+                        {
+                            "id": "f470b3fa-7c22-4708-bbb5-d26638e456af",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "03434927-bd30-47c4-b664-037d3826bd4a",
+                    "title": "Trivia Countdown",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "f2a2e3f7-e134-4511-b016-c3305774685f",
+                            "weight": 1
+                        },
+                        {
+                            "id": "e51c4023-8688-43f5-b2c2-2a4ed6843aa6",
+                            "weight": 1
+                        },
+                        {
+                            "id": "425282bd-0689-4e2c-85b0-fbe051ac405d",
+                            "weight": 1
+                        },
+                        {
+                            "id": "0016aaef-910a-41e0-98ff-9b1cdc7378a5",
+                            "weight": 1
+                        },
+                        {
+                            "id": "1eef952d-e9ef-4f9c-9c6d-5bf1d0a7dce1",
+                            "weight": 1
+                        },
+                        {
+                            "id": "d492103a-8b2a-4d66-ba28-c7943fc0e9b5",
+                            "weight": 1
+                        },
+                        {
+                            "id": "4f31e8ea-edd5-4ae9-8680-bb56d42994a1",
+                            "weight": 1
+                        },
+                        {
+                            "id": "e6ac9ffc-f102-4d5f-bed1-30be064a0419",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "88443a6e-b962-42b4-a5a5-0c3599f636bf",
+            "name": "Level Four",
+            "project_groups": [
+                {
+                    "id": "ba427acb-93d0-403f-9248-93dbe4e348b1",
+                    "title": "Special Request",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "2840cf9d-81b3-493f-80b6-d4934a9b931d",
+                            "weight": 1
+                        },
+                        {
+                            "id": "e0d13382-0ed6-4d35-9f73-ad201789b1b7",
+                            "weight": 1
+                        },
+                        {
+                            "id": "23aa59f1-1714-41de-af8e-b6f045ade5f3",
+                            "weight": 1
+                        },
+                        {
+                            "id": "4f38e04a-133f-4d0b-ac71-06edd6558a18",
+                            "weight": 1
+                        },
+                        {
+                            "id": "869f240c-cb74-45aa-ad2e-0814c74a4ffb",
+                            "weight": 1
+                        },
+                        {
+                            "id": "3ef5609c-54fc-49ef-a2ba-53403a132552",
+                            "weight": 1
+                        },
+                        {
+                            "id": "a0c3ffe6-fab8-4ad3-95ac-7d54dad26b13",
+                            "weight": 1
+                        },
+                        {
+                            "id": "e8b9ad24-794b-410d-8a3d-99aad88457a1",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "9489f822-77ce-49bb-a837-d08c35172f2a",
+                    "title": "Gabby the Chatbot",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "da60ef26-942c-4084-90ef-b7cf720e739e",
+                            "weight": 1
+                        },
+                        {
+                            "id": "4653e0e7-c6a2-452a-b9c1-a60efa7b0aae",
+                            "weight": 1
+                        },
+                        {
+                            "id": "ce2faa03-764e-40ed-bdc4-372303e67a0e",
+                            "weight": 1
+                        },
+                        {
+                            "id": "81dd4926-0f2d-46a7-a253-db010fb3cd45",
+                            "weight": 1
+                        },
+                        {
+                            "id": "98f63d8c-2a85-42bc-b052-0f8b34ed1bd8",
+                            "weight": 1
+                        },
+                        {
+                            "id": "fa3e2d8a-c235-4412-9a01-f2f317bee3e0",
+                            "weight": 1
+                        },
+                        {
+                            "id": "105d19a0-50a0-42a8-a700-c3abfc1a933f",
+                            "weight": 1
+                        },
+                        {
+                            "id": "0a7b24d2-cead-415d-9a53-01496578ac03",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "07894da7-bbea-445b-bb3b-da68cd718c70",
+                    "title": "Horoscope",
+                    "required": 8,
+                    "projects": [
+                        {
+                            "id": "641d2294-aa87-4493-8650-1e2922957a8c",
+                            "weight": 1
+                        },
+                        {
+                            "id": "0abcab88-5eda-4c76-9be6-308cceef1c58",
+                            "weight": 1
+                        },
+                        {
+                            "id": "09c627dd-2763-467e-a919-ef917baaa8d0",
+                            "weight": 1
+                        },
+                        {
+                            "id": "af1154ea-0a87-454f-a650-d5ee37ad1c0a",
+                            "weight": 1
+                        },
+                        {
+                            "id": "344b57e4-9e54-4ffd-a6fe-ad28dfd9f817",
+                            "weight": 1
+                        },
+                        {
+                            "id": "81c0e659-af0f-48bd-9f66-29e7526525e2",
+                            "weight": 1
+                        },
+                        {
+                            "id": "c6cf4104-695c-4d6d-84b4-6094ca4e6932",
+                            "weight": 1
+                        },
+                        {
+                            "id": "e370d06e-29ae-46d9-ba50-0683184dceed",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

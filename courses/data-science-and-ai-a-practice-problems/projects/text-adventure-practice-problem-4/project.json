@@ -1,0 +1,103 @@
+{
+    "id": "96f53336-3451-4036-bdc5-ed8589861c37",
+    "name": "Text Adventure #4",
+    "media": {
+        "url": "project://assets/text-adventure-4.png",
+        "type": "image"
+    },
+    "title": "Text Adventure #4",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "bbc2873b-9c2b-49da-9610-68b8ceb70df6",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "714a1a86-7323-4417-b1a3-1397910d5b26",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "0d985241-c76e-484f-9d4c-8c848835d5d6",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>state</span> = input(<span class='python-string'>\"Type your home state: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>if <span class='python-variable'>state</span> == <span class='python-string'>\"Texas\"</span>:</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Howdy!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>elif <span class='python-variable'>state</span> == <span class='python-string'>\"Hawaii\"</span>:</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Aloha!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"Hello!\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "The user inputs <code data-python-type><b>\"texas\"</b></code>. What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "a24f8784-6900-4dcf-b0d8-3f8570ca91ea",
+                                                    "text": "<code>Howdy!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "821932c1-01ce-48b3-bef4-fcabb537264c",
+                                                    "text": "<code>Aloha!</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "91aeb802-c620-4aff-a011-ac68542d80b0",
+                                                    "text": "<code>Hello!</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "aa655595-1e3c-43e8-b19b-07b8d6e43a6c",
+                                                    "text": "<code>SyntaxError</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "0d985241-c76e-484f-9d4c-8c848835d5d6",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "0d985241-c76e-484f-9d4c-8c848835d5d6"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

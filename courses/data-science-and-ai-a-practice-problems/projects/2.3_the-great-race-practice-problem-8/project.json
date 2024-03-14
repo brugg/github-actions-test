@@ -1,0 +1,283 @@
+{
+    "id": "310fb65b-91e9-4026-828c-73a10bfee334",
+    "name": "The Great Race #8",
+    "media": {
+        "url": "project://assets/the-great-race-8.png",
+        "type": "image"
+    },
+    "title": "The Great Race #8",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "bddd47cf-8492-4d66-a2d9-3e0a04387249",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "370a2a7a-437d-49b9-80c1-ead7cc33c0a7",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "2e596af9-1a09-4bd4-a6fd-5aedd6e2368a",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>number_of_sodas</span> = <span class='python-string'>\"3\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>soda_price</span> = <span class='python-number'>1.49</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>tax_percent</span> = <span class='python-number'>5.25</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>number_of_sodas</span> = float(<span class='python-variable'>number_of_sodas</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>total_cost</span> = <span class='python-variable'>number_of_sodas</span> * <span class='python-variable'>soda_price</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>tax_owed</span> = <span class='python-variable'>total_cost</span> * <span class='python-variable'>tax_percent</span> / <span class='python-number'>100</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-variable'>total_cost</span> = <span class='python-variable'>total_cost</span> + <span class='python-variable'>tax_owed</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-variable'>total_owed</span> = round(<span class='python-variable'>total_cost</span>, <span class='python-number'>2</span>)</div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'>print(f<span class='python-string'>\"You owe $</span>{<span class='python-variable'>total_cost</span>} <span class='python-string'>for </span>{<span class='python-variable'>number_of_sodas</span>} <span class='python-string'>sodas.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which lines of code have at least one arithmetic operator?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "abefa5b9-a9de-49c1-9262-8d2e380b009b",
+                                                    "text": "Lines 1 through 8",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a9b654d7-9fb9-4362-935a-5215bea16829",
+                                                    "text": "Lines 2, 3, and 6",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "5ddc9508-b9cf-40fc-81fc-6d25159bd643",
+                                                    "text": "Lines 4, 5, 6, 7, and 8",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "5165d1f3-7e9b-4110-80a5-b461dc9f37b5",
+                                                    "text": "Lines 5, 6, and 7",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2e629bf6-4198-40be-9183-ce4fe5090973",
+                            "title": "#2",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "0463f267-e251-4c3a-b34a-30e540791b62",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>number_of_sodas</span> = <span class='python-string'>\"3\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>soda_price</span> = <span class='python-number'>1.49</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>tax_percent</span> = <span class='python-number'>5.25</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>number_of_sodas</span> = float(<span class='python-variable'>number_of_sodas</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>total_cost</span> = <span class='python-variable'>number_of_sodas</span> * <span class='python-variable'>soda_price</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>tax_owed</span> = <span class='python-variable'>total_cost</span> * <span class='python-variable'>tax_percent</span> / <span class='python-number'>100</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-variable'>total_cost</span> = <span class='python-variable'>total_cost</span> + <span class='python-variable'>tax_owed</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-variable'>total_owed</span> = round(<span class='python-variable'>total_cost</span>, <span class='python-number'>2</span>)</div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'>print(f<span class='python-string'>\"You owe $</span>{<span class='python-variable'>total_cost</span>} <span class='python-string'>for </span>{<span class='python-variable'>number_of_sodas</span>} <span class='python-string'>sodas.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which line or lines of code have two arguments?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "19413bd3-b66c-43ce-83b9-334f2acf640b",
+                                                    "text": "Lines 4 and 8",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "889fa10d-bc48-4ddb-b1b5-24c32fac8105",
+                                                    "text": "Lines 5, 6, 7, and 9",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2edc08b0-714a-424f-92ca-c1c4c34ca2be",
+                                                    "text": "Line 8",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "1d6bd4e6-cbba-44d7-ad3c-89f9796aef4f",
+                                                    "text": "Lines 8 and 9",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7ef09152-0512-4e96-bfcd-a47324d351e4",
+                            "title": "#3",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "b0e3980d-6d37-4bb9-8df8-a665fabba6b2",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>number_of_sodas</span> = <span class='python-string'>\"3\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>soda_price</span> = <span class='python-number'>1.49</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>tax_percent</span> = <span class='python-number'>5.25</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>number_of_sodas</span> = float(<span class='python-variable'>number_of_sodas</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>total_cost</span> = <span class='python-variable'>number_of_sodas</span> * <span class='python-variable'>soda_price</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>tax_owed</span> = <span class='python-variable'>total_cost</span> * <span class='python-variable'>tax_percent</span> / <span class='python-number'>100</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-variable'>total_cost</span> = <span class='python-variable'>total_cost</span> + <span class='python-variable'>tax_owed</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-variable'>total_owed</span> = round(<span class='python-variable'>total_cost</span>, <span class='python-number'>2</span>)</div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'>print(f<span class='python-string'>\"You owe $</span>{<span class='python-variable'>total_cost</span>} <span class='python-string'>for </span>{<span class='python-variable'>number_of_sodas</span>} <span class='python-string'>sodas.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which line or lines of code uses casting?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "49f057db-593b-4742-8a61-8d41f9f105de",
+                                                    "text": "Lines 2 through 8",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a83f3383-8b15-46fe-8ce3-fa031217fa52",
+                                                    "text": "Line 4",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "481b2d26-c68f-4726-869c-b542ace52215",
+                                                    "text": "Lines 4 and 8",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "3b886c3d-1638-49d7-8639-15c1529d9257",
+                                                    "text": "Lines 4, 8, and 9",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2138aa1a-c97b-4b3c-82d0-6278d7c1b060",
+                            "title": "#4",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "e003ff4a-eca1-4f25-829f-88bae166f5a9",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>number_of_sodas</span> = <span class='python-string'>\"3\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>soda_price</span> = <span class='python-number'>1.49</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>tax_percent</span> = <span class='python-number'>5.25</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>number_of_sodas</span> = float(<span class='python-variable'>number_of_sodas</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>total_cost</span> = <span class='python-variable'>number_of_sodas</span> * <span class='python-variable'>soda_price</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>tax_owed</span> = <span class='python-variable'>total_cost</span> * <span class='python-variable'>tax_percent</span> / <span class='python-number'>100</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-variable'>total_cost</span> = <span class='python-variable'>total_cost</span> + <span class='python-variable'>tax_owed</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-variable'>total_owed</span> = round(<span class='python-variable'>total_cost</span>, <span class='python-number'>2</span>)</div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'>print(f<span class='python-string'>\"You owe $</span>{<span class='python-variable'>total_cost</span>} <span class='python-string'>for </span>{<span class='python-variable'>number_of_sodas</span>} <span class='python-string'>sodas.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which line or lines of code have exactly three operators?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "f4d97281-c747-47c4-901d-08306109d2be",
+                                                    "text": "Lines 5 and 7",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6d729def-aa14-40c9-9bbf-4150a722db01",
+                                                    "text": "Line 6",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "9e250b89-6612-4809-b6f1-dab1e5b8ae03",
+                                                    "text": "Line 9",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2a605e2f-a757-49f0-912f-fe55cc2ffad8",
+                                                    "text": "No lines of code have three operators.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+            "title": "Practice Problem",
+            "components": [
+              {
+                "id": "2e596af9-1a09-4bd4-a6fd-5aedd6e2368a",
+                "type": "checkpoint",
+                "weight": 25
+              },
+              {
+                  "id": "0463f267-e251-4c3a-b34a-30e540791b62",
+                  "type": "checkpoint",
+                  "weight": 25
+              },
+              {
+                  "id": "b0e3980d-6d37-4bb9-8df8-a665fabba6b2",
+                  "type": "checkpoint",
+                  "weight": 25
+              },
+              {
+                  "id": "e003ff4a-eca1-4f25-829f-88bae166f5a9",
+                  "type": "checkpoint",
+                  "weight": 25
+              }
+            ],
+            "contexts": [
+              {
+                  "type": "checkpoint",
+                  "title": "Practice Problem",
+                  "checkpoints": [
+                    "2e596af9-1a09-4bd4-a6fd-5aedd6e2368a",
+                    "0463f267-e251-4c3a-b34a-30e540791b62",
+                    "b0e3980d-6d37-4bb9-8df8-a665fabba6b2",
+                    "e003ff4a-eca1-4f25-829f-88bae166f5a9"
+                  ]
+              }
+            ]
+        }
+      ]
+    }
+}

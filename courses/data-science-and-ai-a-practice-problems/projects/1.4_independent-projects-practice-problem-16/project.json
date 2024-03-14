@@ -1,0 +1,318 @@
+{
+    "id": "3789c051-af4e-4a69-b758-c7fc6fe0301b",
+    "name": "Independent Projects #16",
+    "media": {
+        "url": "project://assets/independent-projects-16.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #16",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "4ec6ad74-8970-47c7-804b-8458ebb3cc26",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "c28e3286-2ed7-4ca6-848e-62c51283f7bb",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "variant": "transparent",
+                                    "blocks": [
+                                        {
+                                        "id": "UUID",
+                                        "type": "text",
+                                        "text": "<b>Answer the following four questions.</b>"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "c2af519b-a308-407b-b948-0c8e31a464fd",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>I'm a robot who has taken over your computer</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>secret_number_guess</span> = input(<span class='python-string'>\"Enter the secret number to save your classmates' computers from me: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>f\"I'm sorry, </span>{<span class='python-variable'>secret_number_guess</span>}<span class='python-string'> was the incorrect number. Shutting down all computers near you.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which line in the program has an error?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "fedcb132-730b-4c6a-8dad-312ccb81017d",
+                                                    "type": "text",
+                                                    "text": "1",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "c9b14b1a-95d1-4f9c-b43e-2818d6f96a71",
+                                                    "type": "text",
+                                                    "text": "2",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "8bb1f1be-b9af-4bc2-b7e1-a76aaeb93c43",
+                                                    "type": "text",
+                                                    "text": "3",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b9015e73-65de-42ec-98ef-b3bb3ca95304",
+                                                    "type": "text",
+                                                    "text": "There are no errors.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f319a56d-b9ce-4dae-92a0-f591e9179e64",
+                            "title": "#2",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "ed8da2c5-b0ca-4b95-bb26-64738c64e2a5",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>I'm a robot who has taken over your computer</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>secret_number_guess</span> = input(<span class='python-string'>\"Enter the secret number to save your classmates' computers from me: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>f\"I'm sorry, </span>{<span class='python-variable'>secret_number_guess</span>}<span class='python-string'> was the incorrect number. Shutting down all computers near you.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Why is line 1 causing a <strong><code>SyntaxError</code></strong>?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "513ed467-ebd2-4233-bee1-9b3ba81bf4fc",
+                                                    "type": "text",
+                                                    "text": "The string argument is missing quotes.",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "c7ebd01f-2e07-4d0a-970c-69a43f5ababb",
+                                                    "type": "text",
+                                                    "text": "It's using a variable that is not defined.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "88d97d09-aed3-45f6-bea6-69ddc60897cc",
+                                                    "type": "text",
+                                                    "text": "The print function cannot be used with strings.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "d1a2952e-9ac0-4682-8120-292e446fca0e",
+                                                    "type": "text",
+                                                    "text": "The line should not have ().",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "02d659bf-1bf9-43fc-9c29-1dcbff468feb",
+                            "title": "#3",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "16708d15-fc30-483a-b5b5-54f99d2e405c",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>I'm a robot who has taken over your computer</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>secret_number_guess</span> = input(<span class='python-string'>\"Enter the secret number to save your classmates' computers from me: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>f\"I'm sorry, </span>{<span class='python-variable'>secret_number_guess</span>}<span class='python-string'> was the incorrect number. Shutting down all computers near you.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Why is there an <strong><code>f</code></strong> in front of the string on line 3?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "ad449df9-444d-438f-8c24-79e28a76015c",
+                                                    "type": "text",
+                                                    "text": "There should always be an <strong><code>f</code></strong> in front of a string.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "0ca234e5-2a31-4b83-b35b-e0481e6228bb",
+                                                    "type": "text",
+                                                    "text": "The string is not being printed.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2ded7b07-1e4a-43bc-a504-5b4a7b57e3bc",
+                                                    "type": "text",
+                                                    "text": "The <strong><code>f</code></strong> should be removed.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "4fb75e1b-e1f1-4f59-8d77-6e81891b11a5",
+                                                    "type": "text",
+                                                    "text": "The string contains a variable.",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1756a612-3d35-4c87-aff9-bacbc9ea7439",
+                            "title": "#4",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "06d31cef-56cf-4c74-9503-03d701f6c01b",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>I'm a robot who has taken over your computer</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>secret_number_guess</span> = input(<span class='python-string'>\"Enter the secret number to save your classmates' computers from me: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>f\"I'm sorry, </span>{<span class='python-variable'>secret_number_guess</span>}<span class='python-string'> was the incorrect number. Shutting down all computers near you.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option will add to the code so that it gives an output like below:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "I'm a robot who has taken over your computer <br> Enter the secret number to save your classmates' computers from me: 1000 <br> Verifying number...<br><br>I'm sorry, 1000 was the incorrect number. Shutting down all computers near you."
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "38d2cfc3-7ff1-48e7-8a75-0c49515ce60d",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"I'm a robot who has taken over your computer\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>secret_number_guess</span> = input(<span class='python-string'>\"Enter the secret number to save your classmates' computers from me: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>\"Verifying number...\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-string'>\"Verifying number...\"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>print(f\"I'm sorry, <span class='python-code'>{</span><span class='python-variable'>secret_number_guess</span><span class='python-code'>}</span> was the incorrect number. Shutting down all computers near you.\")</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "01df272c-25d9-4cd5-aba7-584c1756a18e",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"I'm a robot who has taken over your computer\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>secret_number_guess</span> = input(<span class='python-string'>\"Enter the secret number to save your classmates' computers from me: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>input(<span class='python-string'>\"Verifying number...\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>input()</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>print(f\"I'm sorry, <span class='python-code'>{</span><span class='python-variable'>secret_number_guess</span><span class='python-code'>}</span> was the incorrect number. Shutting down all computers near you.\")</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a53d4c76-2beb-4062-9454-e13997da12f1",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"I'm a robot who has taken over your computer\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>secret_number_guess</span> = input(<span class='python-string'>\"Enter the secret number to save your classmates' computers from me: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>\"Verifying number...\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>input()</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>print(f\"I'm sorry, <span class='python-code'>{</span><span class='python-variable'>secret_number_guess</span><span class='python-code'>}</span> was the incorrect number. Shutting down all computers near you.\")</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "d9b23e95-e1bf-4d4a-bbb5-14965be577eb",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"I'm a robot who has taken over your computer\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>secret_number_guess</span> = input(<span class='python-string'>\"Enter the secret number to save your classmates' computers from me: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>\"Verifying number...\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print()</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>print(f\"I'm sorry, <span class='python-code'>{</span><span class='python-variable'>secret_number_guess</span><span class='python-code'>}</span> was the incorrect number. Shutting down all computers near you.\")</div></div>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problems",
+          "components": [
+            {
+              "id": "c2af519b-a308-407b-b948-0c8e31a464fd",
+              "type": "checkpoint",
+              "weight": 25
+            },
+            {
+                "id": "ed8da2c5-b0ca-4b95-bb26-64738c64e2a5",
+                "type": "checkpoint",
+                "weight": 25
+            },
+            {
+                "id": "16708d15-fc30-483a-b5b5-54f99d2e405c",
+                "type": "checkpoint",
+                "weight": 25
+            },
+            {
+                "id": "06d31cef-56cf-4c74-9503-03d701f6c01b",
+                "type": "checkpoint",
+                "weight": 25
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problems",
+                "checkpoints": [
+                  "c2af519b-a308-407b-b948-0c8e31a464fd",
+                  "ed8da2c5-b0ca-4b95-bb26-64738c64e2a5",
+                  "16708d15-fc30-483a-b5b5-54f99d2e405c",
+                  "06d31cef-56cf-4c74-9503-03d701f6c01b"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

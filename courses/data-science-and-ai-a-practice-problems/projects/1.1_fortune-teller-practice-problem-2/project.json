@@ -1,0 +1,102 @@
+{
+    "id": "c5f9fd8c-d16b-48fd-8691-3372b64fa3d0",
+    "name": "Fortune Teller #2",
+    "media": {
+        "url": "project://assets/fortune-teller-2.png",
+        "type": "image"
+    },
+    "title": "Fortune Teller #2",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "f04b4b43-860c-46b9-8240-3ba9e9678078",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "fa9e1e21-35e1-4a3f-beda-985c9f5530f0",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "59a1139f-9b55-449c-8bd5-90c3007cc1e9",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option is NOT a string?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "f71d9be1-4293-4cd4-b992-a011d9daa289",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-string'>\"hello\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "e6f84254-0e29-4bc1-b6bd-d56cb4d38ae9",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-string'>'hello'</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2939c687-92c1-4131-a780-9d015745c9fd",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-string'>\"hi\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1c6dc1a2-3656-4f2d-81a7-9b467ab41889",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>hello</span></div></div>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "59a1139f-9b55-449c-8bd5-90c3007cc1e9",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "59a1139f-9b55-449c-8bd5-90c3007cc1e9"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

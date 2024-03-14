@@ -1,0 +1,99 @@
+{
+    "id": "098771aa-7901-4285-9175-da75d61e451f",
+    "name": "Can I Take Your Order? #7",
+    "media": {
+        "url": "project://assets/can-i-take-your-order-7.png",
+        "type": "image"
+    },
+    "title": "Can I Take Your Order? #7",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "9a38ecf1-ac6a-4851-80cb-138740a194e5",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "8214c221-25fb-4f43-9f7b-5ec11671f12b",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "83047fc5-da69-4fc7-a1f3-d4e3d81ab5b3",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "What does this code do?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(f<span class='python-string'>\"The </span>{<span class='python-variable'>adjective</span>} {<span class='python-variable'>monster</span>}<span class='python-string'>\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>adjective</span> = <span class='python-string'>\"dizzy\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>monster</span> = <span class='python-string'>\"vampire\"</span></div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "7e3c4986-3e34-4cf4-b6b1-404bec91b9aa",
+                                                    "text": "It prints <code>\"The dizzy vampire\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "f19ef308-7407-4635-9ab0-bb39656a0097",
+                                                    "text": "It prints <code>f\"The {adjective} {monster}\"</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "53f01df0-2c45-4593-b214-44fd2ef4dabf",
+                                                    "text": "There is an error, because the variables don't have any value when printed on Line 1",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "d3272c6d-17b2-4ee6-9a84-0071d6326820",
+                                                    "text": "There is an error, because Lines 2 and 3 do not ask for user input",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "83047fc5-da69-4fc7-a1f3-d4e3d81ab5b3",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "83047fc5-da69-4fc7-a1f3-d4e3d81ab5b3"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

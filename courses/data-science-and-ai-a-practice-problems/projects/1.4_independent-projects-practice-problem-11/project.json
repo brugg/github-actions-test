@@ -1,0 +1,103 @@
+{
+    "id": "edea9ae8-73cd-4b28-9b2b-2db3cdebddb5",
+    "name": "Independent Projects #11",
+    "media": {
+        "url": "project://assets/independent-projects-11.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #11",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "1fb93f92-dfd9-4355-8616-5fe13a4e5edd",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "cc2a0b4e-3198-4015-8a04-b8f592f2ed57",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "617c1b93-7c7d-4daf-8de7-c9182a033d6b",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which line is causing a <strong><code>SyntaxError</code></strong> in the code below?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>input()<span class='python-string'>\"What do you want to be when you grow up\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(<span class='python-string'>\"Very interesting!\"</span>)</div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "c1c7ee75-b0a1-472d-9fe5-44e98ff5876f",
+                                                    "type": "text",
+                                                    "text": "1",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "306109bc-20e2-438d-b62f-0f100145b6bb",
+                                                    "type": "text",
+                                                    "text": "2",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "0c49e2a7-7d04-4dc0-9ca7-1c6de7adf0e8",
+                                                    "type": "text",
+                                                    "text": "None of the above",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "9735d9e2-c217-4e13-b784-e14fd851f424",
+                                                    "type": "text",
+                                                    "text": "All of the above",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "617c1b93-7c7d-4daf-8de7-c9182a033d6b",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "617c1b93-7c7d-4daf-8de7-c9182a033d6b"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

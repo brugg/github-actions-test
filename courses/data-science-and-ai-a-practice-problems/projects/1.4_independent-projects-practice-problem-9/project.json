@@ -1,0 +1,102 @@
+{
+    "id": "7f71a007-b0e9-4051-8c9c-ab9eb50f5f24",
+    "name": "Independent Projects #9",
+    "media": {
+        "url": "project://assets/independent-projects-9.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #9",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "087e9742-ccf7-439f-904c-e927536c847d",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "5cb9b06c-8184-4ade-ab88-93260924b064",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "fac83236-9c99-4988-992d-96c907209015",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option uses proper Python syntax to assign the value <strong><code>\"green\"</code></strong> to a variable?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "dcba68b6-4486-4ec0-939d-347a20ec60fa",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-string'>\"green\"</span> = <span class='python-string'>\"green\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2f72265e-c27d-4821-911f-d7d528cf29fe",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>green</span> = <span class='python-string'>\"green\"</span></div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "0ad73bd2-466d-4a50-aa2a-fecc41c23afd",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>favorite color</span> = <span class='python-string'>\"green\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6fe89431-c9d4-4ee0-9f5d-5fff5d656378",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-string'>\"green\"</span> = <span class='python-variable'>eyeColor</span></div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "fac83236-9c99-4988-992d-96c907209015",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "fac83236-9c99-4988-992d-96c907209015"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

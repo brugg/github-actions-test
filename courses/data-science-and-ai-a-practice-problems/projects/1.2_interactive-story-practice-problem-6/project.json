@@ -1,0 +1,94 @@
+{
+    "id": "b8dc492c-d552-4b74-828d-85a241e09a55",
+    "name": "Interactive Story #6",
+    "media": {
+        "url": "project://assets/interactive-story-6.png",
+        "type": "image"
+    },
+    "title": "Interactive Story #6",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "5e755f38-f56b-44af-acbc-fa864ad46b97",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "a89fe099-a9f9-4082-a247-1755942907ab",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "0b6c3244-fefd-45f2-8451-a46d865cef39",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Calling <strong><code>print()</code></strong> will print a message. Where on the screen does the message appear?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "a904aab9-78dc-4d23-9dd3-cdc411d9d05d",
+                                                    "text": "The editor",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "f3ce8523-8ca2-4a52-ba05-1ab384a8cdee",
+                                                    "text": "The function",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "d323d7ff-ad15-4ac6-b8de-0c9a4f656815",
+                                                    "text": "The argument",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "89466be0-85d6-4c6f-acdb-211d81902098",
+                                                    "text": "The console",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "0b6c3244-fefd-45f2-8451-a46d865cef39",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "0b6c3244-fefd-45f2-8451-a46d865cef39"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "id": "7c711414-6097-4415-afa6-e63b2e02846d",
+    "name": "Snack Shack #4",
+    "media": {
+        "url": "project://assets/snack-shack-4.png",
+        "type": "image"
+    },
+    "title": "Snack Shack #4",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "bd8c06d1-d4e0-4c2a-b13b-268141f51230",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "34e04271-ab71-4d3b-b3c5-c44cec9559aa",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "b36982c3-cacc-45e3-8c1c-6626f7c45f8d",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "In coding, an expression is a piece of code that can produce a value. Which of these is <b>not</b> an expression?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "8b8823ae-7808-43e3-8d09-59787ace909f",
+                                                    "text": "<code>7 + 3</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "8d693259-00f2-42fb-81d2-7fb33073895d",
+                                                    "text": "<code>hours_in_day * 7</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "8e057823-733c-4f44-a8dc-c65b4be399e7",
+                                                    "text": "<code>print()</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "251e6666-1762-4cb4-bc95-22196959f737",
+                                                    "text": "<code>3.99</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "b36982c3-cacc-45e3-8c1c-6626f7c45f8d",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "b36982c3-cacc-45e3-8c1c-6626f7c45f8d"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

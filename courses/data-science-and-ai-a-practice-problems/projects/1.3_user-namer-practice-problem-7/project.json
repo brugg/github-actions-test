@@ -1,0 +1,102 @@
+{
+    "id": "d2e087bb-2ac9-4545-9ec6-d2e9c336d3e3",
+    "name": "User Namer #7",
+    "media": {
+        "url": "project://assets/user-namer-7.png",
+        "type": "image"
+    },
+    "title": "User Namer #7",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "3fc9c1b7-9542-47d7-9d7a-7c4defe6a442",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "6f76bf0d-442a-477f-a262-e8058a616b2e",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "e8c5ec51-d8de-4599-9ea7-8671b192c663",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option correctly assigns the value <code>\"dolphin\"</code> to the variable <code>ocean_animal</code>?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "1bd8b0f7-e427-43a0-8a64-188c56bc67c1",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-string'>\"dolphin\"</span> = <span class='python-variable'>ocean_animal</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b7d402c0-a369-4f83-8473-a5e30625f840",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>ocean animal</span> = <span class='python-string'>\"dolphin\"</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b64ab73b-1f35-438d-a701-3d59d894f809",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>ocean_animal</span> = <span class='python-string'>\"dolphin\"</span></div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "ec1f6060-dc88-496c-a23a-56bd958bc5be",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>ocean_animal</span> = variable <span class='python-string'>\"dolphin\"</span></div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "e8c5ec51-d8de-4599-9ea7-8671b192c663",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "e8c5ec51-d8de-4599-9ea7-8671b192c663"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

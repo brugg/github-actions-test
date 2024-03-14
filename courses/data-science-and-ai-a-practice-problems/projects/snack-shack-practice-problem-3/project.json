@@ -1,0 +1,93 @@
+{
+    "id": "2ed9f155-d42d-42dc-8465-281f13e471a4",
+    "name": "Snack Shack #3",
+    "media": {
+        "url": "project://assets/snack-shack-3.png",
+        "type": "image"
+    },
+    "title": "Snack Shack #3",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "5f5cc5a4-e430-44b4-b68a-a1942f6f469e",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "a5579c74-9197-4f0b-9482-9373a334ffb7",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "77f2ea47-3d7e-4f2c-8b13-e80b9d9fabfb",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which of these values is not a float?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "a9769117-45a4-4327-9bec-6e9f0acc68f5",
+                                                    "text": "<code>98.0</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "e1f368a6-a871-4cc5-817a-4f80fb53c860",
+                                                    "text": "<code>47.323</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "60174d43-ed2b-4014-97d8-4a40bb5c2a15",
+                                                    "text": "<code>0.0014</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "6c7af17e-ea92-4c5a-aa11-64744d87fb5b",
+                                                    "text": "<code>\"86.11\"</code>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "77f2ea47-3d7e-4f2c-8b13-e80b9d9fabfb",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "77f2ea47-3d7e-4f2c-8b13-e80b9d9fabfb"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

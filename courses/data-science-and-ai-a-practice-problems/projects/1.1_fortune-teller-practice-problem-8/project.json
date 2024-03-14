@@ -1,0 +1,312 @@
+{
+    "id": "df6596b8-a086-4f38-98eb-0571784dfaca",
+    "name": "Fortune Teller #8",
+    "media": {
+        "url": "project://assets/fortune-teller-8.png",
+        "type": "image"
+    },
+    "title": "Fortune Teller #8",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "6f52b08f-01ef-4604-9b94-f0da08b941d7",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "e742fc0c-8707-43f7-9e23-0c730f09f441",
+                            "title": "#1",
+                            "activity_id": "practice-problem",
+                            "block_groups": [
+                                    {
+                                        "id": "UUID",
+                                        "variant": "transparent",
+                                        "blocks": [
+                                            {
+                                            "id": "UUID",
+                                            "type": "text",
+                                            "text": "<b>Answer the following four questions.</b>"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "c891b729-6235-4cf3-98da-a500e0dcf3bb",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "The code is broken. What error shows in the console when running this code?"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Press play <img style='margin: 0; vertical-align: -1.75px;' src='course://assets/pickcode-run.png'> to find the answer."
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "4702560c-dc63-4671-8af6-db26b181bfe1",
+                                                    "text": "<code>SyntaxError</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "faf71f28-2a53-4abc-a812-9af87842901e",
+                                                    "text": "<code>NameError</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "58752ff8-eb42-458d-b7a4-7aef8d2dc2e6",
+                                                    "text": "<code>IndentationError</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "0ff59a34-9c79-47bd-9ebd-f7bbf788f4d0",
+                                                    "text": "<code>TypeError</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6d55100d-e2e2-42f2-b702-8f76c3c6fa52",
+                            "title": "#2",
+                            "activity_id": "practice-problem",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "ce8919e0-e1ea-459d-a3b2-4c88615b75c0",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option will fix the code to print the message below in the console?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "Do you want to learn to code with me?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "5660906f-2661-4b06-b170-0a210b86fd6a",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>'Do you want to learn to code with me?'</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "77318729-f047-4360-a19a-2cd61f939977",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"Do you want to learn to code with me?</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "e73f00c2-874d-4186-8d2f-f3e8cbeff76c",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(Do you want to learn to code with me?)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "d93c4774-fff4-43ca-8174-ceefe317cb8d",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print Do you want to learn to code with me?</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5ab0859d-c8c1-4843-9737-dd99e6539b35",
+                            "title": "#3",
+                            "activity_id": "practice-problem",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "c35158c3-b279-4d55-801b-dfba6181c230",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option calls the <strong><code>input()</code></strong> function after asking the user if they would like to learn to code?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "62934ffa-a30d-4f18-8d95-f9fe5a5ebf1d",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class=' line-number'>1</div><div class='code'>input()</div></div><div class='snippet-row'><div class=' line-number'>2</div><div class='code'>print(<span class='python-string'>\"Do you want to learn to code with me?\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b05c21b4-053c-4e9a-b757-1608ad40dc4f",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class=' line-number'>1</div><div class='code'>print(<span class='python-string'>\"Do you want to learn to code with me?\"</span>)</div></div><div class='snippet-row'><div class=' line-number'>2</div><div class='code'>input</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "70e4adb5-5309-4e39-8f49-da047db5690b",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class=' line-number'>1</div><div class='code'>print(<span class='python-string'>\"Do you want to learn to code with me?\"</span>)</div></div><div class='snippet-row'><div class=' line-number'>2</div><div class='code'>print()</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "0a897320-bcde-460b-bb3e-0576c6d8032e",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class=' line-number'>1</div><div class='code'>print(<span class='python-string'>\"Do you want to learn to code with me?\"</span>)</div></div><div class='snippet-row'><div class=' line-number'>2</div><div class='code'>input()</div></div>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "df61aa19-5fa6-4633-ab12-3574dd2db406",
+                            "title": "#4",
+                            "activity_id": "practice-problem",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "a9d79d52-ae7f-40ae-9131-9d71a7571147",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Why will line 3 cause an error?"
+                                                },
+                                                {
+                                                    "type": "media",
+                                                    "media": {
+                                                        "url": "project://assets/fortune-teller-8-4.png",
+                                                        "type": "image"
+                                                    }
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "6b649525-33bb-4133-9ce4-186fd86b986f",
+                                                    "text": "A program can only use <strong><code>print()</code></strong> once.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "c6649749-760a-41ea-b5cc-c8bff1815d33",
+                                                    "text": "Exclamation points are not allowed in strings.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a78c80ff-999b-4716-8d29-c2e58cbc15e8",
+                                                    "text": "<strong><code>input()</code></strong> must be the last line in a program.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "cd67aab9-3fd4-4b10-94ea-3d89152fb2fb",
+                                                    "text": "The <strong><code>print</code></strong> function is missing a (",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problems",
+          "components": [
+            {
+              "id": "c891b729-6235-4cf3-98da-a500e0dcf3bb",
+              "type": "checkpoint",
+              "weight": 25
+            },
+            {
+                "id": "ce8919e0-e1ea-459d-a3b2-4c88615b75c0",
+                "type": "checkpoint",
+                "weight": 25
+            },
+            {
+                "id": "c35158c3-b279-4d55-801b-dfba6181c230",
+                "type": "checkpoint",
+                "weight": 25
+            },
+            {
+                "id": "a9d79d52-ae7f-40ae-9131-9d71a7571147",
+                "type": "checkpoint",
+                "weight": 25
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problems",
+                "checkpoints": [
+                  "c891b729-6235-4cf3-98da-a500e0dcf3bb",
+                  "ce8919e0-e1ea-459d-a3b2-4c88615b75c0",
+                  "c35158c3-b279-4d55-801b-dfba6181c230",
+                  "a9d79d52-ae7f-40ae-9131-9d71a7571147"
+                ]
+            }
+          ]
+        }
+      ]
+    },
+    "activities": {
+        "practice-problem": {
+            "id": "dsai-a-pp-fortune-teller-8",
+            "tool": "pickcode",
+            "action": "edit",
+            "pickcode": {
+                "title": "Practice Problem",
+                "language": "Python",
+                "files": [
+                {
+                    "filename": "main.py",
+                    "contents": [
+                        "print(Do you want to learn to code with me?)"
+                    ]
+                }
+                ]
+            }
+        }
+    }
+}

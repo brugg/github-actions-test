@@ -1,0 +1,102 @@
+{
+    "id": "62788229-1191-41da-9730-bac48b2dbf9a",
+    "name": "Independent Projects #2",
+    "media": {
+        "url": "project://assets/independent-projects-2.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #2",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "c62f736d-f2fc-4d1a-aaec-08634bd472ed",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "ef3cc847-fbad-4b1a-a7dc-09c0462e2968",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "1c48e8f6-dbf1-40de-b6db-f71894c11044",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option correctly greets the user using their first and last name?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "e525dcb3-607f-4646-8698-cd6d3bf34280",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>first_name</span> = input(<span class='python-string'>\"Enter your first name: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>last_name</span> = input(<span class='python-string'>\"Enter your last name: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>greeting</span> = <span class='python-string'>\"Hello, {first_name} {last_name}!\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>greeting</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a65eeb66-86e4-4b55-a612-9259b51fad87",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>first_name</span> = input(<span class='python-string'>\"Enter your first name: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>last_name</span> = input(<span class='python-string'>\"Enter your last name: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>greeting</span> = <span class='python-string'>\"Hello, first_name last_name!\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>greeting</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "fb75dff5-cd9a-401e-a8a2-0f3d9abee94b",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>first_name</span> = input(<span class='python-string'>\"Enter your first name: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>last_name</span> = input(<span class='python-string'>\"Enter your last name: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>greeting</span> = <span class='python-string'>f\"Hello, <span class='python-code'>{</span>first_name<span class='python-code'>}</span> <span class='python-code'>{</span>last_name<span class='python-code'>}</span>!\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>greeting</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "08640f2b-c8d0-48c5-a332-6aea58d2267e",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>first_name</span> = input(<span class='python-string'>\"Enter your first name: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>greeting</span> = <span class='python-string'>\"Hello, {first_name}!\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>greeting</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "1c48e8f6-dbf1-40de-b6db-f71894c11044",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "1c48e8f6-dbf1-40de-b6db-f71894c11044"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

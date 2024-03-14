@@ -1,0 +1,119 @@
+{
+    "id": "24d4995f-8961-4d63-adf7-e0705ba7f9ee",
+    "name": "User Namer #4",
+    "media": {
+        "url": "project://assets/user-namer-4.png",
+        "type": "image"
+    },
+    "title": "User Namer #4",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "043105e2-ee42-4b7a-8a6a-0c2ed6ac5128",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "39ed058a-cdcf-4799-a4fa-a1c8f7c04a26",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "0611c144-229e-4192-9fe0-5e76f9158fc3",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "There is a bug in this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>tree</span> = input(<span class='python-string'>\"Name a type of tree: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>kitchen_object</span> = input(<span class='python-string'>\"Name a kitchen object: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>title</span> = <span class='python-string'>\"The {kitchen_object} on the {tree}\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>title</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "This program is supposed to print a string that includes user input."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "Name a type of tree: Palm Tree<br>Name a kitchen object: Spoon<br>The Spoon on the Palm Tree"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option will fix the code?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "030b2846-071c-4fb1-8278-95c657ee5492",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>tree</span> = input(<span class='python-string'>\"Name a type of tree: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>kitchen_object</span> = input(<span class='python-string'>\"Name a kitchen object: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>title</span> = <span class='python-string'>\"The {kitchenObject} on the {tree}\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>title</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "9a4e2765-5dc1-4c38-a9dd-ff3c66ad9618",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>tree</span> = input(<span class='python-string'>\"Name a type of tree: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>kitchen_object</span> = input(<span class='python-string'>\"Name a kitchen object: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>title</span> = <span class='python-string'>\"The kitchen_object on the tree\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>title</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "ecca3bac-c260-44b2-a321-8b0627346b20",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>tree</span> = input(<span class='python-string'>\"Name a type of tree: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>kitchen_object</span> = input(<span class='python-string'>\"Name a kitchen object: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>title</span> = <span class='python-keyword'>f</span><span class='python-string'>\"The kitchen_object on the tree\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>title</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2994b5a1-723c-4971-aedb-34ee2636acfa",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>tree</span> = input(<span class='python-string'>\"Name a type of tree: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>kitchen_object</span> = input(<span class='python-string'>\"Name a kitchen object: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>title</span> = <span class='python-keyword'>f</span><span class='python-string'>\"The <span class='python-code'>{</span></span><span class='python-variable'>kitchen_object</span><span class='python-code'>}</span> on the <span class='python-code'>{</span><span class='python-variable'>tree</span><span class='python-code'>}</span>\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>title</span>)</div></div>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "0611c144-229e-4192-9fe0-5e76f9158fc3",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "0611c144-229e-4192-9fe0-5e76f9158fc3"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

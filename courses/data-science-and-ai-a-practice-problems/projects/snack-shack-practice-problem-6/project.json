@@ -1,0 +1,93 @@
+{
+    "id": "c2a5a38f-940c-4b46-95e8-20bf7196f300",
+    "name": "Snack Shack #6",
+    "media": {
+        "url": "project://assets/snack-shack-6.png",
+        "type": "image"
+    },
+    "title": "Snack Shack #6",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "ee6d41b3-d513-4990-b6a5-8fe3b7b63138",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "a1806f64-643b-4a9a-b9ad-4a6c30415766",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "77d8ce0a-a6bc-47ca-964f-1427c5509542",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "An \"augmented operator\" is a combination of which two other kinds of operators? <b>Select two answers.</b>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "5ee04bd3-7538-48ce-99b7-8417d8413233",
+                                                    "text": "Arithmetic operator (<code>+, -, *, /</code>)",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "5eb84448-2204-4b56-8c96-a74d7cac7b9d",
+                                                    "text": "Assignment operator (<code>=</code>)",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "dfac1c05-4f27-4b49-8b09-422d447540b3",
+                                                    "text": "Comparison operator (<code>> < >= <=</code>)",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2bb71b46-4b04-43c9-b0f1-a6992999494a",
+                                                    "text": "Equality operator (<code>==</code>)",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "77d8ce0a-a6bc-47ca-964f-1427c5509542",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "77d8ce0a-a6bc-47ca-964f-1427c5509542"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

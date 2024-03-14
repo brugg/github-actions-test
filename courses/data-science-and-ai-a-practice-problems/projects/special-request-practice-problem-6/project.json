@@ -1,0 +1,103 @@
+{
+    "id": "3ef5609c-54fc-49ef-a2ba-53403a132552",
+    "name": "Special Request #6",
+    "media": {
+        "url": "project://assets/special-request-6.png",
+        "type": "image"
+    },
+    "title": "Special Request #6",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "70e3786a-834d-4d02-b3a6-e556d8ce941f",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "fe232746-c33e-4740-ae33-8c590bbfbb91",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "17e03255-6ec0-48cf-b9f6-65928096d5a5",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given this code:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>choice_1</span> = input(<span class='python-string'>\"Do you want a fruit or vegetable? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>if <span class='python-variable'>choice_1</span> == <span class='python-string'>\"fruit\"</span>:</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;<span class='python-variable'>choice_2</span> = input(<span class='python-string'>\"Do you want a crunchy or soft fruit? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if <span class='python-variable'>choice_2</span> != <span class='python-string'>\"soft\"</span>:</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"I recommend an apple!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"I recommend a banana!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'>else:</div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;<span class='python-variable'>choice_2</span> = input(<span class='python-string'>\"Do you want a sweet or bland vegetable? \"</span>)</div></div><div class='snippet-row'><div class='line-number'>10</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if <span class='python-variable'>choice_2</span> != <span class='python-string'>\"bland\"</span>:</div></div><div class='snippet-row'><div class='line-number'>11</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"I recommend a carrot!\"</span>)</div></div><div class='snippet-row'><div class='line-number'>12</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:</div></div><div class='snippet-row'><div class='line-number'>13</div><div class='code'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<span class='python-string'>\"I recommend a cucumber!\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What input would the user have to give to see the output \"I recommend a banana!\"?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "a12062ac-b3ae-4ce2-8849-1afdc2b37bc2",
+                                                    "text": "<code>fruit<br>sweet</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "e0d356e5-981d-4805-b552-d5f9ff50578b",
+                                                    "text": "<code>fruit<br>soft</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "0d054548-d768-4584-99ed-839c403f9d2e",
+                                                    "text": "<code>fruit<br>bland</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "9162ead4-c8f0-470d-8199-555035afe5e4",
+                                                    "text": "<code>fruit<br>crunchy</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "17e03255-6ec0-48cf-b9f6-65928096d5a5",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "17e03255-6ec0-48cf-b9f6-65928096d5a5"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

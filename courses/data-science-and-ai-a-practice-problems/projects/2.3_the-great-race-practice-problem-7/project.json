@@ -1,0 +1,103 @@
+{
+    "id": "eabeb8f9-c53d-4af5-ad6e-c908d4caa5ad",
+    "name": "The Great Race #7",
+    "media": {
+        "url": "project://assets/the-great-race-7.png",
+        "type": "image"
+    },
+    "title": "The Great Race #7",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "2d31e629-af8b-4c2e-88fd-ad03d16c6e8a",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "e4ab3892-0a8b-4fa3-965d-88418f7652d3",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "4dbd4c24-695b-422c-9d1f-203b37352f37",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Review this code."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>miles_per_hour</span> = input(<span class='python-string'>\"How fast are you driving? Enter the number of miles per hour: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>distance_in_miles</span> = input(<span class='python-string'>\"How far away are you? Enter the number of miles: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># time = distance / speed</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>hours</span> = <span class='python-variable'>distance_in_miles</span> / <span class='python-variable'>miles_per_hour</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'>print(f<span class='python-string'>\"It will take you </span>{<span class='python-variable'>hours</span>}<span class='python-string'> hours to get there.\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "This code causes a <code>TypeError</code>. Why?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "a50abd9e-6d8c-462e-9fa8-07cb52e3d540",
+                                                    "text": "The formula on Line 4 is typed wrong.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b7bac2c7-ffca-49c7-95b1-9e440aeb4fbf",
+                                                    "text": "You can't divide two strings.",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "27380fb3-a574-491b-93fc-2966ec37c5f7",
+                                                    "text": "You have to cast the variable <code>hours</code> to the float data type.",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2ef9cb61-918f-497b-9f0d-52924dbf2844",
+                                                    "text": "You can't divide two floats.",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "4dbd4c24-695b-422c-9d1f-203b37352f37",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "4dbd4c24-695b-422c-9d1f-203b37352f37"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

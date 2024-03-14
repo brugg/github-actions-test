@@ -1,0 +1,107 @@
+{
+    "id": "3c1e0a9f-ef84-4423-80a6-38fc9d635864",
+    "name": "Independent Projects #13",
+    "media": {
+        "url": "project://assets/independent-projects-13.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #13",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "717a526c-7129-4ded-87e5-4b6117f0ebf8",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "901d9ef1-6ffc-41e5-9fc6-52c59220fbce",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "e5c48eb3-fed4-4615-97e8-6e66c34bf15c",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option matches the output below?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "Romeo and Juliet<br><br>by William Shakespeare<br>1597"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "d58e3f9f-ddda-4462-981f-1376ac3d5ae4",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"Romeo and Juliet\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(blank)</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>\"by William Shakespeare\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-string'>\"1597\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "9aa12125-22bd-4955-b6da-371bb5215d5c",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"Romeo and Juliet\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print()</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>\"by William Shakespeare\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-string'>\"1597\"</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "7d108e4e-97d0-4fe9-8901-567c7130daa3",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"Romeo and Juliet\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>\"by William Shakespeare\"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-string'>\"1597\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "382faf5b-799b-4996-8d9e-3ec746d30104",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"Romeo and Juliet\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(<span class='python-string'>\"by William Shakespeare\"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'>print(<span class='python-string'>\"1597\"</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "e5c48eb3-fed4-4615-97e8-6e66c34bf15c",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "e5c48eb3-fed4-4615-97e8-6e66c34bf15c"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

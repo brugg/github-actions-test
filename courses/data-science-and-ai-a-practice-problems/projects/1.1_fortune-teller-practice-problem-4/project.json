@@ -1,0 +1,107 @@
+{
+    "id": "4531c86d-dd04-4e6d-8e64-7da010c0be1f",
+    "name": "Fortune Teller #4",
+    "media": {
+        "url": "project://assets/fortune-teller-4.png",
+        "type": "image"
+    },
+    "title": "Fortune Teller #4",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "590352ee-f7e3-436a-b500-d41e1541f4b9",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "0693c4bb-fc2d-4cd7-82ff-0082ff84f4b4",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "0132f61d-3bc9-420f-8aef-7fa6de8e9743",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option will print the message below in the console?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "hello friend"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "b058145d-cfe0-4357-8fcc-da6c7217f02e",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>hello friend</span></div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "8b4c02e4-9dd5-4744-866f-a9166bb38bc4",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"hello friend\"</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "5c4ef3ab-d423-4d5e-b071-020368b4b826",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"hello friend</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1b954807-a0d4-473e-be59-3fb21d3d9bf3",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>hello friend\"</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "0132f61d-3bc9-420f-8aef-7fa6de8e9743",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "0132f61d-3bc9-420f-8aef-7fa6de8e9743"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

@@ -1,0 +1,1637 @@
+[
+  {
+    "id": "computer-science",
+    "title": "Computer Science",
+    "terms": [
+      {
+        "id": "algorithm",
+        "title": "algorithm",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An algorithm is a step-by-step list of instructions used to reach a goal or solve a problem. A computer program is made from one or more algorithms.<br><br>This algorithm shows steps performed one at a time.",
+            "media": {
+              "url": "course://assets/vocabulary/Algorithm_Example.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "ANALOGY",
+            "text": "An algorithm is like the instructions found inside a box of building blocks. To build something, like a house or a train, you follow the step-by-step instructions to reach your goal.",
+            "media": {
+              "url": "course://assets/vocabulary/Algorithm_Analogy.gif",
+              "type": "image"
+            }
+          }
+        ]
+      },
+      {
+        "id": "argument",
+        "title": "argument",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An argument is a value provided as input to a function. An argument can be a number, string, or another data type. Some functions take more than one argument, separated by commas."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of arguments passed to functions in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Function call with one string argument</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>print(</span><span class='python-string'>\"Hello World!\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Function call with two arguments, a float and an int</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>round(</span><span class='python-number'>48904.945</span><span class='python-code'>,</span><span class='python-number'> 2</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "assign",
+        "title": "assign",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To assign is to give a value to a variable or to store information."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples showing variables being assigned values using the assignment operator =.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>age</span><span class='python-code'> = </span><span class='python-number'>16</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>name</span><span class='python-code'> = </span><span class='python-string'>\"Sylva\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>student</span><span class='python-code'> = True</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "boolean",
+        "title": "Boolean",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A Boolean data type, also known as boolean or bool, is always either true or false. Conditional statements evaluate to a Boolean value to determine whether a block of code should run."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of Boolean values stored in Python variables. In Python, True and False are capitalized.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>is_light_on</span><span class='python-code'> = True</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>is_game_over</span><span class='python-code'> = False</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "branch",
+        "title": "branch",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A branch is a statement that allows a program to decide whether or not to run a code block. A branch is also known as a selection statement. The most common selection statement is an <code data-python-type>if</code> branch."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A branch is like a decision between choices. Sneaker or flip-flop? Pizza or salad? Chocolate or vanilla? Only one option can happen, so you need to make a choice. When a program reaches a branch statement, a decision must be made to choose which lines of code will run.",
+            "media": {
+              "url": "course://assets/vocabulary/Branch_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a two-way branch in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>if </span><span class='python-variable'>raining</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"Cook dinner on the stove\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-code'>else:</span></div></div></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"Cook dinner on the grill\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "csv-file",
+        "title": "CSV file",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "CSV stands for Comma Separated Values, and refers to a file of text separated by a comma delimiter. The data fields between the commas commonly refer to the cells of a table or spreadsheet. CSV files are often used as a way of transferring table data between different applications. CSV filenames end with the extension <code data-python-type>.csv</code>."
+          }
+        ]
+      },
+      {
+        "id": "call",
+        "title": "call",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To call a function, event, or method is to execute a statement or block of code."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example showing two function calls, one call to <code data-python-type>round()</code> and one call to <code data-python-type>print()</code>.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>pi</span><span class='python-code'> = </span><span class='python-number'>3.141592</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Round pi to two decimal places</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>pi</span><span class='python-code'> = round(</span><span class='python-variable'>pi</span><span class='python-code'>, </span><span class='python-number'>2</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Print the value of pi</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>pi</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "cast",
+        "title": "cast",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To cast is to convert one data type into another data type."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "Casting a data type is like casting an actor for a role. The actor takes on the behavior and appearance of someone else.",
+            "media": {
+              "url": "course://assets/vocabulary/Cast_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of casting in Python using the constructor functions <code data-python-type>int()</code>, <code data-python-type>float()</code>, and <code data-python-type>str()</code>.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># x evaluates to 2</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> = int(</span><span class='python-number'>2.8</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># y evaluates to 3.0</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>y</span><span class='python-code'> = float(</span><span class='python-string'>\"3\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-comment'># z evaluates to \"4.2\"</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-variable'>z</span><span class='python-code'> = str(</span><span class='python-number'>4.2</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "code-block",
+        "title": "code block",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A code block is two or more lines of code that run together as a single unit. Code blocks are often written as a loop, a function definition, or a conditional statement. Programming languages will separate code blocks from the flow of other sequential code by using indentation, curly braces, or some other language-specific formatting."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of code blocks used in a branch, a function, and a loop.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>if</span><span class='python-variable'> is_alive</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>  score</span><span class='python-code'> = </span><span class='python-variable'>roll_dice</span><span class='python-code'>(</span><span class='python-number'>2</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>  move_player</span><span class='python-code'>()</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>def </span><span class='python-variable'>roll_dice</span><span class='python-code'>(</span><span class='python-variable'>number_of_rolls</span><span class='python-code'>): </span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>  count</span><span class='python-code'> = </span><span class='python-variable'>number_of_rolls</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-code'>  while </span><span class='python-variable'>number_of_rolls</span><span class='python-code'> >= </span><span class='python-number'>0</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-variable'>    roll</span><span class='python-code'> += </span><span class='python-variable'>random</span><span class='python-code'>.</span><span class='python-variable'>randint</span><span class='python-code'>(</span><span class='python-number'>1</span><span class='python-code'>, </span><span class='python-number'>6</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-variable'>    count</span><span class='python-code'> -= </span><span class='python-number'>1</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "comment",
+        "title": "comment",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A comment is an explanation of what a specific line or block of code is doing. Comments can also be used to create an outline for your program and may help others understand your code. Comments are not code and do not execute when you run your program."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A comment is like putting a sticky note in a book. The note can have extra information about a certain spot in the book but it is not part of the story (information) told in the book.",
+            "media": {
+              "url": "course://assets/vocabulary/Comment_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are Python comments that start with <code data-python-type>#</code>.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Outputs [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>range(</span><span class='python-number'>11</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Outputs [2, 4, 6, 8, 10]</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>range(</span><span class='python-number'>2</span><span class='python-code'>,</span><span class='python-number'> 11</span><span class='python-code'>,</span><span class='python-number'> 2</span><span class='python-number'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "conditional-statement",
+        "title": "conditional statement",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A conditional statement is used to make a decision. It allows a program to behave differently based upon some test condition that results in a true or false answer. It is often stated as \"if something is true, then do something\"."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A conditional statement is like looking at the clock to decide what meal to eat next. For example, if it is early in the morning, then eat breakfast.",
+            "media": {
+              "url": "course://assets/vocabulary/ConditionalStatement_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a conditional <code data-python-type>\"if\"</code> statement in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>score</span><span class='python-code'> = </span><span class='python-number'>10</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>if</span><span class='python-variable'> score </span><span class='python-code'>== </span><span class='python-number'>10</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"You win!\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "console",
+        "title": "console",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The console is the window that displays your output."
+          }
+        ]
+      },
+      {
+        "id": "counter",
+        "title": "counter variable",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A counter variable is a variable that keeps track of the number of times a specific code block is executed. It is usually a whole number that is initialized to zero and incremented each time a loop body runs."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example showing a counter variable controlling a while loop in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>count</span><span class='python-code'> = </span><span class='python-number'>0</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-code'>while </span><span class='python-variable'>count</span><span class='python-code'> &lt; </span><span class='python-number'>5</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>count</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-variable'>    count</span><span class='python-code'> += </span><span class='python-number'>1</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-comment'># Will output 01234</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "data-type",
+        "title": "data type",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A data type describes the kind of information used by computers. An object's data type determines what values it can hold and what types of operations can be done with it. Most languages support data types such as whole numbers, fractional values, strings, and booleans. Other data types can be created from these basic building blocks."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples that show how a data type is set when you assign a value to a variable in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Creates a variable of the bool data type</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> = True</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Creates a variable of the str data type</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>y</span><span class='python-code'> = </span><span class='python-string'>\"hello world\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-comment'># Creates a variable of the float data type</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-variable'>z</span><span class='python-code'> = </span><span class='python-number'>20.5</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>0</div><div class='code'><span class='python-comment'># Creates a variable of the int data type</span></div></div><div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>n</span><span class='python-code'> = </span><span class='python-number'>42</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "delimiter",
+        "title": "delimiter",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A delimiter is one or more characters used as a boundary to separate sections of a text. In English, we use a space to separate words in a sentence. In data files, a delimiter could be made of one or more spaces, but it could also include the comma, semicolon, or tab characters. Any symbol can be used as a delimiter."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a <code data-python-type>#</code> delimiter used inside a string, and then used as an argument in the <code data-python-type>split()</code> string method in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Use # as delimiter between words</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>fruits</span><span class='python-code'> = </span><span class='python-string'>\"apple#banana#cherry#kiwi\"</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Split string at every # delimiter</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-variable'>fruits_list</span><span class='python-code'> = </span><span class='python-variable'>fruits</span><span class='python-code'>.</span><span class='python-property'>split</span><span class='python-code'>(</span><span class='python-string'>\"#\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-comment'># Outputs ['apple', 'banana', 'cherry', 'kiwi']</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>fruits_list</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "decryption",
+        "title": "decryption",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Decryption is the process of taking an encoded message and converting it back into a plain understandable message. The process of decryption is also known as decoding."
+          }
+        ]
+      },
+      {
+        "id": "editor",
+        "title": "editor",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The editor is the window where you enter your code."
+          }
+        ]
+      },
+      {
+        "id": "encryption",
+        "title": "encryption",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Encryption is the process of converting a plain message into a code. This new message is often called a cyphertext or just a cypher. The process of encryption is also known as encoding."
+          }
+        ]
+      },
+      {
+        "id": "error",
+        "title": "error",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An error occurs when something goes wrong and the program does not run as expected. Errors happen due to syntax mistakes or faulty logic. Sometimes an error can generate an error message."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a Python error.",
+            "code": "<span style='color: red;'>Traceback (most recent call last):<br>&nbsp;&nbsp;File \"main.py\", line 2, in &lt;module&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;error = random.choice(\"abcdefg\")<br>NameError: name 'random' is not defined</span>",
+            "type": "code",
+            "variant": "console"
+          }
+        ]
+      },
+      {
+        "id": "escape-character",
+        "title": "escape character",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An escape character \\ is used to insert characters that are illegal in a string, such as a double quote mark (\\\"), or characters that are otherwise difficult to represent, such as a tab (\\t) or newline (\\n). For example, placing a double quote <code data-python-type>\"</code> inside of a string already enclosed in double quotes will cause an error. Typing the backslash escape character <code data-python-type>\\</code> before the inner double quote will represent the double quote without causing an error. When the <code data-python-type>\\</code> escape character is combined with another character, it is called an escape sequence."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples that use the escape character <code data-python-type>\\</code> in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Including double quotes inside a string</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>quote</span><span class='python-code'> = </span><span class='python-string'>\"Famous Japanese Proverb \\\"Fall seven times, stand up eight.\\\"\"</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Including a backslash inside a string</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-variable'>output</span><span class='python-code'> = </span><span class='python-string'>\"This will print one backslash character \\\\.\"</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-comment'># Including a new line inside a string</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-variable'>greeting</span><span class='python-code'> = </span><span class='python-string'>\"Hello\\nWorld!\"</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "expression",
+        "title": "expression",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An expression is any piece of code that, after processing, produces a value. Expressions are made from any combination of values, variables, operators, and function calls."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are Python expressions that can be evaluated to a value.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-number'>32</span><span class='python-code'> + </span><span class='python-number'>10</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>minute</span><span class='python-code'> + </span><span class='python-number'>20</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>hours</span><span class='python-code'> * </span><span class='python-number'>60</span><span class='python-code'> + </span><span class='python-variable'>minutes</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>miles</span><span class='python-code'> < </span><span class='python-number'>500</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>greeting</span><span class='python-code'> == </span><span class='python-string'>\"Hello!\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-code'>round(</span><span class='python-number'>79.91</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-string'>f\"</span.<span class='python-code'>{</span><span class='python-variable'>greeting</span><span class='python-code'>}</span><span class='python-string'> friends!\"</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "float",
+        "title": "float",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Float refers to a \"floating-point\" data type that represents real numbers. It uses a decimal point to separate the integer from the fractional part of the number."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of float values.",
+            "code": "3.1415926<br>0.25<br>1000.25<br>1.1",
+            "type": "code",
+            "variant": "console"
+          }
+        ]
+      },
+      {
+        "id": "function",
+        "title": "function",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A function is a named block of code that performs a task. It can be used by calling it by name, and passing in any necessary arguments."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A function is like training a dog to perform a task by issuing a single command, for example \"sit\". The dog reacts by sitting down and waiting for a treat. Saying one word causes the dog to perform one or more actions. Similarly, calling a function will run one or more statements to complete a task.",
+            "media": {
+              "url": "course://assets/vocabulary/Function_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a function definition and a function call in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Define add_two_nums function</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>def</span><span class='python-variable'> add_two_nums</span><span class='python-code'>(</span><span class='python-variable'>num1</span><span class='python-code'>,</span><span class='python-variable'> num2</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-code'>    return</span><span class='python-variable'> num1</span><span class='python-code'> + </span><span class='python-variable'>num2</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Returns 6</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>answer</span><span class='python-code'> = add_two_nums(</span><span class='python-number'>4</span><span class='python-code'>,</span><span class='python-number'> 2</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "header-row",
+        "title": "header row",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A header row is the top row of a table or spreadsheet. It contains a series of labels that describe each column of data in the dataset."
+          }
+        ]
+      },
+      {
+        "id": "immutable",
+        "title": "immutable",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An immutable object cannot be changed or edited. In programming, an immutable object has a value that cannot be modified after it is first created. To change the value of a variable for an immutable object, the variable name must be reassigned to a whole new object at a new location in memory. The program loses all reference to the old object."
+          }
+        ]
+      },
+      {
+        "id": "import",
+        "title": "import",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To import is to connect your program to something outside of the program, such as a dataset, a module, a class, a library, or a package. The word <code data-python-type>import</code> is a keyword in many programming languages."
+          }
+        ]
+      },
+      {
+        "id": "increment",
+        "title": "increment",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To increment is to increase the value in a variable by a specific fixed amount. It often means to repeatedly add <code data-python-type>1</code> to a variable."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a variable being incremented in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Counter increments by 1 with each iteration</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>i</span><span class='python-code'> = </span><span class='python-number'>0</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>while</span><span class='python-variable'> i</span><span class='python-code'> < </span><span class='python-number'>10</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-variable'>    i </span><span class='python-code'>+=</span><span class='python-number'> 1</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "index",
+        "title": "index",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An index is a number that refers to an item's position in an ordered sequence. This sequence could be a list of items or a string of characters. Use the index to find information in a specific place, anywhere from first to last. In many languages, the first index in a sequence is 0."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of index values being used to print information from a list in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>list_of_strings</span><span class='python-code'> = [</span><span class='python-string'>\"math\"</span><span class='python-code'>, </span><span class='python-string'>\"computer science\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-comment'># Outputs \"math\", the item at index 0</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>list_of_strings</span><span class='python-code'>[</span><span class='python-number'>0</span><span class='python-code'>])</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>list_of_nums</span><span class='python-code'> = [</span><span class='python-number'>1</span><span class='python-code'>, </span><span class='python-number'>2</span><span class='python-code'>, </span><span class='python-number'>3</span><span class='python-code'>, </span><span class='python-number'>4</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-comment'># Outputs 2, the item at index 1</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>list_of_nums</span><span class='python-code'>[</span><span class='python-number'>1</span><span class='python-code'>])</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-comment'># Outputs 3, the second-to-last item</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>list_of_nums</span><span class='python-code'>[</span><span class='python-number'>-2</span><span class='python-code'>])</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "infinite-loop",
+        "title": "infinite loop",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An infinite loop is a loop of code that never ends. Eventually the computer will run out of memory causing the computer to crash."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "An infinite loop is like going on a ferris wheel and the ride never stopping to let you off. Imagine being trapped forever going around and around on the ferris wheel.",
+            "media": {
+              "url": "course://assets/vocabulary/Infinite_Loop_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of an infinite loop in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Condition is always True so loop will never stop printing</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-code'>while True:</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>    print(</span><span class='python-string'>\"Waiting...\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "initialize",
+        "title": "initialize",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To initialize is to provide a starting value. The first time you store something in a variable or populate a list or collection of data, you are initializing them."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of variables being initialized in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Initializing variables before loop</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>tally</span><span class='python-code'> = </span><span class='python-string'>\"\"</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-variable'>score</span><span class='python-code'> = </span><span class='python-number'>0</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Reassigning variables in loop</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-code'>while</span><span class='python-variable'> score</span><span class='python-code'> < </span><span class='python-number'>5</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-variable'>    score </span><span class='python-code'>+=</span><span class='python-number'> 1</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-variable'>    tally </span><span class='python-code'>+=</span><span class='python-string'> \"*\"</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "input",
+        "title": "input",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Input is data that comes into a computer program through a device such as a keyboard, mouse, touchscreen, or other software. Input data can be processed, stored, and output."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "Input into a program or computer is like the ingredients in a recipe. When following steps to make a cake, the ingredients are input into a bowl. They are then processed through mixing or stirring and put into the oven to bake.",
+            "media": {
+              "url": "course://assets/vocabulary/Input_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of prompts for user input.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>age</span><span class='python-code'> = input(</span><span class='python-string'>\"What is your age? \"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>name</span><span class='python-code'> = input(</span><span class='python-string'>\"Enter your name: \"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>appointment_time</span><span class='python-code'> = input(</span><span class='python-string'>\"Enter your appointment time: \"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "int",
+        "title": "int",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The int or integer data type represents whole numbers. An int can be a positive or a negative number."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of int values.",
+            "code": "2<br>42<br>-7<br>242000",
+            "type": "code",
+            "variant": "console"
+          }
+        ]
+      },
+      {
+        "id": "iteration",
+        "title": "iteration",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To iterate is to repeat. In programming, to iterate is to repeat the same series of statements of code more than once. Each execution of a loop of code is one iteration of the loop."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "To iterate is like running around a track multiple times. A standard track is 400 meters in length or roughly a quarter of a mile. If you want to run one mile, you would loop around the track four times. The first time around the track is the first iteration of the loop.",
+            "media": {
+              "url": "course://assets/vocabulary/Iteration_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are loops that iterate in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Iterate 3 times, for each item in the list</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-code'>for</span><span class='python-variable'> bird </span><span class='python-code'>in [</span><span class='python-string'>\"bluebird\"</span><span class='python-code'>, </span><span class='python-string'>\"cardinal\"</span><span class='python-code'>, </span><span class='python-string'>\"dove\"</span><span class='python-code'>]:</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>bird</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-comment'># Iterate 5 times, for each integer in the range</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-code'>for</span><span class='python-variable'> i </span><span class='python-code'>in range(</span><span class='python-number'>5</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>i</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "title": "list",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A list is a collection of data stored in a single variable. The data in the list is accessed using an index."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A list is like writing down one or more items in order. Think of a grocery list, homework list, or chore list. Each list represents a series of informational items.",
+            "media": {
+              "url": "course://assets/vocabulary/List_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of lists stored in Python variables.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>fruit_list</span><span class='python-code'> = [</span><span class='python-string'>\"apple\"</span><span class='python-code'>, </span><span class='python-string'>\"banana\"</span><span class='python-code'>, </span><span class='python-string'>\"orange\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>hours_list</span><span class='python-code'> = [</span><span class='python-number'>4</span><span class='python-code'>, </span><span class='python-number'>5</span><span class='python-code'>, </span><span class='python-number'>4</span><span class='python-code'>, </span><span class='python-number'>7</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>mixed_list</span><span class='python-code'> = [</span><span class='python-string'>\"truth\"</span><span class='python-code'>, False, </span><span class='python-number'>42</span><span class='python-code'>, </span><span class='python-number'>6.5</span><span class='python-code'>]</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "loop",
+        "title": "loop",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A loop is a set of instructions that can be repeated continuously. In programming, a loop is made of lines of code that will repeat a number of times or until some condition is met."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A loop is like a run around a track. A standard track is 400 meters in length or roughly a quarter of a mile. If you want to run one mile, you would loop around the track four times. The first time around the track is the first iteration of the loop.",
+            "media": {
+              "url": "course://assets/vocabulary/Loop_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of a <code data-python-type>for</code> loop and a <code data-python-type>while</code> loop in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>fruits</span><span class='python-code'> = [</span><span class='python-string'>\"apple\"</span><span class='python-code'>, </span><span class='python-string'>\"banana\"</span><span class='python-code'>, </span><span class='python-string'>\"cherry\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-code'>for</span><span class='python-variable'> fruit </span><span class='python-code'>in </span><span class='python-variable'>fruits</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>fruit</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-variable'>hungry</span><span class='python-code'> = True</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-code'>while</span><span class='python-variable'> hungry</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-code'>    eat()</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "metadata",
+        "title": "metadata",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Metadata is information about data. Metadata is often used to describe a file, folder, or website. Documents have metadata including the file size, creator, and file type. An audio file might have metadata that includes the name of the song, the artist, and the album. Metadata for a phone call might include the time of the call, the length of the call, and the phone number called."
+          }
+        ]
+      },
+      {
+        "id": "method",
+        "title": "method",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A method is a procedure that is called by an object using the dot operator (a period), which joins the object to its behavior."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A method makes action happen in a program statement, similar to how a verb is used in an English sentence. A noun calls a verb like an object calls a method. For example \"The dog barks\" is like <code data-python-type>dog.bark()</code> in code.",
+            "media": {
+              "url": "course://assets/vocabulary/Method_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are two examples of Python methods defined inside of a class called Bag.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>class </span><span class='python-variable'>Bag</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>    def</span><span class='python-variable'> __init__</span><span class='python-code'>(</span><span class='python-variable'>self</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>        self</span><span class='python-code'>.</span><span class='python-property'>data</span><span class='python-code'> = []</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>    def</span><span class='python-variable'> add</span><span class='python-code'>(</span><span class='python-variable'>self</span><span class='python-code'>,</span><span class='python-variable'> x</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>        self</span><span class='python-code'>.</span><span class='python-property'>data</span><span class='python-code'>.</span><span class='python-property'>append</span><span class='python-code'>(</span><span class='python-variable'>x</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-code'>    def</span><span class='python-variable'> add_twice</span><span class='python-code'>(</span><span class='python-variable'>self</span><span class='python-code'>,</span><span class='python-variable'> x</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-variable'>        self</span><span class='python-code'>.</span><span class='python-property'>add</span><span class='python-code'>(</span><span class='python-variable'>x</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>0</div><div class='code'><span class='python-variable'>        self</span><span class='python-code'>.</span><span class='python-property'>add</span><span class='python-code'>(</span><span class='python-variable'>x</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "module",
+        "title": "module",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A module is one part of a program. A module can contain variables and procedure definitions. Modules are used to break large problems into smaller, more manageable and organized files that allow code to be reused."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A module is like a tool used for a specific purpose. To build with wood, you might need to bring a hammer and some other tools. The hammer has one role in a larger project just like a module has a purpose in a larger program. The hammer is reusable for any other project that needs it. In the same way, a module can be used in more than one program.",
+            "media": {
+              "url": "course://assets/vocabulary/Module_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example using a built-in Python module.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>import</span><span class='python-variable'> math</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Use power function from math module</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>math</span><span class='python-code'>.</span><span class='python-property'>pow</span><span class='python-code'>(</span><span class='python-number'>3</span><span class='python-code'>, </span><span class='python-number'>2</span><span class='python-code'>))</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Use pi constant from math module</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>math</span><span class='python-code'>.</span><span class='python-property'>pi</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "modulus-division",
+        "title": "modulus division",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Modulus division produces the whole number remainder from the division of two integers."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example showing the use of modulus division <code data-python-type>%</code> in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># After dividing 8 pizza slices between 3 people, leftovers = 2 slices</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>leftovers</span><span class='python-code'> = </span><span class='python-number'>8</span><span class='python-code'> % </span><span class='python-number'>3</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Check if number is even or odd</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-variable'>number</span><span class='python-code'> = input(</span><span class='python-string'>\"Input a number: \"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-code'>if </span><span class='python-variable'>number</span><span class='python-code'> % </span><span class='python-number'>2</span><span class='python-code'> = </span><span class='python-number'>0</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-code'>    print(</span><span class='python-string'>f\"{number} is even\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-code'>else:</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-code'>    print(</span><span class='python-string'>f\"{number} is odd\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "nest",
+        "title": "nest",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To nest is to place one code block inside of another code block. Nesting is when a branch or loop is placed inside of another branch or loop."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "To nest code is like a set of Russian nesting dolls where inside of each doll is another doll. Blocks of code are inside of other code blocks.",
+            "media": {
+              "url": "course://assets/vocabulary/Nest_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a nested <code data-python-type>if</code> branch and a nested loop in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>if</span><span class='python-variable'> age </span><span class='python-code'>></span><span class='python-number'> 16</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>    if</span><span class='python-variable'> license </span><span class='python-code'>== True:</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-code'>        print(</span><span class='python-string'>\"You can drive.\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>my_list</span><span class='python-code'> = [[</span><span class='python-number'>1</span><span class='python-code'>, </span><span class='python-number'>2</span><span class='python-code'>, </span><span class='python-number'>3</span><span class='python-code'>, </span><span class='python-number'>4</span><span class='python-code'>], [</span><span class='python-number'>5</span><span class='python-code'>, </span><span class='python-number'>6</span><span class='python-code'>]]</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-code'>for</span><span class='python-variable'> row </span><span class='python-code'>in</span><span class='python-variable'> my_list</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-code'>    for</span><span class='python-variable'> number </span><span class='python-code'>in</span><span class='python-variable'> row</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-code'>        print(</span><span class='python-string'>number</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "newline",
+        "title": "newline",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A newline escape sequence <code data-python-type>\n</code> is used to represent the end of a line of text and the beginning of a new line. A newline is also known as the \"end-of-line\" character, which is produced when you press your <code data-python-type>enter</code> key."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example showing the newline escape character sequence in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Will output:</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-comment'># Hello</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-comment'># World!</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-code'>print(</span><span class='python-string'>\"Hello\\nWorld!\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "operator",
+        "title": "operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An operator is a symbol used to perform operations on variables and values. Operators are used to create expressions and statements in code. There are many different types of operators, such as arithmetic, assignment, comparison, logical, and membership operators."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of Python statements that use operators.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Assignment operator</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>num</span><span class='python-code'> = </span><span class='python-number'>12</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Arithmetic operator</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>sum</span><span class='python-code'> = </span><span class='python-variable'>num</span><span class='python-code'> * </span><span class='python-number'>2</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Comparison operator</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-code'>if </span><span class='python-variable'>sum</span><span class='python-code'> &gt; </span><span class='python-number'>20</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"Sum is greater than 20\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "output",
+        "title": "output",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Output is data that is produced by a program. The result of program processes is output through a device such as a monitor, printer, or speakers. Output may also be stored by the computer."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "The output of a program is like the cake coming out of a hot oven after its ingredients have been input and processed.",
+            "media": {
+              "url": "course://assets/vocabulary/Output_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of how to print output.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>print(</span><span class='python-string'>\"Hello\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>print(</span><span class='python-string'>'''Telling a story with a line break can be done...</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-string'>using three apostrophes.'''</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "program",
+        "title": "program",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A program is a group of statements that can be run by a computer to do a task. Programs can be created using a number of different coding languages. Synonyms for program include software, code, app, and application."
+          }
+        ]
+      },
+      {
+        "id": "pseudocode",
+        "title": "pseudocode",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Pseudocode is the flow of a program written in a way that is comfortable for humans to understand. Often written in a top-down manner with short phrases or clauses, pseudocode provides an overview or plan of what the actual code will do without all of the syntax and keywords of a programming language."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "Pseudocode is like creating an outline before writing a paper. Each main idea is written on its own line and then organized to the order of ideas that your paper will take. From there, you can write the whole paper following all the rules of writing an essay. Pseudocode can be used to then write a complete program in the language of choice.",
+            "media": {
+              "url": "course://assets/vocabulary/Pseudocode_Analogy.png",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is pseudocode written as a series of comments in Python. This example represents the steps to roll dice repeatedly until a target value is reached, and then return the number of times rolled.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Begin loop</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-comment'># Increase the counter by one</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Roll two dice</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Add results together</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># If result equals target, return counter</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-comment'># End loop</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "run",
+        "title": "run",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To run a program is to open, launch, or execute a program. Run can also mean to operate or use a program.<br><br>Clicking a run arrow or double-clicking on an icon on your computer are ways that you can run a program.",
+            "media": {
+              "url": "course://assets/vocabulary/Run_Example.gif",
+              "type": "image"
+            }
+          }
+        ]
+      },
+      {
+        "id": "string",
+        "title": "string",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A string is a sequence of characters surrounded by quotation marks.<br><br>Here are some examples of strings. Coding languages may allow you to define strings using single or double quotation marks.",
+            "code": "<div class='snippet-row'><div class='code'><span class='python-string'>\"Hello world!\"</span></div></div><div class='snippet-row'><div class='code'><span class='python-string'>'This is also a string'</span></div></div><div class='snippet-row'><div class='code'><span class='python-string'>\"The next string is empty\"</span></div></div><div class='snippet-row'><div class='code'><span class='python-string'>\"\"</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          },
+          {
+            "title": "ANALOGY",
+            "text": "A string is like a word, sentence, or paragraph where individual characters are arranged next to each other. A string can include spaces, numbers, and all types of symbols.",
+            "media": {
+              "url": "course://assets/vocabulary/String_Analogy.jpg",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of strings stored in variables in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>password</span><span class='python-code'> = </span><span class='python-string'>\"myP@asswordT0day!\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>name</span><span class='python-code'> = </span><span class='python-string'>\"Shakira\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>address</span><span class='python-code'> = </span><span class='python-string'>'123 Anyplace St Apt B'</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "substring",
+        "title": "substring",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A substring is a sequence of characters within a string. Like a string, a substring can include spaces, numbers, and all types of symbols.<br><br>For example, the string \"wide and wonderful\" is a substring of the larger string \"This is a wide and wonderful world\"."
+          }
+        ]
+      },
+      {
+        "id": "syntax",
+        "title": "syntax",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Syntax means the rules of a language. There are many programming languages and the rules they follow may be different."
+          },
+          {
+            "title": "ANALOGY",
+            "text": "Syntax rules for the English language include starting each sentence with a captial letter and ending it with a period. A complete sentence in English must have a noun and a verb. Each programming language has its own set of rules that must be followed just like there are rules for learning English.",
+            "media": {
+              "url": "course://assets/vocabulary/Syntax_Analogy.png",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of correct and incorrect syntax in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Incorrect syntax</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>print </span><span class='python-string'>\"Hello World!\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Correct syntax</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-code'>print(</span><span class='python-string'>\"Hello World!\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "text-file",
+        "title": "text file",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A text file is a document that contains unformatted text. It can be opened and edited in any text editor software. The file is stored on a computer with a <code data-python-type>.txt</code> file extension. "
+          }
+        ]
+      },
+      {
+        "id": "user",
+        "title": "user",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A user is someone who is using a computer or computer program."
+          }
+        ]
+      },
+      {
+        "id": "validation",
+        "title": "validation",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Validation is the process of making sure that data used in a program is valid, meaning that it meets certain requirements. If a program expects to receive an integer, and the user inputs a word, then the program could stop working or produce unintended results. Adding validation to a program can catch or flag invalid data before it causes a problem. Invalid data might be the wrong data type, wrong format, or an unexpected value."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of data validation in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>alphabet</span><span class='python-code'> = </span><span class='python-string'>\"abcdefghijklmnopqrstuvwxyz \"</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>name</span><span class='python-code'> = input(</span><span class='python-string'>\"Enter your name: \"</span><span class='python-code'>).</span><span class='python-property'>lower</span><span class='python-code'>()</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-code'>for</span><span class='python-variable'> letter </span><span class='python-code'>in</span><span class='python-variable'> name</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-comment'>    # Validating user input</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-code'>    if</span><span class='python-variable'> letter</span><span class='python-code'> not in </span><span class='python-variable'>alphabet</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-code'>        print(</span><span class='python-string'>\"Name cannot contain symbols or numbers. Try again.\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-code'>        break</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "variable",
+        "title": "variable",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A variable is a named container that stores information you can use or change, such as a value for numbers, words, or pictures."
+          },
+          {
+            "title": "ANALOGY",
+            "text": " A variable is like a mailbox. It can store different types of mail that can be swapped out each day, such as letters or packages.",
+            "media": {
+              "url": "course://assets/vocabulary/Variable_Analogy.gif",
+              "type": "image"
+            }
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are three examples of variables being declared and initialized.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>name</span><span class='python-code'> = </span><span class='python-string'>\"Blue\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>age</span><span class='python-code'> = </span><span class='python-number'>12</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>height</span><span class='python-code'> = </span><span class='python-number'>5.4</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "python",
+    "title": "Python",
+    "variant": "secondary",
+    "terms": [
+      {
+        "id": "abs-function",
+        "title": "abs()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>abs()</code> function in Python calculates the absolute value of a number passed in as an argument. In math, absolute value refers to the distance between two numbers on the number line. It is always a positive number. "
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples using the <code data-python-type>abs()</code> function in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>arctic_temperature_f</span><span class='python-code'> = </span><span class='python-number'>-35</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>argentina_temperature_f</span><span class='python-code'> = </span><span class='python-number'>85</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Outputs 35</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-code'>print(abs(</span><span class='python-variable'>arctic_temperature_f</span><span class='python-code'>))</div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-comment'># Outputs 85</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-code'>print(abs(</span><span class='python-variable'>argentina_temperature_f</span><span class='python-code'>))</div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-comment'># Outputs 120</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-code'>print(abs(</span><span class='python-variable'>arctic_temperature_f</span><span class='python-code'> - </span><span class='python-variable'>argentina_temperature_f</span><span class='python-code'>))</div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "append-method",
+        "title": "append()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>append()</code> method adds an item to the end of a list. It is called by the list and takes the new item as its argument."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example using the <code data-python-type>append()</code> method to add to a list in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>fruits_list</span><span class='python-code'> = [</span><span class='python-string'>\"apple\"</span><span class='python-code'>, </span><span class='python-string'>\"banana\"</span><span class='python-code'>, </span><span class='python-string'>\"cherry\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>fruits_list</span><span class='python-code'>.</span><span class='python-property'>append</span><span class='python-code'>(</span><span class='python-string'>\"kiwi\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Outputs ['apple', 'banana', 'cherry', 'kiwi']</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>fruits_list</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "arithmetic-operator",
+        "title": "arithmetic operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An arithmetic operator is a symbol used to perform arithmetic or math operations on variables and values. Operators are used to create expressions and statements in code and may vary depending on the language used.<br><br><table><tr><th>Operator</th><th>Description</th></tr><tr><td class='centered'><code data-python-type>+</code></td><td><div>addition</div><div><code data-python-type>x + y</code></div></td></tr><tr><td class='centered'><code data-python-type>-</code></td><td><div>subtraction</div><div><code data-python-type>x - y</code></div></td></tr><tr><td class='centered'><code data-python-type>*</code></td><td><div>multiplication</div><div><code data-python-type>x * y</code></div></td></tr><tr><td class='centered'><code data-python-type>/</code></td><td><div>division</div><div><code data-python-type>x / y</code></div></td></tr><tr><td class='centered'><code data-python-type>**</code></td><td><div>exponentiation</div><div><code data-python-type>x ** y</code></div></td></tr><tr><td class='centered'><code data-python-type>%</code></td><td><div>modulus division</div><div><code data-python-type>x % y</code></div></td></tr><tr><td class='centered'><code data-python-type>//</code></td><td><div>floor division</div><div><code data-python-type>x // y</code></div></td></tr></table>"
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples showing use of arithmetic operators in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> = </span><span class='python-number'>5</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Add evaluates to 11</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> + </span><span class='python-number'>6</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-comment'># Modulo evaluates to 1 (x divided by 2 has remainder 1)</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> % </span><span class='python-number'>2</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-comment'># Exponent evaluates to 625</span></div></div><div class='snippet-row'><div class='line-number'>0</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> ** </span><span class='python-number'>4</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "assignment-operator",
+        "title": "assignment operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The assignment operator in most text-based programming languages is the equals sign <code data-python-type>=</code>. To assign is to give a value to a variable or to store information."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples showing variables being assigned values using the assignment operator <code data-python-type>=</code>.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>age</span><span class='python-code'> = </span><span class='python-number'>16</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>name</span><span class='python-code'> = </span><span class='python-string'>\"Sylva\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>student</span><span class='python-code'> = True</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "augmented-operator",
+        "title": "augmented operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Augmented assignment or compound assignment operators are used to perform a mathematical operation and then assign the new value to the variable.<br><br><table><tr><th>Operator</th><th>Description</th></tr><tr><td class='centered'><code data-python-type>+=</code></td><td><div>augmented addition</div><div><code data-python-type>x += y</code></div></td></tr><tr><td class='centered'><code data-python-type>-=</code></td><td><div>augmented subtraction</div><div><code data-python-type>x -= y</code></div></td></tr><tr><td class='centered'><code data-python-type>*=</code></td><td><div>augmented multiplication</div><div><code data-python-type>x *= y</code></div></td></tr><tr><td class='centered'><code data-python-type>/=</code></td><td><div>augmented division</div><div><code data-python-type>x /= y</code></div></td></tr><tr><td class='centered'><code data-python-type>**=</code></td><td><div>augmented exponentiation</div><div><code data-python-type>x **= y</code></div></td></tr><tr><td class='centered'><code data-python-type>%=</code></td><td><div>augmented modulus division</div><div><code data-python-type>x %= y</code></div></td></tr><tr><td class='centered'><code data-python-type>//=</code></td><td><div>augmented floor division</div><div><code data-python-type>x //= y</code></div></td></tr></table>"
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples showing use of augmented operators in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Assign the value of 5 to x</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> = </span><span class='python-number'>5</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Add 5 to set x equal to 10</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> += </span><span class='python-number'>5</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-comment'># Multiply by 5 to set x equal to 50</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> *= </span><span class='python-number'>5</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "break",
+        "title": "break",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A <code data-python-type>break</code> statement is used within loops to cause the loop to end completely and immediately."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a break statement in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>secret_word</span><span class='python-code'> = </span><span class='python-string'>\"banana\"</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>words</span><span class='python-code'> = [</span><span class='python-string'>\"smoothie\"</span><span class='python-code'>, </span><span class='python-string'>\"kale\"</span><span class='python-code'>, </span><span class='python-string'>\"banana\"</span><span class='python-code'>, </span><span class='python-string'>\"tomato\"</span><span class='python-code'>, </span><span class='python-string'>\"cucumber\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Loop will terminate after secret word</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-code'>for</span><span class='python-variable'> word </span><span class='python-code'>in</span><span class='python-variable'> words</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>word</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-code'>    if</span><span class='python-variable'> word </span><span class='python-code'>== </span><span class='python-variable'>secret_word</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-code'>        print(</span><span class='python-string'>\"You said the secret word!\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-code'>        break</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "comparison-operator",
+        "title": "comparison operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A comparison operator or relational operator is a symbol used to compare two values and return a Boolean value. Comparisons include equality, inequality, less than, and greater than.<br><br><table><tr><th>Operator</th><th>Description</th></tr><tr><td class='centered'><code data-python-type>==</code></td><td><div>equality operator</div><div><code data-python-type>x == y</code></div></td></tr><tr><td class='centered'><code data-python-type>!=</code></td><td><div>inequality operator</div><div><code data-python-type>x != y</code></div></td></tr><tr><td class='centered'><code data-python-type>></code></td><td><div>greater-than operator</div><div><code data-python-type>x > y</code></div></td></tr><tr><td class='centered'><code data-python-type><</code></td><td><div>less-than operator</div><div><code data-python-type>x < y</code></div></td></tr><tr><td class='centered'><code data-python-type>>=</code></td><td><div>greater-than-or-equal-to operator</div><div><code data-python-type>x >= y</code></div></td></tr><tr><td class='centered'><code data-python-type><=</code></td><td><div>less-than-or-equal-to operator</div><div><code data-python-type>x <= y</code></div></td></tr></table>"
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples showing use of comparison operators in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>x</span><span class='python-code'> = </span><span class='python-number'>10</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>y</span><span class='python-code'> = </span><span class='python-number'>7</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Prints False</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>x</span><span class='python-code'> == </span><span class='python-variable'>y</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-comment'># Prints True</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>x</span><span class='python-code'> != </span><span class='python-variable'>y</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-comment'># Prints True</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>x</span><span class='python-code'> > </span><span class='python-variable'>y</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "concatenation-operator",
+        "title": "concatenation operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "To concatenate is to join together. The concatenation operator <code data-python-type>+</code> joins together multiple values, such as combining two strings into one string."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples showing concatenation with the concatenation operator <code data-python-type>+</code>.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># String \"butterfly\" is stored in word</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>word</span><span class='python-code'> = </span><span class='python-string'>\"butter\"</span><span class='python-code'> + </span><span class='python-string'>\"fly\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># List of six months is stored in months</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>months</span><span class='python-code'> = [</span><span class='python-string'>\"January\"</span><span class='python-code'>, </span><span class='python-string'>\"February\"</span><span class='python-code'>] + [</span><span class='python-string'>\"March\"</span><span class='python-code'>, </span><span class='python-string'>\"April\"</span><span class='python-code'>] + [</span><span class='python-string'>\"May\"</span><span class='python-code'>, </span><span class='python-string'>\"June\"</span><span class='python-code'>]</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "enumerate-function",
+        "title": "enumerate()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>enumerate()</code> function allows you to loop through a list, tuple, dictionary, or string and return both the index value and the value stored at that index."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of the <code data-python-type>enumerate()</code> function in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>my_list</span><span class='python-code'> = [</span><span class='python-string'>\"A\"</span><span class='python-code'>, </span><span class='python-string'>\"B\"</span><span class='python-code'>, </span><span class='python-string'>\"C\"</span><span class='python-code'>, </span><span class='python-string'>\"D\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-code'>for</span><span class='python-variable'> item </span><span class='python-code'>in enumerate(</span><span class='python-variable'>my_list</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>item</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-comment'># Outputs:</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-comment'># (0, 'A')</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-comment'># (1, 'B')</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-comment'># (2, 'C')</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-comment'># (3, 'D')</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "f-string",
+        "title": "f-string",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "An f-string is created by adding an <code data-python-type>f</code> immediately before the quotation marks for a string. This allows you to embed code inside the string using curly braces <code data-python-type>{ }</code>. That code can be a variable, an expression, or a function. It also allows you to print non-string values inside the curly braces without casting them to a string data type."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of an f-string in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>minutes</span><span class='python-code'> = </span><span class='python-number'>45</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>my_str</span><span class='python-code'> = </span><span class='python-string'>f\"There are <span class='python-code'>{</span><span class='python-variable'>minutes</span><span class='python-code'>}</span><span class='python-string'> minutes left in class.\"</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "float-function",
+        "title": "float()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>float()</code> function converts another data type into a float or floating-point number. "
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a <code data-python-type>float()</code> function used in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>float(</span><span class='python-string'>\"3.1415926\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "for-loop",
+        "title": "for",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A <code data-python-type>for</code> loop is used for iterating over a sequence like a list, tuple, dictionary, set, or string."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples using a <code data-python-type>for</code> loop in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Print each letter in the string</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-code'>for </span><span class='python-variable'>letter</span><span class='python-code'> in </span><span class='python-variable'>\"pineapple\"</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>letter</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-comment'># Print each item in the list</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-variable'>fruits</span><span class='python-code'> = [</span><span class='python-string'>\"apple\"</span><span class='python-code'>, </span><span class='python-string'>\"blueberry\"</span><span class='python-code'>, </span><span class='python-string'>\"cherry\"</span><span class='python-code'>, </span><span class='python-string'>\"pumpkin\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-code'>for </span><span class='python-variable'>fruit</span><span class='python-code'> in </span><span class='python-variable'>fruits</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>fruit</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "if-elif-else",
+        "title": "if-elif-else",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The keywords <code data-python-type>if</code>, <code data-python-type>elif</code>, and <code data-python-type>else</code> are used to create conditional statements in Python. They allow a program to make a decision and to select which lines of code will run or will not run. Only one of the code branches in any given set of <code data-python-type>if-elif-else</code> will execute when the program is run.<br><br>Some <code data-python-type>if</code> statements will not be followed by any <code data-python-type>elif</code> or <code data-python-type>else</code> statements. Some <code data-python-type>if</code> statements are followed by more than one <code data-python-type>elif</code> statement."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example showing how <code data-python-type>if</code>, <code data-python-type>elif</code>, and <code data-python-type>else</code> can offer choice in a Python program.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>play</span><span class='python-code'> = input(</span><span class='python-string'>\"Press y to play again and n to exit: \"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>if </span><span class='python-variable'>play</span><span class='python-code'> == </span><span class='python-string'>\"y\"</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'>    # Run the game loop again</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"Next round!\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>elif </span><span class='python-variable'>play</span><span class='python-code'> == </span><span class='python-string'>\"n\"</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-comment'>    # Exit the program</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"Goodbye!\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-code'>else:</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"Invalid input. You must enter 'y' or 'n'.\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "input-function",
+        "title": "input()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>input()</code> function outputs the given argument as a prompt, and then allows the user to input text. The program will pause and wait until the user provides the text input and presses enter. An <code data-python-type>input()</code> function always returns the user input as a string."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of the <code data-python-type>input()</code> function used in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>my_num</span><span class='python-code'> = input(</span><span class='python-string'>\"Please input a number: \"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "int-function",
+        "title": "int()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>int()</code> function converts another data type into an int or integer whole number."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of an int() function used in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>int(</span><span class='python-string'>\"63\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "join-method",
+        "title": "join()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>join()</code> method takes all items in a sequence and joins them into one string. Calls to <code data-python-type>join()</code> are preceded by a delimiter string and followed by an object or variable as its argument. The delimiter string will be inserted between each item joined in the string. <code data-python-type>join()</code> can be used with lists, dictionaries, strings, and any other object that can be iterated through."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of a <code data-python-type>join()</code> method used in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>my_list</span><span class='python-code'> = [</span><span class='python-string'>\"A\"</span><span class='python-code'>, </span><span class='python-string'>\"B\"</span><span class='python-code'>, </span><span class='python-string'>\"C\"</span><span class='python-code'>, </span><span class='python-string'>\"D\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>alpha_string</span><span class='python-variable'> = </span><span class='python-string'>\",\"</span><span class='python-code'>.</span><span class='python-property'>join</span><span class='python-code'>(</span><span class='python-variable'>my_list</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-comment'># alpha_string contains \"A,B,C,D\"</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-variable'>my_tuple</span><span class='python-code'> = (</span><span class='python-string'>\"Mel\"</span><span class='python-code'>, </span><span class='python-string'>\"Rose\"</span><span class='python-code'>, </span><span class='python-string'>\"Johnson\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-variable'>name_string</span><span class='python-variable'> = </span><span class='python-string'>\" \"</span><span class='python-code'>.</span><span class='python-property'>join</span><span class='python-code'>(</span><span class='python-variable'>my_tuple</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-comment'># name_string contains \"Mel Rose Johnson\"</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "len-function",
+        "title": "len()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>len()</code> function returns the length or number of items in an object, such as a list, string, or dictionary."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of a <code data-python-type>len()</code> function used in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># string_length = 12</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>string_length</span><span class='python-code'> = len(</span><span class='python-string'>\"Hello World!\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># list_length = 4</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-variable'>list_length</span><span class='python-code'> = len([</span><span class='python-string'>\"John\"</span><span class='python-code'>, </span><span class='python-string'>\"Paul\"</span><span class='python-code'>, </span><span class='python-string'>\"George\"</span><span class='python-code'>, </span><span class='python-string'>\"Ringo\"</span><span class='python-code'>])</span></div></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "logical-operator",
+        "title": "logical operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A logical operator or Boolean operator is used with conditional statements to evaluate truth. Most languages use <code data-python-type>\"and\"</code>, <code data-python-type>\"or\"</code>, and <code data-python-type>\"not\"</code> to determine whether an expression evaluates as <code data-python-type>True</code> or <code data-python-type>False</code>.<br><br><table><tr><th>Operator</th><th>Description</th></tr><tr><td class='centered'><code data-python-type>and</code></td><td>Returns <code data-python-type>True</code> if all of the given statements are true.</td></tr><tr><td class='centered'><code data-python-type>or</code></td><td>Returns <code data-python-type>True</code> if at least one of the given statements is true.</td></tr><tr><td class='centered'><code data-python-type>not</code></td><td>Returns <code data-python-type>True</code> if the given statement is false.</td></tr></table>"
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples showing use of logical operators in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>hungry</span><span class='python-code'> = True</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>money</span><span class='python-code'> = </span><span class='python-number'>3.50</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Using logical \"and\"</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>if</span><span class='python-variable'> hungry </span><span class='python-code'>and</span><span class='python-variable'> money </span><span class='python-code'>></span><span class='python-number'> 2.50</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"Buy a snack!\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-comment'># Using logical \"or\", \"not\"</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-code'>if not </span><span class='python-variable'>hungry</span><span class='python-code'> or </span><span class='python-variable'>money</span><span class='python-code'> < </span><span class='python-number'>2.50</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-code'>    print(</span><span class='python-string'>\"No snack today!\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "lower-method",
+        "title": "lower()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>lower()</code> method changes a string so that all of the characters are lowercase. If a character is not a letter, it is ignored."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a string being changed to all lowercase in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>favorite_color</span><span class='python-code'> = </span><span class='python-string'>\"GREEN\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-comment'># Prints \"green\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>favorite_color</span><span class='python-code'>.</span><span class='python-property'>lower</span><span class='python-code'>())</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "membership-operator",
+        "title": "membership operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Membership operators are used to test if a sequence is present in an object, such as an item in a list or a substring in a string. They return a Boolean value.<br><br><table><tr><th>Operator</th><th>Description</th></tr><tr><td class='centered'><code data-python-type>in</code></td><td>Returns <code data-python-type>True</code> if a value is present in the given object.</td></tr><tr><td class='centered'><code data-python-type>not in</code></td><td>Returns <code data-python-type>True</code> if a value is not present in the given object.</td></tr></table>"
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples showing use of membership operators in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>fruits</span><span class='python-code'> = [</span><span class='python-string'>\"apple\"</span><span class='python-code'>, </span><span class='python-string'>\"banana\"</span><span class='python-code'>, </span><span class='python-string'>\"peach\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-comment'># Prints True - the value is *in* fruits</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>\"banana\"</span><span class='python-code'> in </span><span class='python-variable'>fruits</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Prints True - the value is *not in* fruits</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>\"coconut\"</span><span class='python-code'> not in </span><span class='python-variable'>fruits</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-variable'>lyric</span><span class='python-code'> = </span><span class='python-string'>\"Oh say can you see\"</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-comment'># Prints True - the value is *in* lyric</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-code'>print(</span><span class='python-string'>\"you see\"</span><span class='python-code'> in </span><span class='python-variable'>lyric</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-comment'># Prints False - the value is *in* lyric</span></div></div></div><div class='snippet-row'><div class='line-number'>0</div><div class='code'><span class='python-code'>print(</span><span class='python-string'>\"h sa\"</span><span class='python-code'> not in </span><span class='python-variable'>lyric</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "multiline-string",
+        "title": "multiline string",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A multiline string in Python begins and ends with either three single quotes or three double quotes. Any quotes, tabs, or newlines in between the '''triple quotes''' are considered part of the string. Python's indentation rules for blocks do not apply to lines inside a multiline string. A multiline string can also be used instead of <code data-python-type>#</code> to create multiline comments in Python."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of multiline strings used in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-string'>'''</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-string'>    Today in class, Kate raised her hand and offered a suggestion to the teacher. \"Why don't we talk about cats instead?\" she asked.</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-string'>    The teacher replied, \"Our next coding project is all about cats. I think you'll like it!\" she asked.</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-string'>'''</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-string'>\"\"\"This is a really long explanation</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-string'>    of my code so I will break it across several lines \"\"\"</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "open-function",
+        "title": "open()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>open()</code> function opens a file and returns a file object. It takes the file path as an argument. A second argument indicates whether the file is opened for reading (<code data-python-type>\"r\"</code>), writing (<code data-python-type>\"w\"</code>), appending to an existing file (<code data-python-type>\"a\"</code>), or creating a new file (<code data-python-type>\"x\"</code>). The default mode is reading text from a file. There are several other optional arguments."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of opening files in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Open and print a local text file in default \"read\" mode</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-code'>with open(</span><span class='python-string'>\"my_story.txt\"</span><span class='python-code'>) as </span><span class='python-variable'>file_in</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>file_in</span><span class='python-code'>.</span><span class='python-property'>read</span><span class='python-code'>())</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-comment'># Open a file in \"write\" mode</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-code'>with open(</span><span class='python-string'>\"d:\\\\documents\\my_story.txt\"</span><span class='python-code'>, </span><span class='python-string'>\"w\"</span><span class='python-code'>) as </span><span class='python-variable'>file_out</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-variable'>    file_out</span><span class='python-code'>.</span><span class='python-property'>write</span><span class='python-code'>(</span><span class='python-string'>\"I am replacing my story with this new text!\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "print-function",
+        "title": "print()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>print()</code> function prints the value of its argument to the console or other output device. The argument can be a string data type, or it can be another object that will be converted to a string for output."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of the <code data-python-type>print()</code> function used in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>my_var</span><span class='python-code'> = </span><span class='python-string'>\"Hello world\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Outputs \"Hello world\"</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>my_var</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "random-choice-method",
+        "title": "random.choice()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>random.choice()</code> method will return a random item from a sequence, such as a string or list."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of <code data-python-type>random.choice()</code> as used on a string and a list in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>import</span><span class='python-variable'> random</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>fav_fruit</span><span class='python-code'> = </span><span class='python-string'>\"coconut\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Prints a random letter from the word \"coconut\"</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>random</span><span class='python-code'>.</span><span class='python-property'>choice</span><span class='python-code'>(</span><span class='python-variable'>fav_fruit</span><span class='python-code'>))</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-variable'>fruits</span><span class='python-code'> = [</span><span class='python-string'>\"apple\"</span><span class='python-code'>, </span><span class='python-string'>\"banana\"</span><span class='python-code'>, </span><span class='python-string'>\"coconut\"</span><span class='python-code'>, </span><span class='python-string'>\"melon\"</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-comment'># Prints a random item from the list fruits</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>random</span><span class='python-code'>.</span><span class='python-property'>choice</span><span class='python-code'>(</span><span class='python-variable'>fruits</span><span class='python-code'>))</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "random-randint-method",
+        "title": "random.randint()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>random.randint()</code> method returns a random whole number between and including a given start value and stop value."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of <code data-python-type>random.randint()</code> used to simulate a dice roll in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-code'>import</span><span class='python-variable'> random</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Returns a random number between 1 and 6</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>dice_roll</span><span class='python-code'> = </span><span class='python-variable'>random</span><span class='python-code'>.</span><span class='python-property'>randint</span><span class='python-code'>(</span><span class='python-number'>1</span><span class='python-code'>, </span><span class='python-number'>6</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>print(</span><span class='python-string'>f\"You rolled a </span><span class='python-code'>{</span><span class='python-variable'>dice_roll</span><span class='python-code'>}</span><span class='python-string'>\"</span><span class='python-code'>)</span>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "range-function",
+        "title": "range()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>range()</code> function is used to create a sequence of integers that ranges from a low number to a high number. The high number, or stop value, is always provided as an argument. By default, the range begins with 0 and counts up in increments of 1 until a final value, which is equal to the stop value minus 1. Two optional arguments can be provided, to change the starting value from 0 and to change the step increment from 1. "
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of a range() function used in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Range object generates 0, 1, 2, 3, 4, 5</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>numbers</span><span class='python-code'> = range(</span><span class='python-number'>6</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># For-range loop</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-code'>for </span><span class='python-variable'>i</span><span class='python-code'> in range(</span><span class='python-number'>4</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>i</span><span class='python-code'>) </span><span class='python-comment'> #outputs 0, 1, 2, 3</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-comment'># Start = 1, step = 2, stop = 7</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-code'>for </span><span class='python-variable'>i</span><span class='python-code'> in range(</span><span class='python-number'>1</span><span class='python-code'>, </span><span class='python-number'>2</span><span class='python-code'>, </span><span class='python-number'>7</span><span class='python-code'>):</span></div></div><div class='snippet-row'><div class='column line-number'>0</div><div class='column code'><span class='python-code'>    print(</span><span class='python-variable'>i</span><span class='python-code'>)</span><span class='python-comment'>  #outputs 1, 3, 5</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "read-method",
+        "title": "read()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>read()</code> method belongs to a file object in Python. It reads the contents of a file. By default, the read method will open the entire contents of a file. It has an optional parameter, the number of characters you want to read, which will allow you to read a portion of a file."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of the read() method used to store the contents of a file in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Open a text file and store text in a variable</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-code'>with open(</span><span class='python-string'>\"my_story.txt\"</span><span class='python-code'>) as </span><span class='python-variable'>file_in</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-variable'>    my_story</span><span class='python-code'> = </span><span class='python-variable'>file_in</span><span class='python-code'>.</span><span class='python-property'>read</span><span class='python-code'>()</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "repetition-operator",
+        "title": "repetition operator",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The repetition operator <code data-python-type>*</code>, like the multiplication operator <code data-python-type>*</code>, adds a number of copies of the same value. When \"multiplying\" a string, the repetition operator creates a new string made of multiple copies of the original string."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of the repetition operator creating a long laugh out of one \"ha\".",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>word</span><span class='python-code'> = </span><span class='python-string'>\"ha\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-comment'># Outputs \"hahahahaha\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>word</span><span class='python-code'> * </span><span class='python-number'>5</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "replace-method",
+        "title": "replace()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>replace()</code> method changes the characters in an existing string. The method is called by the string to be edited. It takes two substrings as arguments. Every time the first substring is found, it is replaced with the second substring. If the second argument is an empty string, then all instances of the first argument will be deleted."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of the replace() method in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>book_title</span><span class='python-code'> = </span><span class='python-string'>\"One fish, Two fish, Red fish, Blue fish\"</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>edited_title</span><span class='python-variable'> = </span><span class='python-variable'>book_title</span><span class='python-code'>.</span><span class='python-property'>replace</span><span class='python-code'>(</span><span class='python-string'>\"fish\"</span><span class='python-code'>, </span><span class='python-string'>\"cat\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-comment'># Outputs \"One cat, Two cat, Red cat, Blue cat\"</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>edited_title</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-variable'>title_string</span><span class='python-code'> = </span><span class='python-string'>\"How_To_Win_Friends_And_Influence_People\"</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-variable'>clean_string</span><span class='python-variable'> = </span><span class='python-variable'>title_string</span><span class='python-code'>.</span><span class='python-property'>replace</span><span class='python-code'>(</span><span class='python-string'>\"_\"</span><span class='python-code'>, </span><span class='python-string'>\" \"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-comment'># Outputs \"How To Win Friends And Influence People\"</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>clean_string</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "round-function",
+        "title": "round()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>round()</code> function rounds its first argument to the number of decimal places in the second argument. It returns a float or floating-point number. The second argument can be omitted, in which case the function will return a rounded whole number."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of <code data-python-type>round()</code> functions used in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># Returns 21.75</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-code'>round(</span><span class='python-number'>21.7457</span><span class='python-code'>,</span><span class='python-number'> 2</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-comment'># Returns 36</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-code'>round(</span><span class='python-number'>36.823</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "slice-notation",
+        "title": "slice notation",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "Slice notation <code data-python-type>[:]</code> uses the index operator and a colon to retrieve a subset of values in Python. You can slice any sequential data type, such as lists and strings."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of slice notation used on a string in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-comment'># a[start:stop] = Slice from start to (stop - 1)</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-comment'># a[start:] = Slice from start to end of list</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># a[:stop] = Slice from beginning of list to (stop - 1)</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>a</span><span class='python-code'> = </span><span class='python-string'>\"Time for a picnic.\"</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-comment'># Prints the word \"for\"</span></div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>a</span><span class='python-code'>[</span><span class='python-number'>5</span><span class='python-code'>:</span><span class='python-number'>8</span><span class='python-code'>])</span></div></div><div class='snippet-row'><div class='line-number'>8</div><div class='code'><span class='python-comment'># Prints \"Time for a picnic\" (no period)</span></div></div><div class='snippet-row'><div class='line-number'>9</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>a</span><span class='python-code'>[:</span><span class='python-number'>-1</span><span class='python-code'>])</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "split-method",
+        "title": "split()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>split()</code> method splits a string into a list of substrings, using a delimiter to divide each substring. The default delimiter is a single space. A string calls the <code data-python-type>split()</code> method, which takes a delimiter as an optional argument."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of the <code data-python-type>split()</code> method used in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>favorite_things</span><span class='python-code'> = </span><span class='python-string'>\"rainbows unicorns dragons fairies\"</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-comment'># Split string at each space</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-variable'>favorite_list</span><span class='python-code'> = </span><span class='python-variable'>favorite_things</span><span class='python-code'>.</span><span class='python-property'>split</span><span class='python-code'>()</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Outputs ['rainbows', 'unicorns', 'dragons', 'fairies']</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>favorite_list</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-comment'># Split string at each pipe</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-variable'>colors_list</span><span class='python-code'> = </span><span class='python-string'>\"red|blue|yellow\"</span><span class='python-code'>.</span><span class='python-property'>split</span><span class='python-code'>(<span class='python-string'>\"|\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-comment'># Outputs ['red', 'blue', 'yellow']</span></div></div><div class='snippet-row'><div class='column line-number'>0</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>colors_list</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "splitlines-method",
+        "title": "splitlines()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>splitlines()</code> method is called by a string and returns a list of all lines in the string. This method splits a string at the boundaries between lines, such as a newline character. The method returns empty strings for empty lines. <code data-python-type>splitlines()</code> does not require an argument, but can take <code data-python-type>\"keepends=True\"</code> if you wish to keep the newline character in your list items."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example using the splitlines() method in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>haiku</span><span class='python-code'> = </span><span class='python-string'>\"The Old Pond by Matsuo Basho\\nAn old silent pond\\nA frog jumps into the pond--\\nSplash! Silence again.\"</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>haiku_lines</span><span class='python-code'> = </span><span class='python-variable'>haiku</span><span class='python-code'>.</span><span class='python-property'>splitlines</span><span class='python-code'>()</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Outputs ['The Old Pond by Matsuo Basho', 'An old silent pond', 'A frog jumps into the pond--', 'Splash! Silence again.']</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>haiku_lines</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "time-sleep-method",
+        "title": "time.sleep()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>time.sleep()</code> method inserts a waiting period into lines of code. This method will put a program \"to sleep\" by pausing execution of the current thread for a number of seconds, and then continuing. The number of seconds is passed in as the <code data-python-type>sleep()</code> method's argument, and can be a float or an integer. The <code data-python-type>sleep()</code> method is a part of the <code data-python-type>time</code> module, which must be imported into your code."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example using the <code data-python-type>time.sleep()</code> method in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-code'>import </span><span class='python-variable'>time</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>print(</span><span class='python-string'>\"Liftoff in 10 seconds:\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Wait 10 seconds</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-variable'>time</span><span class='python-code'>.</span><span class='python-property'>sleep</span><span class='python-code'>(</span><span class='python-number'>10</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-code'>print(</span><span class='python-string'>\"Liftoff!\"</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "title-method",
+        "title": "title()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>title()</code> method returns a string with the first letter in each word converted to uppercase. If the first character is not a letter, then the next letter will be made uppercase."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a string calling the <code data-python-type>title()</code> method.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>headline</span><span class='python-code'> = </span><span class='python-string'>\"school is in session\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>headline_title</span><span class='python-code'> = </span><span class='python-variable'>headline</span><span class='python-code'>.</span><span class='python-property'>title</span><span class='python-code'>()</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Prints \"School Is In Session\"</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-code'>print(</span><span class='python-variable'>headline_title</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "tuple",
+        "title": "tuple",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A tuple is an ordered collection of objects separated by commas and usually surrounded by parentheses. Like lists in Python, they are objects with an integer index for each item, and can store a variety of data types. Unlike lists, the value and order of the items in a tuple cannot be changed. A tuple containing multiple values can easily be \"unpacked\" into new variables."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a tuple used in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-comment'># Tuple surrounded by parentheses</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>fruits_tuple</span><span class='python-code'> = (</span><span class='python-string'>\"apple\"</span><span class='python-code'>, </span><span class='python-string'>\"banana\"</span><span class='python-code'>, </span><span class='python-string'>\"cherry\"</span><span class='python-code'>, </span><span class='python-string'>\"kiwi\"</span><span class='python-code'>)</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-comment'># Print third element using index</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>fruits_tuple</span><span class='python-code'>[</span><span class='python-number'>2</span><span class='python-code'>])</span></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-comment'># Print third element using unpacking</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-variable'>a</span><span class='python-code'>, </span><span class='python-variable'>b</span><span class='python-code'>, </span><span class='python-variable'>c</span><span class='python-code'>, </span><span class='python-variable'>d</span><span class='python-code'> = </span><span class='python-variable'>fruits_tuple</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-code'>print(</span><span class='python-variable'>c</span><span class='python-code'>)</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "type-function",
+        "title": "type()",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "In Python, the <code data-python-type>type()</code> function returns the class or data type of the argument passed to it. This is often helpful for debugging."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example showing the <code data-python-type>type()</code> function used in Python.",
+            "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>even_numbers</span><span class='python-code'> = [</span><span class='python-number'>2</span><span class='python-code'>, </span><span class='python-number'>4</span><span class='python-code'>, </span><span class='python-number'>6</span><span class='python-code'>, </span><span class='python-number'>8</span><span class='python-code'>]</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>miles</span><span class='python-code'> = </span><span class='python-number'>26.2</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-comment'># Outputs &lt;class 'list'&gt;</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-code'>print(type(</span><span class='python-variable'>even_numbers</span><span class='python-code'>))</span></div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-comment'># Outputs &lt;class 'float'&gt;</span></div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'><span class='python-code'>print(type(</span><span class='python-variable'>miles</span><span class='python-code'>))</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "while-loop",
+        "title": "while",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "A <code data-python-type>while</code> loop repeats lines of code an unknown number of times, until a condition is no longer True. So long as the expression in a <code data-python-type>while</code> statement evaluates to True, there is no limit on how many times the code can repeat."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below are examples of a <code data-python-type>while</code> loop used in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-variable'>counter</span><span class='python-code'> = </span><span class='python-number'>1</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-comment'># Loop repeats until counter reaches 6</span></div></div><div class='snippet-row'><div class='column line-number'>3</div><div class='column code'><span class='python-code'>while</span><span class='python-variable'> counter</span><span class='python-code'> < </span><span class='python-number'>6</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>4</div><div class='column code'><span class='python-variable'>    counter</span><span class='python-code'> += </span><span class='python-number'>1</span></div></div><div class='snippet-row'><div class='column line-number'>5</div><div class='column code'></div></div><div class='snippet-row'><div class='column line-number'>6</div><div class='column code'><span class='python-variable'>my_number</span><span class='python-code'> = </span><span class='python-number'>7</span></div></div><div class='snippet-row'><div class='column line-number'>7</div><div class='column code'><span class='python-variable'>guess</span><span class='python-code'> = </span><span class='python-number'>0</span></div></div><div class='snippet-row'><div class='column line-number'>8</div><div class='column code'><span class='python-comment'># Game repeats until number is guessed</span></div></div><div class='snippet-row'><div class='column line-number'>9</div><div class='column code'><span class='python-code'>while</span><span class='python-variable'> guess </span><span class='python-code'>!=</span><span class='python-variable'> my_number</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>0</div><div class='column code'><span class='python-variable'>    guess</span><span class='python-code'> = int(input(</span><span class='python-string'>\"Guess my number: \"</span><span class='python-code'>))</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      },
+      {
+        "id": "with-statement",
+        "title": "with",
+        "groups": [
+          {
+            "title": "DEFINITION",
+            "text": "The <code data-python-type>with</code> statement in Python creates a code block for specific contexts, such as opening a file. A <code data-python-type>with</code> block will automatically close the file when the block is done, which helps avoid errors."
+          },
+          {
+            "title": "CODE REFERENCE",
+            "text": "Below is an example of a <code data-python-type>with</code> statement used to open a file in Python.",
+            "code": "<div class='snippet-row'><div class='column line-number'>1</div><div class='column code'><span class='python-code'>with open(</span><span class='python-string'>\"my_story.txt\"</span><span class='python-code'>) as </span><span class='python-variable'>file_in</span><span class='python-code'>:</span></div></div><div class='snippet-row'><div class='column line-number'>2</div><div class='column code'><span class='python-variable'>    story</span><span class='python-code'> = </span><span class='python-variable'>file_in</span><span class='python-code'>.</span><span class='python-property'>read</span><span class='python-code'>()</span></div></div>",
+            "type": "code",
+            "variant": "python"
+          }
+        ]
+      }
+    ]
+  }
+]

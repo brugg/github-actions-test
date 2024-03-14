@@ -1,0 +1,106 @@
+{
+    "id": "314b7e88-6e7a-442e-a5ff-735235bed743",
+    "name": "Can I Take Your Order? #1",
+    "media": {
+        "url": "project://assets/can-i-take-your-order-1.png",
+        "type": "image"
+    },
+    "title": "Can I Take Your Order? #1",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "743aa71c-efce-4caa-9a95-39b25568664b",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "0bc12328-358a-4f78-88b6-18fca6c11664",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "f95aa456-6904-4d73-a981-c05b3ee00679",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option matches the output below? The right answer should store the user's input in a variable."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "Type your story here:<br>> Once upon a time..."
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "a5e2dd81-fcde-4063-970a-84b57e6ec08a",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>story</span> = print(<span class='python-string'>\"Type your story here:\"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(<span class='python-string'>\"> \"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "879e5e4a-e8de-4d31-9f7d-7f9b2264d1bf",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>story</span> = input(<span class='python-string'>\"Type your story here: >\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "39f5ceaa-c9f8-41ed-a9a0-ae2b574b3810",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"Type your story here: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>story</span> = input(<span class='python-string'>\"> \"</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "8e7a05c5-65c2-4ece-ae15-5fd738bf4163",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>print(<span class='python-string'>\"Type your story here: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>input(<span class='python-string'>\"> \"</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "f95aa456-6904-4d73-a981-c05b3ee00679",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "f95aa456-6904-4d73-a981-c05b3ee00679"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

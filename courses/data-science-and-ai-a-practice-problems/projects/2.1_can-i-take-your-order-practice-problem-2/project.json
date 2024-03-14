@@ -1,0 +1,112 @@
+{
+ "id": "079e6e4c-1c64-4aff-8bba-208f12e62314",
+ "name": "Can I Take Your Order? #2",
+ "media": {
+     "url": "project://assets/can-i-take-your-order-2.png",
+     "type": "image"
+ },
+ "title": "Can I Take Your Order? #2",
+ "language": "Python",
+ "vocabulary": "#include(course://vocabulary.json)",
+ "activities": {},
+ "section_groups": [
+  {
+   "id": "UUID",
+   "title": "PRACTICE PROBLEM",
+   "sections": [
+    {
+     "id": "b45fe7e1-c42e-415f-a51f-dd92a567af7e",
+     "title": "Practice Problem",
+     "steps": [
+      {
+       "id": "0d5056e2-f563-48d6-874b-4bddf167858e",
+       "title": "#1",
+       "block_groups": [
+        {
+         "id": "UUID",
+         "blocks": [
+          {
+           "id": "8d64787d-f5e0-4381-8101-3e2ac00401b7",
+           "type": "checkpoint",
+           "title": "Multiple Choice",
+           "variant": "multiple_choice",
+           "question": [
+            {
+              "type": "text",
+              "text": "Review the following code."
+            },
+            {
+                "type": "code",
+                "language": "python",
+                "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>animal</span> = <span class='python-string'>\"dog\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'>print(<span class='python-string'>\"Type an animal: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>animal</span> = input(<span class='python-string'>\"> \"</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-string'>\"Type another animal: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>5</div><div class='code'><span class='python-variable'>animal</span> = input(<span class='python-string'>\"> \"</span>)</div></div><div class='snippet-row'><div class='line-number'>6</div><div class='code'>print(<span class='python-string'>\"Type one more animal: \"</span>)</div></div><div class='snippet-row'><div class='line-number'>7</div><div class='code'>input(<span class='python-string'>\"> \"</span>)</div></div>"
+            },
+            {
+              "type": "text",
+              "text": "When this code is run, the user answers three questions:"
+            },
+            {
+                "type": "code",
+                "language": "console",
+                "code": "Type an animal:<br>> panda<br>Type another animal:<br>> fox<br>Type one more animal:<br>> snake"
+            },
+            {
+              "type": "text",
+              "text": "Given this input, what is the value of the variable <code>animal</code>?"
+            }
+        ],
+        "choices": [
+            {
+                "id": "9e84df57-ae80-4fee-b6f9-95f2e2a6e6ec",
+                "text": "<code>\"> \"</code>",
+                "correct": false
+            },
+            {
+                "id": "1244c014-e24b-4c4e-9185-8f03d8c5d5d6",
+                "text": "<code>\"dog\"</code>",
+                "correct": false
+            },
+            {
+                "id": "81c61ff5-b980-4cd2-bf2c-1a62afef9d64",
+                "text": "<code>\"panda\"</code>",
+                "correct": false
+            },
+            {
+                "id": "0990373f-a6cc-4aab-b212-c2ea2977b001",
+                "text": "<code>\"fox\"</code>",
+                "correct": true
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "scoring": {
+   "criteria": [
+     {
+       "title": "Practice Problem",
+       "components": [
+         {
+           "id": "8d64787d-f5e0-4381-8101-3e2ac00401b7",
+           "type": "checkpoint",
+           "weight": 100
+         }
+       ],
+       "contexts": [
+         {
+             "type": "checkpoint",
+             "title": "Practice Problem",
+             "checkpoints": [
+               "8d64787d-f5e0-4381-8101-3e2ac00401b7"
+             ]
+         }
+       ]
+     }
+   ]
+ }
+}

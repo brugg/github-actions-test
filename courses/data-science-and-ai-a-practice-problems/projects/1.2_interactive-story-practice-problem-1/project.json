@@ -1,0 +1,102 @@
+{
+    "id": "6256ded7-a7fc-4135-9029-a00a5bfcfa5d",
+    "name": "Interactive Story #1",
+    "media": {
+        "url": "project://assets/interactive-story-1.png",
+        "type": "image"
+    },
+    "title": "Interactive Story #1",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+          "id": "UUID",
+          "title": "PRACTICE PROBLEM",
+          "sections": [
+            {
+              "id": "49355ecc-c8af-4118-bd2e-3a51a16afa53",
+              "title": "Practice Problem",
+              "steps": [
+                {
+                  "id": "c3f69ad0-e951-4478-bda1-7b20080af987",
+                  "title": "#1",
+                  "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "b19a21e3-fc16-4589-9f3f-6376e93d1b99",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option below is a string?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "3f656ef6-9a18-42f1-b0a9-76555bb76d02",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>100</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "861b2a53-5976-4563-aa5c-d6ca8751b022",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>1918</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "702f9837-597a-4244-b6cb-f9340e73a53e",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>2</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "3470e055-e2d1-47a4-a099-72b3c036f8d8",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-string'>\"100\"</span></div></div>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "b19a21e3-fc16-4589-9f3f-6376e93d1b99",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "b19a21e3-fc16-4589-9f3f-6376e93d1b99"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

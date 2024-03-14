@@ -1,0 +1,116 @@
+{
+    "id": "f1b91d3f-f94d-428e-89e2-fb9b8b38630e",
+    "name": "Independent Projects #18",
+    "media": {
+        "url": "project://assets/independent-projects-18.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #18",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "c1705396-a4c3-4c5d-b58d-15ec4103730d",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "90925e3e-37fe-440c-a1be-1862a3b0e2b1",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "84697337-4e4e-4055-ae67-5f0cb1d3e5ca",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Given the code below:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'><span class='python-variable'>my_favorite_color</span> = <span class='python-string'>\"pink\"</span></div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option will print this message in the console?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "console",
+                                                    "code": "My favorite color is pink"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "dade4bbd-ac17-4dab-8988-055c60329668",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"My favorite color is blue\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "311e72f2-337f-47a2-9045-de2ec04c9483",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>f\"My favorite color is <span class='python-code'>{</span><span class='python-variable'>pink</span><span class='python-code'>}</span>\"</span>)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "d4c9b0c8-bb26-4eba-a0f1-e4df0136d5e3",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>f\"My favorite color is <span class='python-code'>{</span><span class='python-variable'>my_favorite_color</span><span class='python-code'>}</span>\"</span>)</div></div>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "fc6ca8bc-d442-4535-8de1-04c981c53c89",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"My favorite color is {my_favorite_color}\"</span>)</div></div>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "84697337-4e4e-4055-ae67-5f0cb1d3e5ca",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "84697337-4e4e-4055-ae67-5f0cb1d3e5ca"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "id": "5f225dee-f16a-4ad7-bb96-ad133d6518c4",
+    "name": "Independent Projects #5",
+    "media": {
+        "url": "project://assets/independent-projects-5.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #5",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "e919c0d7-b20c-4e4b-a562-a09f93481f3a",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "f68d189f-2f17-4821-a126-16e1606d721d",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "ae20fd07-36be-41fd-8210-3f6a2f3b930a",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which variable is assigned a string value?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>age</span> = <span class='python-number'>15</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>name</span> = <span class='python-string'>\"Jordan\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>loves_pizza</span> = True</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>lucky_number</span> = <span class='python-number'>2</span></div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "23665d11-7b20-4ee8-a6ca-26a0a705961a",
+                                                    "type": "text",
+                                                    "text": "<strong><code>age</code></strong>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "416aa97c-1263-45d5-a0fb-1a4a20d529a3",
+                                                    "type": "text",
+                                                    "text": "<strong><code>name</code></strong>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "84e7a2d5-c333-4608-af15-4e86a93d64a5",
+                                                    "type": "text",
+                                                    "text": "<strong><code>loves_pizza</code></strong>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "56370727-d550-42f6-bb2c-e04e60e741a2",
+                                                    "type": "text",
+                                                    "text": "<strong><code>lucky_number</code></strong>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "ae20fd07-36be-41fd-8210-3f6a2f3b930a",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "ae20fd07-36be-41fd-8210-3f6a2f3b930a"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

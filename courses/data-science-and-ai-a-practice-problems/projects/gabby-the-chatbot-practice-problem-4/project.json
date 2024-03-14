@@ -1,0 +1,103 @@
+{
+    "id": "81dd4926-0f2d-46a7-a253-db010fb3cd45",
+    "name": "Gabby The Chatbot #4",
+    "media": {
+        "url": "project://assets/gabby-the-chatbot-4.png",
+        "type": "image"
+    },
+    "title": "Gabby The Chatbot #4",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "6c64da72-e065-48de-a42d-757f2e3bcdda",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "6c80a134-c419-4cd9-8936-b29e8cb8458b",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "475cff2e-550d-4293-9a30-05ae32ee83ef",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>first</span> = <span class='python-string'>\"Benjamin\"</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>second</span> = <span class='python-string'>\"Franklin\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>first</span> += <span class='python-variable'>second</span></div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>first</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "b5d48c58-b396-40ef-9d67-2580bf9b50e0",
+                                                    "text": "<code>Benjamin</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "8c4fa97b-57eb-4239-b111-010ad5f204a2",
+                                                    "text": "<code>Benjamin Franklin</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "a13cda0d-63bf-41e2-854b-95e4759d3546",
+                                                    "text": "<code>BenjaminFranklin</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "8306dab4-3d54-4a1e-a7ad-a4cc02f13f62",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "475cff2e-550d-4293-9a30-05ae32ee83ef",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "475cff2e-550d-4293-9a30-05ae32ee83ef"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

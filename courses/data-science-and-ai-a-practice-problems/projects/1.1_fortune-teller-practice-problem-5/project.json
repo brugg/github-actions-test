@@ -1,0 +1,103 @@
+{
+    "id": "30dbef1c-41fe-429f-b49e-c5119f1ec115",
+    "name": "Fortune Teller #5",
+    "media": {
+        "url": "project://assets/fortune-teller-5.png",
+        "type": "image"
+    },
+    "title": "Fortune Teller #5",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "702cfe8c-71a8-418b-94e1-20d6ff023c2d",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "206869d1-f16a-49f7-ad00-497c910c9864",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "14a0c13e-8aef-4327-8fd5-c24358e2f53d",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "The code below calls the <strong><code>print()</code></strong> function to print a message to the console."
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print(<span class='python-string'>\"I love pizza!\"</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Which option is NOT calling a function?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "ccacc882-9956-4e95-bffe-4cfc13de80e4",
+                                                    "text": "<code>print(\"hello\")</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "1d886ed8-300f-4c39-a6c6-4a12c9fb3c1d",
+                                                    "text": "<code>input</code>",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "99191224-065c-497a-b1ce-b924c05bb1ce",
+                                                    "text": "<code>min(4, 3, 9)</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "96d76a8c-9ab3-4398-acd6-df9cf9c1809f",
+                                                    "text": "<code>round(5.76543)</code>",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "14a0c13e-8aef-4327-8fd5-c24358e2f53d",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "14a0c13e-8aef-4327-8fd5-c24358e2f53d"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

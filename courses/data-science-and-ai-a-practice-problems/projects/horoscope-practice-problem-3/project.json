@@ -1,0 +1,103 @@
+{
+    "id": "09c627dd-2763-467e-a919-ef917baaa8d0",
+    "name": "Horoscope #3",
+    "media": {
+        "url": "project://assets/horoscope-3.png",
+        "type": "image"
+    },
+    "title": "Horoscope #3",
+    "language": "CoBlocks",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "a4be5e73-79ae-4b44-8daf-8d9e39e8b093",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "6fb11b5b-54d7-4b07-9b30-f1cef3998806",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "820c7e3e-aee7-43a2-8aa9-f4bf7a5b4184",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "When this code runs:"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'>import <span class='python-variable'>random</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>presidents</span> = [<span class='python-string'>\"Washington\"</span>, <span class='python-string'>\"Lincoln\"</span>, <span class='python-string'>\"Roosevelt\"</span>]</div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>president</span> = <span class='python-variable'>random</span>.<span class='python-property'>choice</span>(<span class='python-variable'>presidents</span>)</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'>print(<span class='python-variable'>president</span>)</div></div>"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "What will the program output?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "d1d5d4d9-d9d5-4bec-adbe-6b634f5702a0",
+                                                    "text": "<code>Washington</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "79d0a674-8b3f-49b0-b50f-24aa4cbecbf9",
+                                                    "text": "<code>Roosevelt</code>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "083fb6a1-6931-4a10-9cb9-2b77d585f72a",
+                                                    "text": "Error message",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "888d4547-cf19-4b3f-bb2a-4e5a977501ae",
+                                                    "text": "A different element from the list could print each time the code is run.",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "title": "Practice Problem",
+                "components": [
+                    {
+                        "id": "820c7e3e-aee7-43a2-8aa9-f4bf7a5b4184",
+                        "type": "checkpoint",
+                        "weight": 100
+                    }
+                ],
+                "contexts": [
+                    {
+                        "type": "checkpoint",
+                        "title": "Practice Problem",
+                        "checkpoints": [
+                            "820c7e3e-aee7-43a2-8aa9-f4bf7a5b4184"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "id": "95490b8f-5234-4b79-8c27-5788b1e1a9a7",
+    "name": "Independent Projects #15",
+    "media": {
+        "url": "project://assets/independent-projects-15.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #15",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "f6f4632d-93c8-4d7f-9619-f490ec2d8170",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "8172b916-bc96-4694-b4d2-7973071d7889",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "a628eb9d-6dbc-4a79-a988-745a90bf231f",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "<strong><code>max</code></strong>, <strong><code>print</code></strong>, <strong><code>input</code></strong>, and <strong><code>len</code></strong> are all Python functions. Which option is calling a function using proper Python syntax?"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "c5f1b1dc-8a1f-487c-a14d-4b897577912a",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>()max</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "b66a73ae-e0b8-4c82-986c-f6b9dad0f72c",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>print</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "2e03aa92-c255-4c03-bcd9-4f741b64fb12",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>(input)</div></div>",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "edb7a896-384d-4bdc-9891-a3cef24cdb48",
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='code'>len(<span class='python-string'>\"This will calculate the length of this string\"</span>)</div></div>",
+                                                    "correct": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "a628eb9d-6dbc-4a79-a988-745a90bf231f",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "a628eb9d-6dbc-4a79-a988-745a90bf231f"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}

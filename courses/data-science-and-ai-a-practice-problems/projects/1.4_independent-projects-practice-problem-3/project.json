@@ -1,0 +1,103 @@
+{
+    "id": "61c7cfa4-97c3-4318-89fe-2aad16feccce",
+    "name": "Independent Projects #3",
+    "media": {
+        "url": "project://assets/independent-projects-3.png",
+        "type": "image"
+    },
+    "title": "Independent Projects #3",
+    "language": "Python",
+    "vocabulary": "#include(course://vocabulary.json)",
+    "activities": {},
+    "section_groups": [
+        {
+            "id": "UUID",
+            "title": "PRACTICE PROBLEM",
+            "sections": [
+                {
+                    "id": "917a05c5-e23b-4116-ae30-61f883ba3d24",
+                    "title": "Practice Problem",
+                    "steps": [
+                        {
+                            "id": "40d0968a-c0b2-41d7-b8d5-f29dfd0ffcd5",
+                            "title": "#1",
+                            "block_groups": [
+                                {
+                                    "id": "UUID",
+                                    "blocks": [
+                                        {
+                                            "id": "7a27ea2c-ddfa-4fde-b4ec-3b6c244d31a3",
+                                            "type": "checkpoint",
+                                            "title": "Multiple Choice",
+                                            "variant": "multiple_choice",
+                                            "question": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Variables are assigned to a value using the = operator. What is the value of the variable <strong><code>lucky_number</code></strong> in the code below?"
+                                                },
+                                                {
+                                                    "type": "code",
+                                                    "language": "python",
+                                                    "code": "<div class='snippet-row'><div class='line-number'>1</div><div class='code'><span class='python-variable'>age</span> = <span class='python-number'>15</span></div></div><div class='snippet-row'><div class='line-number'>2</div><div class='code'><span class='python-variable'>name</span> = <span class='python-string'>\"Jordan\"</span></div></div><div class='snippet-row'><div class='line-number'>3</div><div class='code'><span class='python-variable'>loves_pizza</span> = True</div></div><div class='snippet-row'><div class='line-number'>4</div><div class='code'><span class='python-variable'>lucky_number</span> = <span class='python-number'>2</span></div></div>"
+                                                }
+                                            ],
+                                            "choices": [
+                                                {
+                                                    "id": "61a32703-6f17-4f22-b473-5f94babc9379",
+                                                    "type": "text",
+                                                    "text": "2",
+                                                    "correct": true
+                                                },
+                                                {
+                                                    "id": "43829e21-9a99-4bd6-8dfa-e9225e297db1",
+                                                    "type": "text",
+                                                    "text": "15",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "e3363750-cce0-415b-98df-1c9804bd6b61",
+                                                    "type": "text",
+                                                    "text": "=",
+                                                    "correct": false
+                                                },
+                                                {
+                                                    "id": "620c3bec-2b50-4475-ae9f-4d4c2257b30c",
+                                                    "type": "text",
+                                                    "text": "\"Jordan\"",
+                                                    "correct": false
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "scoring": {
+      "criteria": [
+        {
+          "title": "Practice Problem",
+          "components": [
+            {
+              "id": "7a27ea2c-ddfa-4fde-b4ec-3b6c244d31a3",
+              "type": "checkpoint",
+              "weight": 100
+            }
+          ],
+          "contexts": [
+            {
+                "type": "checkpoint",
+                "title": "Practice Problem",
+                "checkpoints": [
+                  "7a27ea2c-ddfa-4fde-b4ec-3b6c244d31a3"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+}
