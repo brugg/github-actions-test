@@ -1,0 +1,12 @@
+{
+    "sha": "9bcc2cbbd51963b905bb170aca1eb7f1c939ee8c",
+    "filename": "courses/virtual-reality-c/course.json",
+    "status": "modified",
+    "additions": 7,
+    "deletions": 0,
+    "changes": 7,
+    "blob_url": "https://github.com/Hello-World-CS/curriculum/blob/7ec7409f5b273d34fa58c4e5df8a391d3b44bea8/courses%2Fvirtual-reality-c%2Fcourse.json",
+    "raw_url": "https://github.com/Hello-World-CS/curriculum/raw/7ec7409f5b273d34fa58c4e5df8a391d3b44bea8/courses%2Fvirtual-reality-c%2Fcourse.json",
+    "contents_url": "https://api.github.com/repos/Hello-World-CS/curriculum/contents/courses%2Fvirtual-reality-c%2Fcourse.json?ref=7ec7409f5b273d34fa58c4e5df8a391d3b44bea8",
+    "patch": "@@ -241,6 +241,10 @@\n             {\n               \"id\": \"b32d588d-16f7-494b-a42d-469bbc0cd01d\",\n               \"weight\": 1\n+            },\n+            {\n+              \"id\": \"b119ee25-e838-49cb-b0eb-e0c9d86a272a\",\n+              \"weight\":1\n             }\n           ]\n         }\n@@ -265,3 +269,6 @@\n     }\n   ]\n }\n+\n+\n+"
+}

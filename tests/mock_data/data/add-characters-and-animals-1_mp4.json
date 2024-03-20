@@ -1,0 +1,12 @@
+{
+    "sha": "c738e18575425e47a58a73b8231b71e73df82999",
+    "filename": "courses/virtual-reality-b/projects/lost-treasure/assets/program/1-building-the-scene/add-characters-and-animals-1.mp4",
+    "status": "added",
+    "additions": 3,
+    "deletions": 0,
+    "changes": 3,
+    "blob_url": "https://github.com/Hello-World-CS/curriculum/blob/7ec7409f5b273d34fa58c4e5df8a391d3b44bea8/courses%2Fvirtual-reality-b%2Fprojects%2Flost-treasure%2Fassets%2Fprogram%2F1-building-the-scene%2Fadd-characters-and-animals-1.mp4",
+    "raw_url": "https://github.com/Hello-World-CS/curriculum/raw/7ec7409f5b273d34fa58c4e5df8a391d3b44bea8/courses%2Fvirtual-reality-b%2Fprojects%2Flost-treasure%2Fassets%2Fprogram%2F1-building-the-scene%2Fadd-characters-and-animals-1.mp4",
+    "contents_url": "https://api.github.com/repos/Hello-World-CS/curriculum/contents/courses%2Fvirtual-reality-b%2Fprojects%2Flost-treasure%2Fassets%2Fprogram%2F1-building-the-scene%2Fadd-characters-and-animals-1.mp4?ref=7ec7409f5b273d34fa58c4e5df8a391d3b44bea8",
+    "patch": "@@ -0,0 +1,3 @@\n+version https://git-lfs.github.com/spec/v1\n+oid sha256:17501e16003bfbe67710b4b504c4917f08bdaccb656a218c3d3b2f7d0f29dd7f\n+size 17955645"
+}

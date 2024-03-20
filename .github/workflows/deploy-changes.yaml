@@ -71,4 +71,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY_NAME: ${{ github.repository }}
-        run: python3 tools/detect_changes.py
+        run: python3 tools/deployment/detect_changes.py
