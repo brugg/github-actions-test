@@ -62,31 +62,31 @@ jobs:
       # - name: Fetch all tags
       #   run: git fetch --tags      
       
-      - uses: actions/setup-python@v5
-        id: setup-python
-        with:
-          python-version: "3.9"
+      # - uses: actions/setup-python@v5
+      #   id: setup-python
+      #   with:
+      #     python-version: "3.9"
       
-      - uses: actions/cache@v4
-        id: cache-virtualenv
-        with:
-          path: ".virtualenv"
-          key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
+      # - uses: actions/cache@v4
+      #   id: cache-virtualenv
+      #   with:
+      #     path: ".virtualenv"
+      #     key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
 
       # If we weren't able to pull down a cache of the virtual environment then
       # build one.
-      - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
-        run: make --no-print-directory require-virtualenv     
+      # - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+      #   run: make --no-print-directory require-virtualenv     
       
-      - name: Generate diffs
-        run: |
-          echo Start preparing deplooyment with release name: "$NEW_RELEASE_TAG"
-          python3 tools/prepare-deploy.py -t "$NEW_RELEASE_TAG" -p "$LATEST_RELEASE_TAG" -g "$GITHUB_WORKSPACE"
+      # - name: Generate diffs
+      #   run: |
+      #     echo Start preparing deplooyment with release name: "$NEW_RELEASE_TAG"
+      #     python3 tools/prepare-deploy.py -t "$NEW_RELEASE_TAG" -p "$LATEST_RELEASE_TAG" -g "$GITHUB_WORKSPACE"
       
-      - name: Zip Generated Folder
-        run: |
-          mv diffs deploys/"$NEW_RELEASE_TAG"/diffs
-          zip -r files.zip deploys/"$NEW_RELEASE_TAG"/
+      # - name: Zip Generated Folder
+      #   run: |
+      #     mv diffs deploys/"$NEW_RELEASE_TAG"/diffs
+      #     zip -r files.zip deploys/"$NEW_RELEASE_TAG"/
       
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
