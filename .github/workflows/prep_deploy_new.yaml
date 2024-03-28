@@ -1,0 +1,94 @@
+name: Prepare deployment New
+
+on:
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  create-draft-release:
+    runs-on: ubuntu-latest
+    outputs:
+      new_release_tag: ${{ steps.create-tag-name.outputs.new_release_tag }}
+      latest_release_tag: ${{ steps.latest_release.outputs.latest_release_tag }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install GitHub CLI
+        run: |
+          if ! gh --version &>/dev/null; then
+            sudo apt update
+            sudo apt install -y gh
+          fi
+
+      - name: Fetch the latest release
+        id: latest_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RELEASES=$(gh api repos/${{ github.repository }}/releases --paginate)
+          LATEST_RELEASE=$(echo "$RELEASES" | jq -r '.[] | select(.draft == false and .prerelease == false) | .tag_name' | head -n 1)
+          
+          if [ -n "$LATEST_RELEASE" ]; then
+            echo "latest_release_tag=$LATEST_RELEASE" >> $GITHUB_OUTPUT # To share with other jobs
+            echo "LATEST_RELEASE=$LATEST_RELEASE" >> $GITHUB_ENV # To share with the next steps in this job
+          fi
+      
+      - name: Create new release name
+        id: create-tag-name
+        run: |
+          DATE=$(date +'%y.%m.%d')
+          TAG_NAME="v$DATE"
+          echo "new_release_tag=$TAG_NAME" >> $GITHUB_OUTPUT # To share with other jobs
+          echo "new_release_tag=$TAG_NAME" >> $GITHUB_ENV # To share with the next steps in this job
+          echo $TAG_NAME
+
+      - name: Publish Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$new_release_tag" --title "$new_release_tag" --notes "This is an auto-generated release."
+        
+          
+  # prepare-deployment:
+  #   runs-on: ubuntu-latest
+  #   env: 
+  #     NEW_RELEASE_TAG: ${{ needs.check-for-changes.outputs.new_release_tag }}
+  #     LATEST_RELEASE_TAG: ${{ needs.check-for-changes.outputs.latest_release_tag }}
+  #   steps:
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v4
+      
+  #     - uses: actions/setup-python@v5
+  #       id: setup-python
+  #       with:
+  #         python-version: "3.9"
+      
+  #     - uses: actions/cache@v4
+  #       id: cache-virtualenv
+  #       with:
+  #         path: ".virtualenv"
+  #         key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
+
+  #     # If we weren't able to pull down a cache of the virtual environment then
+  #     # build one.
+  #     - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+  #       run: make --no-print-directory require-virtualenv
+
+  #     - name: Fetch all tags
+  #       run: git fetch --tags
+      
+  #     - name: Generate diffs
+  #       run: |
+  #         echo Start preparing deplooyment with release name: "$NEW_RELEASE_TAG"
+  #         python3 tools/prepare-deploy.py -t "$NEW_RELEASE_TAG" -p "$LATEST_RELEASE_TAG" -g "$GITHUB_WORKSPACE"
+      
+  #     - name: Zip Generated Folder
+  #       run: |
+  #         mv diffs deploys/"$NEW_RELEASE_TAG"/diffs
+  #         zip -r files.zip deploys/"$NEW_RELEASE_TAG"/
+      
+  #     - name: Upload files
+  #       uses: actions/upload-artifact@v4
+  #       with:
+  #         name: diffs-artifact
+  #         path: files.zip
