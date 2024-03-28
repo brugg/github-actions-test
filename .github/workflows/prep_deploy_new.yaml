@@ -69,18 +69,21 @@ jobs:
         with:
           name: file-from-job1
           path: file1.md
+          retention-days: 1
 
       - name: Upload artifact for Job 2
         uses: actions/upload-artifact@v4
         with:
           name: file-from-job2
           path: file2.md
+          retention-days: 1
       
       - name: Upload diffs.zip
         uses: actions/upload-artifact@v4
         with:
           name: diffs-zip
           path: diffs.zip
+          retention-days: 1
       
       # - name: Fetch all tags
       #   run: git fetch --tags      
@@ -171,19 +174,19 @@ jobs:
       - name: Download all Artifacts
         uses: actions/download-artifact@v4
       
+      - name: Unzip diff folder
+        run: unzip diffs-zip/diffs.zip
+
       - name: List downloaded files
         run: |
           ls -lah          
-
-      - name: Unzip diff folder
-        run: unzip diffs-zip/diffs.zip
 
       - name: Zip Generated Files
         run: |
           mkdir -p deploys/"$NEW_RELEASE_TAG"
           mv diffs deploys/"$NEW_RELEASE_TAG"/diffs
-          mv file-from-job1/file1.md deploy/"$NEW_RELEASE_TAG"
-          mv file-from-job2/file2.md deploy/"$NEW_RELEASE_TAG"
+          mv file-from-job1/file1.md deploy/"$NEW_RELEASE_TAG"/file1.md
+          mv file-from-job2/file2.md deploy/"$NEW_RELEASE_TAG"/file2.md
           zip -r files.zip deploy/"$NEW_RELEASE_TAG"
 
       - name: Upload Release Asset
