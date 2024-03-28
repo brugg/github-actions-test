@@ -71,6 +71,12 @@ jobs:
           name: file-from-job2
           path: file2.md
       
+      - name: Upload diffs.zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: diff
+          path: diffs.zip
+      
       # - name: Fetch all tags
       #   run: git fetch --tags      
       
