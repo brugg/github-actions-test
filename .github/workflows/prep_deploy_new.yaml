@@ -37,7 +37,8 @@ jobs:
         id: create-tag-name
         run: |
           DATE=$(date +'%y.%m.%d')
-          TAG_NAME="v$DATE"
+          JOB_NUMBER=${GITHUB_RUN_NUMBER}
+          TAG_NAME="v$DATE-$JOB_NUMBER"
           echo "new_release_tag=$TAG_NAME" >> $GITHUB_OUTPUT # To share with other jobs
           echo "new_release_tag=$TAG_NAME" >> $GITHUB_ENV # To share with the next steps in this job
           echo $TAG_NAME
