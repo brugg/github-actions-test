@@ -179,12 +179,14 @@ jobs:
 
       - name: List downloaded files
         run: |
-          ls -lah          
+          ls -lah 
+          ls -lah file-from-job1
+          ls -lah file-from-job2
 
       - name: Zip Generated Files
         run: |
-          mkdir -p deploys/"$NEW_RELEASE_TAG"
-          mv diffs deploys/"$NEW_RELEASE_TAG"/diffs
+          mkdir -p deploy/"$NEW_RELEASE_TAG"
+          mv diffs deploy/"$NEW_RELEASE_TAG"/diffs
           mv file-from-job1/file1.md deploy/"$NEW_RELEASE_TAG"/file1.md
           mv file-from-job2/file2.md deploy/"$NEW_RELEASE_TAG"/file2.md
           zip -r files.zip deploy/"$NEW_RELEASE_TAG"
