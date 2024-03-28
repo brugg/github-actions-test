@@ -180,7 +180,7 @@ jobs:
 
       - name: Zip Generated Files
         run: |
-          mkdir deploys/"$NEW_RELEASE_TAG"
+          mkdir -p deploys/"$NEW_RELEASE_TAG"
           mv diffs deploys/"$NEW_RELEASE_TAG"/diffs
           mv file-from-job1/file1.md deploy/"$NEW_RELEASE_TAG"
           mv file-from-job2/file2.md deploy/"$NEW_RELEASE_TAG"
