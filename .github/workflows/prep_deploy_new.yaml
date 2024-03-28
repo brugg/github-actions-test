@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
-  create-draft-release:
+  create-release:
     runs-on: ubuntu-latest
     outputs:
       new_release_tag: ${{ steps.create-tag-name.outputs.new_release_tag }}
@@ -48,7 +48,56 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create "$new_release_tag" --title "$new_release_tag" --notes "This is an auto-generated release."
-        
+  
+  generate_diffs:
+    runs-on: ubuntu-latest
+    needs: create-release
+    env: 
+      NEW_RELEASE_TAG: ${{ needs.create-release.outputs.new_release_tag }}
+      LATEST_RELEASE_TAG: ${{ needs.create-release.outputs.latest_release_tag }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      # - name: Fetch all tags
+      #   run: git fetch --tags      
+      
+      - uses: actions/setup-python@v5
+        id: setup-python
+        with:
+          python-version: "3.9"
+      
+      - uses: actions/cache@v4
+        id: cache-virtualenv
+        with:
+          path: ".virtualenv"
+          key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
+
+      # If we weren't able to pull down a cache of the virtual environment then
+      # build one.
+      - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+        run: make --no-print-directory require-virtualenv     
+      
+      - name: Generate diffs
+        run: |
+          echo Start preparing deplooyment with release name: "$NEW_RELEASE_TAG"
+          python3 tools/prepare-deploy.py -t "$NEW_RELEASE_TAG" -p "$LATEST_RELEASE_TAG" -g "$GITHUB_WORKSPACE"
+      
+      - name: Zip Generated Folder
+        run: |
+          mv diffs deploys/"$NEW_RELEASE_TAG"/diffs
+          zip -r files.zip deploys/"$NEW_RELEASE_TAG"/
+      
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: files.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Upload files
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: diffs-artifact
+      #     path: files.zip
           
   # prepare-deployment:
   #   runs-on: ubuntu-latest
