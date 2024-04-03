@@ -93,7 +93,7 @@ jobs:
 
       - name: Prepare Deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ github.token }}
           REPOSITORY_NAME: ${{ github.repository }}
         run: |
           echo Start preparing deplooyment with release name: ${{ env.NEW_RELEASE_TAG }}          
@@ -103,9 +103,9 @@ jobs:
           zip -r files.zip deploy
 
       - name: Upload Release Asset
-        uses: softprops/action-gh-release@v2.0.4  
+        uses: softprops/action-gh-release@v2
         with:
           files: files.zip
           tag_name: ${{ env.NEW_RELEASE_TAG }}
         env:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.TOKEN }}
