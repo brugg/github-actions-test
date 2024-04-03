@@ -93,7 +93,6 @@ jobs:
 
       - name: Prepare Deploy
         env:
-          TOKEN: ${{ github.token }}
           REPOSITORY_NAME: ${{ github.repository }}
         run: |
           echo Start preparing deplooyment with release name: ${{ env.NEW_RELEASE_TAG }}          
@@ -108,4 +107,4 @@ jobs:
           files: files.zip
           tag_name: ${{ env.NEW_RELEASE_TAG }}
         env:
-          token: ${{ env.TOKEN }}
+          token: ${{ github.token }}
