@@ -40,55 +40,11 @@ jobs:
     needs: create-release
     env: 
       NEW_RELEASE_TAG: ${{ needs.create-release.outputs.new_release_tag }}
-    permissions: # Add "id-token" with the intended permissions.
-      id-token: "write"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           ref: ${{ env.NEW_RELEASE_TAG }}
-
-      # - uses: actions/setup-python@v5
-      #   id: setup-python
-      #   with:
-      #     python-version: "3.9"
-
-      # - name: Install Python dependencies
-      #   run: |
-      #     python -m pip install --upgrade pip
-      #     pip install -r requirements.txt
-      
-      # - name: Cache Python dependencies
-      #   uses: actions/cache@v4
-      #   with:
-      #     path: ~/.cache/pip
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
-  
-      # - uses: actions/cache@v4
-      #   id: cache-virtualenv
-      #   with:
-      #     path: ".virtualenv"
-      #     key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
-
-      # # If we weren't able to pull down a cache of the virtual environment then
-      # # build one.
-      # - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
-      #   run: make --no-print-directory require-virtualenv
-
-      # # Configure gcloud authentication.  This will activate a service account
-      # # that has permissions to read our lint caches.
-      # - id: "auth"
-      #   name: "Authenticate to Google Cloud"
-      #   uses: "google-github-actions/auth@v2"
-      #   with:
-      #     service_account: "curriculum-github-actions-sa@helloworldcs-dev.iam.gserviceaccount.com"
-      #     workload_identity_provider: "projects/252601700190/locations/global/workloadIdentityPools/github/providers/github-id-provider"
-  
-      # ## Set up authentication
-      # - name: Set up Cloud SDK
-      #   uses: google-github-actions/setup-gcloud@v2
 
       - name: Prepare Deploy
         env:
