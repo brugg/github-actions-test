@@ -41,7 +41,6 @@ jobs:
     env: 
       NEW_RELEASE_TAG: ${{ needs.create-release.outputs.new_release_tag }}
     permissions: # Add "id-token" with the intended permissions.
-      contents: "read"
       id-token: "write"
     steps:
       - name: Checkout repository
