@@ -1,0 +1,59 @@
+id: 68ed2ffa-02bd-46ce-b371-652248a6020e
+title: Trivia Time
+
+rubric:
+  computer-science
+    7bee852a-b7c0-4ca9-8356-03a9a4210932
+    813d533f-1faa-4e86-a847-7084f00b8a74
+    88cdc1ad-98e9-435b-abc9-f733d5e8f390
+    ec8d2b59-35c9-4e31-8a68-11bed0999b3e
+    f1f1107d-7f06-4db4-976c-e200b8bc4238
+  creativity
+    0946c4b2-a8d3-483b-a630-ddb013e3643a
+    327ea8fc-9824-4e00-b750-f10db3049fb1
+    ce27421b-bef1-4554-a692-a3b310ab0552
+    f2d31ece-864c-4f7c-874f-aff9b0b1a8a7
+  interdisciplinary-learning
+    ee358e31-8a7b-4202-936d-68b1604db24a
+
+activities:
+  student-project id=trivia-time tool=pickcode action=edit
+
+steps:
+  0da92bc2-0ced-4f17-b0da-f0171b52aa05 
+  0bad1d77-e680-425b-b305-065c66f36eef 
+  d273d374-b518-4346-ad5d-881a48edf483 
+  21e28a63-5391-4585-b181-de98f1d9b41c 
+    0f978b55-f04a-460e-9ee9-ca5e0d0d3665 variant=short_answer
+  dba935a5-1923-4c77-b336-79eb816360b4 
+    7194d866-47f6-473b-8038-ecc9fc1b6100 variant=short_answer
+  94fd82da-9e2b-451c-b8b0-f860e56baf14 
+    c24927d2-a174-4bf9-99a5-8707e9ce016b variant=short_answer
+  a47c4f2f-dcbc-4d31-8269-7ca7e1e5e0a6 activity=student-project
+  774a8cac-bf31-4108-bf62-ec2a62d8a55f activity=student-project
+    4683955b-4605-4818-8290-bfb19aad0939 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  bbcd8e9e-404a-4488-a441-fdd75994852d activity=student-project
+
+positions (not in order):
+  section=1f0a7560-5ad7-4cda-81a8-c6d975a95c3c step=0bad1d77-e680-425b-b305-065c66f36eef
+  section=1f0a7560-5ad7-4cda-81a8-c6d975a95c3c step=0da92bc2-0ced-4f17-b0da-f0171b52aa05
+  section=ad08f0bb-9a63-4096-87a4-dbedb4945641 step=21e28a63-5391-4585-b181-de98f1d9b41c
+  section=5107cd98-8c28-4ac0-b28a-fa9b6160f053 step=774a8cac-bf31-4108-bf62-ec2a62d8a55f
+  section=ad08f0bb-9a63-4096-87a4-dbedb4945641 step=94fd82da-9e2b-451c-b8b0-f860e56baf14
+  section=5107cd98-8c28-4ac0-b28a-fa9b6160f053 step=a47c4f2f-dcbc-4d31-8269-7ca7e1e5e0a6
+  section=1e4256a3-96bc-4e1a-93d9-c3511ba5f38a step=bbcd8e9e-404a-4488-a441-fdd75994852d
+  section=1f0a7560-5ad7-4cda-81a8-c6d975a95c3c step=d273d374-b518-4346-ad5d-881a48edf483
+  section=ad08f0bb-9a63-4096-87a4-dbedb4945641 step=dba935a5-1923-4c77-b336-79eb816360b4
+
+criteria:
+  Computer Science
+    4683955b-4605-4818-8290-bfb19aad0939 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    4683955b-4605-4818-8290-bfb19aad0939 type=checkpoint variant=rubric weight=5
+  Creativity
+    4683955b-4605-4818-8290-bfb19aad0939 type=checkpoint variant=rubric weight=5
+
+

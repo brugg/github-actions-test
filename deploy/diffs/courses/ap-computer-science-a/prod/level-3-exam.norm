@@ -1,0 +1,90 @@
+id: b3cd8810-2aaa-11ec-8d3d-0242ac130003
+title: Level 3 Exam
+
+activities:
+  checkpoint-set id=fa8cc3d8-2aaa-11ec-8d3d-0242ac130003 tool=checkpoint-set
+    0e344870-2ad3-11ec-8d3d-0242ac130003 variant=multiple_choice
+      7eddfc6a-2ad3-11ec-8d3d-0242ac130003 correct=False
+      81343600-2ad3-11ec-8d3d-0242ac130003 correct=False
+      8331d926-2ad3-11ec-8d3d-0242ac130003 correct=True
+      855112e4-2ad3-11ec-8d3d-0242ac130003 correct=False
+      881d1dec-2ad3-11ec-8d3d-0242ac130003 correct=False
+    13d381f8-2aae-11ec-8d3d-0242ac130003 variant=multiple_choice
+      9395f754-2aae-11ec-8d3d-0242ac130003 correct=False
+      9857696c-2aae-11ec-8d3d-0242ac130003 correct=False
+      9bc92cc0-2aae-11ec-8d3d-0242ac130003 correct=False
+      a05629be-2aae-11ec-8d3d-0242ac130003 correct=True
+      a5091aa2-2aae-11ec-8d3d-0242ac130003 correct=False
+    5d958a9e-2ad5-11ec-8d3d-0242ac130003 variant=multiple_choice
+      82d1f45a-2ad5-11ec-8d3d-0242ac130003 correct=True
+      85fc766e-2ad5-11ec-8d3d-0242ac130003 correct=False
+      8809ba0c-2ad5-11ec-8d3d-0242ac130003 correct=False
+      8b39f7e6-2ad5-11ec-8d3d-0242ac130003 correct=False
+      8d819e1e-2ad5-11ec-8d3d-0242ac130003 correct=False
+    784fb058-2aad-11ec-8d3d-0242ac130003 variant=multiple_choice
+      c2035d1c-2aad-11ec-8d3d-0242ac130003 correct=True
+      c66d26b2-2aad-11ec-8d3d-0242ac130003 correct=False
+      cb7ec03e-2aad-11ec-8d3d-0242ac130003 correct=False
+      cee34cfe-2aad-11ec-8d3d-0242ac130003 correct=False
+      d192dcf8-2aad-11ec-8d3d-0242ac130003 correct=False
+    7c2247b4-2ad4-11ec-8d3d-0242ac130003 variant=multiple_choice
+      7fcda8b8-2ad4-11ec-8d3d-0242ac130003 correct=False
+      827c6fa4-2ad4-11ec-8d3d-0242ac130003 correct=False
+      84dfe26c-2ad4-11ec-8d3d-0242ac130003 correct=True
+      8727d25a-2ad4-11ec-8d3d-0242ac130003 correct=False
+      89830bfa-2ad4-11ec-8d3d-0242ac130003 correct=False
+    92c64d4a-2ad3-11ec-8d3d-0242ac130003 variant=multiple_choice
+      bf34abd8-2ad3-11ec-8d3d-0242ac130003 correct=False
+      c1d9e7c2-2ad3-11ec-8d3d-0242ac130003 correct=False
+      c4403f2a-2ad3-11ec-8d3d-0242ac130003 correct=False
+      c6847562-2ad3-11ec-8d3d-0242ac130003 correct=True
+      c8d25dac-2ad3-11ec-8d3d-0242ac130003 correct=False
+    af4cbfd4-2ad4-11ec-8d3d-0242ac130003 variant=multiple_choice
+      294959b4-2ad5-11ec-8d3d-0242ac130003 correct=False
+      2bac85b4-2ad5-11ec-8d3d-0242ac130003 correct=False
+      2e460a16-2ad5-11ec-8d3d-0242ac130003 correct=False
+      30c8b16c-2ad5-11ec-8d3d-0242ac130003 correct=True
+      3307d30e-2ad5-11ec-8d3d-0242ac130003 correct=False
+    d5633778-2aae-11ec-8d3d-0242ac130003 variant=multiple_choice
+      10e467dc-2ad1-11ec-8d3d-0242ac130003 correct=False
+      26fcaaf2-2ad1-11ec-8d3d-0242ac130003 correct=True
+      2d732406-2ad1-11ec-8d3d-0242ac130003 correct=False
+      3118c98a-2ad1-11ec-8d3d-0242ac130003 correct=False
+      33769630-2ad1-11ec-8d3d-0242ac130003 correct=False
+    f63631f6-2ad3-11ec-8d3d-0242ac130003 variant=multiple_choice
+      385e66b6-2ad4-11ec-8d3d-0242ac130003 correct=False
+      3b0c02d8-2ad4-11ec-8d3d-0242ac130003 correct=False
+      3e7d98be-2ad4-11ec-8d3d-0242ac130003 correct=False
+      40cba71e-2ad4-11ec-8d3d-0242ac130003 correct=False
+      434ed3ee-2ad4-11ec-8d3d-0242ac130003 correct=True
+    fe9ef7d4-2aaa-11ec-8d3d-0242ac130003 variant=multiple_choice
+      29b92f6e-2aad-11ec-8d3d-0242ac130003 correct=False
+      2ccec24a-2aad-11ec-8d3d-0242ac130003 correct=True
+      2ff649ac-2aad-11ec-8d3d-0242ac130003 correct=False
+      45e84d96-2aad-11ec-8d3d-0242ac130003 correct=False
+      496882ec-2aad-11ec-8d3d-0242ac130003 correct=False
+
+steps:
+  ea5fd900-2aaa-11ec-8d3d-0242ac130003 
+  f7269a20-2aaa-11ec-8d3d-0242ac130003 activity=checkpoint-set
+  a56d35c4-2ad5-11ec-8d3d-0242ac130003 
+
+positions (not in order):
+  section=a1f7558c-2ad5-11ec-8d3d-0242ac130003 step=a56d35c4-2ad5-11ec-8d3d-0242ac130003
+  section=e7b8034e-2aaa-11ec-8d3d-0242ac130003 step=ea5fd900-2aaa-11ec-8d3d-0242ac130003
+  section=f442784c-2aaa-11ec-8d3d-0242ac130003 step=f7269a20-2aaa-11ec-8d3d-0242ac130003
+
+criteria:
+  Exam
+    fe9ef7d4-2aaa-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    784fb058-2aad-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    13d381f8-2aae-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    d5633778-2aae-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    0e344870-2ad3-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    92c64d4a-2ad3-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    f63631f6-2ad3-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    7c2247b4-2ad4-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    af4cbfd4-2ad4-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+    5d958a9e-2ad5-11ec-8d3d-0242ac130003 type=checkpoint weight=10
+
+

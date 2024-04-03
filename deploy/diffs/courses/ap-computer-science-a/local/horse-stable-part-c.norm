@@ -1,0 +1,35 @@
+id: 812519de-599a-40bf-b2e5-af74e1b575c9
+title: FRQ: Horse Stable Part C
+
+rubric:
+  computer-science
+    5918a2f9-94a2-47c6-a6b4-26e0b3aa54c8
+    75af8090-9c20-4bc9-8b42-a66b877bca65
+    98d07a17-bcb9-40b7-bf2b-ff2dcefde86b
+    a6e44054-780c-4d6a-aa93-771a63217ebd
+    dfac09c9-8900-40f6-a76f-52e079986191
+
+activities:
+  written-response-1 id=3c361216-ff32-4c3e-8171-8e4c94c779fb tool=code-response id=3c361216-ff32-4c3e-8171-8e4c94c779fb
+
+steps:
+  a8a3f34c-de4a-4b01-b80e-74c356a31391 
+  40ed2614-1458-48e9-9e8c-3e7ba7181d30 activity=written-response-1
+  a9d80cec-9b9e-40a5-87da-6d47c555fe1a activity=written-response-1
+  e9c62880-a890-4d51-bee1-ac4d7101b4f2 activity=written-response-1
+
+positions (not in order):
+  section=194238a6-510e-46c2-9f4a-e16b4d9120cc step=40ed2614-1458-48e9-9e8c-3e7ba7181d30
+  section=534fbfbe-316a-485e-b1bd-3d90a37bc3f4 step=a8a3f34c-de4a-4b01-b80e-74c356a31391
+  section=194238a6-510e-46c2-9f4a-e16b4d9120cc step=a9d80cec-9b9e-40a5-87da-6d47c555fe1a
+  section=aebb2f97-4d61-40e1-968c-4f82ebd84700 step=e9c62880-a890-4d51-bee1-ac4d7101b4f2
+
+criteria:
+  FRQ Rubric
+    c7aa1a54-e9af-43f7-ade5-eeb4a4431929 type=question weight=20
+    651d27f8-d777-40a1-a61b-b4f9d0117f02 type=question weight=20
+    b97da79d-0b83-4769-962c-73d58e3836b8 type=question weight=20
+    b679e380-84c4-4217-87e4-1e3e0b4c695b type=question weight=20
+    98921dc9-b7e9-4ce0-a7e8-c4dae3505467 type=question weight=20
+
+

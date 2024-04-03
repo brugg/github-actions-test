@@ -1,0 +1,82 @@
+id: 1269e10c-c85a-4ad3-9b6b-62c5e4cf9637
+title: Information Transformation
+
+rubric:
+  computer-science
+    09f1a35e-5705-4c63-b0bb-88522c2c4344
+    14a5a22f-fd5e-4801-9eae-5a59e1d11b38
+    5554391c-a95e-49c5-b764-780a4b1e51f0
+    928f806d-41b7-40ce-aa7d-bb90edb6d596
+    a4d9f12f-8ed3-49d7-bae2-6ebbdff3b228
+    b922f705-4e7a-4e05-916c-b42cce5f7783
+    bc9d804b-67c6-4c95-a434-3e3432f8ae55
+    e5c26cbc-08ee-48c4-8580-981bca9cfc1d
+  creativity
+    1632d994-f4ed-4479-a135-18167898ffd3
+    edf91588-77c5-48f0-804d-bac57ece719e
+    ff11234f-ecae-4f32-bb04-da85c252a1f6
+  written-communication
+    8e273552-a40a-4e46-86b3-ff31150ec5d6
+    b0a30039-0c43-48c6-9800-b87aac6c8876
+    b98f1409-e625-4dc5-bb97-2fd385dab69e
+
+activities:
+  student-project id=information-transformation-activity tool=pickcode action=edit
+  written-response id=06a45411-7b07-4ade-b2d2-b8b099ab8cad tool=written-response id=06a45411-7b07-4ade-b2d2-b8b099ab8cad
+
+steps:
+  4ea3a5c0-da8f-4219-aac3-dbb08330b43a 
+  8b3b8fcc-aefe-445c-b441-76aa11b44f4e 
+  ec19f9f1-95b9-40e2-ae01-604d312036ef 
+  6b084ea1-0eea-421c-9b70-aeabd013e7f0 
+  53146a08-2071-4c9a-858c-1686fbcb2509 
+  3c6ae6ee-8a01-4146-9f11-43e1c49fec68 activity=student-project
+    9e8b199f-dd45-4068-980d-2ca7797dbf1a variant=short_answer
+  74e27e56-0ff6-4c12-a3cb-34927afd1c6e activity=student-project
+    e8789d08-b41e-4a9e-9138-41d7d218e7ca variant=short_answer
+  5c875f29-fb0b-4840-be99-881d948eddaa activity=student-project
+    6161c09a-e81e-4dfb-bc9a-74230897f7b7 variant=short_answer
+  2928a13c-f074-4978-bc61-3d81edae1eeb activity=student-project
+    8bd5a66d-3d0c-421b-8505-e6a83b1dd7d7 variant=short_answer
+  79816682-8a7d-4957-99f6-2f068454bcee activity=student-project
+  0e7d31ff-546c-49d1-8d61-06824f65f1ba activity=student-project
+  6690dc1b-03c0-47da-b76a-3c98fdc071a9 activity=student-project
+  a27273e7-310a-491e-bcdb-31f63d960275 activity=student-project
+  04990af7-1e44-4888-9014-91cf1cae16a2 activity=student-project
+    25f3d8ae-53c6-4e37-a279-65d0cd022c20 variant=rubric
+      computer-science 
+      creativity required=1
+  a7e850cf-81df-4fc9-bad0-ca72be48ca60 activity=student-project
+  56b9f686-01c7-4278-a6e9-ec9d01b12977 activity=written-response
+    75929b47-6518-4035-9d7d-04b67b666768 variant=rubric
+      written-communication 
+  2eaacc23-30c8-4d61-baf4-b21f86d6aed8 
+
+positions (not in order):
+  section=9b89c9ed-435b-4d6d-828d-b3f490b19693 step=04990af7-1e44-4888-9014-91cf1cae16a2
+  section=ae4e8276-1db4-4b90-ae51-16f57f7191da step=0e7d31ff-546c-49d1-8d61-06824f65f1ba
+  section=d7eddd24-6b09-4b93-a1ab-9be6a5f8cd45 step=2928a13c-f074-4978-bc61-3d81edae1eeb
+  section=2204358d-7ae8-49e1-8235-8ef59c481364 step=2eaacc23-30c8-4d61-baf4-b21f86d6aed8
+  section=d7eddd24-6b09-4b93-a1ab-9be6a5f8cd45 step=3c6ae6ee-8a01-4146-9f11-43e1c49fec68
+  section=96f71574-6d9e-4f33-9257-42f04833e9cf step=4ea3a5c0-da8f-4219-aac3-dbb08330b43a
+  section=2da7b94e-8aa9-4204-af93-cebecbc39f1a step=53146a08-2071-4c9a-858c-1686fbcb2509
+  section=fdebb391-eba8-4d26-9ab6-a6a7f394dfec step=56b9f686-01c7-4278-a6e9-ec9d01b12977
+  section=d7eddd24-6b09-4b93-a1ab-9be6a5f8cd45 step=5c875f29-fb0b-4840-be99-881d948eddaa
+  section=ae4e8276-1db4-4b90-ae51-16f57f7191da step=6690dc1b-03c0-47da-b76a-3c98fdc071a9
+  section=96f71574-6d9e-4f33-9257-42f04833e9cf step=6b084ea1-0eea-421c-9b70-aeabd013e7f0
+  section=d7eddd24-6b09-4b93-a1ab-9be6a5f8cd45 step=74e27e56-0ff6-4c12-a3cb-34927afd1c6e
+  section=ae4e8276-1db4-4b90-ae51-16f57f7191da step=79816682-8a7d-4957-99f6-2f068454bcee
+  section=96f71574-6d9e-4f33-9257-42f04833e9cf step=8b3b8fcc-aefe-445c-b441-76aa11b44f4e
+  section=9b89c9ed-435b-4d6d-828d-b3f490b19693 step=a27273e7-310a-491e-bcdb-31f63d960275
+  section=c0b23c1a-b92f-4cdd-bf61-4b5af59645a2 step=a7e850cf-81df-4fc9-bad0-ca72be48ca60
+  section=96f71574-6d9e-4f33-9257-42f04833e9cf step=ec19f9f1-95b9-40e2-ae01-604d312036ef
+
+criteria:
+  Computer Science
+    25f3d8ae-53c6-4e37-a279-65d0cd022c20 type=checkpoint variant=rubric weight=90
+  Creativity
+    25f3d8ae-53c6-4e37-a279-65d0cd022c20 type=checkpoint variant=rubric weight=5
+  Written Communication
+    75929b47-6518-4035-9d7d-04b67b666768 type=checkpoint variant=rubric weight=5
+
+

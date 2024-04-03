@@ -1,0 +1,27 @@
+id: 9411ed0a-0ee5-4513-ba01-dcfb9578b470
+title: FRQ: Ready Player Num Part A
+
+activities:
+  written-response-1 id=1d647b5f-f017-459b-b2f7-12d489d39cb5 tool=code-response id=1d647b5f-f017-459b-b2f7-12d489d39cb5
+
+steps:
+  158c59b3-55bc-434c-a3de-e388b80de734 
+  1b5ba83e-d367-438a-8aca-5d3d2ed00ed8 activity=written-response-1
+  9b6cf15a-92b2-4ffe-be38-f4b347a85304 activity=written-response-1
+  adcfaed1-ca47-413e-a52c-232557fe5b73 activity=written-response-1
+
+positions (not in order):
+  section=592f76ce-8886-4300-916e-0f55b1c19a12 step=158c59b3-55bc-434c-a3de-e388b80de734
+  section=a735fae9-80fe-441f-9b9f-d129b632cd59 step=1b5ba83e-d367-438a-8aca-5d3d2ed00ed8
+  section=a735fae9-80fe-441f-9b9f-d129b632cd59 step=9b6cf15a-92b2-4ffe-be38-f4b347a85304
+  section=c6c92999-25f4-45c0-bc1b-99584a6de9e9 step=adcfaed1-ca47-413e-a52c-232557fe5b73
+
+criteria:
+  FRQ Rubric
+    c85ff83a-b823-43fa-b0c7-fe8acf6a8dd9 type=question weight=20
+    b2b34bef-5462-4919-95c2-bc97a3ae1e7a type=question weight=20
+    37aa8fb3-bebc-48a3-8072-284b0b78e99c type=question weight=20
+    3b86584d-6d73-43d3-8d5e-96f24d4cccab type=question weight=20
+    a4b0c930-19c4-4564-a999-04c96ff445a5 type=question weight=20
+
+

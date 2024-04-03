@@ -1,0 +1,19 @@
+id: 29cb712c-9cee-4e15-8a31-b68df965886f
+title: Living in Digital Times
+
+activities:
+  student-project tool=cospaces url=https://edu.cospaces.io/ZPJ-LXT action=render
+
+steps:
+  1272e02d-8e8d-4057-bc55-3b5be21752c5 
+  5e74199f-8fc4-4a4a-b480-ec92d93af17b 
+  cf6d1826-da9d-4423-8976-e32a0ba65a09 
+  b76bdf50-422a-4dbf-9111-43a76a68faa2 activity=student-project
+
+positions (not in order):
+  section=8d59c479-0296-4207-a2c6-47a5f57f93d6 step=1272e02d-8e8d-4057-bc55-3b5be21752c5
+  section=8d59c479-0296-4207-a2c6-47a5f57f93d6 step=5e74199f-8fc4-4a4a-b480-ec92d93af17b
+  section=22a0721a-8628-4bd3-bf67-e4de94148356 step=b76bdf50-422a-4dbf-9111-43a76a68faa2
+  section=8d59c479-0296-4207-a2c6-47a5f57f93d6 step=cf6d1826-da9d-4423-8976-e32a0ba65a09
+
+

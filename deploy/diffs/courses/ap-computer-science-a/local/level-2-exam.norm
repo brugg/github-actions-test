@@ -1,0 +1,369 @@
+id: b60a7a2f-855b-4fbd-b3e9-84a495d2d6c7
+title: Level 2 Exam
+
+activities:
+  checkpoint-set id=a32c27da-1e92-466c-9c38-0667dffa35a4 tool=checkpoint-set
+    0029f112-c021-439b-a6ef-f8b5eed7bfab variant=multiple_choice
+      083f684d-2684-4f54-9a13-8406abeca85d correct=False
+      1a41f6e5-4c76-4afc-a58d-a5f7b7bbb54c correct=False
+      1e7ac07d-a183-4233-b847-c737c5746f94 correct=False
+      442e235e-eb83-44c3-9652-3e5c1bd08df3 correct=True
+      c3fe53d2-ce2d-4519-bd0b-2cf9b5ebe9ca correct=False
+    003c6c28-66bd-4f2e-bb98-2f0891980e2a variant=multiple_choice
+      0db108b7-441e-4175-a15b-58eae90cbcc4 correct=False
+      2587b1a4-7e67-498e-9048-5392d914f158 correct=True
+      90df6cf6-b896-4569-9381-e454f14b5078 correct=False
+      ae6fdaf3-d7e9-4f57-8dfe-a518d33e79fa correct=False
+      fb470d2d-3533-4c00-bb89-c25718c6dfdd correct=False
+    01ab8e60-c8c8-43cd-b788-b01cc6685ba8 variant=multiple_choice
+      27f2898d-3aaf-4b03-afed-1784e3c016ba correct=True
+      3e2f9103-186a-4179-a7ac-5118875232be correct=False
+      444b1993-dce6-4d5a-83ae-aa392ca393b1 correct=False
+      a9974a3e-f176-4c0a-84f2-29e3d4a6c7b7 correct=False
+      b65c6ed3-244c-4426-8451-6fca5a117573 correct=False
+    09e36309-7ce2-42c7-bb80-ee9216a3d836 variant=multiple_choice
+      4178c03a-0e32-427f-b321-8ca3df7e30a0 correct=False
+      4435e3ca-a6e6-43e6-9a7b-18a036beb109 correct=True
+      57268330-d8b8-47e1-b093-8bb434c74e40 correct=False
+      9431462b-f445-444d-a7af-3106b8529fcc correct=False
+      b0f11da6-9e06-43b6-8f18-fbb208b607f9 correct=False
+    0da674b1-1a90-4ee7-bc1d-0e0f8962c658 variant=multiple_choice
+      3ff6e0cb-a066-4650-ace3-0ba9072ed3c2 correct=False
+      54b7023f-1871-45e6-a447-be5d3b75f3a5 correct=False
+      8ccbf075-4452-4817-9a92-588837c3db01 correct=False
+      d00f4e78-d509-4181-9f0a-da842fcad7e5 correct=True
+      f5e2bab5-3ffc-4d4d-8e6e-31693affc814 correct=False
+    2039c6d6-569d-4b2c-b569-822bc3ee84e1 variant=multiple_choice
+      1cb58f33-21bb-48f7-8f39-a4062ce9f7bf correct=True
+      471481ca-a424-428b-804f-381ef9503dc2 correct=False
+      620120fd-0f35-43e4-9290-aa239de27437 correct=False
+      9d0f8a9c-1fef-4b7a-b8e3-08f989340151 correct=False
+      b108a889-4435-467b-80f4-7520c69216b7 correct=False
+    28fbffa9-1fbe-4c76-b011-5fe4c3e8b0b3 variant=multiple_choice
+      03c0ec42-fe55-46e9-bb6a-e0469da49eb5 correct=False
+      23027e71-5293-4fea-b7f2-489381060572 correct=False
+      275ba024-3f97-4357-b763-2cce10f1a88a correct=False
+      46aa9743-7645-4fc8-8315-5523e1715ed1 correct=True
+      bc6dc393-14f3-453e-8fc4-c9017cced313 correct=False
+    2b8ac53e-38ca-4dd9-ba14-cec6459f724a variant=multiple_choice
+      2f1f0b7a-331c-4348-aff5-6a9da7560a67 correct=False
+      a216bd52-98b3-46b7-aaf6-450d9f2d5b59 correct=False
+      a518bb3a-231f-43c4-a30d-c5076e855e8c correct=True
+      c45a9a07-9825-4045-8cb4-30f596fc185d correct=False
+      e6cf7f5d-3eeb-456d-84f6-7424417e10ab correct=False
+    4075f7e0-83c1-4f6b-a539-267399189268 variant=multiple_choice
+      7b88c216-5c6e-4780-8f4a-046b0a5bea6a correct=False
+      7d68048e-3032-4ab7-8230-a111d3c7e78f correct=False
+      7e5db82b-c130-41cd-9899-c237513e4c3c correct=False
+      bb957f8b-b18d-4961-b72f-80c6a3c1e384 correct=False
+      e30d0e55-5596-43c5-9cee-eab7904a433f correct=True
+    40c7a65e-3ec9-4f5d-84c4-f1317bb18ccb variant=multiple_choice
+      06a0f677-dbe7-45d0-a2c2-77d2bf4feb1b correct=False
+      420587ac-cc2a-491b-b470-7820d32e3b5e correct=False
+      5b75a4a9-a7a3-4b7b-87ea-ca42037abc0a correct=False
+      7304b4c0-5264-4b06-97a9-4daaae2d5b9f correct=True
+      eb81ac22-e22e-4bdd-97f0-c74355cc0165 correct=False
+    432308a7-92ac-4bee-b2e9-5255f2ef76d4 variant=multiple_choice
+      639ea1da-cfb0-4106-b814-e308bdf79dd8 correct=False
+      96154614-6ed0-4836-b99e-08f2e29abd8e correct=False
+      984ca40c-284d-445a-813f-a083ddae9965 correct=False
+      be31e194-530a-4f1c-854f-50e438e28df8 correct=True
+      e24eedcf-4bba-4225-8d03-045788d9f28c correct=False
+    492c57e7-0b69-4959-be3e-81dcf9dd5015 variant=multiple_choice
+      0cb1b839-44b4-4adc-9efc-dc77db86c7c9 correct=False
+      26deb7dc-2ac5-4aa2-bb1e-c6dc2afaba89 correct=False
+      3fba7c70-e4f0-4d2e-8b3c-cccce1f59ee3 correct=False
+      7939e8bd-b423-41f7-98e3-8c2c647e5f72 correct=False
+      f8267010-bfcd-4131-8cdf-7327136b1c04 correct=True
+    4db686e0-72cf-40bc-8e0a-245b53bca2e2 variant=multiple_choice
+      13e012ff-9e8d-4c5d-aa47-d47ce9d59508 correct=False
+      b8e12b3f-2309-440a-a74b-007e063670a3 correct=False
+      cc2d4367-9bf4-49ad-b621-2a9eacbad47e correct=False
+      dd042ba2-e002-4b2c-a7ab-c00c76fd529a correct=False
+      e20ef7a3-3fcb-4c4f-b4ba-ddc3f593da77 correct=True
+    4ec612a0-1a97-484c-beed-85e9133bfb06 variant=multiple_choice
+      6c542e66-cbf9-4aad-8619-02e8c1e344b9 correct=True
+      9fe39200-feea-4171-be27-6829d553976b correct=False
+      a9e70acf-418c-4340-9e30-dfdca7a5080e correct=False
+      ae13dcd8-d779-4897-b36c-d29e640c76aa correct=False
+      ebe2ac8c-7f53-46c5-a71d-723c245fb5c7 correct=False
+    52f5cfa4-7f9d-4100-921b-d5690c09e686 variant=multiple_choice
+      03cb8c37-9b11-4c5b-a8cb-646963c2a9f8 correct=False
+      18895f89-3f2b-48fd-b908-7d02f26db1bf correct=False
+      d0356d6e-79e3-41da-ad2a-28e6615c0d9f correct=False
+      ea7f0a90-758c-4ae8-8ded-29cac469e908 correct=True
+      fe455e35-2f91-4496-a65e-c46ecac9ac42 correct=False
+    53d04735-5590-4af0-9355-612415db0bfc variant=multiple_choice
+      07db7dab-8273-40e5-aad3-f4f1174f801e correct=False
+      210ac3a1-e40f-4ed3-8184-2171c03a2101 correct=True
+      effdd8db-da2b-45d1-93de-a335c7f89a89 correct=False
+      f09600fc-69cc-4ed8-b7f9-6d41a9d20926 correct=False
+      fdf4ccdc-1822-4df2-af9c-7c4b1bacd0eb correct=False
+    55738e93-575f-4e44-b101-777893c1ab5b variant=multiple_choice
+      0466a767-1c10-40f3-a0f2-6749e41b2e6b correct=False
+      40955a2f-d98a-4b0f-b436-097f36586707 correct=False
+      a6acbcaf-b5b5-416c-9e4a-d898cbdad95f correct=False
+      abe4dde5-cdda-4986-9966-02c5f967e085 correct=False
+      e2fb138e-cb43-4c77-bb23-6e1977ebbef6 correct=True
+    579687f0-0044-4717-8bea-c1ab4f8ef640 variant=multiple_choice
+      167f733a-4a19-497c-a40f-f8e1b51e0808 correct=False
+      be2470e7-d677-4626-8e94-9272297df552 correct=False
+      cfb78cfd-3deb-4d84-ab69-cd9cb7942cc9 correct=False
+      cfe6eb9f-d827-4569-88e9-ae01fe4d4de7 correct=False
+      d8496bce-054e-429c-87ab-191bb1f5b3d7 correct=True
+    5c737072-01db-4143-a2fc-533a225dafe2 variant=multiple_choice
+      28cdb6e5-c4e9-4d04-a961-d2ec42d9dd48 correct=False
+      519ae793-fe25-4139-b9d7-06d12218c9bc correct=False
+      51cc254c-2d1f-49b0-8def-27f3ebadf605 correct=True
+      aeb32a63-41f2-4113-88cc-5a792e6e2825 correct=False
+      d186359e-abb2-4ac1-9a9c-05db67defba5 correct=False
+    5e9e09d1-3267-4793-adf0-e7175906f54f variant=multiple_choice
+      045fee6e-1343-43e1-879e-06bd7a83d85f correct=False
+      4bc52608-4528-4062-a1f4-528034efc080 correct=False
+      5b21dd72-dbb8-4973-b234-303e5f94da8b correct=False
+      dc7d8296-aeda-4d48-955e-83e0d1364e1b correct=True
+      fa2f4915-9d05-4ff9-b4bd-876722eec1e5 correct=False
+    61e79bbf-d81f-48d3-8f0d-a2f35f42dd6c variant=multiple_choice
+      31abc086-ae3d-46ce-89e4-566169226029 correct=True
+      582aaf3b-e45d-4fd0-a577-d5786957f31e correct=False
+      6f425260-86ca-4472-9224-cf9f44218c07 correct=False
+      bce4cc62-d76f-4a95-a67b-7bf408e82f94 correct=False
+      e43b1af1-ccf2-4110-a6f1-95dc2a09f4ba correct=False
+    761eee31-3275-46f5-a943-7aa237de6039 variant=multiple_choice
+      4e482f0f-27e2-4d3a-afc8-5d83d27d7faa correct=True
+      b0c0bd9b-4b06-4686-8594-a6084f223787 correct=False
+      ce2076c1-afe9-4652-80bf-fa97851ef57d correct=False
+      f2936211-ce1e-4c50-9261-58857c685ce8 correct=False
+      f6be0d11-7efe-4f48-a112-d6a2f77029b2 correct=False
+    762b5f0d-fb22-45b3-858c-41f528481f10 variant=multiple_choice
+      175002e5-3b3e-4844-9116-a5af541033db correct=False
+      472d63d5-ffee-4197-91b2-3b7dce1eb403 correct=False
+      61831deb-aeba-44af-823e-45aa87145126 correct=True
+      8c435aeb-21af-4e51-a2f1-60145b18bd2e correct=False
+      b7f85b76-9510-44ef-8059-aae51d2cf1df correct=False
+    7fd65950-0400-4da2-913a-a8da6785e75b variant=multiple_choice
+      391c6cd3-4f32-4cf7-8cdf-3749f3ae0baf correct=False
+      75e0e50c-04f2-4636-aeb7-d000a3e0c7a4 correct=False
+      a8cbacd1-66a3-4f4b-b7ae-cdaa2733295d correct=False
+      ca38fdac-d373-4808-8177-0efd9d13b618 correct=True
+      f6174ea0-5e30-4a23-aed4-f271b890b3ea correct=False
+    83669e35-1792-43ad-a0ff-cddd86a4ba01 variant=multiple_choice
+      66db1202-e722-40db-864a-b4ec60bfab2f correct=False
+      686a4d05-273e-46dc-b839-a72c4f01348b correct=True
+      a54f0806-78f8-4e14-8534-38fdd4f99a4f correct=False
+      ba13a69e-ae17-47f0-b071-5f832c5b1923 correct=False
+      eb1a290d-347c-46f0-9ddf-0de581616309 correct=False
+    8403310c-01de-4d73-9715-da172ca9b939 variant=multiple_choice
+      1b431d93-6515-4fef-8637-fb9bc4ac093d correct=False
+      392e71d3-35e2-4434-8c10-98a3b67b3ac5 correct=False
+      53720a82-0df9-4094-a6b1-147d3074e06e correct=False
+      b2f43f63-42f6-44bf-9e7a-66f24bfc6f1a correct=False
+      bbe11bff-a311-4a95-a9cd-13c5d39253e7 correct=True
+    88c11c04-4fe3-445b-8bdd-d6cc605ad85b variant=multiple_choice
+      1ba0a40a-8353-4a24-987c-4dbbd74afdd6 correct=False
+      36551594-71d1-4f0a-b038-be42fb95844b correct=False
+      9bede415-4320-4275-a043-40466a288655 correct=False
+      a8643b16-23c7-42cd-a1c7-4b5826a91f52 correct=False
+      cb214f74-5547-475c-a357-64d139a0b1bb correct=True
+    93fc51b7-78bd-4785-b495-58e410ecef31 variant=multiple_choice
+      1c763535-1df3-44e1-a2e8-f4055a531723 correct=False
+      27d8b607-7d34-4d64-9ce4-26dcea4de201 correct=False
+      4a117a3d-2c80-4377-89e5-376afa6f022b correct=False
+      7cb7b96b-64bd-41a9-b720-ba33b3004cc9 correct=False
+      98f81dce-7b30-46f9-b10f-25cb0c355901 correct=True
+    9705c721-d384-43ae-99f0-8b92cc34e698 variant=multiple_choice
+      0fe33d12-6444-4708-8773-1eccb5902f73 correct=False
+      2783504f-d4ed-4715-9035-0fa82f5ec984 correct=False
+      63ac5954-959b-4dd3-b516-aab0a422c2ae correct=False
+      8e7d0048-2ae9-4bec-86ae-6264898cdeb0 correct=True
+      d4da4bf2-2bac-4427-b9e6-b0ed6f87ae41 correct=False
+    a067c240-49df-451d-a446-37a1c9732b6a variant=multiple_choice
+      0000ce98-b9b1-4f97-9ba4-ee4661318bf9 correct=False
+      55d0064e-13c1-4cfa-9149-e1aa402f1dce correct=False
+      7b32f13d-56a5-418c-bab3-a733b17a31b2 correct=False
+      ab964ce2-1877-4f57-83b2-8f4fb4fe79ca correct=True
+      ca0f855c-9dd9-4ad2-9575-66101bb5dfa4 correct=False
+    a80f05df-c383-46b0-b1b9-02622a69a18b variant=multiple_choice
+      1340e0e7-ed2e-4d8d-9372-e117795a7eba correct=True
+      2638a090-f13f-448e-80fb-bdcd86b30fb3 correct=False
+      2c282525-9120-4111-a260-353247f1a056 correct=False
+      c78337d7-1f8e-4c36-9975-df7570b2091f correct=False
+      f8cb8961-624d-4fd2-b007-706c1217b60c correct=False
+    ab7e9e18-fb8a-4181-8982-b92d76166eae variant=multiple_choice
+      24bf975d-c7e9-4ebf-abfe-df007db0dc31 correct=False
+      82d9350f-c90d-45df-86a8-08d6f3a49db6 correct=False
+      a1cd7681-dea3-4439-b0bd-67b2cbc43f6e correct=False
+      b917a83e-c902-4a27-9216-259be26ef4c9 correct=True
+      d109e453-12fb-45bd-8385-4816b9239e4d correct=False
+    b2ec7f7c-dfa3-4377-97cd-5edaf723efd2 variant=multiple_choice
+      07969d30-f4df-4540-a4f9-a8c37972aa7d correct=False
+      3044b13c-e85d-4616-b1e7-046ac7c57270 correct=False
+      48c857a2-d412-4117-b3e6-90ec110191c2 correct=False
+      6e3cf062-da04-4344-9a40-160b4c371a17 correct=False
+      fc8fe307-04e4-4393-86ba-8581845ac998 correct=True
+    b6aec353-7b77-48f1-9a68-61d706dfa4a0 variant=multiple_choice
+      15f7659c-a0c3-4cb7-ac17-cce86ddad304 correct=True
+      7dafe62f-ff83-4708-88e8-d3d37f0caa41 correct=False
+      bd473f87-7531-431b-9898-5699d6e4c8ad correct=False
+      c960627a-9f06-4e90-b2a6-f603fb15a36a correct=False
+      fa8ead82-1aa0-4ae1-a001-a6f460401960 correct=False
+    b797e043-dccd-4743-a33b-c097f110aab8 variant=multiple_choice
+      0d23b447-cfd0-4bae-b2a9-b2e2897f17a8 correct=False
+      1532fa8f-3836-4244-96e7-03a29c59afc5 correct=False
+      82e2f7be-1907-40cb-a0a4-db99fa0ec43d correct=False
+      8f85ed03-3d99-4981-b030-897af21d2f1e correct=True
+      a42428ed-b23c-4f9f-841d-13a88faf21b9 correct=False
+    c0ca104b-6454-434e-b398-010f39c19b2d variant=multiple_choice
+      330126ab-6f8f-4e4b-b049-387ca76f970a correct=False
+      4d1195f1-2bd8-4f5a-a97b-ba230c2116bb correct=False
+      9dbf3604-87c4-49c1-bf23-375f4aa77a63 correct=False
+      a19d3cab-ecb8-49a8-9840-a9dc324825ff correct=True
+      b2ce45e9-f237-4a9b-9ffe-a81319b5b61d correct=False
+    c698c9b8-8406-4262-b16a-2462c008cfa0 variant=multiple_choice
+      7de63201-1d1c-4ce7-a9d2-4b49c7840f11 correct=False
+      967ae92b-286f-4687-9ee8-c10c06f24593 correct=False
+      a4528d2e-9794-4fee-8073-4e7a8396a8a2 correct=False
+      b6a1221d-62de-4643-b687-4137db247773 correct=True
+      ec722369-87ec-4f49-88f3-924bee8e17c9 correct=False
+    d8fbf9b2-f743-4042-91f7-7825338b38ed variant=multiple_choice
+      034c2255-0ccf-47c3-a7fb-d042ece4ce26 correct=False
+      1cdf210e-9cd2-427c-826f-2e15de124bcc correct=True
+      7c4e92ce-f204-4249-a2a8-d221cfc84bd6 correct=False
+      9466d6bb-e140-43c3-b841-b131d5f04445 correct=False
+      c0ace14d-0b13-450d-9d54-3357d67e664c correct=False
+    dde73252-2944-42d9-9ab4-707a29d4057a variant=multiple_choice
+      0e5bd024-e2fa-4b92-8ab8-1bb3fb483447 correct=False
+      2a70e1a7-e936-4edb-a0ba-c39fc4b9b7ec correct=True
+      412840e7-9364-4b7e-8dfb-e0633ff28665 correct=False
+      9c1339ec-964f-4ccb-a93b-06745d62a280 correct=False
+      ea76ed42-4482-4821-9a3b-042f03dc2961 correct=False
+    df7f86a8-411f-4e3a-87cd-4de181d0d391 variant=multiple_choice
+      25e266ef-18e9-4be1-8214-c2c886b464ff correct=False
+      71128dbe-64fe-4151-a981-904024729280 correct=False
+      79e6af85-dd0a-48e7-844e-5a095e465424 correct=True
+      b8b06fac-4000-4375-a6f0-26ba81572739 correct=False
+      d5715c73-44b7-48fd-8de3-36d1ef2cad61 correct=False
+    e69041e4-9432-485e-a871-be4484a77903 variant=multiple_choice
+      31a79c3a-27bc-4473-842d-0b19b68e9e55 correct=False
+      59e9cf40-cfba-4937-9a1a-ea74bc135fda correct=False
+      9d3b6ee0-4365-4ded-82d4-af92ed3620fd correct=False
+      b8ff4d11-ecf3-46d5-a7aa-b5aec6bbb814 correct=True
+      f0bff245-c731-4292-b0c2-c961b18ef56e correct=False
+    e91add9a-e93c-451f-82a7-61dece76452f variant=multiple_choice
+      0e173241-e7eb-4215-a294-e46a7545dbe0 correct=False
+      3ac7dab5-d622-46d2-821a-46977a30ec4a correct=False
+      500d596c-be21-4444-9c09-2e11d254baf6 correct=True
+      6ade11a7-7842-495a-9b2e-302ece15c1f9 correct=False
+      fc439090-1a0b-48bb-b85a-36c408d6fc34 correct=False
+    e983d24a-67ce-4927-8e41-a836000a0b18 variant=multiple_choice
+      5bcc620f-c130-4c03-9391-ef88a6e0e81f correct=False
+      6e84be59-b620-49f1-8ae3-dfb01863672b correct=False
+      c6782824-0289-498e-ac99-2ee6b518e1e7 correct=True
+      ebc2e32d-c5f6-47db-ae07-40f9756d4477 correct=False
+    ed3324ab-7a53-4f80-a7c6-cdbe7f2b271e variant=multiple_choice
+      35d43644-ea9d-47ea-b720-9e489a6a9c79 correct=False
+      708b4518-f762-47fb-a9c8-b3bc9e4d0d9c correct=False
+      88ed5932-b788-4d71-abf2-60a4b19e496d correct=False
+      94ad385e-44b2-48b3-b3b8-4ebf7886b5be correct=True
+      ee586883-c42f-4264-a8e8-78ddac68938e correct=False
+    f375b856-83d0-47ad-a590-1e0df5fd301f variant=multiple_choice
+      2ab68067-a1f0-4ed4-b22f-64eb7042f2ed correct=False
+      3fd3ddea-3ad1-4371-8008-94b58d0da26f correct=True
+      74e10963-bd0c-44ca-b819-91ff0e0b6fe9 correct=False
+      a664fb90-a186-4c04-a8cc-07b7127681f1 correct=False
+      c181551c-737e-406a-8623-93e81524583e correct=False
+    fa8a54d6-02c4-4037-a9a2-d09705cf29cf variant=multiple_choice
+      56bdfd81-59f2-47f2-9c5c-a68e080b2998 correct=False
+      7ea218d9-f8d6-4f9c-b7ee-5c1a09c11160 correct=False
+      c8cea44d-51bf-42ac-aa29-518bf4a297ff correct=False
+      dbe38af4-df66-4e80-8a57-ab66a275a172 correct=True
+      e031cfc5-0aa9-4e4a-bdf1-34c3c48647a0 correct=False
+    fac1a7ce-70bf-4334-8a31-9506e986441f variant=multiple_choice
+      0699cacd-0efa-43ec-976b-2d6b60aa1284 correct=False
+      84736f9d-41e5-4f7e-ab42-5780a1b59d55 correct=False
+      d97d0548-89e5-4947-815a-da80912592db correct=True
+      e9d9585c-3fcf-42c4-8751-3bd2e0f58e4f correct=False
+      f55ef360-02c9-4cfc-9718-bd9c215f1855 correct=False
+    fd2771fc-8a43-4689-8953-ea2800396694 variant=multiple_choice
+      3d6773ee-734c-4257-8032-33a3b6e9c6f0 correct=False
+      97d08de6-ea7e-48a8-837c-edfe46c00501 correct=False
+      b628d7ca-6cd0-471e-8f88-256278cfcc0f correct=False
+      bd0b0d95-ce15-4c2c-a624-a46ddb13dc95 correct=True
+      f169c52b-98e9-4a4a-a8bc-c34c53dceb6d correct=False
+    fd3cc51f-ccc1-4202-ab42-02aefc4bab58 variant=multiple_choice
+      2517e4f7-ad97-44d8-8a0b-3b025985cdc6 correct=True
+      2e75c155-e212-46fe-bde0-bd000fec5a04 correct=False
+      5b3dd4d1-1bcf-44af-9e3e-3ba5ffd08f89 correct=False
+      8422e4b3-3b92-41d7-859b-18e25334fa26 correct=False
+      b58c0900-7559-4f4b-ba9e-9653d3e02dcf correct=False
+    ffaa7dc0-ed23-4295-a47a-2a4e5181ea15 variant=multiple_choice
+      195ab938-f765-4f97-850e-7cf66a1ce449 correct=False
+      8bf4a007-a95f-4c0d-90ef-51a244a87f31 correct=False
+      931882ea-8365-4d4e-bfe0-2df3a2fda805 correct=True
+      b6ad363b-be90-42d4-9a4f-c10a656c0fec correct=False
+      d2d20ba7-7271-4c63-ab30-2de658e38e6c correct=False
+
+steps:
+  ee67b2ee-33ff-4ce4-aeb3-86a28732f355 
+  358799e8-bedc-4a04-9a1f-9d25f2c6a34c activity=checkpoint-set
+  d25dc37b-76b5-48e0-85c0-fb631964fbc7 
+
+positions (not in order):
+  section=ac3eec07-daae-41ea-af11-56d4076038c0 step=358799e8-bedc-4a04-9a1f-9d25f2c6a34c
+  section=f6c1ee4c-88be-4a79-af56-201c9a4125c9 step=d25dc37b-76b5-48e0-85c0-fb631964fbc7
+  section=672bfdf1-6bf9-411a-8f36-8cfb97358547 step=ee67b2ee-33ff-4ce4-aeb3-86a28732f355
+
+criteria:
+  End-of-Level Exam
+    7fd65950-0400-4da2-913a-a8da6785e75b type=checkpoint weight=2
+    003c6c28-66bd-4f2e-bb98-2f0891980e2a type=checkpoint weight=2
+    e91add9a-e93c-451f-82a7-61dece76452f type=checkpoint weight=2
+    fd3cc51f-ccc1-4202-ab42-02aefc4bab58 type=checkpoint weight=2
+    2b8ac53e-38ca-4dd9-ba14-cec6459f724a type=checkpoint weight=2
+    09e36309-7ce2-42c7-bb80-ee9216a3d836 type=checkpoint weight=2
+    4db686e0-72cf-40bc-8e0a-245b53bca2e2 type=checkpoint weight=2
+    a80f05df-c383-46b0-b1b9-02622a69a18b type=checkpoint weight=2
+    8403310c-01de-4d73-9715-da172ca9b939 type=checkpoint weight=2
+    df7f86a8-411f-4e3a-87cd-4de181d0d391 type=checkpoint weight=2
+    e983d24a-67ce-4927-8e41-a836000a0b18 type=checkpoint weight=2
+    40c7a65e-3ec9-4f5d-84c4-f1317bb18ccb type=checkpoint weight=2
+    492c57e7-0b69-4959-be3e-81dcf9dd5015 type=checkpoint weight=2
+    761eee31-3275-46f5-a943-7aa237de6039 type=checkpoint weight=2
+    9705c721-d384-43ae-99f0-8b92cc34e698 type=checkpoint weight=2
+    a067c240-49df-451d-a446-37a1c9732b6a type=checkpoint weight=2
+    93fc51b7-78bd-4785-b495-58e410ecef31 type=checkpoint weight=2
+    432308a7-92ac-4bee-b2e9-5255f2ef76d4 type=checkpoint weight=2
+    ab7e9e18-fb8a-4181-8982-b92d76166eae type=checkpoint weight=2
+    e69041e4-9432-485e-a871-be4484a77903 type=checkpoint weight=2
+    28fbffa9-1fbe-4c76-b011-5fe4c3e8b0b3 type=checkpoint weight=2
+    5e9e09d1-3267-4793-adf0-e7175906f54f type=checkpoint weight=2
+    dde73252-2944-42d9-9ab4-707a29d4057a type=checkpoint weight=2
+    83669e35-1792-43ad-a0ff-cddd86a4ba01 type=checkpoint weight=2
+    5c737072-01db-4143-a2fc-533a225dafe2 type=checkpoint weight=2
+    0da674b1-1a90-4ee7-bc1d-0e0f8962c658 type=checkpoint weight=2
+    fac1a7ce-70bf-4334-8a31-9506e986441f type=checkpoint weight=2
+    fa8a54d6-02c4-4037-a9a2-d09705cf29cf type=checkpoint weight=2
+    762b5f0d-fb22-45b3-858c-41f528481f10 type=checkpoint weight=2
+    c698c9b8-8406-4262-b16a-2462c008cfa0 type=checkpoint weight=2
+    fd2771fc-8a43-4689-8953-ea2800396694 type=checkpoint weight=2
+    ed3324ab-7a53-4f80-a7c6-cdbe7f2b271e type=checkpoint weight=2
+    53d04735-5590-4af0-9355-612415db0bfc type=checkpoint weight=2
+    f375b856-83d0-47ad-a590-1e0df5fd301f type=checkpoint weight=2
+    55738e93-575f-4e44-b101-777893c1ab5b type=checkpoint weight=2
+    4075f7e0-83c1-4f6b-a539-267399189268 type=checkpoint weight=2
+    01ab8e60-c8c8-43cd-b788-b01cc6685ba8 type=checkpoint weight=2
+    4ec612a0-1a97-484c-beed-85e9133bfb06 type=checkpoint weight=2
+    88c11c04-4fe3-445b-8bdd-d6cc605ad85b type=checkpoint weight=2
+    d8fbf9b2-f743-4042-91f7-7825338b38ed type=checkpoint weight=2
+    b6aec353-7b77-48f1-9a68-61d706dfa4a0 type=checkpoint weight=2
+    ffaa7dc0-ed23-4295-a47a-2a4e5181ea15 type=checkpoint weight=2
+    0029f112-c021-439b-a6ef-f8b5eed7bfab type=checkpoint weight=2
+    61e79bbf-d81f-48d3-8f0d-a2f35f42dd6c type=checkpoint weight=2
+    579687f0-0044-4717-8bea-c1ab4f8ef640 type=checkpoint weight=2
+    c0ca104b-6454-434e-b398-010f39c19b2d type=checkpoint weight=2
+    b797e043-dccd-4743-a33b-c097f110aab8 type=checkpoint weight=2
+    b2ec7f7c-dfa3-4377-97cd-5edaf723efd2 type=checkpoint weight=2
+    52f5cfa4-7f9d-4100-921b-d5690c09e686 type=checkpoint weight=2
+    2039c6d6-569d-4b2c-b569-822bc3ee84e1 type=checkpoint weight=2
+
+

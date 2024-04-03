@@ -1,0 +1,50 @@
+id: 57f7ddfe-b6cd-481c-889b-9cda2035dd40
+title: Robot Game Creator
+
+rubric:
+  computer-science
+    3735bca3-8f19-47ca-a4ac-d64537da3a99
+    7e92139f-380d-430b-a754-65a29526f8b6
+    ad125930-5b88-47fc-87ae-4b0dea7473e8
+    bced5820-d99c-4c8f-98bf-7ebe856e8ec9
+  creativity
+    0f4eecd8-b850-434f-b9c0-24b606f1a617
+    b7ede345-228c-4bf7-920e-23d314e38cc9
+  interdisciplinary-learning
+    77cbc76f-2b46-4364-9054-fab22191ebed
+
+activities:
+  template-project tool=cospaces url=https://edu.cospaces.io/QQM-TYN action=render
+
+steps:
+  7c012ec8-8e5b-4c03-ba75-8dea8ed4590f 
+  b654febe-a6a1-4d5d-8e12-8c3908991a9e 
+  641cf0fe-987b-4f6d-b65d-e5b79b9c45b7 
+  bc4b6403-18dc-4cb7-9331-48ce99800e98 activity=template-project
+  6922ed96-17ac-41d7-a18e-a5208ba2a78e activity=template-project
+    9e13ba1a-fcd5-477e-ab39-db12607a3540 variant=short_answer
+  1a3b7db5-b1f3-4542-99ee-75dc4cc8f794 activity=template-project
+  57f37735-c297-4682-a4d0-c18d19d40426 activity=template-project
+    ae78dc72-6b72-4ee8-aa8f-26c4cc1223e6 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+
+positions (not in order):
+  section=e214ff06-a507-4da0-a01a-7496aca5a26c step=1a3b7db5-b1f3-4542-99ee-75dc4cc8f794
+  section=e214ff06-a507-4da0-a01a-7496aca5a26c step=57f37735-c297-4682-a4d0-c18d19d40426
+  section=407db63e-54eb-4036-a84e-ed90e978b3e7 step=641cf0fe-987b-4f6d-b65d-e5b79b9c45b7
+  section=add5cc5e-efc5-4966-8155-20b6e522dccc step=6922ed96-17ac-41d7-a18e-a5208ba2a78e
+  section=407db63e-54eb-4036-a84e-ed90e978b3e7 step=7c012ec8-8e5b-4c03-ba75-8dea8ed4590f
+  section=407db63e-54eb-4036-a84e-ed90e978b3e7 step=b654febe-a6a1-4d5d-8e12-8c3908991a9e
+  section=add5cc5e-efc5-4966-8155-20b6e522dccc step=bc4b6403-18dc-4cb7-9331-48ce99800e98
+
+criteria:
+  Computer Science
+    ae78dc72-6b72-4ee8-aa8f-26c4cc1223e6 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    ae78dc72-6b72-4ee8-aa8f-26c4cc1223e6 type=checkpoint variant=rubric weight=5
+  Creativity
+    ae78dc72-6b72-4ee8-aa8f-26c4cc1223e6 type=checkpoint variant=rubric weight=5
+
+

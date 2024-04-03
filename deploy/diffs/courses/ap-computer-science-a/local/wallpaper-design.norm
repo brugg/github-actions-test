@@ -1,0 +1,59 @@
+id: 3c1c69d8-badb-452b-b55c-f1b3a11c1f60
+title: Wallpaper Design
+
+rubric:
+  computer-science
+    234e9911-3c5d-4906-9f63-0300561c10c8
+    2df0531d-3590-45e6-90bf-2e794a00c6e6
+    5ca8c092-998e-44fe-b81c-9a71914f424b
+    8a823b9a-beeb-4a34-ad55-a8aec894e8be
+    9474cb4c-8873-4cf6-be3a-753670eea72e
+  creativity
+    096c0490-0033-41b6-b94a-2d4de17a142b
+    0e5a224e-b4f5-4ae6-9082-d01415332c0f
+    a6951663-4fa3-4296-b56d-e63073ca6367
+    a6e3dd34-d744-45c0-97e0-b56dc802001f
+  interdisciplinary-learning
+    cc1d6b59-7b93-4834-9ffd-101c315ea387
+
+activities:
+  student-project id=wallpaper-design tool=pickcode action=edit
+
+steps:
+  fac5fff9-e169-4b1b-83d3-817c4f534c97 
+  87168086-c3be-4221-9773-6a2a4760ad99 
+  bdc4357d-a923-48ba-a5a2-6eedfb6ee652 
+  a9eaf925-81a1-48ae-851e-f6199c9bd093 activity=student-project
+    9e3385b1-2c4c-47dc-ad75-b6b821ab8335 variant=short_answer
+  a051684a-954f-4a76-899b-1daaa974e860 activity=student-project
+    7f888bb1-9a6a-4423-9be7-7418e583a960 variant=short_answer
+  209dfeaa-6f0c-44c3-bc06-ed1405f253fd activity=student-project
+    67e9bae4-f60d-4cf0-b6fc-df0d1a966438 variant=short_answer
+  0ff659e5-d119-4d86-ab39-2aa0b14948be activity=student-project
+  2d31be12-b256-4b72-ad36-d0e65528e944 activity=student-project
+    50040a52-53f5-4025-b0af-c82dc89900e2 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  d0febcfd-a0ad-450a-a063-b79e190ba415 activity=student-project
+
+positions (not in order):
+  section=56e3d386-99df-4245-aff6-c7b9fd48054b step=0ff659e5-d119-4d86-ab39-2aa0b14948be
+  section=60d44c0c-05e3-4205-946b-3dace3c5ade7 step=209dfeaa-6f0c-44c3-bc06-ed1405f253fd
+  section=56e3d386-99df-4245-aff6-c7b9fd48054b step=2d31be12-b256-4b72-ad36-d0e65528e944
+  section=db6b2b80-2a1a-44b2-a8c3-d69acef0411c step=87168086-c3be-4221-9773-6a2a4760ad99
+  section=60d44c0c-05e3-4205-946b-3dace3c5ade7 step=a051684a-954f-4a76-899b-1daaa974e860
+  section=60d44c0c-05e3-4205-946b-3dace3c5ade7 step=a9eaf925-81a1-48ae-851e-f6199c9bd093
+  section=db6b2b80-2a1a-44b2-a8c3-d69acef0411c step=bdc4357d-a923-48ba-a5a2-6eedfb6ee652
+  section=bb95883f-bf0b-472a-89ea-d20e80131e72 step=d0febcfd-a0ad-450a-a063-b79e190ba415
+  section=db6b2b80-2a1a-44b2-a8c3-d69acef0411c step=fac5fff9-e169-4b1b-83d3-817c4f534c97
+
+criteria:
+  Computer Science
+    50040a52-53f5-4025-b0af-c82dc89900e2 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    50040a52-53f5-4025-b0af-c82dc89900e2 type=checkpoint variant=rubric weight=5
+  Creativity
+    50040a52-53f5-4025-b0af-c82dc89900e2 type=checkpoint variant=rubric weight=5
+
+

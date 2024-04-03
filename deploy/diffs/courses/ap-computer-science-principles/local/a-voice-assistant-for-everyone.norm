@@ -1,0 +1,42 @@
+id: ea7bced9-3be5-468e-9318-8fee69ba43ea
+title: A Voice Assistant for Everyone
+
+rubric:
+  written-communication
+    4f364f43-999d-48d2-a3ae-3be01c2614ae
+    84751e9f-f237-4140-875f-4de517e0c672
+    a9dea60b-2cc2-44c9-a26d-5b327d6766e6
+
+activities:
+  written-response-1 id=cf76ebe7-1071-49f4-ac85-d9c059dc74a3 tool=written-response id=cf76ebe7-1071-49f4-ac85-d9c059dc74a3
+  written-response-2 id=0c65a4b2-1d0f-469a-b275-93a82d6032b1 tool=written-response id=0c65a4b2-1d0f-469a-b275-93a82d6032b1
+
+steps:
+  471d3a90-02e9-443f-8e27-27d748586387 
+  2a1febc8-576c-4433-baf5-f91a2c7d0155 
+  a92954dd-0bce-47af-92be-b00717c6e9f2 
+  adb0445b-30ba-4f67-81d2-9afba8c85d9d 
+  d592a869-2aed-4a7c-8594-63001f3336ec activity=written-response-1
+    66bf6e9c-63c1-41d7-bbdc-c81b2d980583 variant=rubric
+      written-communication 
+  fdb4eaef-f171-4434-83ab-724f723770eb 
+  fc3b1b9a-069a-4371-87fe-46ac25967a01 activity=written-response-2
+    95bd88da-b94b-4329-b8c2-5e6d897356e8 variant=rubric
+      written-communication 
+  4b17d4eb-fef6-4980-b417-f4e4a88559bb 
+
+positions (not in order):
+  section=f738ec19-72a4-44c2-8225-7f93a74dd6aa step=2a1febc8-576c-4433-baf5-f91a2c7d0155
+  section=f738ec19-72a4-44c2-8225-7f93a74dd6aa step=471d3a90-02e9-443f-8e27-27d748586387
+  section=4a167754-be6b-4232-9fba-3d8f0c897404 step=4b17d4eb-fef6-4980-b417-f4e4a88559bb
+  section=f738ec19-72a4-44c2-8225-7f93a74dd6aa step=a92954dd-0bce-47af-92be-b00717c6e9f2
+  section=1285a219-ebbd-486f-aa17-29afa492dba3 step=adb0445b-30ba-4f67-81d2-9afba8c85d9d
+  section=76d7c486-2751-4ba3-80aa-a1564d678d35 step=d592a869-2aed-4a7c-8594-63001f3336ec
+  section=89a5fcaf-93dc-4d45-bf9c-51d62e101ad7 step=fc3b1b9a-069a-4371-87fe-46ac25967a01
+  section=a0841f37-116f-43b9-a50f-b5bc67d85ee0 step=fdb4eaef-f171-4434-83ab-724f723770eb
+
+criteria:
+  Written Communication
+    95bd88da-b94b-4329-b8c2-5e6d897356e8 type=checkpoint variant=rubric weight=100
+
+

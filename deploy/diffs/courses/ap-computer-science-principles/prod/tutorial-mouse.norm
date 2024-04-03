@@ -1,0 +1,47 @@
+id: 55fbe7e2-8faa-4e99-a95d-6d7355ff7ab0
+title: Tutorial
+
+rubric:
+  computer-science
+    5917f5e5-1023-4997-b4a6-4e9fad7927cc
+    6093601e-9f88-475a-a565-5952a8900f00
+    c425f8b1-c209-4c3b-8a2e-f255adaaa1c1
+    e8eb03b6-3dba-45aa-82f2-a49ec78d63c5
+
+activities:
+  editor-mode tool=cospaces url=https://edu.cospaces.io/AVQ-MWZ action=render
+  play-mode tool=cospaces url=https://edu.cospaces.io/KSH-MUN action=render
+
+steps:
+  95e66112-5cb0-4e76-b2b7-5c0571a2afbc 
+  d171ef16-afb5-4d5f-901a-ba61d557b3a5 
+  bc68cca9-c614-4d61-a753-34aed40173bd 
+  868516d4-e176-40a1-b80b-60bc42ec3bb4 
+  2c8304f1-f94c-4316-a032-d10f9e62282b 
+  438e994c-92bf-4147-a540-4bc9b5dea4a1 
+  ae867ceb-74d4-446b-92ca-906151cfd78e activity=play-mode
+  f77b3c25-008c-4fce-b221-54418b3aa19b 
+  79908278-6f21-4148-a9fb-d408b30773aa activity=editor-mode
+  9f0ba855-77e9-481b-98aa-584b4e50ef1e activity=editor-mode
+  0ee10201-138c-4a8a-abbc-44f6132a5df4 activity=editor-mode
+  fce110a6-eb17-4f88-aa54-a362863ff47d activity=editor-mode
+  e481728a-16b4-465f-ae9c-c5b53776df49 activity=editor-mode
+    819aa9b8-453d-40f4-96fe-c351576b1ce0 variant=rubric
+      computer-science 
+
+positions (not in order):
+  section=16aaff4d-9912-4587-99d3-1991d2ed5328 step=0ee10201-138c-4a8a-abbc-44f6132a5df4
+  section=388ddc3e-3f50-4acf-8089-c423ebb3881e step=2c8304f1-f94c-4316-a032-d10f9e62282b
+  section=388ddc3e-3f50-4acf-8089-c423ebb3881e step=438e994c-92bf-4147-a540-4bc9b5dea4a1
+  section=16aaff4d-9912-4587-99d3-1991d2ed5328 step=79908278-6f21-4148-a9fb-d408b30773aa
+  section=388ddc3e-3f50-4acf-8089-c423ebb3881e step=868516d4-e176-40a1-b80b-60bc42ec3bb4
+  section=cb22ecb9-3692-445e-bc09-05762e588eda step=95e66112-5cb0-4e76-b2b7-5c0571a2afbc
+  section=16aaff4d-9912-4587-99d3-1991d2ed5328 step=9f0ba855-77e9-481b-98aa-584b4e50ef1e
+  section=388ddc3e-3f50-4acf-8089-c423ebb3881e step=ae867ceb-74d4-446b-92ca-906151cfd78e
+  section=cb22ecb9-3692-445e-bc09-05762e588eda step=bc68cca9-c614-4d61-a753-34aed40173bd
+  section=cb22ecb9-3692-445e-bc09-05762e588eda step=d171ef16-afb5-4d5f-901a-ba61d557b3a5
+  section=46d7b630-7686-4146-a817-be6e95f83bd7 step=e481728a-16b4-465f-ae9c-c5b53776df49
+  section=16aaff4d-9912-4587-99d3-1991d2ed5328 step=f77b3c25-008c-4fce-b221-54418b3aa19b
+  section=16aaff4d-9912-4587-99d3-1991d2ed5328 step=fce110a6-eb17-4f88-aa54-a362863ff47d
+
+

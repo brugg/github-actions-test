@@ -1,0 +1,59 @@
+id: 043a87c9-1513-4c06-89a6-4bb76b3eb411
+title: Costume Shop
+
+rubric:
+  computer-science
+    446fa0db-3a71-44ad-9a86-9fde321a5e43
+    6bafc040-982d-472a-99f3-a606afad0f72
+    9f11556a-fd84-49ee-b6a1-df01588b440a
+    a68f6391-6258-4489-807e-70f16fe996cb
+    dc549200-9287-46c7-9f4d-5f713a3ea786
+    f7661788-4e4f-4b34-99bc-bfc084dd3ac3
+  creativity
+    3481b370-6954-47e0-860f-80c1b34b6969
+    758febde-ee98-4c33-b6a5-60ceb6057a9d
+  interdisciplinary-learning
+    6a3ee4ce-4023-475a-a3a6-2fa6f2bcbd9f
+
+activities:
+  cospace-edit id=student-project tool=cospaces action=edit
+
+steps:
+  40baef0d-0d50-4231-97c9-8f058cf93ea0 
+  019377f6-8e2b-42df-ae25-9c2296c64030 
+  1f8577b7-dede-4068-b7a3-f303d3a4f4ce 
+  c6c84dc2-0e41-49b2-9ef5-d7362906fac5 activity=cospace-edit
+  6e6b3349-d0bd-45cd-a70a-ede07c3c25d0 activity=cospace-edit
+  4f80b883-6a1b-499c-9a31-2a29937e95c7 activity=cospace-edit
+  f9b9f7b3-2a7f-42e8-b231-c0372ad522e7 activity=cospace-edit
+  b90d129b-29b5-4de1-b686-6b9bce37e7ec activity=cospace-edit
+  c478f0df-b837-4438-ba95-8ca23ed8e3dc activity=cospace-edit
+  a4f514e2-326a-4fce-a9be-1d9e6da1eac7 activity=cospace-edit
+  aa2dbac6-da23-4833-9173-f102fa81bee1 activity=cospace-edit
+    82490a28-8b06-423d-81ea-92782e295b07 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+
+positions (not in order):
+  section=92c22f4f-871c-4861-baf0-bb68e142e6b1 step=019377f6-8e2b-42df-ae25-9c2296c64030
+  section=92c22f4f-871c-4861-baf0-bb68e142e6b1 step=1f8577b7-dede-4068-b7a3-f303d3a4f4ce
+  section=92c22f4f-871c-4861-baf0-bb68e142e6b1 step=40baef0d-0d50-4231-97c9-8f058cf93ea0
+  section=5c507e76-0f41-4857-8a43-91060d5d01ae step=4f80b883-6a1b-499c-9a31-2a29937e95c7
+  section=5c507e76-0f41-4857-8a43-91060d5d01ae step=6e6b3349-d0bd-45cd-a70a-ede07c3c25d0
+  section=5c507e76-0f41-4857-8a43-91060d5d01ae step=a4f514e2-326a-4fce-a9be-1d9e6da1eac7
+  section=1b5afdbc-3fb0-4406-a0d6-7a38ac8ca6cd step=aa2dbac6-da23-4833-9173-f102fa81bee1
+  section=5c507e76-0f41-4857-8a43-91060d5d01ae step=b90d129b-29b5-4de1-b686-6b9bce37e7ec
+  section=5c507e76-0f41-4857-8a43-91060d5d01ae step=c478f0df-b837-4438-ba95-8ca23ed8e3dc
+  section=5c507e76-0f41-4857-8a43-91060d5d01ae step=c6c84dc2-0e41-49b2-9ef5-d7362906fac5
+  section=5c507e76-0f41-4857-8a43-91060d5d01ae step=f9b9f7b3-2a7f-42e8-b231-c0372ad522e7
+
+criteria:
+  Computer Science
+    82490a28-8b06-423d-81ea-92782e295b07 type=checkpoint variant=rubric weight=80
+  Interdisciplinary Learning
+    82490a28-8b06-423d-81ea-92782e295b07 type=checkpoint variant=rubric weight=10
+  Creativity
+    82490a28-8b06-423d-81ea-92782e295b07 type=checkpoint variant=rubric weight=10
+
+

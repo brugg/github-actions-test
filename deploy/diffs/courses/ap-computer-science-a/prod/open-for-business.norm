@@ -1,0 +1,64 @@
+id: f9c5b315-20a8-444a-b62c-a149b958f3ce
+title: Open For Business
+
+rubric:
+  computer-science
+    4c2e4af4-69ed-40df-b686-7006f5e348d6
+    64340b03-acd6-48fd-b57a-e620178d8d47
+    a064c5a7-f64d-4196-b9c0-6333eb3faa8a
+    c93ac9c8-b309-49f0-8319-cf29c25872ab
+    d4d9df11-33f0-4f41-b56c-3df5073605e7
+  creativity
+    c1e834c0-9393-431e-9851-56403baa6751
+    edf7c74b-4e5d-4e82-8409-b3ea1d802c35
+    f5290860-f6cd-4db3-a2ad-40772262c060
+  interdisciplinary-learning
+    c847f307-9d8b-4806-82db-4656941123ac
+
+activities:
+  student-project id=open-for-business tool=pickcode action=edit
+
+steps:
+  bff138ec-18d7-4d84-903b-bf980938a18d 
+  d93e60c5-09a6-4d82-8f2e-ca7a267d65d8 
+  52534dee-e921-4e40-9a3f-8bb998e94d5c 
+  55fa98d3-df1a-4d75-a88e-80c417379c0d 
+    12e52d7e-3032-4092-8756-e289f01b8242 variant=short_answer
+  07a78797-748d-417e-ba41-9738aa7a1e4e 
+    9a70c212-ba0f-46c7-b878-9706dd0afb5f variant=short_answer
+  8e4a57f0-31ce-43ef-a948-8106d4299b21 
+    19fc60ad-20d1-4031-bbc2-48853cf6096f variant=short_answer
+  bff24bfc-d7f0-4331-ac25-50a4476f2e1c 
+    edb30e35-c105-41f0-8967-9b1146ff98ba variant=short_answer
+  56c41b67-cd1e-45aa-b7bf-7a4f679f9f9a 
+    df5e9aa0-4fce-458a-8b31-673f51d38725 variant=short_answer
+  d095bfe3-33eb-47d0-91e5-14afe0bb6e92 activity=student-project
+  4e5dae66-3494-4c1b-84bd-0a78511e28c5 activity=student-project
+    45d16c61-3498-4637-ba0d-b2e6a2bd7fe3 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  4b7240cf-f5d6-4f99-a1d0-e6b97611b8c0 activity=student-project
+
+positions (not in order):
+  section=49abf6a2-27cb-4dea-bf6d-71338fedb703 step=07a78797-748d-417e-ba41-9738aa7a1e4e
+  section=6b46ccc6-5a41-4ee8-aaaa-37bd2e9fb159 step=4b7240cf-f5d6-4f99-a1d0-e6b97611b8c0
+  section=591dffd1-02c3-408d-8316-63d73f1e007c step=4e5dae66-3494-4c1b-84bd-0a78511e28c5
+  section=5e33ef60-43ff-4b56-bcf9-976b7649a083 step=52534dee-e921-4e40-9a3f-8bb998e94d5c
+  section=49abf6a2-27cb-4dea-bf6d-71338fedb703 step=55fa98d3-df1a-4d75-a88e-80c417379c0d
+  section=49abf6a2-27cb-4dea-bf6d-71338fedb703 step=56c41b67-cd1e-45aa-b7bf-7a4f679f9f9a
+  section=49abf6a2-27cb-4dea-bf6d-71338fedb703 step=8e4a57f0-31ce-43ef-a948-8106d4299b21
+  section=5e33ef60-43ff-4b56-bcf9-976b7649a083 step=bff138ec-18d7-4d84-903b-bf980938a18d
+  section=49abf6a2-27cb-4dea-bf6d-71338fedb703 step=bff24bfc-d7f0-4331-ac25-50a4476f2e1c
+  section=591dffd1-02c3-408d-8316-63d73f1e007c step=d095bfe3-33eb-47d0-91e5-14afe0bb6e92
+  section=5e33ef60-43ff-4b56-bcf9-976b7649a083 step=d93e60c5-09a6-4d82-8f2e-ca7a267d65d8
+
+criteria:
+  Computer Science
+    45d16c61-3498-4637-ba0d-b2e6a2bd7fe3 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    45d16c61-3498-4637-ba0d-b2e6a2bd7fe3 type=checkpoint variant=rubric weight=5
+  Creativity
+    45d16c61-3498-4637-ba0d-b2e6a2bd7fe3 type=checkpoint variant=rubric weight=5
+
+

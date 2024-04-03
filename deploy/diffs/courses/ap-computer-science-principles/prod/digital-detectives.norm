@@ -1,0 +1,87 @@
+id: 672c1ca9-0f94-4bb8-9913-717c2e4edcf9
+title: Digital Detectives
+
+activities:
+  checkpoint-set id=97fef82f-f59d-40f4-b804-69299594c369 tool=checkpoint-set
+    158889e8-d8be-491b-bda2-f3f110e3d97e variant=multiple_choice
+      64844987-f884-479e-8e05-6f98155a68dc correct=False
+      6baf8ca8-0616-423d-a8b8-c4cac93b1232 correct=False
+      b222b4dc-40eb-4cb1-83e7-609c4eefdc7e correct=True
+      f2b05528-054c-4128-b9c9-670564d17d8a correct=False
+    45015f6f-ad22-4216-8355-49219f9e2aaf variant=multiple_choice
+      20c1914d-3377-47dd-80c6-bd4a5a6f1f1a correct=False
+      250a641c-31c2-41b5-a965-2302eaf725c8 correct=False
+      8a031fc9-a96a-41cb-b3df-3cccbd4e2b04 correct=False
+      a384382b-d863-4206-9c21-98c03e5d90de correct=True
+    483ae4e4-5dd4-4770-9834-ebdc4bbcb76d variant=multiple_choice
+      418e55f3-fc6a-4776-aa8d-34fada70854e correct=False
+      592c67e5-948e-4dfd-b951-a7023d504954 correct=False
+      7ff7307e-ea56-42f4-ace7-459b800e97cc correct=False
+      ee3234f1-b1d1-430e-a6bb-974d7fc1d4ae correct=True
+    511d3f9f-de09-4deb-a998-049893584914 variant=multiple_choice
+      6aeb3eee-4a47-4733-b3cd-314287b16111 correct=False
+      8223f178-3487-4289-b03c-cb7fb10438fa correct=False
+      afee538f-73ea-46ad-9afd-a6e12b177c55 correct=False
+      c0189305-d8c9-49be-b1f6-0f4d92df2787 correct=True
+    5c274ae7-8165-4234-a2cd-df93d876b297 variant=multiple_choice
+      40c7946f-54bd-4dc2-bed5-c703be9e068a correct=False
+      5ef3eb84-935a-489e-9a63-70c7027085cb correct=True
+      664d1202-e4c0-4e83-910f-7923422df1af correct=False
+      c212c152-20bd-4f90-9278-43a3ded99148 correct=False
+    62745150-6b74-4d68-8c8c-22a406b971f0 variant=multiple_choice
+      2c20e19f-a35a-498d-ae5d-cc1a71df423b correct=False
+      4665cc32-924d-4dd6-8a3b-e22fa4b81878 correct=True
+      c0f2217b-ed69-4673-8972-0faac6e7b23b correct=False
+      de9dd907-4d9c-4216-9ac0-82297874d352 correct=False
+    7313d3b9-5fe9-445d-b999-571a820d1f80 variant=multiple_choice
+      35bf7e0d-a464-4281-beae-c3300d71eb00 correct=False
+      5af2c148-4333-42be-8380-ec606819d101 correct=False
+      cedbb552-3b2c-425a-a541-96d1eba3996a correct=False
+      f2c6d33e-20b4-4fdf-b02f-a69c4dd8c411 correct=True
+    98174b6b-b646-42bb-a343-0c205003d71e variant=multiple_choice
+      24d0e6b4-7318-4833-8e5a-f5848cacf257 correct=False
+      3cc3c570-199e-4bdf-97d1-6170ae294cde correct=False
+      50f0c17d-1d57-4caf-8c78-feb0b3621aa0 correct=True
+      e206ef4f-5811-431f-93ad-b38172b14935 correct=False
+    ae937d7f-c336-4433-a12a-94fed2ab0dc6 variant=multiple_choice
+      0f1c38b9-e0ad-40b0-9193-45d6b6a9866c correct=False
+      3818ceb4-4087-467c-ae7c-0087e47c7722 correct=True
+      9fc1f246-b83a-4976-bd53-8d583964159f correct=False
+      efa26c54-574d-4a2f-8e9d-14c3dc08770b correct=False
+    be405651-4ad8-481f-b643-8ba2af906fe9 variant=multiple_choice
+      1d063c5d-cf76-4f05-9bf4-6ffa1a499fa5 correct=False
+      3732ccbe-79e4-4914-9ed1-d509d7e865d6 correct=True
+      67736266-3dd1-45e8-a0cd-7ee9fcab4a15 correct=False
+      d178aaf1-4dd5-4d02-90ef-6d01e2737b89 correct=False
+  student-project tool=cospaces url=https://edu.cospaces.io/ULF-ZPB action=render
+
+steps:
+  4d9bb091-e0a9-4a4f-af4b-f2bbfa724a5d 
+  aad010d6-31d9-4ab8-b3e9-f8828e458047 
+  4b6323e7-2e5b-4a57-8f41-9be86ada6b31 
+  4756a79b-5dab-4ae6-89ae-907de149d446 activity=student-project
+  161fda14-080e-4428-b5ab-5bf657b9e783 
+  c1f06020-47df-4aaf-99eb-753771b2d311 activity=checkpoint-set
+
+positions (not in order):
+  section=d0a6972b-7a3b-4ae1-9393-51d995e23c57 step=161fda14-080e-4428-b5ab-5bf657b9e783
+  section=97682471-0cd1-472e-980e-f3e92b764eec step=4756a79b-5dab-4ae6-89ae-907de149d446
+  section=9ada3d3e-8b48-48b6-9bfe-7e35944e0d02 step=4b6323e7-2e5b-4a57-8f41-9be86ada6b31
+  section=9ada3d3e-8b48-48b6-9bfe-7e35944e0d02 step=4d9bb091-e0a9-4a4f-af4b-f2bbfa724a5d
+  section=9ada3d3e-8b48-48b6-9bfe-7e35944e0d02 step=aad010d6-31d9-4ab8-b3e9-f8828e458047
+  section=d0a6972b-7a3b-4ae1-9393-51d995e23c57 step=c1f06020-47df-4aaf-99eb-753771b2d311
+
+criteria:
+  Multiple Choice Questions
+    5c274ae7-8165-4234-a2cd-df93d876b297 type=checkpoint weight=10
+    483ae4e4-5dd4-4770-9834-ebdc4bbcb76d type=checkpoint weight=10
+    ae937d7f-c336-4433-a12a-94fed2ab0dc6 type=checkpoint weight=10
+    158889e8-d8be-491b-bda2-f3f110e3d97e type=checkpoint weight=10
+    be405651-4ad8-481f-b643-8ba2af906fe9 type=checkpoint weight=10
+    511d3f9f-de09-4deb-a998-049893584914 type=checkpoint weight=10
+    98174b6b-b646-42bb-a343-0c205003d71e type=checkpoint weight=10
+    45015f6f-ad22-4216-8355-49219f9e2aaf type=checkpoint weight=10
+    7313d3b9-5fe9-445d-b999-571a820d1f80 type=checkpoint weight=10
+    62745150-6b74-4d68-8c8c-22a406b971f0 type=checkpoint weight=10
+
+

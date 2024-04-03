@@ -1,0 +1,152 @@
+id: 58b2df06-0e48-4844-958f-f85c197c47c7
+title: DJ Turn It Up
+
+rubric:
+  computer-science
+    01e5a9e5-a7b9-4764-9182-0a7ba76c8593
+    1847279f-ef76-4ab7-80e5-0c4380fb58f1
+    50d34e9a-feef-4641-8d23-4af11e310db4
+    50fd0e08-be67-46db-8d34-6fbf5cd2eb53
+    6cec04d1-9bbb-41a2-990c-f0ef6c1a9f93
+    6fdc0b5b-e935-4648-90fe-aeb55a14bbb8
+    ea5d2e52-098e-4842-8cb5-c5259c3b7379
+  creativity
+    518523df-2928-417f-8016-8bb26f928642
+    e49098c2-ba50-4d9e-bfae-687cf464e16b
+  interdisciplinary-learning
+    b15be7a3-0c3c-45f1-9699-2e8576c2d45a
+  multiple-choice-questions
+    221c0701-c785-4211-a1b6-09663d6b4b18
+
+activities:
+  checkpoint-set-1 id=5528f6e0-1f05-4c35-a6bd-682d4b874484 tool=checkpoint-set
+    0046c564-6537-4a70-9bf9-67d24ce54af4 variant=multiple_choice
+      5774d649-6700-4439-980e-d4ad29bd7f9a correct=False
+      b4267944-3d61-4b4d-8e99-d2c87bd056e6 correct=True
+      be55a5c8-93de-4e68-9166-41caebf1b805 correct=False
+      f66a8a00-0f59-4428-8dac-3ed56a1ad8a9 correct=False
+    6da82278-6f7e-4b70-9e9f-e398ad2fc946 variant=multiple_choice
+      055ef669-a2c2-461b-8dd0-1e57ceac79f7 correct=False
+      6548e27c-01bd-40ee-8296-9f74b291511b correct=False
+      70d0c0f1-7724-4427-8f7d-f0e36ee371e2 correct=True
+      8196ab33-16c5-45f3-bf18-c162d478e769 correct=False
+    876a148b-2081-45d9-850e-c38f0cad0d3c variant=multiple_choice
+      5d39eee5-adb2-4cbb-85fb-57475da16443 correct=False
+      6bf3220e-92cb-430b-9846-82c8fa560a7f correct=True
+      9016866d-cd7a-4174-b1ff-5b8af44f1a9c correct=False
+      d5185c34-2ed4-44fb-89d0-7ebde464ea9c correct=False
+    d08fa492-0589-4483-9161-83d679c171d3 variant=multiple_choice
+      349f3da7-8810-4279-b72e-80cdeb0bf1d9 correct=False
+      62cf9f88-0677-422c-8156-58062af92b06 correct=False
+      ac3ee4b2-d1ea-4ddd-96cc-e4e9f400bfc7 correct=False
+      f9c0ef0c-8a0b-4a5d-8cf8-5a9ede27b261 correct=True
+    ed25fd4d-7bdc-4a02-bc71-1de8852ba76f variant=multiple_choice
+      1b0be16b-a314-459f-83b6-b47eba967d23 correct=True
+      2a51a274-ec2f-46c5-86e2-2c690dbc53da correct=False
+      b1d44236-d0cf-4af6-95eb-c64176899d4d correct=False
+      dc2b0ecb-dabb-4ca4-92f8-25a193f25cf1 correct=False
+  cospace-edit id=student-project tool=cospaces action=edit
+  debugging-challenge-1 tool=cospaces url=https://edu.cospaces.io/LAN-RSG action=render
+  debugging-challenge-2 tool=cospaces url=https://edu.cospaces.io/SSK-FDQ action=render
+  example-project tool=cospaces url=https://edu.cospaces.io/LHH-DCB action=render
+
+steps:
+  2e720ed3-9f97-4239-95ee-f824fcce9619 
+  281549d8-1f45-4819-89e8-1b7a0602d16a activity=example-project
+    c3387a73-1d91-401a-9fa7-306443c6c946 variant=multiple_choice
+      08f8f52f-08f7-4bfc-91c9-ed941f53be3a correct=False
+      2727b881-3d0f-47f3-85f3-9544a1dd6d13 correct=False
+      77240606-34d0-4caa-9ec0-3ed395d53282 correct=True
+      d98434e0-1ea3-4078-b877-fb291affebc3 correct=False
+  7b9a8522-8dfa-4cab-8777-67155b96580d 
+  09b2bcb1-af2a-4cb1-a106-fd9c200393e1 
+  204d99b6-dfcb-4e1d-a5e4-c87221f9cf9f 
+  f88696c9-aed1-48dc-94d2-e5a7dd7716be 
+    0b0a8304-f7de-4152-9949-3274b967c42c variant=short_answer
+  354f9806-7528-4d46-8690-46d774c7bd89 activity=cospace-edit
+  4ec4d7d2-ef34-450b-a842-9113e3a64499 activity=cospace-edit
+  216dd1a8-e21c-4b09-a297-5f5683f5fe24 activity=cospace-edit
+  bf9df36b-0e1b-46e3-a613-072ffdad28c1 activity=cospace-edit
+  82306128-d9b1-4401-ba8d-1541f77b169d activity=cospace-edit
+  5c6ac7e6-e35b-48c3-8110-a725789fdc04 activity=cospace-edit
+  11e633c5-bdc5-4d7f-aa07-748df2e22476 activity=cospace-edit
+  e087cdfa-c947-4a35-b8f0-9ea9fc8e87f0 activity=cospace-edit
+  2e58ed5c-9511-4f38-87d7-6306167c119f activity=debugging-challenge-1
+    ce38531b-971f-441e-8191-b4238436fbc4 variant=multiple_choice
+      1fd524f5-b98a-4939-b468-463d77b5489b correct=False
+      7996fec6-718c-4695-8d74-70d9e2358293 correct=False
+      7d809fee-038e-4847-aaeb-df6acd09f477 correct=False
+      8107a116-669c-4dc7-8483-8db47e980ba2 correct=True
+  66757bd7-233c-46ff-8883-3f905f6e639a activity=cospace-edit
+  d32f06d1-8578-4010-87fe-684b14acf68d activity=cospace-edit
+  9bdf76f4-9c62-40be-91d8-034588fd9ecc activity=cospace-edit
+  0d7bf5c5-118d-4a03-b0ba-a6a43e07e7c4 activity=cospace-edit
+  5c68a3f8-03d0-4bbd-aa39-15b9f92e27da activity=cospace-edit
+  c299c68d-d01a-453a-a8f0-0cadc053f954 activity=cospace-edit
+  898ecd78-ee87-45ac-bc8f-3c81a27d5b5d activity=cospace-edit
+  6b26804a-6a98-4a41-8f3f-1c9b06682396 activity=cospace-edit
+  ed48ae75-062e-40ec-84b5-bc901bf67527 activity=cospace-edit
+  291fe4e8-f912-47ac-865d-559c86047dec activity=cospace-edit
+  228323a0-85c9-4333-a756-f269443f74d5 activity=debugging-challenge-2
+    2631b07f-9840-427b-93ae-d05c1af61086 variant=multiple_choice
+      09210cfa-ee12-4068-af61-928e22f07ead correct=False
+      2f89e574-3782-4c35-983e-0fa756db57d7 correct=True
+      48e79d81-3889-4b62-a2a2-924e12b5b2f9 correct=False
+      ed55d7cc-eef2-4bd8-a311-2bcd62769d0e correct=False
+  c00aefca-c86e-4c8a-88a5-a08ef01b8714 
+  1b101cf8-01f3-4842-9c9b-dcb04e9fdc2d activity=checkpoint-set-1
+  6485c79c-61d1-4473-bca6-cb7e0b1add54 activity=cospace-edit
+    f7d41e36-7fc7-47b4-99da-d72b007b8bd2 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+
+positions (not in order):
+  section=1d29a032-2930-4a8f-94d2-ec0b88cabdb6 step=09b2bcb1-af2a-4cb1-a106-fd9c200393e1
+  section=755d76e8-ac8f-4060-923b-1455bca52287 step=0d7bf5c5-118d-4a03-b0ba-a6a43e07e7c4
+  section=5bb83980-50b5-4a84-a912-59782b149be0 step=11e633c5-bdc5-4d7f-aa07-748df2e22476
+  section=155143fd-d8c1-4473-8833-b07b3a414efb step=1b101cf8-01f3-4842-9c9b-dcb04e9fdc2d
+  section=1d29a032-2930-4a8f-94d2-ec0b88cabdb6 step=204d99b6-dfcb-4e1d-a5e4-c87221f9cf9f
+  section=75fc2f40-c790-46da-9812-d5f0c04b3a1a step=216dd1a8-e21c-4b09-a297-5f5683f5fe24
+  section=7ca2b1ed-e562-4b31-b8ba-b14bc0061778 step=228323a0-85c9-4333-a756-f269443f74d5
+  section=1d29a032-2930-4a8f-94d2-ec0b88cabdb6 step=281549d8-1f45-4819-89e8-1b7a0602d16a
+  section=7ca2b1ed-e562-4b31-b8ba-b14bc0061778 step=291fe4e8-f912-47ac-865d-559c86047dec
+  section=5bb83980-50b5-4a84-a912-59782b149be0 step=2e58ed5c-9511-4f38-87d7-6306167c119f
+  section=1d29a032-2930-4a8f-94d2-ec0b88cabdb6 step=2e720ed3-9f97-4239-95ee-f824fcce9619
+  section=75fc2f40-c790-46da-9812-d5f0c04b3a1a step=354f9806-7528-4d46-8690-46d774c7bd89
+  section=75fc2f40-c790-46da-9812-d5f0c04b3a1a step=4ec4d7d2-ef34-450b-a842-9113e3a64499
+  section=755d76e8-ac8f-4060-923b-1455bca52287 step=5c68a3f8-03d0-4bbd-aa39-15b9f92e27da
+  section=5bb83980-50b5-4a84-a912-59782b149be0 step=5c6ac7e6-e35b-48c3-8110-a725789fdc04
+  section=9a9569a7-754a-4170-afba-21cdee00e15a step=6485c79c-61d1-4473-bca6-cb7e0b1add54
+  section=755d76e8-ac8f-4060-923b-1455bca52287 step=66757bd7-233c-46ff-8883-3f905f6e639a
+  section=7ca2b1ed-e562-4b31-b8ba-b14bc0061778 step=6b26804a-6a98-4a41-8f3f-1c9b06682396
+  section=1d29a032-2930-4a8f-94d2-ec0b88cabdb6 step=7b9a8522-8dfa-4cab-8777-67155b96580d
+  section=5bb83980-50b5-4a84-a912-59782b149be0 step=82306128-d9b1-4401-ba8d-1541f77b169d
+  section=7ca2b1ed-e562-4b31-b8ba-b14bc0061778 step=898ecd78-ee87-45ac-bc8f-3c81a27d5b5d
+  section=755d76e8-ac8f-4060-923b-1455bca52287 step=9bdf76f4-9c62-40be-91d8-034588fd9ecc
+  section=75fc2f40-c790-46da-9812-d5f0c04b3a1a step=bf9df36b-0e1b-46e3-a613-072ffdad28c1
+  section=155143fd-d8c1-4473-8833-b07b3a414efb step=c00aefca-c86e-4c8a-88a5-a08ef01b8714
+  section=755d76e8-ac8f-4060-923b-1455bca52287 step=c299c68d-d01a-453a-a8f0-0cadc053f954
+  section=755d76e8-ac8f-4060-923b-1455bca52287 step=d32f06d1-8578-4010-87fe-684b14acf68d
+  section=5bb83980-50b5-4a84-a912-59782b149be0 step=e087cdfa-c947-4a35-b8f0-9ea9fc8e87f0
+  section=7ca2b1ed-e562-4b31-b8ba-b14bc0061778 step=ed48ae75-062e-40ec-84b5-bc901bf67527
+  section=fa177593-9b59-49cb-a47e-067717b35407 step=f88696c9-aed1-48dc-94d2-e5a7dd7716be
+
+criteria:
+  Computer Science
+    f7d41e36-7fc7-47b4-99da-d72b007b8bd2 type=checkpoint variant=rubric weight=75
+  Interdisciplinary Learning
+    f7d41e36-7fc7-47b4-99da-d72b007b8bd2 type=checkpoint variant=rubric weight=5
+  Creativity
+    f7d41e36-7fc7-47b4-99da-d72b007b8bd2 type=checkpoint variant=rubric weight=5
+  Project Checkpoints
+    c3387a73-1d91-401a-9fa7-306443c6c946 type=checkpoint weight=1
+    ce38531b-971f-441e-8191-b4238436fbc4 type=checkpoint weight=1
+    2631b07f-9840-427b-93ae-d05c1af61086 type=checkpoint weight=1
+    876a148b-2081-45d9-850e-c38f0cad0d3c type=checkpoint weight=1.5
+    d08fa492-0589-4483-9161-83d679c171d3 type=checkpoint weight=1.5
+    ed25fd4d-7bdc-4a02-bc71-1de8852ba76f type=checkpoint weight=1.5
+    0046c564-6537-4a70-9bf9-67d24ce54af4 type=checkpoint weight=1.5
+    6da82278-6f7e-4b70-9e9f-e398ad2fc946 type=checkpoint weight=1.5
+
+

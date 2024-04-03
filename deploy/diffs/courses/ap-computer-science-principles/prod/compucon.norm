@@ -1,0 +1,43 @@
+id: 2d71f3e5-94cb-4978-bc42-6ed8cf7dd9b5
+title: CompuCon
+
+rubric:
+  written-communication
+    87222acf-d684-467d-9550-b58bb7214471
+    af98d366-e401-4a1f-9d1f-4a2c4f5e5964
+    edaab260-03a2-452a-81e9-eed911945016
+
+activities:
+  student-project tool=cospaces url=https://edu.cospaces.io/HEB-TLB action=render
+  written-response-1 id=85385cb8-d786-4395-983b-b26b68250045 tool=written-response id=85385cb8-d786-4395-983b-b26b68250045
+  written-response-2 id=4a15f2f2-1cd8-40e7-9895-f9f9b95432d9 tool=written-response id=4a15f2f2-1cd8-40e7-9895-f9f9b95432d9
+  written-response-3 id=adc441e2-c190-435c-a6a8-acb7cf1e5fa9 tool=written-response id=adc441e2-c190-435c-a6a8-acb7cf1e5fa9
+  written-response-4 id=bc092573-9e6b-4025-8096-83e14a16cdd5 tool=written-response id=bc092573-9e6b-4025-8096-83e14a16cdd5
+  written-response-5 id=2914a301-a654-4eb2-a100-641db8fff283 tool=written-response id=2914a301-a654-4eb2-a100-641db8fff283
+  written-response-6 id=83b59576-44e8-467c-bab7-e4811d3a6757 tool=written-response id=83b59576-44e8-467c-bab7-e4811d3a6757
+
+steps:
+  e5ff73ac-c137-42ac-b0c4-01e0c51bdbbc 
+  532c4806-669f-4bcb-963a-74a88612c82b 
+  2f6f4572-b39d-4166-b0dd-595dffeee0cb 
+  b1eec6ec-ff8d-4e80-b2a4-3c9682b257ef activity=student-project
+  119a9178-0906-4a61-beb9-139d9715c691 activity=written-response-1
+  74188862-3ed5-4e43-b34d-1958f4ea58c9 activity=written-response-2
+  39ddb930-106e-4560-825d-044d5d63e08f activity=written-response-3
+  f2240200-fe91-4d4d-b61a-38d8f05d7b98 activity=written-response-4
+  f7953e14-09c6-43d8-a224-a53f86ac7f72 activity=written-response-5
+  8d5381d4-ce7a-4c3a-83c3-ec0cde199a46 activity=written-response-6
+
+positions (not in order):
+  section=73fecb48-c172-4d69-a2ab-8fa19632fb94 step=119a9178-0906-4a61-beb9-139d9715c691
+  section=f2786576-19f7-432a-8d93-a7d3e0a9067d step=2f6f4572-b39d-4166-b0dd-595dffeee0cb
+  section=73fecb48-c172-4d69-a2ab-8fa19632fb94 step=39ddb930-106e-4560-825d-044d5d63e08f
+  section=f2786576-19f7-432a-8d93-a7d3e0a9067d step=532c4806-669f-4bcb-963a-74a88612c82b
+  section=73fecb48-c172-4d69-a2ab-8fa19632fb94 step=74188862-3ed5-4e43-b34d-1958f4ea58c9
+  section=73fecb48-c172-4d69-a2ab-8fa19632fb94 step=8d5381d4-ce7a-4c3a-83c3-ec0cde199a46
+  section=73fecb48-c172-4d69-a2ab-8fa19632fb94 step=b1eec6ec-ff8d-4e80-b2a4-3c9682b257ef
+  section=f2786576-19f7-432a-8d93-a7d3e0a9067d step=e5ff73ac-c137-42ac-b0c4-01e0c51bdbbc
+  section=73fecb48-c172-4d69-a2ab-8fa19632fb94 step=f2240200-fe91-4d4d-b61a-38d8f05d7b98
+  section=73fecb48-c172-4d69-a2ab-8fa19632fb94 step=f7953e14-09c6-43d8-a224-a53f86ac7f72
+
+

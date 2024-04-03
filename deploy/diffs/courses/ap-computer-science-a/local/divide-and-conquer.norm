@@ -1,0 +1,73 @@
+id: 9d8993ea-263e-4325-be2b-b38b45315283
+title: Divide and Conquer
+
+rubric:
+  computer-science
+    b0c97d01-21dd-4e60-acfd-c7913293cc06
+
+activities:
+  checkpoint-set-1 id=85508ea4-4455-44b2-8484-900bcdc87dec tool=checkpoint-set
+    2e0258c6-062e-4a3c-a460-5fa0f1ec5a6e variant=multiple_choice
+      3cd30437-f2a8-4044-9634-38b31daae7fb correct=False
+      458ac963-cbb4-4c76-949d-ef0a94993276 correct=False
+      4de40af8-0c9c-45cb-b167-64b6a1137582 correct=True
+      7af7660b-ac8f-44de-ab41-d1c0c8e1698d correct=False
+    5f49e8a4-295b-4031-bf3a-daf34a31d1af variant=multiple_choice
+      7e0e03d8-686a-4d80-9826-83ecf1c3c654 correct=True
+      9a03319e-5d63-4207-8f90-005c7c2af720 correct=False
+      f88072de-67ba-4089-87ce-2b741fd45541 correct=False
+      fec90ccb-0f43-4c5c-8553-ab6b84650485 correct=False
+    626df6c5-f25b-478e-8320-4bd6db9c2adb variant=multiple_choice
+      317854c9-26ae-445d-b04a-a46352d54361 correct=True
+      3a7db40e-f22d-41a0-85d3-56377fdbffb6 correct=False
+      cc0b6189-c753-463a-b950-4b06430a9e2e correct=False
+      e810aa87-660f-4f95-83d5-3853aa3a7e7a correct=False
+  checkpoint-set-2 id=20322894-a3ac-4226-a906-db649f4ca17e tool=checkpoint-set
+    136bebfd-cda0-420f-8c47-52f9e089b782 variant=multiple_choice
+      561d0aa8-946e-419e-bd45-0265abfe8141 correct=True
+      78b1c344-ec14-4b4c-ba70-71a0bc4c80de correct=False
+      a1ea221c-6c27-4ed0-90ba-33e56de2bceb correct=False
+      d040ef81-ea9a-451b-b23b-18c4c85a1adc correct=False
+    573ce443-2799-4931-b131-d6e468aab807 variant=multiple_choice
+      6848aa6e-a332-4518-bc84-eed513110267 correct=False
+      804a1fda-4b4d-45ac-8d15-c06aab61a52f correct=False
+      b721c051-0f1f-4920-b11e-3cab4422770d correct=True
+      f39c09ab-fc14-4a14-ba69-7421672abb7f correct=False
+    64e97ae6-58f9-4c0d-a1bb-6509f9d1e86c variant=multiple_choice
+      5548ff8f-3a9f-4f49-80af-95281c4688eb correct=True
+      76c620ad-fcda-4d18-b0d2-b8914d439655 correct=False
+      993c74ac-9a2a-45c8-a98a-c3f39c858b1f correct=False
+      b2618e93-e39b-4bac-97d1-52bcb686698a correct=False
+  student-project-1 id=divide-and-conquer-1 tool=pickcode action=edit
+  student-project-2 id=divide-and-conquer-2 tool=pickcode action=edit
+
+steps:
+  69f1ea77-1be9-4ae1-b189-63f46f15a397 
+  3b713177-0a6a-45d4-a4ea-10940a97a112 
+  8cfe5308-4812-4bef-bc6f-3704fea2547d 
+  2b42e435-8bc9-4c98-a755-7a4bd2059b9d 
+  a740b04a-c35f-44ea-ad2e-6b2ae79dfb98 activity=student-project-1
+  c79a3f90-8124-47f6-b21b-140e4d3f6c3b activity=checkpoint-set-1
+  b2dd9e81-f237-4e60-bed7-e32e43144e42 activity=student-project-2
+  ad8d2691-97ae-413d-b664-0420c232bc15 activity=checkpoint-set-2
+
+positions (not in order):
+  section=3c8d4c2c-62d6-45f3-9216-9d35785fda0a step=2b42e435-8bc9-4c98-a755-7a4bd2059b9d
+  section=3c8d4c2c-62d6-45f3-9216-9d35785fda0a step=3b713177-0a6a-45d4-a4ea-10940a97a112
+  section=3c8d4c2c-62d6-45f3-9216-9d35785fda0a step=69f1ea77-1be9-4ae1-b189-63f46f15a397
+  section=3c8d4c2c-62d6-45f3-9216-9d35785fda0a step=8cfe5308-4812-4bef-bc6f-3704fea2547d
+  section=43d3a960-aca0-48ec-8c1b-589d0400049f step=a740b04a-c35f-44ea-ad2e-6b2ae79dfb98
+  section=a3d48b81-6e93-418a-bcf0-0e09a0f4e46c step=ad8d2691-97ae-413d-b664-0420c232bc15
+  section=fddafeff-603e-4c72-bed1-2fe83246fa23 step=b2dd9e81-f237-4e60-bed7-e32e43144e42
+  section=33514558-6006-4b1b-9845-e9e887cd375d step=c79a3f90-8124-47f6-b21b-140e4d3f6c3b
+
+criteria:
+  Project Checkpoints
+    2e0258c6-062e-4a3c-a460-5fa0f1ec5a6e type=checkpoint weight=16.75
+    626df6c5-f25b-478e-8320-4bd6db9c2adb type=checkpoint weight=16.75
+    5f49e8a4-295b-4031-bf3a-daf34a31d1af type=checkpoint weight=16.75
+    573ce443-2799-4931-b131-d6e468aab807 type=checkpoint weight=16.75
+    136bebfd-cda0-420f-8c47-52f9e089b782 type=checkpoint weight=16.75
+    64e97ae6-58f9-4c0d-a1bb-6509f9d1e86c type=checkpoint weight=16.25
+
+

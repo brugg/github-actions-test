@@ -1,0 +1,87 @@
+id: d7184bd7-55c9-4a24-9e15-88f5c6df6726
+title: Binary Museum Day 2
+
+activities:
+  checkpoint-set id=d1f8a810-6b70-497b-b39e-4bb522f9c171 tool=checkpoint-set
+    0996f64c-18dd-4364-9399-e787da91655d variant=multiple_choice
+      26ada7c5-dbde-4afa-822a-cdfed0ead53a correct=False
+      450eb913-51aa-4315-9799-1f36850ed346 correct=False
+      4a05c5c3-47a5-4194-805a-2bdc9ab19134 correct=False
+      a8084f99-867e-45d9-85b3-40fa7deedc98 correct=True
+    14a9741c-bcdf-4485-85af-863d99cc2035 variant=multiple_choice
+      30d79c61-8bc5-4381-84d8-03dc1b33683c correct=True
+      32a10482-3f9d-49aa-803c-62d12a30247a correct=False
+      4eea9d11-4945-4705-84b5-47a8be60a22b correct=False
+      50a73d97-4dcc-461e-ab18-a905385d23aa correct=False
+    2da3a8eb-18bc-4861-8320-ad27621c9d1e variant=multiple_choice
+      1496609f-87be-4cd6-984f-6c7f592b7821 correct=False
+      33c575ae-c779-44d0-a64b-3c7da0bfcab6 correct=False
+      97c2ecf0-2a57-414c-8b83-9587eefe5cf1 correct=True
+      e3a7781f-e008-4dfd-b645-d217c3be1477 correct=False
+    9725559f-4eb4-4e06-aa32-08a03322367c variant=multiple_choice
+      3118b29f-71ec-41ea-9516-42523958f794 correct=False
+      a961c58b-d094-413b-b8b9-add4fa15ee38 correct=False
+      f086e19e-e126-481a-94d2-3fe351001de7 correct=True
+      f4fd68b2-7308-4e6a-9548-e9f6c1d19ccc correct=False
+    9a847c6b-1a69-4796-b66d-3d25cd9f8b7b variant=multiple_choice
+      0bc36251-ff28-4381-b47b-48893d853f24 correct=False
+      201877c9-d271-4093-8540-5c703806181f correct=False
+      c3a3ab2b-b91f-4354-b37e-86534246de45 correct=False
+      c95ca803-59ad-433a-8192-a3859721d352 correct=True
+    9c541a8d-1fe6-4b15-8462-801427d71188 variant=multiple_choice
+      4f4af308-8a83-45e6-a197-5f38f5b4bca6 correct=False
+      b029076d-e117-48a4-b795-f6122c7a6f85 correct=False
+      ec2a25e8-bd4d-47e1-9d93-d99cbf481f64 correct=True
+      f3c2d04d-ea6b-4656-be2e-4c226e59cdee correct=False
+    b95fc832-ddd1-40f8-8da0-65edbd387c6f variant=multiple_choice
+      a7eb642d-148a-4db9-bb78-f6ceae08247e correct=False
+      aec43eba-37ba-4403-9452-dcde08207ff5 correct=False
+      d1662755-e34d-4468-8b72-4d3c3f7c057e correct=True
+      f514f723-e512-42e3-a942-63af4b31c888 correct=True
+    c6b73e2b-8040-4039-87c1-9516a269248b variant=multiple_choice
+      15340cc3-332a-4790-bce2-478b333b4a0c correct=False
+      57f10be6-8902-4050-a384-918ed6657d77 correct=False
+      92916f4e-ca00-40ea-926a-14820e1ccdea correct=True
+      ef050f2c-d039-4963-b33e-77fa07239812 correct=False
+    d65b73f2-c5cf-4f40-9fae-ecece4681d72 variant=multiple_choice
+      081b5aaf-baa8-4017-8c66-75b2fb8a4585 correct=True
+      463f034c-3b77-4882-b0a6-cd08a4ce0729 correct=False
+      bc29362e-3e2f-4f91-9727-175c83edcc2e correct=False
+      c84429a9-d445-49a4-a0f8-fdb5904b1b3d correct=False
+    daf7ffa3-a602-4de6-a9ee-001a8b56f042 variant=multiple_choice
+      40d68afe-f66f-442d-83bb-612b6462d356 correct=True
+      4df6dc99-0459-4df7-83c6-f7807657c014 correct=False
+      79410554-b3b8-4bda-976e-857d282d9905 correct=True
+      8dfab4f2-84ff-4cb8-87e1-eae48c73c28a correct=False
+  student-project tool=cospaces url=https://edu.cospaces.io/ZTA-AQN action=render
+
+steps:
+  88420673-86b6-4fde-846f-93f34d189f50 
+  b759547f-b082-4333-931d-fc93b6397838 
+  b2cbc986-b2f9-489d-82eb-0fa4cec3a07f 
+  4f55a842-97e9-42ec-afe0-803547d66639 activity=student-project
+  59c3cdcd-1871-4a0d-aede-2f0900de4ef4 
+  6e37017d-9aae-4c5d-982d-8719f8fad8fc activity=checkpoint-set
+
+positions (not in order):
+  section=39eb785a-c888-4bd1-98c0-8f26db1fd9a5 step=4f55a842-97e9-42ec-afe0-803547d66639
+  section=52b31451-d11e-43df-98b3-216a95934329 step=59c3cdcd-1871-4a0d-aede-2f0900de4ef4
+  section=52b31451-d11e-43df-98b3-216a95934329 step=6e37017d-9aae-4c5d-982d-8719f8fad8fc
+  section=be114227-fac0-4d2a-a2f0-d30c0783caf5 step=88420673-86b6-4fde-846f-93f34d189f50
+  section=be114227-fac0-4d2a-a2f0-d30c0783caf5 step=b2cbc986-b2f9-489d-82eb-0fa4cec3a07f
+  section=be114227-fac0-4d2a-a2f0-d30c0783caf5 step=b759547f-b082-4333-931d-fc93b6397838
+
+criteria:
+  Project Checkpoints
+    b95fc832-ddd1-40f8-8da0-65edbd387c6f type=checkpoint weight=10
+    9725559f-4eb4-4e06-aa32-08a03322367c type=checkpoint weight=10
+    0996f64c-18dd-4364-9399-e787da91655d type=checkpoint weight=10
+    9c541a8d-1fe6-4b15-8462-801427d71188 type=checkpoint weight=10
+    9a847c6b-1a69-4796-b66d-3d25cd9f8b7b type=checkpoint weight=10
+    daf7ffa3-a602-4de6-a9ee-001a8b56f042 type=checkpoint weight=10
+    c6b73e2b-8040-4039-87c1-9516a269248b type=checkpoint weight=10
+    2da3a8eb-18bc-4861-8320-ad27621c9d1e type=checkpoint weight=10
+    14a9741c-bcdf-4485-85af-863d99cc2035 type=checkpoint weight=10
+    d65b73f2-c5cf-4f40-9fae-ecece4681d72 type=checkpoint weight=10
+
+

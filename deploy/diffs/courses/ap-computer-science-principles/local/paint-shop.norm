@@ -1,0 +1,87 @@
+id: 18cd799f-a9f3-43b6-9588-fcb6cb2b89a0
+title: Paint Shop
+
+activities:
+  checkpoint-set id=a101176f-ec92-4a38-b0dd-3831968aff13 tool=checkpoint-set
+    17f74a85-bd8e-4229-8bb5-f70a9d38641d variant=multiple_choice
+      15c40491-51ed-4e46-99f4-d4c50f88e23b correct=False
+      6e3c067c-f9e7-42ad-b6bb-d808fbb7993b correct=False
+      ec77673a-7757-451b-b4a7-1b9ee028fcd1 correct=False
+      fbc43c28-bb40-4a7f-99af-169dfcc74dd7 correct=True
+    2ae939bf-e35f-4876-ac1c-105ce33301b4 variant=multiple_choice
+      345218df-1598-42e0-b95b-0bffbc1f4175 correct=False
+      96e9caa4-c3f0-4ae4-b296-19780078e790 correct=False
+      c6a71614-e073-4ea0-8690-10d0ab41229b correct=False
+      fddf6175-5950-4f45-ae8a-49215471c0e1 correct=True
+    3783ac07-0895-4ce1-ae30-38796cdf5be2 variant=multiple_choice
+      145eadd8-ab41-4cf9-b45b-3ed049ef8dfd correct=False
+      489f022f-ea4c-44a1-a318-a544572d1e7a correct=False
+      4ab2b550-fb1c-4a3b-8e2d-2cb83f65b7db correct=False
+      90c22675-5df8-4c02-9f93-925891f4cd63 correct=True
+    59cd8093-4506-45f2-9aed-94f38963ecc0 variant=multiple_choice
+      088232b2-46ac-458f-8cfa-8cabc664d136 correct=False
+      43a32619-877b-4d16-a9a2-2c768bd98591 correct=False
+      b55c09fa-4549-462a-b262-a55aa1984583 correct=True
+      e75d1828-395e-4dad-ad44-14551af3977b correct=False
+    6239979d-35da-402c-98f7-36f202fa264f variant=multiple_choice
+      25e5c438-37cb-4e59-98fd-435bbccec372 correct=False
+      8a3e60c1-a29c-4d7f-b031-8860958c3233 correct=True
+      a550a706-1d33-4e46-a33e-f786102ab668 correct=False
+      db247a96-d890-4fe0-a286-a78e294824b3 correct=False
+    67ec2a7d-0aa4-4701-94f3-3bbb9b3c106b variant=multiple_choice
+      0e31f6c7-5ee0-49ca-b5ac-686bdf3bd0dd correct=False
+      ca70280b-4111-4e54-a8ed-b4bdd0304afa correct=False
+      da09dfa5-fd82-435e-87e9-f0534bb37599 correct=False
+      e3bdd1d7-7db5-4332-91ce-956e22bc6797 correct=True
+    7fac306d-da07-449a-8865-a157f16939cd variant=multiple_choice
+      0ef594cc-a8df-4e18-9c7b-d5b78b9c15c3 correct=True
+      42b75f5f-60ed-4ff9-a222-6d2e27b5350f correct=False
+      a0bd56da-402d-4b5d-b970-90ddfa2bd0cd correct=False
+      ccaf732b-dbc0-43d9-b95c-a465e846a2f5 correct=False
+    8cf1663e-de8f-40be-86f6-e0d953ed9605 variant=multiple_choice
+      00ae6f19-bc6c-4e60-b804-8f047b9c337b correct=False
+      2cd51270-113d-4ba5-840c-5f649698dd90 correct=False
+      e450ac45-f12b-48e1-84bc-38bbf66bc3ab correct=False
+      f59219f0-ec94-46fb-a309-afcc4628a34d correct=True
+    8ff6ed6c-a406-4fd3-845f-f6c4a8b9a232 variant=multiple_choice
+      01b06631-04e7-409d-b534-d418683c4870 correct=False
+      6cc00076-dcb3-48ba-bafc-43594c9deab8 correct=False
+      bd1a4df8-7453-4758-bd6f-d606b4e1b1bc correct=False
+      e09729f7-656c-4541-bcf7-89161d7d9322 correct=True
+    d2877a81-8133-4181-85b6-dc22a7968610 variant=multiple_choice
+      2f2004a4-688d-4177-afea-9d94abbab23a correct=False
+      309bb42c-c5da-4515-b746-c3ce14a67827 correct=True
+      c915d88a-2b49-4efe-84be-9707f21d99ef correct=False
+      d53c0617-6d98-42fd-b631-f796c0dc9ac1 correct=False
+  student-project tool=cospaces url=https://edu.cospaces.io/KZJ-FKG action=render
+
+steps:
+  ce708609-00fd-41cb-b71b-beba44b158cf 
+  ef6ae8cd-1ee9-4e94-99f1-80800b400169 
+  65c2d572-33a8-4aa7-83ba-59d437ba69ac 
+  f018856b-e15d-4341-929d-4e054e98d428 activity=student-project
+  00445c77-270a-4d02-96c3-81b571dbddac 
+  36c809f3-664c-4ec3-bc50-b1031a64bcea activity=checkpoint-set
+
+positions (not in order):
+  section=6598bc62-515e-498d-9487-dfe11728aa27 step=00445c77-270a-4d02-96c3-81b571dbddac
+  section=6598bc62-515e-498d-9487-dfe11728aa27 step=36c809f3-664c-4ec3-bc50-b1031a64bcea
+  section=5f6cfcc8-06ba-486e-a3f4-c09b1a768c5a step=65c2d572-33a8-4aa7-83ba-59d437ba69ac
+  section=5f6cfcc8-06ba-486e-a3f4-c09b1a768c5a step=ce708609-00fd-41cb-b71b-beba44b158cf
+  section=5f6cfcc8-06ba-486e-a3f4-c09b1a768c5a step=ef6ae8cd-1ee9-4e94-99f1-80800b400169
+  section=a8500584-14ec-4b0f-9a00-9e695cbb66c9 step=f018856b-e15d-4341-929d-4e054e98d428
+
+criteria:
+  Multiple Choice Questions
+    59cd8093-4506-45f2-9aed-94f38963ecc0 type=checkpoint weight=10
+    3783ac07-0895-4ce1-ae30-38796cdf5be2 type=checkpoint weight=10
+    8cf1663e-de8f-40be-86f6-e0d953ed9605 type=checkpoint weight=10
+    7fac306d-da07-449a-8865-a157f16939cd type=checkpoint weight=10
+    67ec2a7d-0aa4-4701-94f3-3bbb9b3c106b type=checkpoint weight=10
+    8ff6ed6c-a406-4fd3-845f-f6c4a8b9a232 type=checkpoint weight=10
+    6239979d-35da-402c-98f7-36f202fa264f type=checkpoint weight=10
+    2ae939bf-e35f-4876-ac1c-105ce33301b4 type=checkpoint weight=10
+    17f74a85-bd8e-4229-8bb5-f70a9d38641d type=checkpoint weight=10
+    d2877a81-8133-4181-85b6-dc22a7968610 type=checkpoint weight=10
+
+

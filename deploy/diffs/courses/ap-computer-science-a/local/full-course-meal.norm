@@ -1,0 +1,58 @@
+id: e5ce7f10-3d81-11ec-9bbc-0242ac130002
+title: Full-Course Meal
+
+rubric:
+  computer-science
+    0373eb68-3d82-11ec-9bbc-0242ac130002
+    06372522-3d82-11ec-9bbc-0242ac130002
+    092867fa-3d82-11ec-9bbc-0242ac130002
+    2542d2ae-3d82-11ec-9bbc-0242ac130002
+    415b2e59-0c63-4212-9e9e-d1422c7a524b
+    5c859e5b-7651-4920-93ad-4728cfd49189
+  creativity
+    0afb0f21-411d-4612-a25f-27e2ec4528fb
+    16195f96-6f5a-4a10-b80e-7f64273e010b
+    3bd4b353-4c07-4f5c-bb77-93e2d75c316a
+    6f70c54a-0ed2-4731-a158-931ea2a20983
+  interdisciplinary-learning
+    8bebbc77-b0ef-4f53-92c9-4efb37f15186
+
+activities:
+  student-project id=full-course-meal tool=pickcode action=edit
+
+steps:
+  5029dc2e-3d82-11ec-9bbc-0242ac130002 
+  5d8609f6-3d82-11ec-9bbc-0242ac130002 
+  7137cafc-3d82-11ec-9bbc-0242ac130002 
+    87451bce-3d82-11ec-9bbc-0242ac130002 variant=short_answer
+  8c15aef2-3d82-11ec-9bbc-0242ac130002 
+    9ca0bd70-3d82-11ec-9bbc-0242ac130002 variant=short_answer
+  a5b266d4-3d82-11ec-9bbc-0242ac130002 
+    bae43ffa-3d82-11ec-9bbc-0242ac130002 variant=short_answer
+  cea99d46-3d82-11ec-9bbc-0242ac130002 activity=student-project
+  234a3770-3d83-11ec-9bbc-0242ac130002 activity=student-project
+    4109c80c-3d83-11ec-9bbc-0242ac130002 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  46ec3430-3d83-11ec-9bbc-0242ac130002 activity=student-project
+
+positions (not in order):
+  section=cbb5b12e-3d82-11ec-9bbc-0242ac130002 step=234a3770-3d83-11ec-9bbc-0242ac130002
+  section=4463e6a4-3d83-11ec-9bbc-0242ac130002 step=46ec3430-3d83-11ec-9bbc-0242ac130002
+  section=4d235064-3d82-11ec-9bbc-0242ac130002 step=5029dc2e-3d82-11ec-9bbc-0242ac130002
+  section=4d235064-3d82-11ec-9bbc-0242ac130002 step=5d8609f6-3d82-11ec-9bbc-0242ac130002
+  section=6e405a12-3d82-11ec-9bbc-0242ac130002 step=7137cafc-3d82-11ec-9bbc-0242ac130002
+  section=6e405a12-3d82-11ec-9bbc-0242ac130002 step=8c15aef2-3d82-11ec-9bbc-0242ac130002
+  section=6e405a12-3d82-11ec-9bbc-0242ac130002 step=a5b266d4-3d82-11ec-9bbc-0242ac130002
+  section=cbb5b12e-3d82-11ec-9bbc-0242ac130002 step=cea99d46-3d82-11ec-9bbc-0242ac130002
+
+criteria:
+  Computer Science
+    4109c80c-3d83-11ec-9bbc-0242ac130002 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    4109c80c-3d83-11ec-9bbc-0242ac130002 type=checkpoint variant=rubric weight=5
+  Creativity
+    4109c80c-3d83-11ec-9bbc-0242ac130002 type=checkpoint variant=rubric weight=5
+
+

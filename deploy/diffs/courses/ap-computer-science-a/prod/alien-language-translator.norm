@@ -1,0 +1,57 @@
+id: 4723a8a3-9ed8-40b8-a932-ba7a7a80d84b
+title: Alien Language Translator
+
+rubric:
+  computer-science
+    7d112ae5-efa2-42cb-8936-08e2308ad299
+    8ded9370-582d-42f7-99d2-f58349780e01
+    9de44d0a-72c3-4c16-95c9-3782264a444f
+    a7d047cc-660e-4825-a28b-bfb0b5b22e3d
+    f9c8a024-e0b9-49fe-909a-757f97ba427a
+  creativity
+    43b005dc-060c-4682-b2f2-a57ddb461d84
+    b5827b66-face-4b12-b390-974af8745c17
+    cf3260ea-799e-4ffc-9856-a2e483eb92a6
+    e6a8cffc-8c6f-47d0-832d-1786f68e47e4
+  interdisciplinary-learning
+    da3151aa-f7b2-40eb-b446-3246d074db9b
+
+activities:
+  student-project id=alien-language-translator tool=pickcode action=edit
+
+steps:
+  d0f4078d-93ce-42f6-842f-e9e23c105e0e 
+  efb3bf7c-63d6-452a-9955-3a2fb69ae330 
+  a6d82424-7595-4c16-8d21-a96bc93a4944 
+    9a624db5-62a2-44a9-81ff-bfabcbe8a613 variant=short_answer
+  dd7b18f9-2981-4128-b811-6cabbfa8bb16 
+    d4529619-0ac5-40b7-99a7-20eef92d0d65 variant=short_answer
+  98e321d3-5844-48c4-8eeb-a1b9d30834ee 
+    a9d52555-a3e0-41aa-9cf0-7dd64fcd0f39 variant=short_answer
+  97298721-80e2-433f-9917-591425a771d7 activity=student-project
+  3651544c-e07b-48ec-924b-6f7b889c9acd activity=student-project
+    be3521a5-cb41-44a5-8d0a-a9addc3d030b variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  cea13e82-a11f-4dff-988f-f59bace3aabf activity=student-project
+
+positions (not in order):
+  section=322814c9-3117-47cf-94a4-b2434449f800 step=3651544c-e07b-48ec-924b-6f7b889c9acd
+  section=322814c9-3117-47cf-94a4-b2434449f800 step=97298721-80e2-433f-9917-591425a771d7
+  section=ed38971a-e5d3-44a9-bbbd-1c12d0592544 step=98e321d3-5844-48c4-8eeb-a1b9d30834ee
+  section=ed38971a-e5d3-44a9-bbbd-1c12d0592544 step=a6d82424-7595-4c16-8d21-a96bc93a4944
+  section=e7a33ba7-229d-471b-8641-9bc89645b2c5 step=cea13e82-a11f-4dff-988f-f59bace3aabf
+  section=a4240609-b44b-40ae-8a74-1d66080d3a68 step=d0f4078d-93ce-42f6-842f-e9e23c105e0e
+  section=ed38971a-e5d3-44a9-bbbd-1c12d0592544 step=dd7b18f9-2981-4128-b811-6cabbfa8bb16
+  section=a4240609-b44b-40ae-8a74-1d66080d3a68 step=efb3bf7c-63d6-452a-9955-3a2fb69ae330
+
+criteria:
+  Computer Science
+    be3521a5-cb41-44a5-8d0a-a9addc3d030b type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    be3521a5-cb41-44a5-8d0a-a9addc3d030b type=checkpoint variant=rubric weight=5
+  Creativity
+    be3521a5-cb41-44a5-8d0a-a9addc3d030b type=checkpoint variant=rubric weight=5
+
+

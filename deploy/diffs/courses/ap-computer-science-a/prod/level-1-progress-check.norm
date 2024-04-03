@@ -1,0 +1,20 @@
+id: 1af485f3-b06f-4a6d-ae5f-4ee5590fa8cb
+title: Level 1 Progress Check
+
+rubric:
+  computer-science
+    3c6f9a31-03a9-40b4-ac9c-261492123bac
+
+steps:
+  688c2435-d202-4dd0-8639-d173ec034a46 
+  6fd3b0f4-e06c-4a56-8cb6-5530dfb3b83c 
+    d6a84cee-acc5-41fa-b310-36c7c5bcd09e variant=rubric
+      computer-science 
+  3ecdaadf-1058-487e-ae6a-2dd9fccfd4f3 
+
+positions (not in order):
+  section=949e8914-ba8f-428c-b8e4-d16d4895af16 step=3ecdaadf-1058-487e-ae6a-2dd9fccfd4f3
+  section=1560021e-2959-46b9-a1de-be0925a619fb step=688c2435-d202-4dd0-8639-d173ec034a46
+  section=949e8914-ba8f-428c-b8e4-d16d4895af16 step=6fd3b0f4-e06c-4a56-8cb6-5530dfb3b83c
+
+

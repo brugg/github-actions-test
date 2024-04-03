@@ -1,0 +1,46 @@
+id: b766608c-1c26-4379-9dd2-57ed5487e354
+title: CoSpaces Tutorial - Touchpad
+
+activities:
+  editor-mode tool=cospaces url=https://edu.cospaces.io/LNF-VUE action=render
+  play-mode tool=cospaces url=https://edu.cospaces.io/JSN-NVH action=render
+
+steps:
+  6c6e550f-28ff-4dbe-a491-1a978b919dd1 
+  7c714441-7148-4b03-8479-126c6017fdcc 
+  3a55d0a1-9459-464e-859a-c574d07da55a 
+  dc23f1b7-97cd-439c-a49b-fb84654d2314 activity=play-mode
+  76e32046-1907-448d-a49d-66075facf6d6 activity=play-mode
+  88308803-a972-4099-9e8a-15b0d8db30da activity=play-mode
+  8c585b39-1791-4496-b38e-32193c5f70ac activity=play-mode
+  b5cd2bac-328d-4102-a6d4-3119e0a9eb9e activity=play-mode
+  1e149be0-7151-44ad-8b07-90ed3a673841 activity=editor-mode
+  3cc0235a-dbd4-48fc-a541-516376ff4470 activity=editor-mode
+  27a9461e-7873-4acb-8a70-24b52da5d986 activity=editor-mode
+  5a475fdb-7797-42ee-b882-d4b58e01a202 activity=editor-mode
+  a177a1e3-e463-4e58-a216-9073cf67095f activity=editor-mode
+  82e31fe4-e15e-4529-abba-51c836a2753c activity=editor-mode
+  36c98909-a702-43de-babe-2b55a76249d7 activity=editor-mode
+  f62521a4-494e-4b6c-a3fe-88ede8eccafe activity=editor-mode
+  88520dc3-60d0-408a-ac41-94aac7374bd7 activity=editor-mode
+
+positions (not in order):
+  section=2505325b-66b0-40ac-9e54-d84f158e04c0 step=1e149be0-7151-44ad-8b07-90ed3a673841
+  section=2505325b-66b0-40ac-9e54-d84f158e04c0 step=27a9461e-7873-4acb-8a70-24b52da5d986
+  section=9d440db0-9d0f-4b91-be5b-ef9f0ac5206b step=36c98909-a702-43de-babe-2b55a76249d7
+  section=3b61db68-57c6-4eed-a700-b9c8da7ab164 step=3a55d0a1-9459-464e-859a-c574d07da55a
+  section=2505325b-66b0-40ac-9e54-d84f158e04c0 step=3cc0235a-dbd4-48fc-a541-516376ff4470
+  section=2505325b-66b0-40ac-9e54-d84f158e04c0 step=5a475fdb-7797-42ee-b882-d4b58e01a202
+  section=3b61db68-57c6-4eed-a700-b9c8da7ab164 step=6c6e550f-28ff-4dbe-a491-1a978b919dd1
+  section=9c200fd8-d424-4e92-a163-07ef096ea2e7 step=76e32046-1907-448d-a49d-66075facf6d6
+  section=3b61db68-57c6-4eed-a700-b9c8da7ab164 step=7c714441-7148-4b03-8479-126c6017fdcc
+  section=9d440db0-9d0f-4b91-be5b-ef9f0ac5206b step=82e31fe4-e15e-4529-abba-51c836a2753c
+  section=9c200fd8-d424-4e92-a163-07ef096ea2e7 step=88308803-a972-4099-9e8a-15b0d8db30da
+  section=9d440db0-9d0f-4b91-be5b-ef9f0ac5206b step=88520dc3-60d0-408a-ac41-94aac7374bd7
+  section=9c200fd8-d424-4e92-a163-07ef096ea2e7 step=8c585b39-1791-4496-b38e-32193c5f70ac
+  section=9d440db0-9d0f-4b91-be5b-ef9f0ac5206b step=a177a1e3-e463-4e58-a216-9073cf67095f
+  section=9c200fd8-d424-4e92-a163-07ef096ea2e7 step=b5cd2bac-328d-4102-a6d4-3119e0a9eb9e
+  section=9c200fd8-d424-4e92-a163-07ef096ea2e7 step=dc23f1b7-97cd-439c-a49b-fb84654d2314
+  section=9d440db0-9d0f-4b91-be5b-ef9f0ac5206b step=f62521a4-494e-4b6c-a3fe-88ede8eccafe
+
+

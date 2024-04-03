@@ -1,0 +1,58 @@
+id: 34ed45a7-0f42-4696-86aa-b032a45860f7
+title: Theater Tickets
+
+rubric:
+  computer-science
+    084d3aa7-37f8-474b-951e-699bfe0fcb63
+    2a269540-ee79-4a53-957d-7dea79306fc1
+    97ace3b3-abba-42f1-b64e-076ab7e7dfa3
+    e41f43ba-2f0f-4228-b683-3c72dd41f85f
+    f749478c-5781-4373-a9e1-9b22f210221d
+    ff075503-3052-4f20-8963-5be93902fcf4
+  creativity
+    2c4f84a5-71ab-4b27-8eb3-d714f1f4e745
+    4f4b39eb-cc02-4e01-8bef-66c2fe187300
+    d8f0e422-9b48-41fc-9a4c-8aa72a7f9165
+    faa6627c-8734-42d5-8d68-e1f7d78c3d42
+  interdisciplinary-learning
+    6afd994a-c1db-485a-afff-b8b8fe7bdf72
+
+activities:
+  student-project id=theater-tickets tool=pickcode action=edit
+
+steps:
+  e01e47dd-b66a-4f5c-a1b7-d2de1a2f8ded 
+  ed761fdb-12af-4c36-9f97-3eddb8ed49af 
+  39abba5e-d7cd-405b-8aa4-068b559f19fa 
+    b19852b3-8700-4e82-9737-c831ea7543d1 variant=short_answer
+  21bd0ea7-d331-4087-9028-8b3e5e8011b4 
+    caf8aa18-92e7-4df3-b175-3de1f6288ef3 variant=short_answer
+  802759bb-b4fc-44b5-8a66-443dd2f618da 
+    5b6c2867-fc23-421a-8f68-7f1ef3530a51 variant=short_answer
+  90a80e53-abdf-424f-8d42-da9fee846fb2 activity=student-project
+  da7600f0-c459-4d4d-9093-ddcaf91cf1af activity=student-project
+    9d476777-25ff-499c-bd54-ef288fabb9b5 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  f551341a-6c16-4be8-a6fa-c907bcd28359 activity=student-project
+
+positions (not in order):
+  section=80dbbdf1-b652-4373-9630-efd7699be438 step=21bd0ea7-d331-4087-9028-8b3e5e8011b4
+  section=80dbbdf1-b652-4373-9630-efd7699be438 step=39abba5e-d7cd-405b-8aa4-068b559f19fa
+  section=80dbbdf1-b652-4373-9630-efd7699be438 step=802759bb-b4fc-44b5-8a66-443dd2f618da
+  section=d3648cbc-e447-4fcc-8e68-a1b256b4d6cf step=90a80e53-abdf-424f-8d42-da9fee846fb2
+  section=d3648cbc-e447-4fcc-8e68-a1b256b4d6cf step=da7600f0-c459-4d4d-9093-ddcaf91cf1af
+  section=38540f59-bf1b-491d-80e5-8ca877a96c63 step=e01e47dd-b66a-4f5c-a1b7-d2de1a2f8ded
+  section=38540f59-bf1b-491d-80e5-8ca877a96c63 step=ed761fdb-12af-4c36-9f97-3eddb8ed49af
+  section=9c65b0e6-6ce6-4ff6-aa6f-5f6f56486b12 step=f551341a-6c16-4be8-a6fa-c907bcd28359
+
+criteria:
+  Computer Science
+    9d476777-25ff-499c-bd54-ef288fabb9b5 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    9d476777-25ff-499c-bd54-ef288fabb9b5 type=checkpoint variant=rubric weight=5
+  Creativity
+    9d476777-25ff-499c-bd54-ef288fabb9b5 type=checkpoint variant=rubric weight=5
+
+

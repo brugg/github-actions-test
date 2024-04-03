@@ -1,0 +1,75 @@
+id: fb4f94b7-fde7-4c49-b1b8-38f740c39741
+title: BlabberBot: Activity 3
+
+rubric:
+  computer-science
+    2dac3087-f52c-4690-a2b3-d4d04f91e8e3
+    34898218-742a-48c3-aef2-5892471cf057
+    79dd8481-0f63-4d7f-9ced-9a00b8be0f41
+  creativity
+    91b0e6ac-388f-4c6e-8d09-b5a7c45f4a1d
+    adaeb43d-23af-44cb-a592-18eec0216b7b
+    c327ea93-dedd-450d-b0e0-ab807d195c1b
+    e227e603-2222-4520-939f-58d407f8157d
+  written-communication
+    53fc333c-60e3-477c-b7aa-097a6984b3af
+    7b220bcc-21db-4d67-9bfd-135319e5a84f
+    f0112105-8ccb-43af-b548-92fc7d798b15
+
+activities:
+  student-project id=blabberbot-activity-3 tool=pickcode action=edit
+  written-response id=f0014bce-f7b3-49fc-87f2-4209b3bf21fd tool=written-response id=f0014bce-f7b3-49fc-87f2-4209b3bf21fd
+
+steps:
+  a5e452f0-0401-4677-9209-c1b3d7033ed5 
+  95a3a8be-824f-4ac3-ab50-aff91ce3556d 
+  c6267866-692d-4d75-b132-3285cfb2ca3b 
+  d2871033-e31b-4164-92de-2375de1528ee 
+  9332568b-6ee4-4d40-8b59-4ec2cb41cbb8 
+  0dcc14b6-882c-4add-b740-fbbe4bd35f0b activity=student-project
+    3a246d10-58f9-416e-8ffb-cc5774b4e32f variant=short_answer
+  6d832d18-06d6-48ec-b919-42ca82d02ea3 activity=student-project
+    46ade689-8f3a-4675-914b-bd64bd3016f3 variant=short_answer
+  45ed259e-3722-4b20-9b7e-7bc4a46a5501 activity=student-project
+    46cb2756-d467-4cf0-a780-e18d311fa23b variant=short_answer
+  7e5c3041-2aca-4465-afcb-289b8e172f70 activity=student-project
+  ad450014-5623-469f-8e8f-aca5ed51c7c4 activity=student-project
+  ce313d09-e721-4393-a806-5202bf5198c9 activity=student-project
+  cb0030eb-4cb8-4931-ab60-eb5672b95001 activity=student-project
+  6ca1a89d-43f3-454c-b13d-9d388f4e20e0 activity=student-project
+    c79e4455-a4d3-43c6-b979-4da88bc69914 variant=rubric
+      computer-science 
+      creativity required=1
+  5c5f3254-20b6-4959-9b15-1cf2051a7553 activity=student-project
+  cf440442-bb14-4fca-bf44-c36159bd8c2f activity=written-response
+    93dfbee3-ee08-455d-91d6-e4588adab6f0 variant=rubric
+      written-communication 
+  7ca67140-aacc-445d-a517-e1c3e9ddd55c 
+
+positions (not in order):
+  section=6f92c8ad-fe1e-4c75-befb-c9c258dd4b4d step=0dcc14b6-882c-4add-b740-fbbe4bd35f0b
+  section=6f92c8ad-fe1e-4c75-befb-c9c258dd4b4d step=45ed259e-3722-4b20-9b7e-7bc4a46a5501
+  section=65a8ab61-d410-419a-bf49-91cde109dd6f step=5c5f3254-20b6-4959-9b15-1cf2051a7553
+  section=d7b5b9d9-2df0-4232-8300-144b6df69fe5 step=6ca1a89d-43f3-454c-b13d-9d388f4e20e0
+  section=6f92c8ad-fe1e-4c75-befb-c9c258dd4b4d step=6d832d18-06d6-48ec-b919-42ca82d02ea3
+  section=664f9326-ada8-4049-8e7f-6327468cc7ff step=7ca67140-aacc-445d-a517-e1c3e9ddd55c
+  section=98340a26-f700-439e-b9a8-54c31c1a7880 step=7e5c3041-2aca-4465-afcb-289b8e172f70
+  section=28a74485-ae32-42a6-9e8b-4100ee814dd3 step=9332568b-6ee4-4d40-8b59-4ec2cb41cbb8
+  section=614d201d-2f5b-488d-b406-33250f46c3fa step=95a3a8be-824f-4ac3-ab50-aff91ce3556d
+  section=614d201d-2f5b-488d-b406-33250f46c3fa step=a5e452f0-0401-4677-9209-c1b3d7033ed5
+  section=98340a26-f700-439e-b9a8-54c31c1a7880 step=ad450014-5623-469f-8e8f-aca5ed51c7c4
+  section=614d201d-2f5b-488d-b406-33250f46c3fa step=c6267866-692d-4d75-b132-3285cfb2ca3b
+  section=d7b5b9d9-2df0-4232-8300-144b6df69fe5 step=cb0030eb-4cb8-4931-ab60-eb5672b95001
+  section=98340a26-f700-439e-b9a8-54c31c1a7880 step=ce313d09-e721-4393-a806-5202bf5198c9
+  section=375a673a-23fe-4037-b63f-226ec8fdabfd step=cf440442-bb14-4fca-bf44-c36159bd8c2f
+  section=614d201d-2f5b-488d-b406-33250f46c3fa step=d2871033-e31b-4164-92de-2375de1528ee
+
+criteria:
+  Computer Science
+    c79e4455-a4d3-43c6-b979-4da88bc69914 type=checkpoint variant=rubric weight=90
+  Creativity
+    c79e4455-a4d3-43c6-b979-4da88bc69914 type=checkpoint variant=rubric weight=5
+  Written Communication
+    93dfbee3-ee08-455d-91d6-e4588adab6f0 type=checkpoint variant=rubric weight=5
+
+

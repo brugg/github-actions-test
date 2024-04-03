@@ -1,0 +1,55 @@
+id: 0d6edc44-473d-11ec-81d3-0242ac130003
+title: Table Settings
+
+rubric:
+  computer-science
+    c00a4140-473d-11ec-81d3-0242ac130003
+    c313dd10-473d-11ec-81d3-0242ac130003
+    c5c3fa9a-473d-11ec-81d3-0242ac130003
+    c8a68d68-473d-11ec-81d3-0242ac130003
+    cc4d2148-473d-11ec-81d3-0242ac130003
+    cedd6378-473d-11ec-81d3-0242ac130003
+  creativity
+    8dbadf4c-9489-46cc-b2a4-379bbe737ff4
+    a474422c-538f-4aa8-b9e0-ef30f4142cea
+    bcf1672b-0abc-448a-8712-c8d355f57a17
+    d8a92d70-2b14-433f-a24a-04c1c6976075
+  interdisciplinary-learning
+    76d90c6b-ab1e-49f1-a744-0778d156eb2a
+
+activities:
+  student-project id=table-settings tool=pickcode action=edit
+
+steps:
+  d885f57a-473d-11ec-81d3-0242ac130003 
+  ed111272-473d-11ec-81d3-0242ac130003 
+  f63d0f04-473d-11ec-81d3-0242ac130003 
+    0ee52bc2-473e-11ec-81d3-0242ac130003 variant=short_answer
+  122cdbc2-473e-11ec-81d3-0242ac130003 
+    26c145e6-473e-11ec-81d3-0242ac130003 variant=short_answer
+  37a3b376-473e-11ec-81d3-0242ac130003 activity=student-project
+  77aa64a6-473e-11ec-81d3-0242ac130003 activity=student-project
+    8efd7ed6-473e-11ec-81d3-0242ac130003 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  960a9c5e-473e-11ec-81d3-0242ac130003 activity=student-project
+
+positions (not in order):
+  section=f3486c30-473d-11ec-81d3-0242ac130003 step=122cdbc2-473e-11ec-81d3-0242ac130003
+  section=345cddfa-473e-11ec-81d3-0242ac130003 step=37a3b376-473e-11ec-81d3-0242ac130003
+  section=345cddfa-473e-11ec-81d3-0242ac130003 step=77aa64a6-473e-11ec-81d3-0242ac130003
+  section=93703486-473e-11ec-81d3-0242ac130003 step=960a9c5e-473e-11ec-81d3-0242ac130003
+  section=d5c09b7e-473d-11ec-81d3-0242ac130003 step=d885f57a-473d-11ec-81d3-0242ac130003
+  section=d5c09b7e-473d-11ec-81d3-0242ac130003 step=ed111272-473d-11ec-81d3-0242ac130003
+  section=f3486c30-473d-11ec-81d3-0242ac130003 step=f63d0f04-473d-11ec-81d3-0242ac130003
+
+criteria:
+  Computer Science
+    8efd7ed6-473e-11ec-81d3-0242ac130003 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    8efd7ed6-473e-11ec-81d3-0242ac130003 type=checkpoint variant=rubric weight=5
+  Creativity
+    8efd7ed6-473e-11ec-81d3-0242ac130003 type=checkpoint variant=rubric weight=5
+
+

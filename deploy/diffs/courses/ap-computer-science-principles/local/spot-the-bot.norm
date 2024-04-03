@@ -1,0 +1,92 @@
+id: 4bba3b5f-d1a8-486f-be58-adcc3bb9c04c
+title: Spot the Bot
+
+rubric:
+  computer-science
+    25e257bf-e98f-4d5a-baee-319a3d3d6220
+    5eaa3d23-b38b-4c84-87ec-6a5d4481c88d
+    79bb40eb-ab28-402a-a8c5-41050729fc20
+    df7c5c50-7fd3-460a-afd5-5b8334d69fd2
+    f7bc8ff5-8d58-41f6-818e-e90b2eec5a25
+  create-task-writing
+    1c393f4e-160a-481c-a962-ca80a5079c56
+    45b2e89f-c8ae-4dc8-9239-7cb5e43dc2cb
+  creativity
+    853bfcf1-a1be-4ae1-9512-68b5c6f49bdf
+    a0529e98-33a6-4768-8af3-ede3e22b59d7
+  interdisciplinary-learning
+    9b9e748f-74d1-40b0-9099-f4d2591263ef
+
+activities:
+  template-project tool=cospaces url=https://edu.cospaces.io/SYB-PQL action=render
+
+steps:
+  f2753f08-c2c7-478f-851b-37e5a0d23761 
+  30c88765-3ec0-4a98-af3a-0aa1af195704 
+  2bdd6e63-fa8d-40ff-a0d0-4befa293e7f4 
+  9778e7c8-c0bf-4c71-b499-0e683bd755fc activity=template-project
+  6b2f6475-5342-4220-9152-b93f648dc1b7 activity=template-project
+    d59d373f-28ab-469a-9e9c-9511ecbf1709 variant=short_answer
+  9367fb04-b656-45f4-a48e-f9b014ae9620 activity=template-project
+    7a6fa9f0-5ce2-49bd-a1fb-5608f9510098 variant=short_answer
+  fa319d9b-afa3-4ac9-a70b-73af1b613c89 activity=template-project
+    2e8d141c-ec3e-4fe5-bfc6-2a15488dfe7b variant=short_answer
+  1651994d-daa0-4f72-b859-c1c935e67348 activity=template-project
+  5f4c819c-2ebe-4b63-9838-19d7fe87ed00 activity=template-project
+    b1926e54-2786-4609-afa3-3ee18790eb43 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  e2d29b37-2c2b-4ed7-956f-98bf07b502f1 
+  6728b219-0649-4a6f-80bf-16645277508d 
+    4c9b6652-d62d-4f7f-a1db-bfd367f3f236 variant=link
+  5d2950bf-5c54-4247-b0f0-7a07030a37f0 
+    61d1e56b-a007-4ad5-beea-0e50f0476c18 variant=rich_text
+    fe2db718-eb31-4b00-9733-09b457ae0a38 variant=rich_text
+    8f3df920-8232-4a1b-966c-aa907564c856 variant=rich_text
+  f8d578b3-273b-4fdf-b8c7-afc984f5517e 
+    b1fdfc0c-eb7b-43d1-a706-8d126d29a336 variant=link
+    fd82d097-fa16-4133-98a4-9cf793867403 variant=link
+    ce9eedd9-c30d-4236-8310-53dd7584caf0 variant=rich_text
+    2b40474a-2b89-4b11-b5d7-ffcbd10afd30 variant=rich_text
+    f1ed925d-f078-4600-98b8-07dac6b52952 variant=rich_text
+
+positions (not in order):
+  section=14f2c1d1-fb8c-4b9d-b0e7-b72337816d8a step=1651994d-daa0-4f72-b859-c1c935e67348
+  section=f96d30f2-edc3-442b-b689-e608b9bd6471 step=2bdd6e63-fa8d-40ff-a0d0-4befa293e7f4
+  section=f96d30f2-edc3-442b-b689-e608b9bd6471 step=30c88765-3ec0-4a98-af3a-0aa1af195704
+  section=50e9653b-b9b7-4e62-9626-bb276f106292 step=5d2950bf-5c54-4247-b0f0-7a07030a37f0
+  section=14f2c1d1-fb8c-4b9d-b0e7-b72337816d8a step=5f4c819c-2ebe-4b63-9838-19d7fe87ed00
+  section=50e9653b-b9b7-4e62-9626-bb276f106292 step=6728b219-0649-4a6f-80bf-16645277508d
+  section=7a2eb44d-0940-4a2c-8f8e-cc7212f0e423 step=6b2f6475-5342-4220-9152-b93f648dc1b7
+  section=7a2eb44d-0940-4a2c-8f8e-cc7212f0e423 step=9367fb04-b656-45f4-a48e-f9b014ae9620
+  section=7a2eb44d-0940-4a2c-8f8e-cc7212f0e423 step=9778e7c8-c0bf-4c71-b499-0e683bd755fc
+  section=50e9653b-b9b7-4e62-9626-bb276f106292 step=e2d29b37-2c2b-4ed7-956f-98bf07b502f1
+  section=f96d30f2-edc3-442b-b689-e608b9bd6471 step=f2753f08-c2c7-478f-851b-37e5a0d23761
+  section=50e9653b-b9b7-4e62-9626-bb276f106292 step=f8d578b3-273b-4fdf-b8c7-afc984f5517e
+  section=7a2eb44d-0940-4a2c-8f8e-cc7212f0e423 step=fa319d9b-afa3-4ac9-a70b-73af1b613c89
+
+criteria:
+  Computer Science
+    b1926e54-2786-4609-afa3-3ee18790eb43 type=checkpoint variant=rubric weight=60
+  Interdisciplinary Learning
+    b1926e54-2786-4609-afa3-3ee18790eb43 type=checkpoint variant=rubric weight=5
+  Creativity
+    b1926e54-2786-4609-afa3-3ee18790eb43 type=checkpoint variant=rubric weight=5
+  Create Task: Program Video
+    5280c8e9-d84f-4c86-8e1b-828d3144d3a8 type=question weight=3
+    f334ce16-b405-4ac6-84b3-dec2c1c0213a type=question weight=1
+    d600d448-da6a-40cd-b242-b4ccb5fd92b5 type=question weight=2
+    1ca3917f-ccef-4b9f-bca1-a21620f383f0 type=question weight=2
+    318eb44c-8a25-4aff-9e4b-60e20d6b71fb type=question weight=2
+  Create Task: Program Data
+    ad6a72c2-2bd5-46f5-bb2a-c80ef4ed8ec3 type=question weight=2.5
+    9dd451c9-96dc-4639-81b5-7c258a1f97cc type=question weight=2.5
+    345d76e7-322c-437e-9bf6-14779c8ccef4 type=question weight=2.5
+    07b79056-bc70-43d4-8f34-8f76949dc4eb type=question weight=2.5
+  Create Task: Program Complexity
+    eb20ec56-5840-4372-a195-2a0c707a6b11 type=question weight=3
+    9900633c-45ee-4554-9e1d-a343aff1e005 type=question weight=3
+    0dbc7bcb-b3af-42b4-8d8e-91420daf0c0a type=question weight=4
+
+

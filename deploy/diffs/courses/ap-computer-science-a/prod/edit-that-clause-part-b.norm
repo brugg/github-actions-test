@@ -1,0 +1,32 @@
+id: d020b667-1419-4070-a618-ec470249c3f2
+title: FRQ: Edit That Clause Part B
+
+rubric:
+  computer-science
+    6325f5a8-00eb-4d5b-b998-6cb625e46109
+    733d1798-0be6-47ff-8379-d8f8d337fb21
+    86e5332c-67c5-4b1c-ac80-25bf1685b0c4
+    ef3034fa-5f0a-4aec-b3f4-c0423214ca66
+
+activities:
+  written-response-1 id=8af63dd5-d6b8-4982-8e7d-58e3f9bc6c77 tool=written-response id=8af63dd5-d6b8-4982-8e7d-58e3f9bc6c77
+
+steps:
+  c7568c62-eb41-43e3-bd38-4ded7cc2cdc3 
+  cf0cb999-0643-4cda-b68a-24741b028661 activity=written-response-1
+  9e7bf3ac-782c-41d7-8055-9c59ea4a349e activity=written-response-1
+    797e376e-eec2-4ac5-b39f-5a3139896016 variant=rubric
+      computer-science 
+  bffd1e6c-364f-4de7-8b37-02aa2d224c1d activity=written-response-1
+
+positions (not in order):
+  section=a81f4b13-2f96-420c-a8e9-0e9df8a46f76 step=9e7bf3ac-782c-41d7-8055-9c59ea4a349e
+  section=a81f4b13-2f96-420c-a8e9-0e9df8a46f76 step=bffd1e6c-364f-4de7-8b37-02aa2d224c1d
+  section=f9d4f260-24ff-4f42-a4a1-b4167938a11b step=c7568c62-eb41-43e3-bd38-4ded7cc2cdc3
+  section=6b62c9b4-655f-421b-b546-5253e68e7a50 step=cf0cb999-0643-4cda-b68a-24741b028661
+
+criteria:
+  Computer Science
+    797e376e-eec2-4ac5-b39f-5a3139896016 type=checkpoint variant=rubric weight=100
+
+

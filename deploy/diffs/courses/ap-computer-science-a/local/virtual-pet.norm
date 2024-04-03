@@ -1,0 +1,224 @@
+id: 2a2ead69-2d63-4946-9b59-65d7847525b0
+title: Virtual Pet
+
+rubric:
+  computer-science
+    0d16005a-8209-443b-9c07-43f994481983
+    0ec1184c-604f-48dd-8100-1c2d4554a9a2
+    0ec6a5f5-1894-4153-9e63-314e6bc20d53
+    1137a198-7eee-4497-b980-6ba362989f68
+    14e7e5d9-28a9-4a09-9257-668b228afd22
+    632467ab-cf40-4422-9ade-a0066b944d4d
+    74df6b53-5ffd-40aa-8dc2-ca58ef3116ba
+    a57cd38a-b2e8-4e30-b784-d5f68310dd47
+    ad6c818e-0438-4b11-ad94-05c6d14a2153
+    aed69db5-f909-4d72-94e6-a855120e674f
+    b3fccead-9141-4f36-86e2-6052e7899bb0
+    bab56733-cc90-449d-bf2d-d2211ae9f998
+    c7234069-8e8b-4e26-a046-0b6d3609bf51
+    d33b38af-9214-4323-a82a-8b9162cac12a
+  creativity
+    25ad5848-f712-4061-ada9-f5b5b3800072
+    3cb41ffb-3fe9-4710-814b-f085b65b37fe
+    7cdccf6f-a0fa-44f5-93bb-eefc617a5292
+    a04943cc-908a-4a44-8f20-d2c68c17dca2
+  interdisciplinary-learning
+    aee58488-b30d-4164-9721-ec7fc224e910
+
+activities:
+  checkpoint-set id=db6dcfde-2aef-11ec-8d3d-0242ac130003 tool=checkpoint-set
+    0f2f4d0c-2af0-11ec-8d3d-0242ac130003 variant=multiple_choice
+      27cdb1fa-2af0-11ec-8d3d-0242ac130003 correct=True
+      2a2974b6-2af0-11ec-8d3d-0242ac130003 correct=False
+      2c5e1ca0-2af0-11ec-8d3d-0242ac130003 correct=False
+      2ec47192-2af0-11ec-8d3d-0242ac130003 correct=False
+    320eeeea-2af0-11ec-8d3d-0242ac130003 variant=multiple_choice
+      5d7ea7d2-2af0-11ec-8d3d-0242ac130003 correct=True
+      5fde971c-2af0-11ec-8d3d-0242ac130003 correct=False
+      620ba872-2af0-11ec-8d3d-0242ac130003 correct=False
+      64ccb7d6-2af0-11ec-8d3d-0242ac130003 correct=True
+    598f7696-2af1-11ec-8d3d-0242ac130003 variant=multiple_choice
+      6eff24f4-2af1-11ec-8d3d-0242ac130003 correct=False
+      71c09100-2af1-11ec-8d3d-0242ac130003 correct=True
+      74252c08-2af1-11ec-8d3d-0242ac130003 correct=False
+      7795c5e6-2af1-11ec-8d3d-0242ac130003 correct=False
+    6c107992-2af0-11ec-8d3d-0242ac130003 variant=multiple_choice
+      74f7d4e2-2af0-11ec-8d3d-0242ac130003 correct=False
+      77636ebc-2af0-11ec-8d3d-0242ac130003 correct=False
+      7988e406-2af0-11ec-8d3d-0242ac130003 correct=True
+      7c15b8fc-2af0-11ec-8d3d-0242ac130003 correct=False
+    90ba0da2-2af1-11ec-8d3d-0242ac130003 variant=multiple_choice
+      e4837bf8-2af1-11ec-8d3d-0242ac130003 correct=False
+      e6e52612-2af1-11ec-8d3d-0242ac130003 correct=True
+      e9e9a36a-2af1-11ec-8d3d-0242ac130003 correct=False
+      ec76b028-2af1-11ec-8d3d-0242ac130003 correct=True
+    92530890-2af0-11ec-8d3d-0242ac130003 variant=multiple_choice
+      af29af32-2af0-11ec-8d3d-0242ac130003 correct=False
+      b25d4236-2af0-11ec-8d3d-0242ac130003 correct=True
+      b4d6fa48-2af0-11ec-8d3d-0242ac130003 correct=False
+      b74e1e46-2af0-11ec-8d3d-0242ac130003 correct=False
+    ba981f98-2af0-11ec-8d3d-0242ac130003 variant=multiple_choice
+      d2f19588-2af0-11ec-8d3d-0242ac130003 correct=False
+      d60a965c-2af0-11ec-8d3d-0242ac130003 correct=False
+      d8db6906-2af0-11ec-8d3d-0242ac130003 correct=False
+      dbbf57a4-2af0-11ec-8d3d-0242ac130003 correct=True
+    de7de416-2aef-11ec-8d3d-0242ac130003 variant=multiple_choice
+      0495e360-2af0-11ec-8d3d-0242ac130003 correct=False
+      06c86da6-2af0-11ec-8d3d-0242ac130003 correct=False
+      097fb694-2af0-11ec-8d3d-0242ac130003 correct=True
+      0b9f4ae8-2af0-11ec-8d3d-0242ac130003 correct=False
+    f5733912-2af1-11ec-8d3d-0242ac130003 variant=multiple_choice
+      2bbc0396-2af2-11ec-8d3d-0242ac130003 correct=True
+      2e37d58c-2af2-11ec-8d3d-0242ac130003 correct=False
+      30af9386-2af2-11ec-8d3d-0242ac130003 correct=False
+      3310be52-2af2-11ec-8d3d-0242ac130003 correct=True
+    f8718138-2af0-11ec-8d3d-0242ac130003 variant=multiple_choice
+      2b71e348-2af1-11ec-8d3d-0242ac130003 correct=False
+      306f70f4-2af1-11ec-8d3d-0242ac130003 correct=False
+      32edf256-2af1-11ec-8d3d-0242ac130003 correct=True
+      366a4132-2af1-11ec-8d3d-0242ac130003 correct=False
+  debugging-challenge-1 id=virtual-pet-debug-1 tool=pickcode action=edit
+  debugging-challenge-2 id=virtual-pet-debug-2 tool=pickcode action=edit
+  debugging-challenge-3 id=virtual-pet-debug-3 tool=pickcode action=edit
+  debugging-challenge-4 id=virtual-pet-debug-4 tool=pickcode action=edit
+  example-project id=virtual-pet-example tool=pickcode action=render
+  student-project id=virtual-pet tool=pickcode action=edit
+
+steps:
+  a98b722f-9b55-4dd8-9bb6-42e494e4ed32 
+  2c8e163b-9ad1-4fc6-bc79-47d618893fee activity=example-project
+    9ac9e368-7162-4e9b-b199-738680d774e5 variant=multiple_choice
+      33856bae-0d44-442f-bb28-0f4824bdbed7 correct=False
+      7379befc-6451-4150-93cb-3d8b74c568c9 correct=False
+      a2ce3ed1-6dd5-458f-b86c-b411ed1455d9 correct=True
+      aa98adb6-dade-4051-a268-98661da6f708 correct=False
+  9e8bf0fc-6685-4139-8291-d3f2d208e318 
+  3b05dc77-f1a3-4cd8-9857-4ce63db256b8 
+  5ab70269-d4e6-47e5-9c1a-e0affa493df5 
+  a0edf78e-7491-473b-9de9-1aada6b9cfb0 activity=student-project
+  e6adbcfa-e87a-459a-93f7-f1ff2e4888c6 activity=student-project
+  7f202a2d-de11-4db9-8146-ce2ff603ea2a activity=student-project
+  bf6e45bf-bcfc-4340-be8a-4e31a2c1ab70 activity=student-project
+  8de2bac2-e3a7-4ed1-b65e-bdd169e393c0 activity=student-project
+  36fd5201-7068-4422-909b-9193d9116290 activity=student-project
+  84a2a468-5db1-4d82-9ea7-c880a956b3f3 activity=student-project
+  f34516c5-ed07-4b2e-b7a1-dce697c25053 activity=student-project
+  94b69092-7013-4a8d-a623-8ac619864e38 activity=student-project
+  957d38ef-ba82-4d71-a694-ce2105ff0c26 activity=student-project
+  c561c862-eff3-45f1-924d-ca4dd57ddeaf activity=student-project
+  076bb426-fb06-4f40-a0fd-ea8312bbc39e activity=debugging-challenge-1
+    67442c2d-a4cb-414a-9b9d-16312fbccddc variant=multiple_choice
+      537a8e00-eae0-41b0-b704-d1606c3d6558 correct=False
+      5c7049ab-28b3-4d9e-8cd9-4dd97e3480c6 correct=False
+      a0435983-8987-4024-b905-9744ba5375eb correct=False
+      c01b9af0-924a-4c1a-9a21-d01093ab77b3 correct=True
+  ad373bc5-2bfd-4c89-81d3-e3cca3ce230e activity=student-project
+  271d4de2-9985-43b1-955e-aa245c6947b4 activity=student-project
+  adbe7a22-707e-4046-8494-3d81bd31b9af activity=student-project
+  882360c0-1971-4357-b980-27e4929a9f30 activity=student-project
+  fd0bd632-c389-42ed-a9ef-ad3de7983ff7 activity=debugging-challenge-2
+    fe8bafbd-8cd5-4e93-a2ec-adc51ccf9825 variant=multiple_choice
+      0a67ceb8-81c8-4026-a0ff-05a6d96985c7 correct=True
+      1ea48c1b-f30e-4401-9007-54c898d9889d correct=False
+      d10fbe7d-a077-40b8-9e83-ba6a76ae06f7 correct=False
+      f763b110-1061-48d0-a080-ec6c6dd4446d correct=False
+  085ae416-4cab-4d25-bd98-2ce9efd0a19a activity=student-project
+  7171928d-1746-4eed-991e-d2e74b080182 activity=student-project
+  5f10a90a-c8dc-4c3a-a346-f627c964aaa9 activity=student-project
+  a9343e34-f6d8-4bee-a676-b27dd130f002 activity=student-project
+  fc891bb8-3b24-4ea5-84a9-bb7f4a878793 activity=student-project
+  98cb3ba9-bd92-490e-965a-e051b06a34a4 activity=debugging-challenge-3
+    29e53b4d-cb3c-47ea-ae8f-06c75996ab22 variant=multiple_choice
+      675567cf-a1ca-4cb9-b62d-472d38a3fda8 correct=False
+      775ecd2a-cadb-4dbf-90dd-7acc28bed1fd correct=True
+      a4f4c18e-b9e5-43c6-af8e-1cbc9dea9765 correct=False
+      b3611c2d-5226-4e07-b892-b2ca24e912cc correct=False
+  e4570435-36bd-434c-8791-8a4ffcecadf2 activity=student-project
+  9e562bf3-ecee-4ca8-9596-aede522a917c activity=student-project
+  f43008be-1ff1-490a-9762-2f5a470e9c33 activity=student-project
+  a2fda814-0d4b-443d-a3c1-734f8359896c activity=student-project
+  ed876287-c1a0-40fa-82c2-eb2c1ce1637b activity=student-project
+  897b264d-271f-4a21-89fb-d91d643d1ea1 activity=student-project
+  a07aed54-e790-49ef-a075-6414a1143dcd activity=student-project
+  67ce4911-f3a3-418d-8c17-a2e49a6173d7 activity=debugging-challenge-4
+    2d1bd6d9-dd0e-4a40-ae90-5fcb72ae65fd variant=multiple_choice
+      1b6a8b8d-37dd-4f59-903c-b53fb47b64b7 correct=False
+      1e4b4474-2953-4901-ba8a-478c109ac6fe correct=False
+      36bb2bd0-c183-4efa-a37f-29c8355dc8f2 correct=False
+      85d0e714-c6ba-480a-bfc9-e79abafe4b08 correct=True
+  5a498286-dd16-4756-b22a-343f4de5f86b activity=student-project
+    320384b8-3208-493b-9fc9-20162dec2d21 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  72e0ec99-35f9-4a54-9f26-e54db7c4f334 activity=student-project
+  cfe9d1f8-2aef-11ec-8d3d-0242ac130003 
+  d8af4caa-2aef-11ec-8d3d-0242ac130003 activity=checkpoint-set
+
+positions (not in order):
+  section=43d276e5-4628-4c91-9104-e5c02d690a7d step=076bb426-fb06-4f40-a0fd-ea8312bbc39e
+  section=41fd3e6e-0788-4e4f-9d38-ba46147afaa9 step=085ae416-4cab-4d25-bd98-2ce9efd0a19a
+  section=c4501c76-425a-4fa4-9427-06bdfe15bad5 step=271d4de2-9985-43b1-955e-aa245c6947b4
+  section=9ffb8fad-c237-4536-8ce8-36fd9c19a47d step=2c8e163b-9ad1-4fc6-bc79-47d618893fee
+  section=43d276e5-4628-4c91-9104-e5c02d690a7d step=36fd5201-7068-4422-909b-9193d9116290
+  section=9ffb8fad-c237-4536-8ce8-36fd9c19a47d step=3b05dc77-f1a3-4cd8-9857-4ce63db256b8
+  section=b90abbf9-300d-4c80-a11f-fe44c76b06a7 step=5a498286-dd16-4756-b22a-343f4de5f86b
+  section=9ffb8fad-c237-4536-8ce8-36fd9c19a47d step=5ab70269-d4e6-47e5-9c1a-e0affa493df5
+  section=41fd3e6e-0788-4e4f-9d38-ba46147afaa9 step=5f10a90a-c8dc-4c3a-a346-f627c964aaa9
+  section=bc843265-e396-49c0-8b64-47ecdc2fc7ee step=67ce4911-f3a3-418d-8c17-a2e49a6173d7
+  section=41fd3e6e-0788-4e4f-9d38-ba46147afaa9 step=7171928d-1746-4eed-991e-d2e74b080182
+  section=2cf8c16b-3a7c-4fae-9a03-ae26d25daf7b step=72e0ec99-35f9-4a54-9f26-e54db7c4f334
+  section=db2e2976-af46-4b4a-9165-f84232177b3e step=7f202a2d-de11-4db9-8146-ce2ff603ea2a
+  section=43d276e5-4628-4c91-9104-e5c02d690a7d step=84a2a468-5db1-4d82-9ea7-c880a956b3f3
+  section=c4501c76-425a-4fa4-9427-06bdfe15bad5 step=882360c0-1971-4357-b980-27e4929a9f30
+  section=bc843265-e396-49c0-8b64-47ecdc2fc7ee step=897b264d-271f-4a21-89fb-d91d643d1ea1
+  section=24082d21-e225-4743-b771-2a7b821c504d step=8de2bac2-e3a7-4ed1-b65e-bdd169e393c0
+  section=43d276e5-4628-4c91-9104-e5c02d690a7d step=94b69092-7013-4a8d-a623-8ac619864e38
+  section=43d276e5-4628-4c91-9104-e5c02d690a7d step=957d38ef-ba82-4d71-a694-ce2105ff0c26
+  section=41fd3e6e-0788-4e4f-9d38-ba46147afaa9 step=98cb3ba9-bd92-490e-965a-e051b06a34a4
+  section=bc843265-e396-49c0-8b64-47ecdc2fc7ee step=9e562bf3-ecee-4ca8-9596-aede522a917c
+  section=9ffb8fad-c237-4536-8ce8-36fd9c19a47d step=9e8bf0fc-6685-4139-8291-d3f2d208e318
+  section=bc843265-e396-49c0-8b64-47ecdc2fc7ee step=a07aed54-e790-49ef-a075-6414a1143dcd
+  section=db2e2976-af46-4b4a-9165-f84232177b3e step=a0edf78e-7491-473b-9de9-1aada6b9cfb0
+  section=bc843265-e396-49c0-8b64-47ecdc2fc7ee step=a2fda814-0d4b-443d-a3c1-734f8359896c
+  section=41fd3e6e-0788-4e4f-9d38-ba46147afaa9 step=a9343e34-f6d8-4bee-a676-b27dd130f002
+  section=9ffb8fad-c237-4536-8ce8-36fd9c19a47d step=a98b722f-9b55-4dd8-9bb6-42e494e4ed32
+  section=c4501c76-425a-4fa4-9427-06bdfe15bad5 step=ad373bc5-2bfd-4c89-81d3-e3cca3ce230e
+  section=c4501c76-425a-4fa4-9427-06bdfe15bad5 step=adbe7a22-707e-4046-8494-3d81bd31b9af
+  section=24082d21-e225-4743-b771-2a7b821c504d step=bf6e45bf-bcfc-4340-be8a-4e31a2c1ab70
+  section=43d276e5-4628-4c91-9104-e5c02d690a7d step=c561c862-eff3-45f1-924d-ca4dd57ddeaf
+  section=832c733e-2aef-11ec-8d3d-0242ac130003 step=cfe9d1f8-2aef-11ec-8d3d-0242ac130003
+  section=832c733e-2aef-11ec-8d3d-0242ac130003 step=d8af4caa-2aef-11ec-8d3d-0242ac130003
+  section=bc843265-e396-49c0-8b64-47ecdc2fc7ee step=e4570435-36bd-434c-8791-8a4ffcecadf2
+  section=db2e2976-af46-4b4a-9165-f84232177b3e step=e6adbcfa-e87a-459a-93f7-f1ff2e4888c6
+  section=bc843265-e396-49c0-8b64-47ecdc2fc7ee step=ed876287-c1a0-40fa-82c2-eb2c1ce1637b
+  section=43d276e5-4628-4c91-9104-e5c02d690a7d step=f34516c5-ed07-4b2e-b7a1-dce697c25053
+  section=bc843265-e396-49c0-8b64-47ecdc2fc7ee step=f43008be-1ff1-490a-9762-2f5a470e9c33
+  section=41fd3e6e-0788-4e4f-9d38-ba46147afaa9 step=fc891bb8-3b24-4ea5-84a9-bb7f4a878793
+  section=c4501c76-425a-4fa4-9427-06bdfe15bad5 step=fd0bd632-c389-42ed-a9ef-ad3de7983ff7
+
+criteria:
+  Computer Science
+    320384b8-3208-493b-9fc9-20162dec2d21 type=checkpoint variant=rubric weight=80
+  Interdisciplinary Learning
+    320384b8-3208-493b-9fc9-20162dec2d21 type=checkpoint variant=rubric weight=5
+  Creativity
+    320384b8-3208-493b-9fc9-20162dec2d21 type=checkpoint variant=rubric weight=5
+  Project Checkpoints
+    9ac9e368-7162-4e9b-b199-738680d774e5 type=checkpoint weight=0.5
+    67442c2d-a4cb-414a-9b9d-16312fbccddc type=checkpoint weight=0.5
+    fe8bafbd-8cd5-4e93-a2ec-adc51ccf9825 type=checkpoint weight=0.5
+    29e53b4d-cb3c-47ea-ae8f-06c75996ab22 type=checkpoint weight=0.5
+    2d1bd6d9-dd0e-4a40-ae90-5fcb72ae65fd type=checkpoint weight=0.5
+    de7de416-2aef-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    0f2f4d0c-2af0-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    320eeeea-2af0-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    6c107992-2af0-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    92530890-2af0-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    ba981f98-2af0-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    f8718138-2af0-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    598f7696-2af1-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    90ba0da2-2af1-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+    f5733912-2af1-11ec-8d3d-0242ac130003 type=checkpoint weight=0.75
+
+

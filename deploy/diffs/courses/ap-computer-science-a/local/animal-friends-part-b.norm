@@ -1,0 +1,26 @@
+id: b4c45fe9-68db-4f71-89e0-622910884913
+title: FRQ: Animal Friends Part B
+
+activities:
+  written-response-1 id=b34ef512-d7fb-41db-b9e7-1a9d6540326f tool=code-response id=b34ef512-d7fb-41db-b9e7-1a9d6540326f
+
+steps:
+  afe25f14-a36e-473a-874f-9e95048abab9 
+  8dc8e024-4b06-4a67-a831-f6d04ca76829 activity=written-response-1
+  c4c720d9-c793-4508-bdcf-a2b85bf8480c activity=written-response-1
+  460ace31-a176-4db5-9e1c-834c6812ac6c activity=written-response-1
+
+positions (not in order):
+  section=1c1b56d8-ff32-4233-8cf2-00a43e8edcef step=460ace31-a176-4db5-9e1c-834c6812ac6c
+  section=bdcb2805-6756-4a7f-9e21-8567bb8bf140 step=8dc8e024-4b06-4a67-a831-f6d04ca76829
+  section=391e64db-2d09-4bc5-a97d-e50b685cc578 step=afe25f14-a36e-473a-874f-9e95048abab9
+  section=bdcb2805-6756-4a7f-9e21-8567bb8bf140 step=c4c720d9-c793-4508-bdcf-a2b85bf8480c
+
+criteria:
+  FRQ Rubric
+    571c70d0-aa12-4878-a331-35345f9d6af9 type=question weight=25
+    a059228b-8196-40be-85f2-9fd544cfe832 type=question weight=25
+    0ba2357c-cb64-43e1-bd94-a2fb931d6047 type=question weight=25
+    c3759219-db5e-47bb-8fb6-96e381b74016 type=question weight=25
+
+

@@ -1,0 +1,68 @@
+id: 8806ab1d-38da-4638-be52-2ec9697f38db
+title: Tiny Tasks
+
+rubric:
+  computer-science
+    1f9ce0b7-79ec-4c75-a71a-dbeca93021de
+    29b0e87c-e561-4073-b7d7-553985643c36
+    63a936bd-5081-418b-a24b-b16b9f94bb1e
+    88793242-3bc4-4b32-a008-953921a834b3
+    cec232c2-7ac5-4729-9fb3-f5afade4eb62
+    e5fc23c0-1c32-4c61-8ddd-68df9d6eb85b
+  creativity
+    1d8cb1ed-0806-4e03-85c2-56f7b0fd7f45
+    b7ede345-228c-4bf7-920e-23d314e38cc9
+  interdisciplinary-learning
+    f64bfd74-3444-4e64-8fb0-a2d27beca263
+
+activities:
+  cospace-edit id=student-project tool=cospaces action=edit
+
+steps:
+  292fe987-0be8-4710-9821-cb3f9e4cecfc 
+  bb4a6141-c9c7-4617-9940-13a4f456b799 
+  6e543f4f-3f9c-4208-9bfd-a09f692bd6c8 
+  acd05ce5-c00a-4880-9cb9-b549b50db2dd 
+    67cf8bbd-6c4d-45f0-ae04-f6d02463ef13 variant=short_answer
+  771dfeed-5585-4d7c-a86d-d9c47533628a 
+    cb6fd8b6-bd74-412a-a457-a82b68340cfe variant=short_answer
+  90ff21f2-f280-4c74-9feb-b8680c40da68 
+    bb9f74dc-afea-40f8-9436-7f4b4363759e variant=short_answer
+  071f31e1-deef-4271-bc28-a21708eb2a4d activity=cospace-edit
+  c34e2f24-872d-4820-b5ef-ab84991397ee activity=cospace-edit
+  84d23164-ac9e-4d08-b0cb-040f12ddea68 activity=cospace-edit
+  813ccff2-f45b-43b3-a341-8633c1b4ea83 activity=cospace-edit
+  c42f6869-db76-4850-ad6b-4a57001452c9 activity=cospace-edit
+  14e5680d-1ef9-447a-9f49-ea70a97762f5 activity=cospace-edit
+  852f88f8-bc25-4316-b5f5-f5930cbf74a5 activity=cospace-edit
+  951027a4-ffd4-48a5-bbf7-8c2ee9d672da activity=cospace-edit
+    a827f3fd-797b-4595-ac85-2b8a9806c7e5 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+
+positions (not in order):
+  section=d7080706-48a5-4c19-a332-1758d784c3c3 step=071f31e1-deef-4271-bc28-a21708eb2a4d
+  section=d7080706-48a5-4c19-a332-1758d784c3c3 step=14e5680d-1ef9-447a-9f49-ea70a97762f5
+  section=d8167207-84c9-4289-a52f-ce6f34c66922 step=292fe987-0be8-4710-9821-cb3f9e4cecfc
+  section=d8167207-84c9-4289-a52f-ce6f34c66922 step=6e543f4f-3f9c-4208-9bfd-a09f692bd6c8
+  section=4694abd3-ef21-47ab-acda-2fe0a4b5bd7f step=771dfeed-5585-4d7c-a86d-d9c47533628a
+  section=d7080706-48a5-4c19-a332-1758d784c3c3 step=813ccff2-f45b-43b3-a341-8633c1b4ea83
+  section=d7080706-48a5-4c19-a332-1758d784c3c3 step=84d23164-ac9e-4d08-b0cb-040f12ddea68
+  section=d7080706-48a5-4c19-a332-1758d784c3c3 step=852f88f8-bc25-4316-b5f5-f5930cbf74a5
+  section=4694abd3-ef21-47ab-acda-2fe0a4b5bd7f step=90ff21f2-f280-4c74-9feb-b8680c40da68
+  section=2dc6bad0-121e-454f-b086-2a9937d2ea70 step=951027a4-ffd4-48a5-bbf7-8c2ee9d672da
+  section=4694abd3-ef21-47ab-acda-2fe0a4b5bd7f step=acd05ce5-c00a-4880-9cb9-b549b50db2dd
+  section=d8167207-84c9-4289-a52f-ce6f34c66922 step=bb4a6141-c9c7-4617-9940-13a4f456b799
+  section=d7080706-48a5-4c19-a332-1758d784c3c3 step=c34e2f24-872d-4820-b5ef-ab84991397ee
+  section=d7080706-48a5-4c19-a332-1758d784c3c3 step=c42f6869-db76-4850-ad6b-4a57001452c9
+
+criteria:
+  Computer Science
+    a827f3fd-797b-4595-ac85-2b8a9806c7e5 type=checkpoint variant=rubric weight=80
+  Interdisciplinary Learning
+    a827f3fd-797b-4595-ac85-2b8a9806c7e5 type=checkpoint variant=rubric weight=10
+  Creativity
+    a827f3fd-797b-4595-ac85-2b8a9806c7e5 type=checkpoint variant=rubric weight=10
+
+

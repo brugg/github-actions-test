@@ -1,0 +1,45 @@
+id: 51060c0a-b8c3-4d93-9eb8-1cb0e7d865c3
+title: Innovations Exploration
+
+rubric:
+  written-communication
+    557b8b1a-cf7d-4102-a1ed-e787602a6d92
+    9fa06fbc-e3f1-49bf-8ccb-96a34008040f
+    aeabe818-7ecb-49ef-b51a-c09bf4591aeb
+
+activities:
+  written-response-1 id=80918558-447c-454c-a531-3158672d0237 tool=written-response id=80918558-447c-454c-a531-3158672d0237
+  written-response-2 id=f79c8ae3-d80c-4dde-929c-f3d3dc78cfdf tool=written-response id=f79c8ae3-d80c-4dde-929c-f3d3dc78cfdf
+  written-response-3 id=c94dc5a2-3bcf-4283-a6e2-917dd6a191fd tool=written-response id=c94dc5a2-3bcf-4283-a6e2-917dd6a191fd
+
+steps:
+  e9eecb2d-4611-4833-8e0a-5ac58105579a 
+  b4162a11-c6bf-4e88-9b56-792882eb48a9 
+  e5731d73-14d1-4bbd-841e-161f5d7d4ca1 
+  11a7b446-5b00-4efc-bb51-c0ec8b8f3263 
+  7e6758a9-0c2d-4fbb-85a3-c092009a3b49 activity=written-response-1
+  df73de54-1dad-4273-b953-3ba980f420b5 
+  3a6ac214-95ce-4436-bb03-2d3768d7faae activity=written-response-2
+  6e23e60e-54e7-4634-8b1a-dbec598fde73 
+  154f3563-8a0d-4144-96d8-b2ad031cfc73 activity=written-response-3
+    b9273679-9a19-4ea6-b5c7-eee599a537bf variant=rubric
+      written-communication 
+  43029f7d-7041-412d-b173-1146c8d3dd04 
+
+positions (not in order):
+  section=4baca239-19d1-4d61-b95f-23b55c4159cd step=11a7b446-5b00-4efc-bb51-c0ec8b8f3263
+  section=e7b8f6ef-3d80-41ec-8e61-c7c543bb764b step=154f3563-8a0d-4144-96d8-b2ad031cfc73
+  section=48e923de-97bd-4aef-bdf5-6cbfeed415e2 step=3a6ac214-95ce-4436-bb03-2d3768d7faae
+  section=f4fc379f-860e-4c0d-96ec-c7ab67eb5592 step=43029f7d-7041-412d-b173-1146c8d3dd04
+  section=e7b8f6ef-3d80-41ec-8e61-c7c543bb764b step=6e23e60e-54e7-4634-8b1a-dbec598fde73
+  section=4baca239-19d1-4d61-b95f-23b55c4159cd step=7e6758a9-0c2d-4fbb-85a3-c092009a3b49
+  section=98191719-ce90-4f8f-9e06-5a04936c8ecc step=b4162a11-c6bf-4e88-9b56-792882eb48a9
+  section=48e923de-97bd-4aef-bdf5-6cbfeed415e2 step=df73de54-1dad-4273-b953-3ba980f420b5
+  section=98191719-ce90-4f8f-9e06-5a04936c8ecc step=e5731d73-14d1-4bbd-841e-161f5d7d4ca1
+  section=98191719-ce90-4f8f-9e06-5a04936c8ecc step=e9eecb2d-4611-4833-8e0a-5ac58105579a
+
+criteria:
+  Written Communication
+    b9273679-9a19-4ea6-b5c7-eee599a537bf type=checkpoint variant=rubric weight=100
+
+

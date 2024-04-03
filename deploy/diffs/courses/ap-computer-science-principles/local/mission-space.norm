@@ -1,0 +1,87 @@
+id: b811da9d-26a6-484e-919d-cd8c4024a676
+title: Mission: Space
+
+activities:
+  checkpoint-set id=d36656b6-38f5-49d3-b9fa-20fa6150dd14 tool=checkpoint-set
+    0dba9980-b22a-43f6-a890-e57f2974c849 variant=multiple_choice
+      1ef457b3-ac2b-4594-b464-f5975e94e47c correct=False
+      ba3bb32d-a6a8-462c-aee5-c2298cd76deb correct=True
+      dafbf005-71c2-47f0-bcb3-315cafc2599e correct=True
+      e35c3ad6-22ee-4f42-8db3-18ef1269f6ee correct=False
+    2bf5b6b4-b60d-45cc-9ee1-4611a2934652 variant=multiple_choice
+      14911fd6-a7d7-4973-86e5-d2ebf32e10ea correct=False
+      b1aff04f-c031-47b0-899d-b1a8cdaa5701 correct=False
+      bc7a15aa-fa25-44da-832e-2343cc41cde9 correct=True
+      f39c83ef-b227-4c7c-9765-4561e903a3a6 correct=False
+    32028aab-7d52-4bbb-8ea6-91c7b2b24ec0 variant=multiple_choice
+      57f64372-1aa7-4acd-8467-508049e643ed correct=False
+      6e66ae06-d62c-4769-af2d-38f34055cf2d correct=True
+      956b0c27-c25e-4fae-9419-96a71131a7d2 correct=False
+      b6643759-1889-4481-9947-cac5dcc76257 correct=False
+    41ca60c0-cd59-488e-b5ed-525a4bd40f8f variant=multiple_choice
+      b86b3eda-9dd3-4d2d-8fb7-0d4331e70224 correct=False
+      cb2b0355-2952-4760-a0e7-85a2285d1b8c correct=False
+      e0c70b3a-ff59-4dde-823f-18cbd2f6b7a4 correct=False
+      f6be1e93-068d-4819-8eb1-0796499df9e3 correct=True
+    72d937a0-b43c-4a41-a28d-777a29daf461 variant=multiple_choice
+      80ac40db-7a5c-4936-a6e8-86ad0045fe00 correct=False
+      a52f9639-2ce2-43c5-a101-88bb8648055c correct=True
+      aa93e0a1-8fb1-4f0c-a5f6-361583fdd414 correct=False
+      f3f7e996-6c53-42ad-a518-1d94e911ed5c correct=False
+    85f35311-6510-4107-8dde-4f0f13c66eda variant=multiple_choice
+      043ec176-b15f-4c7d-af10-d654fb039357 correct=False
+      44ba5178-3c85-4089-a62b-9012e78dcd1b correct=False
+      ba2309ef-8e18-41f6-92e4-6c7061c432c8 correct=False
+      ee263c97-fabf-4bd1-8868-bc70d76e7a27 correct=True
+    93e8e84b-902e-4983-b7eb-279be24fab4a variant=multiple_choice
+      066d22df-c963-4efd-b9e6-6850683fc29a correct=False
+      7af957bd-7895-46f2-8c71-205a5678a301 correct=True
+      b7a0e1c1-6140-4cdc-b848-6359bb6dbf65 correct=False
+      fd7ee601-3b18-4123-a440-af998623d9af correct=False
+    c1c5a191-9adf-4cd0-91cd-8aeed78b96a2 variant=multiple_choice
+      2ec2c3bd-e063-4b4b-abdc-6fbbb10d6763 correct=False
+      4b4562a7-ab9f-48cd-ae08-5a81b14ff57a correct=True
+      60ac50dd-3f28-4ef9-aabf-51dfced13dca correct=False
+      f94e387a-7444-4804-a029-dbea77e0989b correct=False
+    c8969782-6c7f-40ee-a1b5-771b7e20dcf6 variant=multiple_choice
+      0cfb883e-0922-419a-b7a0-2e113e84b0f8 correct=True
+      6d75e8e2-ec62-4bcf-bdca-aa1477a8e632 correct=False
+      85b1327b-6862-400e-8444-d745545b4efa correct=False
+      ce4506d7-1aa6-4d70-a099-ab8e84819791 correct=False
+    d658e1fa-5e7c-46ee-905b-c44e1521b62c variant=multiple_choice
+      896cc560-3482-4a8d-a1e1-52c4485518d4 correct=False
+      b9f3720c-a037-4660-9d95-557eeb4c75db correct=True
+      ec596fb4-ed54-4c9b-8942-2fe9ea4b53c9 correct=False
+      f7c6a049-d758-42a5-b206-afe654ae1503 correct=False
+  student-project tool=cospaces url=https://edu.cospaces.io/GHY-NBQ action=render
+
+steps:
+  ea84374f-8750-4596-8339-99255fb00d4f 
+  a0f41624-2e48-4a28-9261-5e593235d0b9 
+  3ceb8665-b066-4ea0-95d1-9426cbe0cd45 
+  229332a1-bed7-446d-a204-c11465f2cfe0 activity=student-project
+  8466e1bc-913d-4905-a070-0122c8eae5e9 
+  3f364a97-f9eb-4bc4-a299-935a6de4d0a0 activity=checkpoint-set
+
+positions (not in order):
+  section=e07e6c54-3da4-46ec-bf5c-55931477a917 step=229332a1-bed7-446d-a204-c11465f2cfe0
+  section=3a54f9a8-945b-4e13-8588-f58552f3555a step=3ceb8665-b066-4ea0-95d1-9426cbe0cd45
+  section=6de19739-2898-460f-b0fd-3417ae3ca6d6 step=3f364a97-f9eb-4bc4-a299-935a6de4d0a0
+  section=6de19739-2898-460f-b0fd-3417ae3ca6d6 step=8466e1bc-913d-4905-a070-0122c8eae5e9
+  section=3a54f9a8-945b-4e13-8588-f58552f3555a step=a0f41624-2e48-4a28-9261-5e593235d0b9
+  section=3a54f9a8-945b-4e13-8588-f58552f3555a step=ea84374f-8750-4596-8339-99255fb00d4f
+
+criteria:
+  Multiple Choice Questions
+    c1c5a191-9adf-4cd0-91cd-8aeed78b96a2 type=checkpoint weight=10
+    41ca60c0-cd59-488e-b5ed-525a4bd40f8f type=checkpoint weight=10
+    32028aab-7d52-4bbb-8ea6-91c7b2b24ec0 type=checkpoint weight=10
+    72d937a0-b43c-4a41-a28d-777a29daf461 type=checkpoint weight=10
+    85f35311-6510-4107-8dde-4f0f13c66eda type=checkpoint weight=10
+    c8969782-6c7f-40ee-a1b5-771b7e20dcf6 type=checkpoint weight=10
+    2bf5b6b4-b60d-45cc-9ee1-4611a2934652 type=checkpoint weight=10
+    d658e1fa-5e7c-46ee-905b-c44e1521b62c type=checkpoint weight=10
+    93e8e84b-902e-4983-b7eb-279be24fab4a type=checkpoint weight=10
+    0dba9980-b22a-43f6-a890-e57f2974c849 type=checkpoint weight=10
+
+

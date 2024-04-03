@@ -1,0 +1,65 @@
+id: 589c30e2-2d9d-43fc-a0cc-05fa9cf76768
+title: Murder Mystery Party
+
+rubric:
+  computer-science
+    0680dfe6-1ffd-4a0c-a594-c304e1058e10
+    126f2701-ca3d-4c5e-be6d-aeeea35972a7
+    274d4b9f-f2d0-4df0-b742-721d9ff00901
+    2e5ac079-5519-40e9-a5ae-193f58eeb098
+    327e4958-0505-4d7e-ad74-ae92407856b3
+    41e77dee-7ad4-4690-954a-908774032ec3
+    72adad04-ed4e-4ee3-b995-a3b88a94267c
+    8fee511d-281d-45ba-98d7-9cbea70e31b2
+    9341fd82-e481-4d0c-8021-8d44d0eb0c59
+    98642dc3-5ed7-4d63-9a0b-c07f555c0a01
+    ca50e941-f677-476f-b0d4-96039767a347
+    ceeb609d-565a-446d-b8ac-51291dbeb46a
+    d1ebeb6b-2133-41fa-8550-3d2e634f3cdd
+  creativity
+    1d0c991e-2413-4700-b71e-7f7e608c96ff
+    955f4776-7bca-4b9a-84cb-392b99d7eb38
+    a962e6d0-d445-4815-b304-215382901989
+    cb8e1547-1254-4b53-b98d-11f25aa95c5b
+  interdisciplinary-learning
+    1366af1c-9243-4721-b1d8-d5b51930b6cb
+
+activities:
+  student-project id=murder-mystery-party tool=pickcode action=edit
+
+steps:
+  7e157a21-7ff7-48af-9402-0e3c4386d095 
+  ccbcc18e-dc45-4168-9f7b-6be73660325c 
+  cd276a8a-b2b7-4620-9525-90a433925146 
+    cef8fd26-28c5-488d-ae99-31d766957e82 variant=short_answer
+  7177b715-6fe1-43b2-bbcb-2bd7ecc7d6ba 
+    d18e389f-9c93-438e-abf4-019f408fa88c variant=short_answer
+  21888d59-3dc8-4efc-9ab6-5f09e3431065 
+    2f48f019-5bb4-4139-9988-ee3f4d5ffdf4 variant=short_answer
+  fe72e757-0956-42af-85e8-a1739b973bb3 activity=student-project
+  4ffd55da-9809-46e6-8f0b-f66c654273ab activity=student-project
+    bc3d887d-5b16-463c-ba9d-ea3ca9af2b93 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  42b19694-e314-4203-afc6-91ba30d78cf4 activity=student-project
+
+positions (not in order):
+  section=d737aaf3-a262-4617-8bec-86872a28fd36 step=21888d59-3dc8-4efc-9ab6-5f09e3431065
+  section=b3e72256-14d5-4b11-b90d-104aabec9d85 step=42b19694-e314-4203-afc6-91ba30d78cf4
+  section=66c4557c-d0cf-4e5d-9834-cbd384fa7957 step=4ffd55da-9809-46e6-8f0b-f66c654273ab
+  section=d737aaf3-a262-4617-8bec-86872a28fd36 step=7177b715-6fe1-43b2-bbcb-2bd7ecc7d6ba
+  section=c052d28f-53d5-4427-8a1f-a892557bb2dd step=7e157a21-7ff7-48af-9402-0e3c4386d095
+  section=c052d28f-53d5-4427-8a1f-a892557bb2dd step=ccbcc18e-dc45-4168-9f7b-6be73660325c
+  section=d737aaf3-a262-4617-8bec-86872a28fd36 step=cd276a8a-b2b7-4620-9525-90a433925146
+  section=66c4557c-d0cf-4e5d-9834-cbd384fa7957 step=fe72e757-0956-42af-85e8-a1739b973bb3
+
+criteria:
+  Computer Science
+    bc3d887d-5b16-463c-ba9d-ea3ca9af2b93 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    bc3d887d-5b16-463c-ba9d-ea3ca9af2b93 type=checkpoint variant=rubric weight=5
+  Creativity
+    bc3d887d-5b16-463c-ba9d-ea3ca9af2b93 type=checkpoint variant=rubric weight=5
+
+

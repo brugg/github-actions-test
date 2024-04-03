@@ -1,0 +1,53 @@
+id: 78b01652-4d2f-4eb4-8cd5-e9d990c885c0
+title: Picture Switch: Activity 2
+
+rubric:
+  computer-science
+    2586596c-0022-477b-90d8-f567bcb4447c
+    4ac6e8d1-aeca-47f0-8b00-3f5253e70019
+    63805c9b-274a-4ed7-883b-730679c3d7f8
+    856bb2ec-c5cd-48a6-b4d4-ba7af2f6ce60
+    bb83e795-d89d-4409-8d3e-7820b74aaabb
+  written-response
+    35121537-12bc-4c2e-b242-b692a5291071
+    5b071f81-765c-4caa-8d76-ede879a87d5b
+    86337009-d08f-4a76-b451-4fd881d4dcc8
+
+activities:
+  student-project id=picture-switch-activity-2 tool=pickcode action=edit
+  written-response id=29c4d3d4-c46c-400c-9067-090f642e260e tool=written-response id=29c4d3d4-c46c-400c-9067-090f642e260e
+
+steps:
+  2fc898ba-c609-4c41-ab64-bdb7186825f3 
+  060148a0-55e8-4186-ab15-69916470054d 
+  b9b76675-65c2-4207-8f3a-40af6e939dd2 
+  cb0fb232-bf53-4909-b6ed-71d73863f551 
+  f63219e3-f881-4dab-a256-6a4933d79e33 activity=student-project
+  a94add38-3732-4ef8-a730-dcd44e895254 activity=student-project
+  32ccc749-af19-4d9e-803e-639fd9ec36e3 activity=student-project
+  84da9e4b-9249-4887-906c-00374bb42164 activity=student-project
+  682c266b-2ee5-44bb-b8b9-81a9df5b262a activity=student-project
+    d3c5061e-4fe0-4d3f-bebc-36d81db207dc variant=rubric
+      computer-science 
+      written-response 
+  2da8f383-8576-4fd1-abd6-be563570ab67 activity=student-project
+  2b718773-5492-4180-bc13-a98ef7857410 activity=written-response
+    eaa65b7f-e43c-47f8-acc0-284652a7eb06 variant=rubric
+      written-response 
+  35fd861a-2376-41d7-8e3c-908897b747d8 
+
+positions (not in order):
+  section=fdaf0f3a-1999-4605-8c56-89029cab7499 step=060148a0-55e8-4186-ab15-69916470054d
+  section=16e50b3a-bffb-4655-9b8d-5e25ad670d9f step=2b718773-5492-4180-bc13-a98ef7857410
+  section=eb0af04d-c7af-42df-a1a1-a28e319c230e step=2da8f383-8576-4fd1-abd6-be563570ab67
+  section=fdaf0f3a-1999-4605-8c56-89029cab7499 step=2fc898ba-c609-4c41-ab64-bdb7186825f3
+  section=30bbbb78-bb35-4aa0-8aaf-809b2d06cf60 step=32ccc749-af19-4d9e-803e-639fd9ec36e3
+  section=ea4ad484-9dfb-469d-b264-78f57d982262 step=35fd861a-2376-41d7-8e3c-908897b747d8
+  section=91b7f48d-0ce7-4aff-9430-c054da607794 step=682c266b-2ee5-44bb-b8b9-81a9df5b262a
+  section=91b7f48d-0ce7-4aff-9430-c054da607794 step=84da9e4b-9249-4887-906c-00374bb42164
+  section=30bbbb78-bb35-4aa0-8aaf-809b2d06cf60 step=a94add38-3732-4ef8-a730-dcd44e895254
+  section=fdaf0f3a-1999-4605-8c56-89029cab7499 step=b9b76675-65c2-4207-8f3a-40af6e939dd2
+  section=ef709b3d-78b1-4d6f-ad56-70556cecb2ac step=cb0fb232-bf53-4909-b6ed-71d73863f551
+  section=30bbbb78-bb35-4aa0-8aaf-809b2d06cf60 step=f63219e3-f881-4dab-a256-6a4933d79e33
+
+

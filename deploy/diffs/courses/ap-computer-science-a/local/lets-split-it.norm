@@ -1,0 +1,56 @@
+id: df564ff0-9b6f-4626-ba32-86cdc3ba56ff
+title: Let's Split It
+
+rubric:
+  computer-science
+    400d9cc8-1448-47e1-9d6a-078543a94805
+    b9eff1d2-d10b-4178-8573-4415e06d5cdb
+    d6a7eff2-9210-4de3-b75a-c1ee81b74bfa
+    dc4b0d3d-7567-4c89-b1d2-887758059c1e
+  creativity
+    1cca7746-04e6-4e56-9d5d-ceae8abca8ad
+    4a6b012c-0906-4a7d-bd4d-fc37e5e214c0
+    c80dd57c-4d11-451c-92ce-74fbcbc80ad5
+    e1a0a037-e821-4075-bfd4-5c8dc3921009
+  interdisciplinary-learning
+    9c5abd45-0968-464c-a037-41a8b3e9b9e1
+
+activities:
+  student-project id=lets-split-it tool=pickcode action=edit
+
+steps:
+  580b0f14-fb09-46da-a7d2-e8e3baf6a554 
+  e21fbcdf-4f3e-44f6-9b42-8f4a32494940 
+  a310f806-8e43-4d46-a5a8-d21ded032518 
+    86a4abfe-50eb-4482-8b26-832bd1b8b109 variant=short_answer
+  f1b59a3f-7266-45f8-a351-4620b51a9b36 
+    68b58b4b-442e-4790-b164-967ee3f3c18c variant=short_answer
+  41d663f6-3c96-46f9-ab13-5f52f28c7425 
+    2d98fdf8-96a3-4ccd-b3ea-236ff1b0ec44 variant=short_answer
+  125a144d-b84a-4e53-ba6b-fa9478ce0ba9 activity=student-project
+  08cc4204-3547-485f-8067-79c836ac95ea activity=student-project
+    3b17b28d-4a10-4bc6-b01c-95324fb8ab9d variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  bce1e14f-c567-4fd6-a751-896b00a45a3e activity=student-project
+
+positions (not in order):
+  section=1916798a-81f3-4f84-8935-82cc0e6a7c89 step=08cc4204-3547-485f-8067-79c836ac95ea
+  section=1916798a-81f3-4f84-8935-82cc0e6a7c89 step=125a144d-b84a-4e53-ba6b-fa9478ce0ba9
+  section=e8614a58-d992-456b-b6a9-af23c55f016f step=41d663f6-3c96-46f9-ab13-5f52f28c7425
+  section=c6333bd6-b3e6-4992-a41c-0510a29c2165 step=580b0f14-fb09-46da-a7d2-e8e3baf6a554
+  section=e8614a58-d992-456b-b6a9-af23c55f016f step=a310f806-8e43-4d46-a5a8-d21ded032518
+  section=38be1687-941c-47fe-b62a-39948a6d2af5 step=bce1e14f-c567-4fd6-a751-896b00a45a3e
+  section=c6333bd6-b3e6-4992-a41c-0510a29c2165 step=e21fbcdf-4f3e-44f6-9b42-8f4a32494940
+  section=e8614a58-d992-456b-b6a9-af23c55f016f step=f1b59a3f-7266-45f8-a351-4620b51a9b36
+
+criteria:
+  Computer Science
+    3b17b28d-4a10-4bc6-b01c-95324fb8ab9d type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    3b17b28d-4a10-4bc6-b01c-95324fb8ab9d type=checkpoint variant=rubric weight=5
+  Creativity
+    3b17b28d-4a10-4bc6-b01c-95324fb8ab9d type=checkpoint variant=rubric weight=5
+
+

@@ -1,0 +1,196 @@
+id: 0f6baa62-27d1-11ec-9621-0242ac130002
+title: Online Shopping
+
+rubric:
+  computer-science
+    799683bc-27d1-11ec-9621-0242ac130002
+    7e0fca16-27d1-11ec-9621-0242ac130002
+    80986180-27d1-11ec-9621-0242ac130002
+    8d3b3f0c-27d1-11ec-9621-0242ac130002
+    90c6fdc8-27d1-11ec-9621-0242ac130002
+    93b38c40-27d1-11ec-9621-0242ac130002
+    971add98-27d1-11ec-9621-0242ac130002
+    9a53e392-27d1-11ec-9621-0242ac130002
+    9d100afc-27d1-11ec-9621-0242ac130002
+  creativity
+    a46bd9f2-27d1-11ec-9621-0242ac130002
+    a7146cd2-27d1-11ec-9621-0242ac130002
+    aa925a18-27d1-11ec-9621-0242ac130002
+    ad652b76-27d1-11ec-9621-0242ac130002
+  interdisciplinary-learning
+    a076b56a-27d1-11ec-9621-0242ac130002
+
+activities:
+  checkpoint-set id=1646a154-7086-4ca0-accd-4b5d1deea5bc tool=checkpoint-set
+    0698a2ec-76d9-4078-9483-47c7e4e0002b variant=multiple_choice
+      8a819d64-708c-4c0c-b919-abb982ffa05c correct=False
+      b27ce0c6-2d37-475f-9887-390f997d4198 correct=False
+      bb3244c0-9bb2-48fb-8e6f-037d6d6c313c correct=True
+      ce6d653d-9c46-4f78-ac02-063d65eafeb3 correct=False
+    2cc576e3-1e77-460c-8e4a-cffa77f7ac05 variant=multiple_choice
+      042308d9-7f6a-4c2a-87fc-f8abfccc8724 correct=True
+      21e43479-2aff-44bc-9e53-11f43d17f099 correct=False
+      af6de496-e777-42ce-a0f9-dd0f12cc9435 correct=False
+      c5ad72c3-11a9-49f1-9feb-05c46c33674f correct=False
+    41564d51-4a55-4f9b-aca9-76ac0c54b043 variant=multiple_choice
+      080f2385-3bbe-4ac1-9c4a-7de93b0380c8 correct=True
+      48bd6d76-dc3a-4add-87b5-167198578551 correct=False
+      69fc46ca-5adc-4aed-b9d8-12078c99f0ef correct=False
+      9efc0ab4-5bfa-44ab-8741-a1c053d63040 correct=False
+    4d85a11c-3f03-4f6d-82a1-d807b01dd64e variant=multiple_choice
+      60ece042-7012-4978-932a-8bcb7d38d07e correct=True
+      e4041f71-fb87-4f7f-96a7-a6115be7aa18 correct=False
+      ef01ec35-0922-4dcb-9cad-852b02e96962 correct=False
+      f92f56e2-b08b-437f-addc-640049531201 correct=False
+    60c0c0c1-c7f0-40bc-a0d0-7598f39a779a variant=multiple_choice
+      c6bcd62e-dc21-467f-a62b-076d0374569f correct=False
+      c8a696f5-c215-4fe4-9fdf-5f8ceebfa3dc correct=True
+      ceb13e06-ddeb-4ed7-a95e-e8fbe36a0191 correct=False
+      d3c0661a-25ae-4671-b2ed-3389f1de3cc7 correct=False
+    8cd2d748-0fab-431c-a6e2-4268048e0ad3 variant=multiple_choice
+      4e13796e-ddca-42fc-a3a0-fe05b082e2a5 correct=False
+      58204130-5421-4739-8678-67d70d846c34 correct=False
+      6f5450dd-3376-42ba-907c-225b3cce410c correct=False
+      fd6f6083-2fb5-45a8-9889-e25009a4bc41 correct=True
+    9c0517b4-25da-4e31-80ee-00983abddc5d variant=multiple_choice
+      5927a320-5ad7-4979-b889-d2e38ffdc5c7 correct=True
+      ba03791a-4b31-48b9-971e-65faa1d2c342 correct=False
+      c6382a17-6514-43b0-86ea-edf0ca4420be correct=False
+      edba6e1a-1f8c-49ad-80f9-3cac0875467c correct=False
+    d84b0108-e4d4-4284-85b0-776d6c4252e8 variant=multiple_choice
+      094b8204-cebe-455c-8e12-3ab2b4ba2ee3 correct=False
+      2ffdff3e-a306-4751-bee6-3b38bd329c1a correct=False
+      ee5b858a-301d-409e-827c-bc7fd99c12c1 correct=True
+      ee90025f-86f4-4606-a9da-d4df6d24c788 correct=False
+    e7cff510-8ed9-47d8-9a00-3f150fd3e846 variant=multiple_choice
+      0bc27de2-f8cf-4d5b-8c79-a46333149be4 correct=False
+      4320fda5-e636-4f14-94f9-c44ab605858c correct=False
+      a33a2cd6-7096-4663-a6af-36b430d16533 correct=False
+      bcccf325-63fa-47a0-b09a-3cb0c96e9fa8 correct=True
+    ede8d7cf-88fa-408c-8756-3a3ea6e4c0a9 variant=multiple_choice
+      5eefb9fe-a549-41ea-8ec1-37cc7f0979ca correct=False
+      713583dc-e50c-46a9-99ac-6d9f3630c641 correct=False
+      c115864a-e41f-4e4e-929b-a549e684f638 correct=True
+      ed496ef1-504a-4023-a592-2c667b0ddec8 correct=False
+  debugging-challenge-1 id=online-shopping-debug-1 tool=pickcode action=edit
+  debugging-challenge-2 id=online-shopping-debug-2 tool=pickcode action=edit
+  debugging-challenge-3 id=online-shopping-debug-3 tool=pickcode action=edit
+  example-project id=online-shopping-example tool=pickcode action=render
+  student-project id=online-shopping tool=pickcode action=edit
+
+steps:
+  3907d70a-27d2-11ec-9621-0242ac130002 
+  43fcd66a-27d2-11ec-9621-0242ac130002 activity=example-project
+    63405b28-27d2-11ec-9621-0242ac130002 variant=multiple_choice
+      674b4cc8-27d2-11ec-9621-0242ac130002 correct=False
+      6a7d60de-27d2-11ec-9621-0242ac130002 correct=False
+      6d26a4d0-27d2-11ec-9621-0242ac130002 correct=False
+      6f6fa926-27d2-11ec-9621-0242ac130002 correct=True
+  8db2bbee-27d2-11ec-9621-0242ac130002 
+  a071d61a-0dc5-4fff-8075-858433e185d7 
+  d58269f6-27d2-11ec-9621-0242ac130002 
+    36c671f8-27d3-11ec-9621-0242ac130002 variant=short_answer
+  432b21b4-27d3-11ec-9621-0242ac130002 
+    5caf0ff6-27d3-11ec-9621-0242ac130002 variant=short_answer
+  6f884a84-27d3-11ec-9621-0242ac130002 activity=student-project
+  cd8a81b4-27d4-11ec-9621-0242ac130002 activity=student-project
+  a0bae786-27d5-11ec-9621-0242ac130002 activity=student-project
+  1a2dd1a0-27d6-11ec-9621-0242ac130002 activity=student-project
+  b3407db6-27d6-11ec-9621-0242ac130002 activity=student-project
+  e29cd474-27d6-11ec-9621-0242ac130002 activity=student-project
+  a55fb2ce-27d7-11ec-9621-0242ac130002 activity=student-project
+  e18a6a96-27d7-11ec-9621-0242ac130002 activity=debugging-challenge-1
+    d3f896c2-27d8-11ec-9621-0242ac130002 variant=multiple_choice
+      dd022a4e-27d8-11ec-9621-0242ac130002 correct=False
+      dff684ca-27d8-11ec-9621-0242ac130002 correct=False
+      e2442b6a-27d8-11ec-9621-0242ac130002 correct=False
+      e4f2de4c-27d8-11ec-9621-0242ac130002 correct=True
+  fc88d4d0-27d8-11ec-9621-0242ac130002 activity=student-project
+  69ad601c-27d9-11ec-9621-0242ac130002 activity=student-project
+  eec955e2-27db-11ec-9621-0242ac130002 activity=student-project
+  bee4bac8-27dc-11ec-9621-0242ac130002 activity=student-project
+  440bf5ea-27dd-11ec-9621-0242ac130002 activity=student-project
+  b9ee92e0-27dd-11ec-9621-0242ac130002 activity=debugging-challenge-2
+    2dfdbb62-27e2-11ec-9621-0242ac130002 variant=multiple_choice
+      3b089340-27e2-11ec-9621-0242ac130002 correct=False
+      3d85743a-27e2-11ec-9621-0242ac130002 correct=True
+      3fc237f6-27e2-11ec-9621-0242ac130002 correct=False
+      42061f1e-27e2-11ec-9621-0242ac130002 correct=False
+  fb323a3a-27ed-11ec-9621-0242ac130002 activity=student-project
+  a782fd6a-27ee-11ec-9621-0242ac130002 activity=student-project
+  10445c40-27ef-11ec-9621-0242ac130002 activity=student-project
+  d985a2c6-27ef-11ec-9621-0242ac130002 activity=student-project
+  c4f25b5e-27f1-11ec-9621-0242ac130002 activity=student-project
+  16b07cdc-27f2-11ec-9621-0242ac130002 activity=student-project
+  3695e92e-27f2-11ec-9621-0242ac130002 activity=debugging-challenge-3
+    4e7e80aa-27f2-11ec-9621-0242ac130002 variant=multiple_choice
+      51c8cb94-27f2-11ec-9621-0242ac130002 correct=True
+      54355992-27f2-11ec-9621-0242ac130002 correct=False
+      58450834-27f2-11ec-9621-0242ac130002 correct=False
+      59f5281c-27f2-11ec-9621-0242ac130002 correct=False
+  7bb6b59c-27f2-11ec-9621-0242ac130002 activity=student-project
+    8d43a180-27f2-11ec-9621-0242ac130002 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  9a0c7d24-27f2-11ec-9621-0242ac130002 activity=student-project
+  b048f55b-3216-4bee-80e4-a3f3bf0ffea1 
+  048b5495-753d-4a4a-84e1-f9e99d333ab0 activity=checkpoint-set
+
+positions (not in order):
+  section=c7890b2a-f6f7-46da-a38e-91422eb06703 step=048b5495-753d-4a4a-84e1-f9e99d333ab0
+  section=f80d6848-27ed-11ec-9621-0242ac130002 step=10445c40-27ef-11ec-9621-0242ac130002
+  section=f80d6848-27ed-11ec-9621-0242ac130002 step=16b07cdc-27f2-11ec-9621-0242ac130002
+  section=17645926-27d6-11ec-9621-0242ac130002 step=1a2dd1a0-27d6-11ec-9621-0242ac130002
+  section=f80d6848-27ed-11ec-9621-0242ac130002 step=3695e92e-27f2-11ec-9621-0242ac130002
+  section=36698912-27d2-11ec-9621-0242ac130002 step=3907d70a-27d2-11ec-9621-0242ac130002
+  section=d2114bf2-27d2-11ec-9621-0242ac130002 step=432b21b4-27d3-11ec-9621-0242ac130002
+  section=36698912-27d2-11ec-9621-0242ac130002 step=43fcd66a-27d2-11ec-9621-0242ac130002
+  section=f8bf42bc-27d8-11ec-9621-0242ac130002 step=440bf5ea-27dd-11ec-9621-0242ac130002
+  section=f8bf42bc-27d8-11ec-9621-0242ac130002 step=69ad601c-27d9-11ec-9621-0242ac130002
+  section=6c96cce2-27d3-11ec-9621-0242ac130002 step=6f884a84-27d3-11ec-9621-0242ac130002
+  section=793fc452-27f2-11ec-9621-0242ac130002 step=7bb6b59c-27f2-11ec-9621-0242ac130002
+  section=36698912-27d2-11ec-9621-0242ac130002 step=8db2bbee-27d2-11ec-9621-0242ac130002
+  section=97993a0a-27f2-11ec-9621-0242ac130002 step=9a0c7d24-27f2-11ec-9621-0242ac130002
+  section=36698912-27d2-11ec-9621-0242ac130002 step=a071d61a-0dc5-4fff-8075-858433e185d7
+  section=6c96cce2-27d3-11ec-9621-0242ac130002 step=a0bae786-27d5-11ec-9621-0242ac130002
+  section=17645926-27d6-11ec-9621-0242ac130002 step=a55fb2ce-27d7-11ec-9621-0242ac130002
+  section=f80d6848-27ed-11ec-9621-0242ac130002 step=a782fd6a-27ee-11ec-9621-0242ac130002
+  section=c7890b2a-f6f7-46da-a38e-91422eb06703 step=b048f55b-3216-4bee-80e4-a3f3bf0ffea1
+  section=17645926-27d6-11ec-9621-0242ac130002 step=b3407db6-27d6-11ec-9621-0242ac130002
+  section=f8bf42bc-27d8-11ec-9621-0242ac130002 step=b9ee92e0-27dd-11ec-9621-0242ac130002
+  section=f8bf42bc-27d8-11ec-9621-0242ac130002 step=bee4bac8-27dc-11ec-9621-0242ac130002
+  section=f80d6848-27ed-11ec-9621-0242ac130002 step=c4f25b5e-27f1-11ec-9621-0242ac130002
+  section=6c96cce2-27d3-11ec-9621-0242ac130002 step=cd8a81b4-27d4-11ec-9621-0242ac130002
+  section=d2114bf2-27d2-11ec-9621-0242ac130002 step=d58269f6-27d2-11ec-9621-0242ac130002
+  section=f80d6848-27ed-11ec-9621-0242ac130002 step=d985a2c6-27ef-11ec-9621-0242ac130002
+  section=17645926-27d6-11ec-9621-0242ac130002 step=e18a6a96-27d7-11ec-9621-0242ac130002
+  section=17645926-27d6-11ec-9621-0242ac130002 step=e29cd474-27d6-11ec-9621-0242ac130002
+  section=f8bf42bc-27d8-11ec-9621-0242ac130002 step=eec955e2-27db-11ec-9621-0242ac130002
+  section=f80d6848-27ed-11ec-9621-0242ac130002 step=fb323a3a-27ed-11ec-9621-0242ac130002
+  section=f8bf42bc-27d8-11ec-9621-0242ac130002 step=fc88d4d0-27d8-11ec-9621-0242ac130002
+
+criteria:
+  Computer Science
+    8d43a180-27f2-11ec-9621-0242ac130002 type=checkpoint variant=rubric weight=80
+  Interdisciplinary Learning
+    8d43a180-27f2-11ec-9621-0242ac130002 type=checkpoint variant=rubric weight=5
+  Creativity
+    8d43a180-27f2-11ec-9621-0242ac130002 type=checkpoint variant=rubric weight=5
+  Project Checkpoints
+    8cd2d748-0fab-431c-a6e2-4268048e0ad3 type=checkpoint weight=0.75
+    4d85a11c-3f03-4f6d-82a1-d807b01dd64e type=checkpoint weight=0.75
+    9c0517b4-25da-4e31-80ee-00983abddc5d type=checkpoint weight=0.75
+    2cc576e3-1e77-460c-8e4a-cffa77f7ac05 type=checkpoint weight=0.75
+    60c0c0c1-c7f0-40bc-a0d0-7598f39a779a type=checkpoint weight=0.75
+    41564d51-4a55-4f9b-aca9-76ac0c54b043 type=checkpoint weight=0.75
+    d84b0108-e4d4-4284-85b0-776d6c4252e8 type=checkpoint weight=0.75
+    e7cff510-8ed9-47d8-9a00-3f150fd3e846 type=checkpoint weight=0.75
+    0698a2ec-76d9-4078-9483-47c7e4e0002b type=checkpoint weight=0.75
+    ede8d7cf-88fa-408c-8756-3a3ea6e4c0a9 type=checkpoint weight=0.75
+    d3f896c2-27d8-11ec-9621-0242ac130002 type=checkpoint weight=0.75
+    2dfdbb62-27e2-11ec-9621-0242ac130002 type=checkpoint weight=0.75
+    4e7e80aa-27f2-11ec-9621-0242ac130002 type=checkpoint weight=0.75
+    63405b28-27d2-11ec-9621-0242ac130002 type=checkpoint weight=0.25
+
+

@@ -1,0 +1,81 @@
+id: 2d7e0409-7136-4331-9c03-593d171ea2da
+title: Let's Play Cards
+
+rubric:
+  computer-science
+    6985641a-a6db-49fa-afe2-284d1debe4e2
+    73779305-ab5a-4a78-bc66-bd0fc5b21137
+    888801e9-d052-4849-8efe-fdd0c7bc835e
+    962b2c01-df5d-49db-8780-daf326017c37
+    ad5972a5-249e-46b9-8ee4-b03f1455beed
+    b120f1cb-5bba-4a8b-9fa7-53e6cc39b4ab
+  creativity
+    13b6e00d-f838-4431-b502-37314f4a8ecf
+    2b71d72b-e96c-4de9-9de5-973a898bb80a
+    a3ee2d6f-f678-4e7f-a1f9-4ea3f953f652
+    ba400fcf-a910-4325-b1d9-6e06e6189f50
+  written-communication
+    54ce7859-d08d-42e7-b876-d742b3fdd0cb
+    56f9dae3-b028-4771-bada-c561542a09f6
+    d4e28199-ebcd-49b4-96ff-7ab0d596fd5f
+
+activities:
+  student-project id=lets-play-cards-activity tool=pickcode action=edit
+  written-response id=0d1aeddd-4e26-4659-9a4d-7d2420c48c14 tool=written-response id=0d1aeddd-4e26-4659-9a4d-7d2420c48c14
+
+steps:
+  092025cd-b713-44d5-a77e-c0990bcf1437 
+  62d376e1-8476-4bce-8472-87cc4f95b620 
+  4a526e4c-c328-4012-93db-33f4214a9100 
+  238c4f32-8ef5-4ba4-b3d5-99159c621943 
+  0dfa4871-bbcd-425b-81e3-6d873a628d93 
+  81e72604-b42f-402f-bac0-ae1ea7409992 activity=student-project
+    9e8b199f-dd45-4068-980d-2ca7797dbf1a variant=short_answer
+  d38a2976-5ed6-429a-8b36-928144d136eb activity=student-project
+    5e77f426-0ee1-41f5-9171-f3fadbc90640 variant=short_answer
+  1c6b7c8e-9e7e-49cb-a48a-9b491187a5fa activity=student-project
+    b25d292c-7a03-443c-8c43-f07d363a20d0 variant=short_answer
+  13fbcd5a-cf3f-417e-b7a6-a93dfdd3bbc8 activity=student-project
+    940ac979-f080-4d29-a3e2-9c80151334d7 variant=short_answer
+  f92a2cb1-58d1-44e0-aa1e-be46c80f7f98 activity=student-project
+  f0e63200-662e-4fbc-8947-20f905f8b366 activity=student-project
+  8e0c952e-9c16-4790-bd74-9ab9073fe7c1 activity=student-project
+  e4db4a2b-810a-41f2-a15d-975aaf13da5b activity=student-project
+  0118ca03-3e10-4d73-9921-84973ccec07a activity=student-project
+    5845db69-a428-4d22-9b67-516c743a85cd variant=rubric
+      computer-science 
+      creativity required=1
+  3c447ea9-5038-485c-9b27-1e9fe6cb2c42 activity=student-project
+  03e21e28-7ac0-4509-8fed-f609ebc72c19 activity=written-response
+    adcba8a4-071a-404a-9702-cdd9b250d3cc variant=rubric
+      written-communication 
+  ce22357a-1883-4334-8d27-66bf9ef5ba51 
+
+positions (not in order):
+  section=fbaa0b65-8572-483d-93d7-eacdf2c50f6d step=0118ca03-3e10-4d73-9921-84973ccec07a
+  section=1ee18733-0787-4b96-b4fb-31e93b8f91d4 step=03e21e28-7ac0-4509-8fed-f609ebc72c19
+  section=fd5232eb-fcc2-4235-b08a-8053683755a5 step=092025cd-b713-44d5-a77e-c0990bcf1437
+  section=729ad366-c2a8-40ff-8b3b-0bf8f9b8aeb3 step=0dfa4871-bbcd-425b-81e3-6d873a628d93
+  section=856ba3a1-6bd3-4da5-a500-6f2badb56e80 step=13fbcd5a-cf3f-417e-b7a6-a93dfdd3bbc8
+  section=856ba3a1-6bd3-4da5-a500-6f2badb56e80 step=1c6b7c8e-9e7e-49cb-a48a-9b491187a5fa
+  section=fd5232eb-fcc2-4235-b08a-8053683755a5 step=238c4f32-8ef5-4ba4-b3d5-99159c621943
+  section=9f0375a9-15aa-4ec9-889a-e1e768c430bb step=3c447ea9-5038-485c-9b27-1e9fe6cb2c42
+  section=fd5232eb-fcc2-4235-b08a-8053683755a5 step=4a526e4c-c328-4012-93db-33f4214a9100
+  section=fd5232eb-fcc2-4235-b08a-8053683755a5 step=62d376e1-8476-4bce-8472-87cc4f95b620
+  section=856ba3a1-6bd3-4da5-a500-6f2badb56e80 step=81e72604-b42f-402f-bac0-ae1ea7409992
+  section=0132e60f-3818-46a6-9a57-1945191b4d9d step=8e0c952e-9c16-4790-bd74-9ab9073fe7c1
+  section=259842f1-9e60-496d-a7f0-5bf9ae107605 step=ce22357a-1883-4334-8d27-66bf9ef5ba51
+  section=856ba3a1-6bd3-4da5-a500-6f2badb56e80 step=d38a2976-5ed6-429a-8b36-928144d136eb
+  section=fbaa0b65-8572-483d-93d7-eacdf2c50f6d step=e4db4a2b-810a-41f2-a15d-975aaf13da5b
+  section=0132e60f-3818-46a6-9a57-1945191b4d9d step=f0e63200-662e-4fbc-8947-20f905f8b366
+  section=0132e60f-3818-46a6-9a57-1945191b4d9d step=f92a2cb1-58d1-44e0-aa1e-be46c80f7f98
+
+criteria:
+  Computer Science
+    5845db69-a428-4d22-9b67-516c743a85cd type=checkpoint variant=rubric weight=90
+  Creativity
+    5845db69-a428-4d22-9b67-516c743a85cd type=checkpoint variant=rubric weight=5
+  Written Communication
+    adcba8a4-071a-404a-9702-cdd9b250d3cc type=checkpoint variant=rubric weight=5
+
+

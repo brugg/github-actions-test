@@ -1,0 +1,158 @@
+id: 011a0c26-f384-4a65-9bd7-eee6daf02350
+title: My Future Goals
+
+rubric:
+  computer-science
+    0b80c555-56e4-4343-9c84-7bd520cfbf5f
+    12512901-8803-4d67-bd89-642111cd734d
+    191bc82c-a5ef-407a-85a8-7de2b0af9637
+    2938c2b0-6e09-4c6d-a2a3-107477ed356a
+    7f50e9ad-00c4-4c8d-81bb-156b7af39c8e
+    fcc3bac3-b283-4f7c-a6dd-a29c83f51a61
+  creativity
+    181d43b0-9ce8-479b-ab0c-062e32961bf6
+    3f643746-62dc-4ac4-bb44-36df0039cd2e
+  interdisciplinary-learning
+    a9a90237-5a1d-4dbf-bbbd-a182f5126f96
+  multiple-choice-questions
+    5ad94fb1-af86-491f-8881-ff62ddb8b993
+
+activities:
+  checkpoint-set-1 id=f89d0b83-5a63-41b3-95f6-2551a8753c51 tool=checkpoint-set
+    580fb278-12c0-4fc3-bb29-cdc4e5b5fbcd variant=multiple_choice
+      49836121-9645-4501-a5c1-76cde1ba86bf correct=False
+      826648c5-ccc7-453b-8f77-ba1a366b3e0c correct=False
+      832de23b-ceac-48cc-9dbf-69f4f4a2d70f correct=False
+      c1d67b13-97be-47e1-a60d-312c1d13f905 correct=True
+    8810c727-88a5-449d-be34-1be2fefdf569 variant=multiple_choice
+      02ec7cb3-5779-4f22-ae32-4ef3d06e7373 correct=True
+      66a31006-b30d-499d-9c41-d2ddb06accc9 correct=False
+      b01bdb99-313a-42f8-b7e3-331272768692 correct=False
+      ddaf5f1e-d45b-4ec4-b34e-b0e255abeaf2 correct=False
+    97a051a0-7c44-4878-b13c-7e36bd22f007 variant=multiple_choice
+      5658f3fe-2a08-4628-a096-2b62188f2b3d correct=True
+      7e440a3f-f33d-4a59-a0d9-b505adbe4c27 correct=False
+      80b9fdb5-17d2-4245-8de7-233ec07fd02f correct=False
+      c58755ee-363f-4769-a9a9-2496ffe66624 correct=False
+    a81ae9ce-c7ee-401e-818f-90b77c497005 variant=multiple_choice
+      023ced22-4ee7-429a-914e-d939bbc6497a correct=False
+      078d1ed8-be37-4a70-b23b-e0b08b9134f4 correct=True
+      68aa1603-b26f-4f04-8cc2-9f3bab46f5e9 correct=False
+      e9d2d825-c8f8-4309-9f54-e3fc5eb03d86 correct=False
+    aef3675d-97d2-42ac-bc30-c92e2506ab38 variant=multiple_choice
+      14de8abe-56a8-4db6-8755-d47d658d9be3 correct=True
+      98475e77-2550-455b-af8c-0eb2bba4f8b6 correct=False
+      b07932f8-6f58-41a8-a82d-bebdb84d35e5 correct=False
+      b45ee87c-f370-44a1-9b51-2f5d849b3e96 correct=False
+  cospace-edit id=student-project tool=cospaces action=edit
+  debugging-challenge-1 tool=cospaces url=https://edu.cospaces.io/ZVE-ATT action=render
+  debugging-challenge-2 tool=cospaces url=https://edu.cospaces.io/CCA-ZWK action=render
+  example-project tool=cospaces url=https://edu.cospaces.io/NMY-TFS action=render
+
+steps:
+  1088177e-09a7-4313-ab9c-854cab7e1dad 
+  1c6b20d2-38b7-4f43-bf57-e8798d772db6 activity=example-project
+    097c6137-8e0e-46c0-8f8a-7a8f4cd4d22f variant=multiple_choice
+      191d8e7f-467c-4888-a9ff-9bbcdd925cdd correct=True
+      3e097f55-8101-4dec-8059-a4502a4529eb correct=False
+      4e4f9ca8-4d6b-4b8f-86b7-861ebc400d91 correct=False
+      9906b918-b640-4fc3-ab81-b8f6f663db36 correct=False
+  2d120795-c9ab-4a56-9c25-7cff0e3d4a81 
+  89118db4-6d08-4287-8ea3-4354ac4e1a4d 
+  4a973ad3-9a42-4443-8be2-fa422595da52 
+  ca45a424-ee5f-4d63-905f-85a54b079b59 
+    78296c92-7c63-40ab-80a1-bdcc2cb8bdb6 variant=short_answer
+  9af9dffe-2d81-4277-b088-d8532ac66ac5 
+    40f5966f-a730-4ce0-903e-e08739ae927f variant=short_answer
+  fde83617-0f2e-4a23-854f-15247c2aa4fd 
+    f58e94f0-74ed-4399-ae4d-d3f7ab15f6aa variant=short_answer
+  52b50fe6-fc0e-4a47-8935-3a8832c668fb 
+    9ea10cb5-498a-4c56-99ba-0765dd3c45cd variant=short_answer
+  4ab782ec-b5a9-4c29-8361-ce692a8ba92b activity=cospace-edit
+  c36e3649-c793-4246-a7ad-1edc711901fb activity=cospace-edit
+  2006ccd0-9a78-42a4-8cd9-5dcccbcd6f3e activity=cospace-edit
+  6ee45241-e9ef-4c1e-b531-0add0e2b2e1b activity=cospace-edit
+  19345c8a-208d-4a9c-b005-a54ad1e625cc activity=cospace-edit
+  08694dcd-20c6-433e-83cf-757e6523b74d activity=debugging-challenge-1
+    a7c422fa-63bf-4fce-a249-ddf58b0cf131 variant=multiple_choice
+      2d8b6007-9341-4a3f-badb-62ad760efdd3 correct=True
+      47c9a325-7a04-4fb5-86b4-f6d0828c0e50 correct=False
+      50c9bfec-cf2a-4fa3-808a-02de92277054 correct=False
+      ba8baf9c-6e60-485f-bb44-84b4091f9ae6 correct=False
+  fbd69855-ada6-48ed-a185-9c73f24577b8 activity=cospace-edit
+  f1d3355b-72d1-4693-b083-16a0f701e2d9 activity=cospace-edit
+  a0692caf-48ea-4326-a8f3-3e78de47d81f activity=cospace-edit
+  249648d5-97f6-4704-aac8-e32282fb8e05 activity=cospace-edit
+  83103ed7-3cc5-4a41-ab4d-44fd64a60a89 activity=cospace-edit
+  2431150e-1cdd-48e4-b492-18aae9e591d0 activity=cospace-edit
+  cf77cd1a-2720-4981-b17a-de6d2d4d16af activity=cospace-edit
+  21ea761b-e63c-4b07-96cd-ec9300bc8af9 activity=cospace-edit
+  29deb774-248a-410a-87b3-d2fc1cc15c29 activity=debugging-challenge-2
+    889f3ed4-60f1-4777-ac8c-f9ca542b78a9 variant=multiple_choice
+      095f231c-7c49-4543-be18-cd11bd91a09e correct=False
+      4063bef1-d7e9-464e-9b68-9e373af50ef1 correct=True
+      4b8cdd9e-60e6-45ec-983f-fbf02867d7e8 correct=False
+      77141aaf-0885-45ea-bb14-d8d28477473b correct=False
+  3becb99a-199d-490d-b603-e00a96090383 activity=cospace-edit
+  5f231998-fe34-4c63-992b-af5ac1418346 activity=cospace-edit
+  32951b7a-facf-4cab-8c1d-29d770966424 activity=cospace-edit
+  49dd2288-d971-4c25-8bb8-6060c5a89297 activity=cospace-edit
+  3d40bd0f-a7ff-4317-b773-eb314ac5d3cf 
+  86ba6047-f5aa-40ca-bce0-c17f24707dbe activity=checkpoint-set-1
+  07e6269d-7684-4f52-8ae4-6d41e3c93ef9 activity=cospace-edit
+    52be00c1-82a8-416d-98db-fd03a307fcf7 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+
+positions (not in order):
+  section=9ad6601b-0f38-4aaa-9602-6022575de22e step=07e6269d-7684-4f52-8ae4-6d41e3c93ef9
+  section=5d2c26d2-bce8-4480-aeef-e6ab7029ed84 step=08694dcd-20c6-433e-83cf-757e6523b74d
+  section=f42844ad-f9c6-4c0e-8e6b-cc72f6f5be30 step=1088177e-09a7-4313-ab9c-854cab7e1dad
+  section=5d2c26d2-bce8-4480-aeef-e6ab7029ed84 step=19345c8a-208d-4a9c-b005-a54ad1e625cc
+  section=f42844ad-f9c6-4c0e-8e6b-cc72f6f5be30 step=1c6b20d2-38b7-4f43-bf57-e8798d772db6
+  section=5d2c26d2-bce8-4480-aeef-e6ab7029ed84 step=2006ccd0-9a78-42a4-8cd9-5dcccbcd6f3e
+  section=7f56af4e-6eca-41b9-992a-a13a94f98da7 step=21ea761b-e63c-4b07-96cd-ec9300bc8af9
+  section=7f56af4e-6eca-41b9-992a-a13a94f98da7 step=2431150e-1cdd-48e4-b492-18aae9e591d0
+  section=6a89f91e-48b3-4854-ac25-79c6202e6a48 step=249648d5-97f6-4704-aac8-e32282fb8e05
+  section=7f56af4e-6eca-41b9-992a-a13a94f98da7 step=29deb774-248a-410a-87b3-d2fc1cc15c29
+  section=f42844ad-f9c6-4c0e-8e6b-cc72f6f5be30 step=2d120795-c9ab-4a56-9c25-7cff0e3d4a81
+  section=b5543b6c-1022-44be-a4fb-203c9804a570 step=32951b7a-facf-4cab-8c1d-29d770966424
+  section=b5543b6c-1022-44be-a4fb-203c9804a570 step=3becb99a-199d-490d-b603-e00a96090383
+  section=fd810df0-0fa5-491f-874f-666cbf278f7c step=3d40bd0f-a7ff-4317-b773-eb314ac5d3cf
+  section=b5543b6c-1022-44be-a4fb-203c9804a570 step=49dd2288-d971-4c25-8bb8-6060c5a89297
+  section=f42844ad-f9c6-4c0e-8e6b-cc72f6f5be30 step=4a973ad3-9a42-4443-8be2-fa422595da52
+  section=5d2c26d2-bce8-4480-aeef-e6ab7029ed84 step=4ab782ec-b5a9-4c29-8361-ce692a8ba92b
+  section=6c41ed45-8f12-47e5-9a83-be95065ba0a2 step=52b50fe6-fc0e-4a47-8935-3a8832c668fb
+  section=b5543b6c-1022-44be-a4fb-203c9804a570 step=5f231998-fe34-4c63-992b-af5ac1418346
+  section=5d2c26d2-bce8-4480-aeef-e6ab7029ed84 step=6ee45241-e9ef-4c1e-b531-0add0e2b2e1b
+  section=7f56af4e-6eca-41b9-992a-a13a94f98da7 step=83103ed7-3cc5-4a41-ab4d-44fd64a60a89
+  section=fd810df0-0fa5-491f-874f-666cbf278f7c step=86ba6047-f5aa-40ca-bce0-c17f24707dbe
+  section=f42844ad-f9c6-4c0e-8e6b-cc72f6f5be30 step=89118db4-6d08-4287-8ea3-4354ac4e1a4d
+  section=6c41ed45-8f12-47e5-9a83-be95065ba0a2 step=9af9dffe-2d81-4277-b088-d8532ac66ac5
+  section=6a89f91e-48b3-4854-ac25-79c6202e6a48 step=a0692caf-48ea-4326-a8f3-3e78de47d81f
+  section=5d2c26d2-bce8-4480-aeef-e6ab7029ed84 step=c36e3649-c793-4246-a7ad-1edc711901fb
+  section=6c41ed45-8f12-47e5-9a83-be95065ba0a2 step=ca45a424-ee5f-4d63-905f-85a54b079b59
+  section=7f56af4e-6eca-41b9-992a-a13a94f98da7 step=cf77cd1a-2720-4981-b17a-de6d2d4d16af
+  section=6a89f91e-48b3-4854-ac25-79c6202e6a48 step=f1d3355b-72d1-4693-b083-16a0f701e2d9
+  section=6a89f91e-48b3-4854-ac25-79c6202e6a48 step=fbd69855-ada6-48ed-a185-9c73f24577b8
+  section=6c41ed45-8f12-47e5-9a83-be95065ba0a2 step=fde83617-0f2e-4a23-854f-15247c2aa4fd
+
+criteria:
+  Computer Science
+    52be00c1-82a8-416d-98db-fd03a307fcf7 type=checkpoint variant=rubric weight=75
+  Interdisciplinary Learning
+    52be00c1-82a8-416d-98db-fd03a307fcf7 type=checkpoint variant=rubric weight=5
+  Creativity
+    52be00c1-82a8-416d-98db-fd03a307fcf7 type=checkpoint variant=rubric weight=5
+  Project Checkpoints
+    097c6137-8e0e-46c0-8f8a-7a8f4cd4d22f type=checkpoint weight=0.5
+    a7c422fa-63bf-4fce-a249-ddf58b0cf131 type=checkpoint weight=1
+    889f3ed4-60f1-4777-ac8c-f9ca542b78a9 type=checkpoint weight=1
+    a81ae9ce-c7ee-401e-818f-90b77c497005 type=checkpoint weight=2.5
+    8810c727-88a5-449d-be34-1be2fefdf569 type=checkpoint weight=2.5
+    580fb278-12c0-4fc3-bb29-cdc4e5b5fbcd type=checkpoint weight=2.5
+    aef3675d-97d2-42ac-bc30-c92e2506ab38 type=checkpoint weight=2.5
+    97a051a0-7c44-4878-b13c-7e36bd22f007 type=checkpoint weight=2.5
+
+

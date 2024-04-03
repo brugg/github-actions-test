@@ -1,0 +1,35 @@
+id: b27381d9-0e06-4e96-8c95-1206e356e7c0
+title: FRQ: Battery Charger Part A
+
+rubric:
+  computer-science
+    424aa5a7-c84e-4d33-8f75-a5d674433a2d
+    4b9285a6-2498-440b-9efa-94f79ece5747
+    6d98e521-578d-454c-a896-7282749dc484
+    d89a9305-3e67-4e77-8d49-ac558b0e60ca
+    e09d5790-94ec-4a52-a52d-dcb541752d94
+
+activities:
+  written-response-1 id=445ae031-c427-4e83-8d04-c8d6185d148f tool=code-response id=445ae031-c427-4e83-8d04-c8d6185d148f
+
+steps:
+  cceff2a2-cd91-462a-b247-1251e822e73d 
+  89f51e1c-c5e0-43be-add6-ec266ae49a1f activity=written-response-1
+  ef0aed3f-911d-434b-af02-db1aae7defd4 activity=written-response-1
+  4b7d2171-9fd2-416a-ba3f-8ff8debf5651 activity=written-response-1
+
+positions (not in order):
+  section=eeeed000-746d-4f98-85b9-f61687b1462c step=4b7d2171-9fd2-416a-ba3f-8ff8debf5651
+  section=2501b576-002d-46c5-a5a7-9003bfb433c4 step=89f51e1c-c5e0-43be-add6-ec266ae49a1f
+  section=2e17871c-5e6b-43d1-9333-24e7317c2def step=cceff2a2-cd91-462a-b247-1251e822e73d
+  section=2501b576-002d-46c5-a5a7-9003bfb433c4 step=ef0aed3f-911d-434b-af02-db1aae7defd4
+
+criteria:
+  FRQ Rubric
+    760d35de-c7e3-4e50-bca5-d93d09eba8e8 type=question weight=20
+    559d5ed8-c32c-4142-b45e-ce896bd1f075 type=question weight=20
+    27fc8b35-fc29-4494-a5f9-c3212cbe08b2 type=question weight=20
+    e7955e94-c45e-44a7-b1bb-98b379fa8d58 type=question weight=20
+    de0edb6b-f1e3-4ab1-bff6-db94252038b5 type=question weight=20
+
+

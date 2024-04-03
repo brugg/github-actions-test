@@ -1,0 +1,42 @@
+id: 07d6cbed-b175-46f5-b0fe-83f16c59cc1f
+title: Create Task
+
+activities:
+  cospace-edit id=student-project tool=cospaces action=edit
+
+steps:
+  1f0b0ede-b633-4a0e-ba1a-425f14ee4d04 
+  79c0357e-8572-4462-961f-df39848dd5a9 
+  f8469fea-2271-404f-a57c-2c8a47ad376e 
+  282e3d73-7f9f-40bd-a986-8869ff7504c0 
+  62d3347c-8ec7-4502-9848-379b2899e28b 
+    ee69ae1a-c584-4778-9073-c7f9db050165 variant=short_answer
+    150f2a93-1be4-48e7-8e9d-1e76048fd911 variant=short_answer
+    a95e6c8c-3ee9-42fb-b38c-a636e82650f2 variant=short_answer
+    3713071d-2d23-4071-88b0-629db2d3bd0b variant=short_answer
+    12b4de1d-98a9-4266-874d-0ca51686584d variant=short_answer
+  0e6ce000-cfa2-4517-bc61-9908faace281 
+    9d414374-c8b6-4467-8fa5-a654ed7db525 variant=short_answer
+  00309897-ae58-4d34-bb7b-099bdec81447 
+    4758e04d-4892-42c0-9e17-8d5c4a5e0832 variant=rich_text
+  d0239415-c43d-4d11-8421-3633cce5b541 activity=cospace-edit
+  f1254815-9165-4894-b5e4-ec435a7e783e 
+  3219c8f1-b001-4a61-b245-f9ff3967e8b6 
+  709594cc-e10e-4197-bec1-4290f58268df 
+  dfb07126-09f1-4dbb-a4a7-95f0ecbac583 
+
+positions (not in order):
+  section=b39d2f0f-aee4-4fd1-98b4-12de54457fa1 step=00309897-ae58-4d34-bb7b-099bdec81447
+  section=d8147f3b-8822-4fa5-b3c0-2b03101ba3d3 step=0e6ce000-cfa2-4517-bc61-9908faace281
+  section=562b8b84-3a27-469c-bc8e-2c9b59c27362 step=1f0b0ede-b633-4a0e-ba1a-425f14ee4d04
+  section=562b8b84-3a27-469c-bc8e-2c9b59c27362 step=282e3d73-7f9f-40bd-a986-8869ff7504c0
+  section=c351f790-000d-4ba5-8bcb-af0d04492925 step=3219c8f1-b001-4a61-b245-f9ff3967e8b6
+  section=d8147f3b-8822-4fa5-b3c0-2b03101ba3d3 step=62d3347c-8ec7-4502-9848-379b2899e28b
+  section=c351f790-000d-4ba5-8bcb-af0d04492925 step=709594cc-e10e-4197-bec1-4290f58268df
+  section=562b8b84-3a27-469c-bc8e-2c9b59c27362 step=79c0357e-8572-4462-961f-df39848dd5a9
+  section=29601b3a-46ae-4704-8c3e-e5308f259012 step=d0239415-c43d-4d11-8421-3633cce5b541
+  section=c351f790-000d-4ba5-8bcb-af0d04492925 step=dfb07126-09f1-4dbb-a4a7-95f0ecbac583
+  section=c351f790-000d-4ba5-8bcb-af0d04492925 step=f1254815-9165-4894-b5e4-ec435a7e783e
+  section=562b8b84-3a27-469c-bc8e-2c9b59c27362 step=f8469fea-2271-404f-a57c-2c8a47ad376e
+
+

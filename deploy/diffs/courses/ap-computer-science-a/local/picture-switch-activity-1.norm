@@ -1,0 +1,62 @@
+id: e27948f8-a052-46ad-97c1-1bd316be72c5
+title: Picture Switch: Activity 1
+
+rubric:
+  computer-science
+    05081a41-25fb-4bdc-b175-5ac432bf789a
+    38393a89-7e84-4d5b-9ef9-c212be922c39
+    99a7832e-54ee-4444-bd0f-61e3410c0814
+    a1a19e18-111d-406f-8574-db14f8044f52
+    e99bfd8b-d71a-4309-bcdc-631ca41b3bf9
+  written-response
+    3c7fb339-378d-4fa4-adca-e01d4ed6ffef
+    4593f02d-39ff-4054-abb7-26df7908a4c1
+    89bb17d6-1198-4842-bd8f-3af99c20b921
+
+activities:
+  student-project id=picture-switch-activity-1 tool=pickcode action=edit
+  written-response id=40ecdf92-4e1c-47c8-837f-907249a80424 tool=written-response id=40ecdf92-4e1c-47c8-837f-907249a80424
+
+steps:
+  b94b26c4-2e17-4fdc-b3ce-5ef95327d533 
+  d3290363-f381-4090-b5c8-3535743cfcdb 
+  6fb98531-a82a-4c8b-a506-b9400868bf74 
+  80c72514-5853-491e-bacf-964a3b9cd0fd 
+  c19bc0e6-b64e-4134-84ab-1b27ca9ebd24 activity=student-project
+    4319c0f6-a187-4f4b-8fca-93d1d831a879 variant=short_answer
+  9ebc6870-e1c8-45d3-9484-29468c6d8817 activity=student-project
+    35d13295-fb01-45bf-a5f9-8e8fdacfe21c variant=short_answer
+  9f4fabcf-1cac-4c99-829e-4ca52538c023 activity=student-project
+    908d0ff9-6b06-4798-a8aa-fc549fb43450 variant=short_answer
+  60de29db-50c8-4db7-a452-56570ade21c2 activity=student-project
+  b690013b-f580-4ae5-a57e-81e2505fcafe activity=student-project
+  0fe489d1-600b-41be-a6c1-5890a682b60c activity=student-project
+  0d5b59db-4b4c-4031-8b58-a9bf3e0d1366 activity=student-project
+  92f8ea4f-b720-4d1c-bc54-d7bbb0621733 activity=student-project
+    d3c5061e-4fe0-4d3f-bebc-36d81db207dc variant=rubric
+      computer-science 
+      written-response 
+  89379aed-246c-4707-9f5a-9f9e2ba75a2c activity=student-project
+  5e2f576f-fefe-4bd2-a1aa-156dfa7c0062 activity=written-response
+    5f2d38f5-1439-4c06-80af-7a04d143a5a0 variant=rubric
+      written-response 
+  350e849e-e31b-437f-94f8-b842c63e8b84 
+
+positions (not in order):
+  section=fb5a31e6-ce69-41d7-b7ab-a0acd032c8c7 step=0d5b59db-4b4c-4031-8b58-a9bf3e0d1366
+  section=4c00f887-0915-4433-8497-89b4ce2d7ea0 step=0fe489d1-600b-41be-a6c1-5890a682b60c
+  section=af68ef09-9a5c-4b51-b216-15153e89ae87 step=350e849e-e31b-437f-94f8-b842c63e8b84
+  section=fab256dd-5ed1-4156-a24b-b81503506a2b step=5e2f576f-fefe-4bd2-a1aa-156dfa7c0062
+  section=4c00f887-0915-4433-8497-89b4ce2d7ea0 step=60de29db-50c8-4db7-a452-56570ade21c2
+  section=96615cfc-18c4-4e85-a471-517db6d06bac step=6fb98531-a82a-4c8b-a506-b9400868bf74
+  section=9829aa97-7fe9-4b7a-8d4c-617a5defba58 step=80c72514-5853-491e-bacf-964a3b9cd0fd
+  section=d95d4725-ddde-49cd-9bbc-a742f82a989e step=89379aed-246c-4707-9f5a-9f9e2ba75a2c
+  section=fb5a31e6-ce69-41d7-b7ab-a0acd032c8c7 step=92f8ea4f-b720-4d1c-bc54-d7bbb0621733
+  section=a294b54b-925e-470a-9a67-e27511e21b06 step=9ebc6870-e1c8-45d3-9484-29468c6d8817
+  section=a294b54b-925e-470a-9a67-e27511e21b06 step=9f4fabcf-1cac-4c99-829e-4ca52538c023
+  section=4c00f887-0915-4433-8497-89b4ce2d7ea0 step=b690013b-f580-4ae5-a57e-81e2505fcafe
+  section=96615cfc-18c4-4e85-a471-517db6d06bac step=b94b26c4-2e17-4fdc-b3ce-5ef95327d533
+  section=a294b54b-925e-470a-9a67-e27511e21b06 step=c19bc0e6-b64e-4134-84ab-1b27ca9ebd24
+  section=96615cfc-18c4-4e85-a471-517db6d06bac step=d3290363-f381-4090-b5c8-3535743cfcdb
+
+

@@ -1,0 +1,135 @@
+id: 495314b0-daea-4a3f-bd4b-81c18f33a092
+title: AP Computer Science A
+chips: ['Course A', 'Java']
+
+levels:
+  name=Level One
+    title=Guided Projects required=2 ordered=True
+      04909976-842b-4244-b98d-202f17a5b0b8 weight=1
+      521634af-0375-404d-aafa-ff8b8c426e0c weight=1
+      
+    title=Independent Projects required=2 ordered=False
+      68ed2ffa-02bd-46ce-b371-652248a6020e weight=1
+      4723a8a3-9ed8-40b8-a932-ba7a7a80d84b weight=1
+      
+    title=Assessment required=3 ordered=True
+      1af485f3-b06f-4a6d-ae5f-4ee5590fa8cb weight=1
+      366e9113-d49e-407e-bdf0-b9fdce14c7a9 weight=1
+      2ab050bb-c06f-48e7-b979-09e6c373bf56 weight=1
+      
+    
+  name=Level Two
+    title=Guided Projects required=2 ordered=True
+      e1029215-8bf6-4d4e-a212-9eb293f64a06 weight=1
+      705fb57f-9491-4252-bc42-86c21f078fd8 weight=1
+      
+    title=Independent Projects required=2 ordered=False
+      f9c5b315-20a8-444a-b62c-a149b958f3ce weight=1
+      3c1c69d8-badb-452b-b55c-f1b3a11c1f60 weight=1
+      
+    title=Lab required=1 ordered=True
+      2ed2cbd8-d85b-42cf-9971-f847a7847a22 weight=1
+      d28abb06-a4a2-4094-8bf0-770409b1d236 weight=1
+      fb4f94b7-fde7-4c49-b1b8-38f740c39741 weight=1
+      
+    title=Assessment required=3 ordered=True
+      71964f2f-49a9-4f47-9918-66cb74e44af8 weight=1
+      d020b667-1419-4070-a618-ec470249c3f2 weight=1
+      b60a7a2f-855b-4fbd-b3e9-84a495d2d6c7 weight=1
+      
+    
+  name=Level Three
+    title=Guided Projects required=2 ordered=True
+      b295ac14-4da9-45d6-87fe-d3ee40a4dd76 weight=1
+      2a2ead69-2d63-4946-9b59-65d7847525b0 weight=1
+      
+    title=Independent Projects required=2 ordered=False
+      df564ff0-9b6f-4626-ba32-86cdc3ba56ff weight=1
+      fb44ee01-d8f5-41ca-9d0d-8380d9e440fb weight=1
+      
+    title=Assessment required=3 ordered=True
+      e9c044b2-e10a-47e8-b0ab-6020c5bc4907 weight=1
+      c0332df2-1565-4a63-bd3a-0c77f455d033 weight=1
+      b3cd8810-2aaa-11ec-8d3d-0242ac130003 weight=1
+      
+    
+  name=Level Four
+    title=Guided Projects required=2 ordered=True
+      efff55dd-2881-4376-be14-26e906c5517a weight=1
+      d41f8718-270c-11ec-9621-0242ac130002 weight=1
+      
+    title=Independent Projects required=2 ordered=False
+      589c30e2-2d9d-43fc-a0cc-05fa9cf76768 weight=1
+      1547a5b4-f412-4ccb-94c0-bdac32f7cac0 weight=1
+      
+    title=Lab required=1 ordered=True
+      2d7e0409-7136-4331-9c03-593d171ea2da weight=1
+      
+    title=Assessment required=5 ordered=True
+      18e5a709-3edc-48e9-943d-7cedea87f309 weight=1
+      7d09231c-9f51-4acf-829e-8fdb5fc89363 weight=1
+      9bf53fb5-316b-43b1-9f6c-cdeebaf75c61 weight=1
+      812519de-599a-40bf-b2e5-af74e1b575c9 weight=1
+      4a97160c-2ab1-11ec-8d3d-0242ac130003 weight=1
+      
+    
+  name=Level Five
+    title=Guided Projects required=2 ordered=True
+      d24fcd92-3267-11ec-8d3d-0242ac130003 weight=1
+      0f6baa62-27d1-11ec-9621-0242ac130002 weight=1
+      
+    title=Independent Projects required=2 ordered=False
+      e5ce7f10-3d81-11ec-9bbc-0242ac130002 weight=1
+      0d6edc44-473d-11ec-81d3-0242ac130003 weight=1
+      
+    title=Assessment required=4 ordered=True
+      5cb9e475-9f86-49b8-b6f1-0ece74a01c4f weight=1
+      b27381d9-0e06-4e96-8c95-1206e356e7c0 weight=1
+      e47e74d4-71b8-4b7d-8bc2-accd9d4f5b6a weight=1
+      3ee085a1-8c97-4396-aedb-f8bfd64d6a1b weight=1
+      
+    
+  name=Level Six
+    title=Guided Projects required=2 ordered=True
+      e801725a-3c24-11ec-b41c-3718bd661941 weight=1
+      94c846d2-36b5-11ec-8d3d-0242ac130003 weight=1
+      
+    title=Independent Projects required=2 ordered=False
+      34ed45a7-0f42-4696-86aa-b032a45860f7 weight=1
+      b8b19094-056a-4458-ab49-ffab45b95ff0 weight=1
+      
+    title=Lab required=1 ordered=True
+      1269e10c-c85a-4ad3-9b6b-62c5e4cf9637 weight=1
+      
+    title=Assessment required=4 ordered=True
+      a63ec35b-b8a1-4191-b101-ff2e90601b18 weight=1
+      740bbffa-a3f6-4da2-a300-d082ab5c8408 weight=1
+      f1965a73-7358-4c0a-94a9-c19d359dae8a weight=1
+      ebade467-85b8-4f7e-937c-19fb38ebafb8 weight=1
+      
+    
+  name=Level Seven
+    title=Assessment required=4 ordered=True
+      336a2bc8-7ea6-4177-bbf1-9820d762be54 weight=1
+      46e1ab03-20cb-4283-8d2f-cc0c22ae3eb1 weight=1
+      b4c45fe9-68db-4f71-89e0-622910884913 weight=1
+      3d488c2a-80ad-4dcd-8a3e-29a2c48866fc weight=1
+      
+    
+  name=Level Eight
+    title=Guided Projects required=2 ordered=True
+      e7872262-326a-4584-a8cc-10f9f0e653c5 weight=1
+      9d8993ea-263e-4325-be2b-b38b45315283 weight=1
+      
+    title=Lab required=1 ordered=True
+      e27948f8-a052-46ad-97c1-1bd316be72c5 weight=1
+      78b01652-4d2f-4eb4-8cd5-e9d990c885c0 weight=1
+      
+    title=Assessment required=3 ordered=True
+      33d66456-8782-4c27-abe4-82bee27751ce weight=1
+      9411ed0a-0ee5-4513-ba01-dcfb9578b470 weight=1
+      06bbf969-bb34-4fe3-bce0-ddeaf6131e92 weight=1
+      
+    
+
+

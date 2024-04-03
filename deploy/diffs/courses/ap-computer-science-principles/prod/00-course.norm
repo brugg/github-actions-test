@@ -1,0 +1,170 @@
+id: 60901b52-3e65-49b3-93a9-2391b616f64d
+title: AP Computer Science Principles
+chips: ['Course A', 'CoBlocks']
+
+levels:
+  name=Level One
+    title=VR Tutorial required=1 ordered=False
+      55fbe7e2-8faa-4e99-a95d-6d7355ff7ab0 weight=1
+      
+    title=Guided Project required=1 ordered=True
+      011a0c26-f384-4a65-9bd7-eee6daf02350 weight=1
+      
+    title=Activity #1 required=1 ordered=True
+      8615297b-37e1-47df-bb67-c43124a76cdc weight=1
+      
+    title=Guided Project required=1 ordered=True
+      9f15b121-0191-4762-93db-12cb41e2f6c7 weight=1
+      
+    title=Independent Project required=1 ordered=False
+      043a87c9-1513-4c06-89a6-4bb76b3eb411 weight=1
+      
+    title=Activity #2 required=1 ordered=False
+      ace86fa2-a5dd-468e-a941-6cbd5a565a86 weight=1
+      
+    title=Assessment required=1 ordered=True
+      fb24f71e-b9f1-4e36-b087-0d1d2062802f weight=1
+      
+    
+  name=Level Two
+    title=Guided Projects required=1 ordered=True
+      bf0737b4-28e6-4061-be8d-7adab3983363 weight=1
+      
+    title=Activity #1 required=1 ordered=True
+      4e4c143d-b623-49fe-ba89-2ebcb3a44b5d weight=1
+      
+    title=Guided Projects required=1 ordered=True
+      77d57595-e442-4872-b7f3-fadf6b32acd6 weight=1
+      
+    title=Independent Project required=1 ordered=False
+      8806ab1d-38da-4638-be52-2ec9697f38db weight=1
+      
+    title=Activity #2 required=1 ordered=True
+      f3721667-ecc9-48d8-8ce9-d340d66c3552 weight=1
+      
+    title=Assessment required=1 ordered=True
+      a5f05d24-1d00-45bb-b642-df6521645b3b weight=1
+      
+    
+  name=Level Three
+    title=Guided Projects required=2 ordered=True
+      0bd86761-ca7c-4b8a-b096-cee0ebf6d6c9 weight=1
+      58b2df06-0e48-4844-958f-f85c197c47c7 weight=1
+      
+    title=Activity #1 required=1 ordered=True
+      7cdb9df9-bf81-4dee-a930-967e75397c6f weight=1
+      
+    title=Independent Project required=1 ordered=False
+      4bba3b5f-d1a8-486f-be58-adcc3bb9c04c weight=1
+      
+    title=Activity #2 required=1 ordered=True
+      70a8539e-d1b3-4537-b92c-4f6c0df2aec7 weight=1
+      
+    title=Assessment required=1 ordered=True
+      2e277dd3-9667-416c-84ae-a0080de337e2 weight=1
+      
+    
+  name=Level Four
+    title=Immersive Experience required=1 ordered=True
+      fc5ede36-8c35-413e-b4dc-36a0caca0bfc weight=1
+      
+    title=Guided Projects required=2 ordered=True
+      47d2d375-9edb-4214-9bce-f82751ea235d weight=1
+      22265acd-9831-4c0c-9d7c-c31e5633d602 weight=1
+      
+    title=Activity #1 required=1 ordered=True
+      15b4d87a-4630-4845-b296-173d7afd8d9d weight=1
+      
+    title=Independent Project required=1 ordered=False
+      753a291d-d438-46d8-a396-5953f9d27de7 weight=1
+      
+    title=Activity #2 required=1 ordered=True
+      9c497cb0-bda2-4eb6-9cea-bb19309243bc weight=1
+      
+    title=Assessment required=1 ordered=True
+      5a2ba9af-3805-4c49-841f-278fa7adb8cc weight=1
+      
+    
+  name=Level Five
+    title=Activity #1 required=1 ordered=True
+      75ae6c06-cfcc-4793-94c5-d7461678351c weight=1
+      
+    title=Activity #2 required=1 ordered=True
+      3316cf50-7348-45dd-a170-b549c2c2795c weight=1
+      
+    title=Activity #3 required=1 ordered=True
+      798a4ec0-3ee3-4f1a-b50f-f050fc067502 weight=1
+      
+    title=Activity #4 required=1 ordered=True
+      9f1fd48b-098a-46e4-bbe0-ca73e679484c weight=1
+      
+    title=Activity #5 required=1 ordered=True
+      562a3300-8131-4b5f-94eb-ccf255becfb0 weight=1
+      
+    
+  name=Level Six
+    title=Exam required=1 ordered=True
+      07d6cbed-b175-46f5-b0fe-83f16c59cc1f weight=1
+      
+    
+  name=Level Seven
+    title=Activity required=1 ordered=True
+      cbe392f6-1539-4151-aa7b-172ec0ce4601 weight=1
+      
+    title=Immersive Experience required=1 ordered=True
+      672c1ca9-0f94-4bb8-9913-717c2e4edcf9 weight=1
+      
+    title=Assessment required=1 ordered=True
+      04f0d3cf-4e5e-4a30-a17e-ef8effab72dc weight=1
+      
+    title=Activity required=1 ordered=True
+      a9a04cba-c5f3-44d3-bce8-51a6fcb2ea16 weight=1
+      
+    title=Immersive Experience required=1 ordered=True
+      29cb712c-9cee-4e15-8a31-b68df965886f weight=1
+      
+    title=Assessment required=1 ordered=True
+      6a8475b0-50d0-4d22-8ec5-b51c4142cc16 weight=1
+      
+    
+  name=Level Eight
+    title=Guided Projects required=1 ordered=True
+      6467d8f0-753d-4603-86f9-07de6d914785 weight=1
+      
+    title=Independent Projects required=1 ordered=False
+      2a4a5a34-638e-49a7-95fb-36f8317ca8d0 weight=1
+      
+    title=Case Study required=1 ordered=True
+      ea7bced9-3be5-468e-9318-8fee69ba43ea weight=1
+      
+    
+  name=Level Nine
+    title=Case Study required=1 ordered=True
+      51060c0a-b8c3-4d93-9eb8-1cb0e7d865c3 weight=1
+      
+    
+  name=Level Ten
+    title=Immersive Experience required=1 ordered=True
+      2d71f3e5-94cb-4978-bc42-6ed8cf7dd9b5 weight=1
+      
+    title=Immersive Experience required=1 ordered=True
+      cd7f904a-de5a-4593-b114-7b7a8b100fa2 weight=1
+      
+    title=Immersive Experience required=1 ordered=True
+      d7184bd7-55c9-4a24-9e15-88f5c6df6726 weight=1
+      
+    title=Assessment required=1 ordered=True
+      efcd1e76-17ec-420e-9cb9-91b090ca99cf weight=1
+      
+    title=Guided Project required=1 ordered=True
+      db3afc3b-923a-4bfb-b207-5c427e2a08ba weight=1
+      
+    title=Independent Project required=1 ordered=True
+      57f7ddfe-b6cd-481c-889b-9cda2035dd40 weight=1
+      
+    title=Assessment required=1 ordered=True
+      6da637db-8945-4083-9504-4c038b4f104c weight=1
+      
+    
+
+

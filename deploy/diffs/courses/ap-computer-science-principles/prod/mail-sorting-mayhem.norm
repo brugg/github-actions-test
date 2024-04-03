@@ -1,0 +1,87 @@
+id: fc5ede36-8c35-413e-b4dc-36a0caca0bfc
+title: Mail Sorting Mayhem
+
+activities:
+  checkpoint-set id=0d3d1665-dd96-43da-b942-614f805a1986 tool=checkpoint-set
+    06256a1c-b1d7-4863-833e-c1503b9e0bd6 variant=multiple_choice
+      3c4e6e91-8870-4980-8ea7-1aba1775d2be correct=False
+      5f63a58e-e278-49f6-af8f-5cda77388c37 correct=True
+      a710c62a-e8f4-454c-8b2e-7d842b93e211 correct=False
+      dfe889d0-e66e-4b6e-90d4-773a4eded272 correct=False
+    186e77c7-de74-40aa-b703-34ad073e5e32 variant=multiple_choice
+      436d35b9-6719-4fb4-bc69-ee8142d3b511 correct=False
+      a3219278-5aa6-4cb4-a6a6-f6ae7ac1bd2b correct=True
+      cd72f349-9b79-4474-a93f-3a31542b0342 correct=False
+      f11acd50-b751-405e-b417-400c92dc0016 correct=False
+    5be14c62-4b3f-462f-aa62-0ad86ada6d32 variant=multiple_choice
+      5c05f678-99ea-45d2-a668-66bf0c44cd9b correct=False
+      63aa9142-90c2-4ba1-a253-d4f15699ddbc correct=False
+      b4ccb34f-ffff-403d-b3e9-64d6853f02f5 correct=True
+      d5358172-56a8-4bd8-bb76-e8aa36c338df correct=False
+    8375918d-5c72-44bc-a18d-94923c201d71 variant=multiple_choice
+      132178c9-656c-45cf-b974-c31e1d22f47c correct=False
+      4d0c74dd-52c2-46da-9a8e-0ab54b6256d7 correct=True
+      8e3ae1d1-f1e5-4209-976e-f8b03d6663d7 correct=False
+      c84fc3ac-9554-4a50-9ee8-15776c29991b correct=False
+    84aa9597-eab5-455a-8f75-1e7932ba079d variant=multiple_choice
+      1d49cd93-dd43-46f5-a58a-6e33e2b98333 correct=False
+      dd7a2ecc-1e16-496f-bcbb-1a29904a7367 correct=False
+      ec633e30-19ff-44a4-93af-366eaa8090a0 correct=True
+      f7d36146-29ab-4034-9ba6-6de9356f5555 correct=False
+    b3442c99-8634-4123-8f81-91940bf576ef variant=multiple_choice
+      041d7687-7829-4275-9cd3-6394056b13dd correct=False
+      114aa0d1-3451-48d4-9003-aa230bd5bf41 correct=False
+      24b1aa89-5e18-43a6-8481-ff5e1b05d04b correct=False
+      a1616413-353e-496e-8cb4-9f38c0e210fe correct=True
+    bce4ed70-3831-450a-bc0c-3a33481559ec variant=multiple_choice
+      7cc6749b-dff6-4f7a-8cde-5804b11087d2 correct=False
+      a023a465-0e7b-4458-8453-f486c81e2f40 correct=False
+      d444f625-63e9-4d74-b862-bb873ac8120f correct=False
+      fdcb5c34-0486-417b-8884-c515f10f4e3d correct=True
+    bd8c574b-f6be-44c1-9c51-0b12f4eddc2f variant=multiple_choice
+      90d96118-4c0c-47e7-92f1-96fa7789bfcb correct=False
+      9b1a8516-bb77-4127-8a76-3e2a930d9712 correct=False
+      af726647-0bd9-4ce3-991d-58b296abe244 correct=False
+      fcfaf5c7-89e3-4e7d-be63-c858231986d7 correct=True
+    ddc054c4-611e-4b40-8e23-84169bfdb88f variant=multiple_choice
+      2693e0d2-db4b-4f63-8457-1fa95484fc5c correct=True
+      2f2764ce-705a-473c-b77e-b060883197da correct=False
+      3dcdec25-53fb-463e-ac11-ce1055b525cd correct=False
+      fc18ad7c-2c07-4151-824a-608987ccbb15 correct=False
+    fa0888f2-d615-4712-8410-7903bee18922 variant=multiple_choice
+      8b4e9313-9500-4c82-8cb6-ac9886a5887b correct=True
+      9aaaca27-53a8-475c-94c5-2e1a16a78f5c correct=False
+      d0621142-bef5-4854-a1f2-1a888b2e13ba correct=False
+      da016625-1b38-4bff-ba1a-4bd2ce4aff01 correct=False
+  student-project tool=cospaces url=https://edu.cospaces.io/JGL-EQT action=render
+
+steps:
+  40ce75e8-c677-4d4c-92cb-be9d0f37e04e 
+  b2997bcb-278e-432b-a645-f443d59950bc 
+  3ceb8665-b066-4ea0-95d1-9426cbe0cd45 
+  fec4f69d-4fa6-4df3-a180-f986ab5ce498 activity=student-project
+  d69cc58a-c651-4ca9-86e3-01865fe2b676 
+  3227bfb6-6f37-4d90-bdcf-3a52888e2e30 activity=checkpoint-set
+
+positions (not in order):
+  section=67a0d019-28af-4646-a940-445df4906f8d step=3227bfb6-6f37-4d90-bdcf-3a52888e2e30
+  section=36422c9d-2711-483a-baaa-74e4a8248811 step=3ceb8665-b066-4ea0-95d1-9426cbe0cd45
+  section=36422c9d-2711-483a-baaa-74e4a8248811 step=40ce75e8-c677-4d4c-92cb-be9d0f37e04e
+  section=36422c9d-2711-483a-baaa-74e4a8248811 step=b2997bcb-278e-432b-a645-f443d59950bc
+  section=67a0d019-28af-4646-a940-445df4906f8d step=d69cc58a-c651-4ca9-86e3-01865fe2b676
+  section=76a1fd48-fdb5-4626-8e35-1d9c3a7d1c69 step=fec4f69d-4fa6-4df3-a180-f986ab5ce498
+
+criteria:
+  Multiple Choice Questions
+    84aa9597-eab5-455a-8f75-1e7932ba079d type=checkpoint weight=10
+    ddc054c4-611e-4b40-8e23-84169bfdb88f type=checkpoint weight=10
+    186e77c7-de74-40aa-b703-34ad073e5e32 type=checkpoint weight=10
+    bd8c574b-f6be-44c1-9c51-0b12f4eddc2f type=checkpoint weight=10
+    5be14c62-4b3f-462f-aa62-0ad86ada6d32 type=checkpoint weight=10
+    06256a1c-b1d7-4863-833e-c1503b9e0bd6 type=checkpoint weight=10
+    fa0888f2-d615-4712-8410-7903bee18922 type=checkpoint weight=10
+    b3442c99-8634-4123-8f81-91940bf576ef type=checkpoint weight=10
+    8375918d-5c72-44bc-a18d-94923c201d71 type=checkpoint weight=10
+    bce4ed70-3831-450a-bc0c-3a33481559ec type=checkpoint weight=10
+
+

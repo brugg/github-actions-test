@@ -1,0 +1,72 @@
+id: 2a4a5a34-638e-49a7-95fb-36f8317ca8d0
+title: Going for Gold
+
+rubric:
+  computer-science
+    166a09ac-38b1-40b0-97f2-7fd371e2621f
+    36d5e0a4-dcdb-4f69-bca9-c6352c9c951e
+    607f4781-e2a9-42d5-869e-f1634c710e64
+    6171307c-c0bd-45a1-a980-c6500967a4c5
+    75355f96-3713-4d66-8f2a-11375c334728
+    8651afa8-5dba-48cb-9103-ff80658925e4
+    c99475d8-074d-486a-92e0-f0de54f3b7f9
+    cc700e65-8ea7-442a-a6f0-6ff580b60c37
+    f20ca1f7-447d-4420-bd10-93faffe6efd8
+    fa033ced-dd74-4cd9-a836-4649e6c16ca1
+    faa26775-1123-4091-a51e-bca9b612fe27
+    fb296453-461b-4cee-be61-7b3f1692f2f0
+  creativity
+    17810311-bc64-4ec7-8e45-efceabecfb98
+  interdisciplinary-learning
+    5dcde8bc-447a-421b-8fe4-ada9e45f28b9
+
+activities:
+  student-project id=going-for-gold tool=pickcode action=edit
+
+steps:
+  63d3bb3c-30bc-4d21-aaed-24492ca4d06d 
+  7cdaafbe-baaa-4093-84fe-da01e9f6aade 
+  39acba3d-693e-42e9-9493-6e39ac094683 
+  88816d27-3bf6-4d54-8240-e738f2cb5122 activity=student-project
+    7baa0220-1722-406a-828e-bbfff6bafae9 variant=short_answer
+  aa693527-1f3a-4e74-bd69-5dad3e524397 activity=student-project
+    f060aa35-b54b-4b02-ad27-497a6f69203c variant=short_answer
+  669e0b5b-b8a0-4577-868e-cfc49c96c779 activity=student-project
+    0ffde2e0-4177-419f-8b57-4adc6749f1a8 variant=short_answer
+  5df3add3-0cb0-44fa-9a82-8a8786c88c59 activity=student-project
+    cfbd32fe-ceb0-46d8-ba4c-013968fbffff variant=short_answer
+  5d646586-1c50-42a9-90bc-c4901bdd6bd9 activity=student-project
+    cd65d53d-bcb6-4aab-80b9-ed5b1bb86353 variant=short_answer
+  5aa3ac4b-eb91-450d-8a22-92d0789939a9 activity=student-project
+    c16c46f9-e20c-44dc-b367-0a0640592f9f variant=short_answer
+  c5ade763-d416-438b-9f21-95e55f7e736c activity=student-project
+  124c34ee-93b8-465f-8eb5-b96d4ddc09a5 activity=student-project
+    226f8294-fdf8-4d65-bf75-25dcd3348eb5 variant=rubric
+      computer-science 
+      creativity 
+      interdisciplinary-learning 
+  1472ebc7-f9cf-46ab-85a2-6398015c06f3 activity=student-project
+
+positions (not in order):
+  section=11ac6dce-9bce-4f68-b4fe-8a1b308923a5 step=124c34ee-93b8-465f-8eb5-b96d4ddc09a5
+  section=d05c3c2f-2d87-4962-a4cc-d5614ac55141 step=1472ebc7-f9cf-46ab-85a2-6398015c06f3
+  section=67a854d0-77e9-4316-a1e7-0e268b745877 step=39acba3d-693e-42e9-9493-6e39ac094683
+  section=3f6f9d2c-f5e9-4796-a811-c5207905fe37 step=5aa3ac4b-eb91-450d-8a22-92d0789939a9
+  section=3f6f9d2c-f5e9-4796-a811-c5207905fe37 step=5d646586-1c50-42a9-90bc-c4901bdd6bd9
+  section=3f6f9d2c-f5e9-4796-a811-c5207905fe37 step=5df3add3-0cb0-44fa-9a82-8a8786c88c59
+  section=67a854d0-77e9-4316-a1e7-0e268b745877 step=63d3bb3c-30bc-4d21-aaed-24492ca4d06d
+  section=3f6f9d2c-f5e9-4796-a811-c5207905fe37 step=669e0b5b-b8a0-4577-868e-cfc49c96c779
+  section=67a854d0-77e9-4316-a1e7-0e268b745877 step=7cdaafbe-baaa-4093-84fe-da01e9f6aade
+  section=3f6f9d2c-f5e9-4796-a811-c5207905fe37 step=88816d27-3bf6-4d54-8240-e738f2cb5122
+  section=3f6f9d2c-f5e9-4796-a811-c5207905fe37 step=aa693527-1f3a-4e74-bd69-5dad3e524397
+  section=11ac6dce-9bce-4f68-b4fe-8a1b308923a5 step=c5ade763-d416-438b-9f21-95e55f7e736c
+
+criteria:
+  Computer Science
+    226f8294-fdf8-4d65-bf75-25dcd3348eb5 type=checkpoint variant=rubric weight=80
+  Interdisciplinary Learning
+    226f8294-fdf8-4d65-bf75-25dcd3348eb5 type=checkpoint variant=rubric weight=10
+  Creativity
+    226f8294-fdf8-4d65-bf75-25dcd3348eb5 type=checkpoint variant=rubric weight=10
+
+

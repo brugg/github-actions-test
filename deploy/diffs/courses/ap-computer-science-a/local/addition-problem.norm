@@ -1,0 +1,41 @@
+id: c0332df2-1565-4a63-bd3a-0c77f455d033
+title: FRQ: Addition Problem
+
+rubric:
+  computer-science
+    45a25174-c4d3-4434-8115-0ab57019ede7
+    48bf4538-32ce-449e-8105-ddabe6ee7fe1
+    5b4784f8-bf6c-4c93-af67-11d1173fec1b
+    8bd6a919-3f3a-425b-9591-8cbc978ce4b7
+    b532f847-0131-4a5b-b018-4e93fe9ba1d3
+    dd194df8-9c17-4950-b0ea-c93ff1dde004
+    e051913f-c470-4841-b2a5-24fd66d5dfe5
+    ed6d53d5-84c2-46e1-b664-492d1f907515
+    f26cbafe-17d0-438b-8e07-b9d8e5fe2d69
+
+activities:
+  written-response-1 id=a04048f4-c537-4300-bb9a-8c6ac4207c1b tool=code-response id=a04048f4-c537-4300-bb9a-8c6ac4207c1b
+
+steps:
+  95ce24b9-7fc4-4b17-91cd-b9c93f326600 
+  af67b5d0-f7eb-4f80-97b5-dff2edbf1b36 activity=written-response-1
+  95709bde-edda-42d6-a656-885ab1db4ae1 activity=written-response-1
+
+positions (not in order):
+  section=46742955-e4ec-4264-bc6a-be8a4cc25c24 step=95709bde-edda-42d6-a656-885ab1db4ae1
+  section=8a5516b7-6f13-489d-86fe-6580defa42a3 step=95ce24b9-7fc4-4b17-91cd-b9c93f326600
+  section=8abe8a78-65f0-423f-a75d-3844ceb238a4 step=af67b5d0-f7eb-4f80-97b5-dff2edbf1b36
+
+criteria:
+  FRQ Rubric
+    1d988a89-d5dd-4367-85d2-8c9720837e42 type=question weight=12
+    d7805996-af1f-4f67-b956-5e29104c9213 type=question weight=11
+    3360a18f-297b-4f2a-bf5f-4bfdeb368cd6 type=question weight=11
+    064039d6-8efb-4d4e-939b-9107288ad3db type=question weight=11
+    f146bbed-2172-42a7-b6fd-9bca3e7a804d type=question weight=11
+    43712d93-266e-424a-beb0-62c64ebe6f83 type=question weight=11
+    777cb553-fdaa-472f-973e-5cbdd00a79d9 type=question weight=11
+    a9445fd1-a19d-48d8-9d05-5795d0939baf type=question weight=11
+    5b978b7c-7b38-4e27-8d00-b1fcd98796fa type=question weight=11
+
+

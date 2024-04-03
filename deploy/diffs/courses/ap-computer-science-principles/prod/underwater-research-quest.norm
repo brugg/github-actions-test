@@ -1,0 +1,57 @@
+id: 753a291d-d438-46d8-a396-5953f9d27de7
+title: Underwater Research Quest
+
+rubric:
+  computer-science
+    30893e3d-7e78-4534-9021-dfcf63cd6a34
+    46ff8439-19fe-4b54-976d-200b3f6eb321
+    ad781934-85f7-489b-8ee0-4e17b51caf72
+    d9cc7ee9-3a20-4f8d-a2bf-57018f01e37d
+    edeb3903-9ae0-4c3f-9519-e302fa722b86
+  create-task-writing
+    2803cd42-3bc1-4823-a28b-82db32dcd0e4
+  creativity
+    0b8732fc-60a9-445d-9a3f-7ac65820ce29
+    33bbd8d9-b012-4c43-9ddd-521ea7624b39
+  interdisciplinary-learning
+    fdfd1e13-7c9f-4426-86e7-4b27c0f43d95
+
+activities:
+  cospace-edit id=student-project tool=cospaces action=edit
+
+steps:
+  2cb62daf-cdcb-4710-a7fd-de236a284ca7 
+  f0daab88-8c61-4d3b-9c5d-399f8c712ca4 
+  3f71ae7f-f5c2-46b6-8c68-3c6b69dc3c90 
+  d15b653d-3628-46bd-b51e-7c2e38e9e028 
+    65858845-6f99-4815-ab77-64dd62af06d7 variant=short_answer
+  a796c5bf-be85-449d-8c0b-25917227b13a 
+    5c749026-3e14-41e2-a9eb-3dfdbc3a6888 variant=short_answer
+  cac77ad8-f69a-4b55-85ba-93d77f1bdf3d 
+    320cb6c0-6a92-48f3-9d62-728eb7d69ce5 variant=short_answer
+  31f8e712-7d93-40f4-91ec-1212e644d2e2 activity=cospace-edit
+  2a1c7a24-3f0f-45f9-8726-f6842c8a0232 activity=cospace-edit
+    be4dde2a-7972-45c8-b328-f35af0b444e3 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+
+positions (not in order):
+  section=d75a5a21-868f-4462-8b19-c2dc3c5a46c4 step=2a1c7a24-3f0f-45f9-8726-f6842c8a0232
+  section=e829a78d-2640-49c8-8706-4449d8e55257 step=2cb62daf-cdcb-4710-a7fd-de236a284ca7
+  section=d75a5a21-868f-4462-8b19-c2dc3c5a46c4 step=31f8e712-7d93-40f4-91ec-1212e644d2e2
+  section=e829a78d-2640-49c8-8706-4449d8e55257 step=3f71ae7f-f5c2-46b6-8c68-3c6b69dc3c90
+  section=93c43369-c815-4c4a-9abc-0fe3464b11f8 step=a796c5bf-be85-449d-8c0b-25917227b13a
+  section=93c43369-c815-4c4a-9abc-0fe3464b11f8 step=cac77ad8-f69a-4b55-85ba-93d77f1bdf3d
+  section=93c43369-c815-4c4a-9abc-0fe3464b11f8 step=d15b653d-3628-46bd-b51e-7c2e38e9e028
+  section=e829a78d-2640-49c8-8706-4449d8e55257 step=f0daab88-8c61-4d3b-9c5d-399f8c712ca4
+
+criteria:
+  Computer Science
+    be4dde2a-7972-45c8-b328-f35af0b444e3 type=checkpoint variant=rubric weight=80
+  Interdisciplinary Learning
+    be4dde2a-7972-45c8-b328-f35af0b444e3 type=checkpoint variant=rubric weight=10
+  Creativity
+    be4dde2a-7972-45c8-b328-f35af0b444e3 type=checkpoint variant=rubric weight=10
+
+

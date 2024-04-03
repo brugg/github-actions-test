@@ -1,0 +1,62 @@
+id: 1547a5b4-f412-4ccb-94c0-bdac32f7cac0
+title: Typing Test
+
+rubric:
+  computer-science
+    0651e982-8166-497e-af7a-f6a9482a57c5
+    0682928c-322a-4db6-b732-f40e4c831d71
+    3d2d76ac-4681-438d-bfd1-8ad18f8ad8e0
+    5f995045-90dd-4ecd-b90f-85e12b108277
+    6bcabb83-8d24-49ba-8ff9-e63d865bd25d
+    99ff04a8-e94a-4b18-aaaf-75cf7275919c
+    9da4d331-8bbe-4fd3-b7a6-e6c62c4256b0
+    b477e1f4-f17d-47f4-943f-349e72f172d4
+    b76a99a0-59a8-4670-85a5-21d2c471cc98
+    ffa5178d-6065-47cc-b56f-de73fe5a2f22
+  creativity
+    66062310-34e9-4c84-8fc2-3afef818e589
+    9742d9f5-5f2f-4895-ae06-b734967125a5
+    9f577f40-d01d-4ae2-90a7-1719ac649d1d
+    fe3e9b83-fb3d-46e3-8e77-4852c3e85226
+  interdisciplinary-learning
+    4a5bd068-0bb1-4652-87cc-2c428eb2acf8
+
+activities:
+  student-project id=typing-test tool=pickcode action=edit
+
+steps:
+  9601664c-9641-424b-9e6b-c99dbb94ec5e 
+  02d0f22b-b10e-4712-ac0c-75714b7d4cd8 
+  e65016eb-1824-4b53-bb3e-70775ad9b640 
+    18617597-f5ca-46dc-92d5-6c163b0c4bbd variant=short_answer
+  d85785e3-9aff-4589-9911-9cdc997ddd66 
+    2eb6be5f-3ff5-4107-8425-b632d30ea7ed variant=short_answer
+  08685595-5eea-45bb-817b-bab3d608a6a4 
+    bfd1126b-49bf-40ec-babf-819eea0aa414 variant=short_answer
+  1cf485fa-f763-49dd-bb6f-0937abe62e1d activity=student-project
+  8f430896-dcb6-46c7-b87d-40e9fefcc6b2 activity=student-project
+    de60b99f-3dc9-430c-a91b-67e7f0f1c1f9 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  c8b142c0-41c6-408f-88c6-9fb87381feff activity=student-project
+
+positions (not in order):
+  section=5fd1e935-a581-4843-b895-50c3ccaee840 step=02d0f22b-b10e-4712-ac0c-75714b7d4cd8
+  section=70747875-0abd-4ba2-9687-33f6d2a44a05 step=08685595-5eea-45bb-817b-bab3d608a6a4
+  section=63b5be87-a322-4814-ac37-6b7dc53d359f step=1cf485fa-f763-49dd-bb6f-0937abe62e1d
+  section=63b5be87-a322-4814-ac37-6b7dc53d359f step=8f430896-dcb6-46c7-b87d-40e9fefcc6b2
+  section=5fd1e935-a581-4843-b895-50c3ccaee840 step=9601664c-9641-424b-9e6b-c99dbb94ec5e
+  section=2d34d25c-fac6-4898-9c01-c6b3da21902c step=c8b142c0-41c6-408f-88c6-9fb87381feff
+  section=70747875-0abd-4ba2-9687-33f6d2a44a05 step=d85785e3-9aff-4589-9911-9cdc997ddd66
+  section=70747875-0abd-4ba2-9687-33f6d2a44a05 step=e65016eb-1824-4b53-bb3e-70775ad9b640
+
+criteria:
+  Computer Science
+    de60b99f-3dc9-430c-a91b-67e7f0f1c1f9 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    de60b99f-3dc9-430c-a91b-67e7f0f1c1f9 type=checkpoint variant=rubric weight=5
+  Creativity
+    de60b99f-3dc9-430c-a91b-67e7f0f1c1f9 type=checkpoint variant=rubric weight=5
+
+

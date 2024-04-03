@@ -1,0 +1,33 @@
+id: 740bbffa-a3f6-4da2-a300-d082ab5c8408
+title: FRQ: Shades of Gray Part A
+
+rubric:
+  computer-science
+    5b95e412-7ec1-4208-bfc2-2e01283aeb9d
+    6f81a6b5-80d1-4491-b0d7-a6f1103c538c
+    b4586a98-98af-4c43-8d6e-cc2bb6420816
+    e4cc485d-ce14-410d-9054-7e6ee382b01b
+
+activities:
+  written-response-1 id=841ea6c0-738b-49b0-8d5c-882abb3dbb53 tool=code-response id=841ea6c0-738b-49b0-8d5c-882abb3dbb53
+
+steps:
+  b395a33a-a12e-4a29-9a94-f7c58ce8f4d4 
+  5a0f512b-cff0-4bcd-b290-503311072f43 activity=written-response-1
+  5534b245-0bf6-4a51-a805-12a545bd4e6b activity=written-response-1
+  e27bef40-d56f-4ce0-aeea-7e6e2b3d7441 activity=written-response-1
+
+positions (not in order):
+  section=df2d96c6-c857-4dfd-834b-bd55ca3be49f step=5534b245-0bf6-4a51-a805-12a545bd4e6b
+  section=df2d96c6-c857-4dfd-834b-bd55ca3be49f step=5a0f512b-cff0-4bcd-b290-503311072f43
+  section=c4d9fc1d-d46f-4a7e-9967-4ba0c0cba7f6 step=b395a33a-a12e-4a29-9a94-f7c58ce8f4d4
+  section=2ee02e84-349d-4d37-a4b5-5e6fc9b03460 step=e27bef40-d56f-4ce0-aeea-7e6e2b3d7441
+
+criteria:
+  FRQ Rubric
+    dc5db452-effa-4f81-b96d-590eb5ebd3a8 type=question weight=25
+    b999a2aa-918e-49cc-9630-9ba5e665c643 type=question weight=25
+    ff1694de-42e2-4fea-bcc7-b59e699ecf38 type=question weight=25
+    7c4a476c-03b8-4a9a-aa9e-9db0b503c883 type=question weight=25
+
+

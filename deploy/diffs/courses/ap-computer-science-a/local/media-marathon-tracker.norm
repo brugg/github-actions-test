@@ -1,0 +1,56 @@
+id: fb44ee01-d8f5-41ca-9d0d-8380d9e440fb
+title: Media Marathon Tracker
+
+rubric:
+  computer-science
+    18823288-52bc-4d3f-af27-57b3a0c16686
+    66c514fe-216e-435c-9841-451e371e6dd5
+    92ee40f0-bdfa-4b8f-9da6-8c71e1eeace9
+    b0d17342-ed03-461a-a39d-2df0bb72c2bb
+  creativity
+    22d1cbd8-95a1-41d6-9d10-34750cf803eb
+    55b08a7e-fff7-435e-be9f-db4338c9e2b8
+    a5101888-5e57-4134-b3e4-ae0a1c0d6574
+    d1d00ece-27f9-41bb-867a-101040272258
+  interdisciplinary-learning
+    4209000f-f287-4e09-b964-eadb04406798
+
+activities:
+  student-project id=media-marathon-tracker tool=pickcode action=edit
+
+steps:
+  2cedda06-9740-4b17-ad2c-02be0fd7d2a6 
+  ae7c49ce-d5e1-437f-a1d3-f6c5be2bad39 
+  6bfb628d-6f85-4d4b-b3a4-445ef50287cb 
+    3bfd26c3-e1c1-44e0-b62d-100e23f0601e variant=short_answer
+  975d8f11-9603-41ea-a694-221ab72acd34 
+    29d12b04-ee71-4dd6-aa24-f0c7dbe22145 variant=short_answer
+  cb57ef8f-6d1f-4dbf-b5ab-5eb062766672 
+    c12b74a8-a1a0-4285-be5e-0a941f0bc779 variant=short_answer
+  02ee558f-e408-4a2f-bfcb-17333a7fe588 activity=student-project
+  48133eb8-2a1a-49e9-9f45-b07aa897ce9f activity=student-project
+    fb8f5dbb-fd34-47db-802d-9a65cd58bbbe variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  873f986e-ef18-4af3-ba88-27095630e258 activity=student-project
+
+positions (not in order):
+  section=a6c42765-5e9f-4e5f-ac34-d48cdbbdf9db step=02ee558f-e408-4a2f-bfcb-17333a7fe588
+  section=3f918302-27d9-4740-90e1-df6e4700193f step=2cedda06-9740-4b17-ad2c-02be0fd7d2a6
+  section=a6c42765-5e9f-4e5f-ac34-d48cdbbdf9db step=48133eb8-2a1a-49e9-9f45-b07aa897ce9f
+  section=9dcbff51-4949-4b63-bbd0-cd4259a4df3b step=6bfb628d-6f85-4d4b-b3a4-445ef50287cb
+  section=4ecfb6b7-9e56-4634-a443-0c1baf34da2f step=873f986e-ef18-4af3-ba88-27095630e258
+  section=9dcbff51-4949-4b63-bbd0-cd4259a4df3b step=975d8f11-9603-41ea-a694-221ab72acd34
+  section=3f918302-27d9-4740-90e1-df6e4700193f step=ae7c49ce-d5e1-437f-a1d3-f6c5be2bad39
+  section=9dcbff51-4949-4b63-bbd0-cd4259a4df3b step=cb57ef8f-6d1f-4dbf-b5ab-5eb062766672
+
+criteria:
+  Computer Science
+    fb8f5dbb-fd34-47db-802d-9a65cd58bbbe type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    fb8f5dbb-fd34-47db-802d-9a65cd58bbbe type=checkpoint variant=rubric weight=5
+  Creativity
+    fb8f5dbb-fd34-47db-802d-9a65cd58bbbe type=checkpoint variant=rubric weight=5
+
+

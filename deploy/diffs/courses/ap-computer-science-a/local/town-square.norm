@@ -1,0 +1,58 @@
+id: b8b19094-056a-4458-ab49-ffab45b95ff0
+title: Town Square
+
+rubric:
+  computer-science
+    09dd5d68-3be7-4d76-b8bc-fde1f0f42644
+    0b1da34a-0761-44d7-a595-4bb3997af673
+    10c7b12a-437f-47e6-9015-56c926682e23
+    11fad587-6a49-46b9-ab10-52343089f611
+    6f357aa7-308c-45a7-8506-02f1fb6e3ce3
+    8fd3a2cb-9558-4705-9deb-716e1c4eb6d4
+  creativity
+    22d194ed-117c-4547-a94a-156b217df39d
+    64a33764-a047-4662-92f1-5bb5c35de02d
+    8fe2d916-b93d-46ea-942b-4666099e0eb8
+    bf29fa1a-64e0-4df0-937f-f21fa7cb5e17
+  interdisciplinary-learning
+    55d0dc62-0d59-47a9-ac1d-36613025312d
+
+activities:
+  student-project id=town-square tool=pickcode action=edit
+
+steps:
+  a4359039-b66e-47b4-b4fc-34cc9150b8ed 
+  44f30549-649b-4a1d-8d56-b0ed4f49edce 
+  2661b51f-54d1-4f1e-8061-c4d512afd515 
+    c95acd32-e832-4d41-8239-05de85daeade variant=short_answer
+  b81a9e6b-9753-4d72-9cc4-6533313eb07a 
+    9c8952b7-3673-47a2-8d4a-daed7724d76e variant=short_answer
+  1ac04cae-c5e2-4f72-b2c9-940171f2d583 
+    cf9e36e3-ab7c-4a76-8db1-a7811b078ed5 variant=short_answer
+  b4504540-0a92-4f0d-a22e-1d0ccb45e09e activity=student-project
+  a1c31e32-6fe8-4f8f-87c7-0abb8ee13851 activity=student-project
+    660911a3-b44e-405d-bef6-a0ee32058630 variant=rubric
+      computer-science 
+      creativity required=1
+      interdisciplinary-learning 
+  16ace7c2-c659-44d2-93b2-486d83d7ad85 activity=student-project
+
+positions (not in order):
+  section=ca63c3e0-b5d6-4d38-a5d9-cddd40196002 step=16ace7c2-c659-44d2-93b2-486d83d7ad85
+  section=11e43340-8f5c-4f87-a6e5-f24b9d929887 step=1ac04cae-c5e2-4f72-b2c9-940171f2d583
+  section=11e43340-8f5c-4f87-a6e5-f24b9d929887 step=2661b51f-54d1-4f1e-8061-c4d512afd515
+  section=3594cff9-21c5-4dfe-8106-cbc5c6ffa0b4 step=44f30549-649b-4a1d-8d56-b0ed4f49edce
+  section=a8895c2e-ba3e-46b3-bcde-ccdfd1c91da7 step=a1c31e32-6fe8-4f8f-87c7-0abb8ee13851
+  section=3594cff9-21c5-4dfe-8106-cbc5c6ffa0b4 step=a4359039-b66e-47b4-b4fc-34cc9150b8ed
+  section=a8895c2e-ba3e-46b3-bcde-ccdfd1c91da7 step=b4504540-0a92-4f0d-a22e-1d0ccb45e09e
+  section=11e43340-8f5c-4f87-a6e5-f24b9d929887 step=b81a9e6b-9753-4d72-9cc4-6533313eb07a
+
+criteria:
+  Computer Science
+    660911a3-b44e-405d-bef6-a0ee32058630 type=checkpoint variant=rubric weight=90
+  Interdisciplinary Learning
+    660911a3-b44e-405d-bef6-a0ee32058630 type=checkpoint variant=rubric weight=5
+  Creativity
+    660911a3-b44e-405d-bef6-a0ee32058630 type=checkpoint variant=rubric weight=5
+
+

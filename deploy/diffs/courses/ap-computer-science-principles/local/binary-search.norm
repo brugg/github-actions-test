@@ -1,0 +1,50 @@
+id: 9c497cb0-bda2-4eb6-9cea-bb19309243bc
+title: Binary Search
+
+activities:
+  checkpoint-set-1 id=68f9f8aa-bebf-40c7-84f4-1d95a62ffd6d tool=checkpoint-set
+    09091427-4645-48fd-a902-0bc410af2179 variant=multiple_choice
+      0afe1d8f-5b10-47b9-905f-f4a3ae42b535 correct=False
+      13bb7bb2-794a-424e-ac75-9fe336ecd53f correct=True
+      2bd9ee70-1340-494e-8fa4-405e69361c68 correct=False
+      90fc5cd0-f4dc-4938-a0e8-561cc505335d correct=False
+    134b367b-290a-4cc7-ad32-57c38ed86176 variant=multiple_choice
+      3974d69a-944f-4ac3-948d-add15f669175 correct=False
+      5b637531-ed31-4e68-9103-e829944b4f70 correct=False
+      9eeff5ba-2e1e-4bf2-8cbc-edea9ebd8205 correct=True
+      f501603c-1fc3-4125-b27c-ca07a478a0b1 correct=False
+    49af226a-d22f-4a7c-a009-30a9864f2cd6 variant=multiple_choice
+      228719fa-483c-4e2e-b3f0-2b1a39057056 correct=False
+      243a9a54-bf6e-46f2-a5f3-57dd2b269cca correct=True
+      885912e9-3da7-4220-a98c-e4685766f8dc correct=False
+      e804d890-b1a4-4640-a5c2-322a10a59057 correct=False
+    83857c50-f9bc-4650-9ecc-80a0c58aee8b variant=multiple_choice
+      0d2ea62a-0633-466e-b187-8bb3a9317574 correct=False
+      64f528bf-cd19-4984-83e4-ff7fb49ecd90 correct=False
+      e92d1a68-3a27-4aa0-91c9-3f638f9174f1 correct=False
+      fadbe573-58ed-42fd-86d1-7f658bfc44be correct=True
+    95f1e262-7e55-4782-b2d7-2fd8e5851283 variant=multiple_choice
+      412c3e10-d58d-40d8-8b07-bb97157eeefd correct=False
+      4969e83b-95dd-4708-9a41-51cb1108e5ed correct=False
+      8695b88d-e50b-408c-a6ff-fe6d70c180ff correct=True
+      be95faf8-7550-4363-a8c8-fb1beae3c213 correct=False
+
+steps:
+  3a54ab81-ed75-47ab-8cfc-815106f2f3e4 
+  31b1f214-bea1-4192-a148-a66c50a03a35 
+  e12b4792-9431-4844-8fb8-a5fb14c64da0 activity=checkpoint-set-1
+
+positions (not in order):
+  section=c0608c75-27c3-47b0-9d5c-ef0cef6be7bb step=31b1f214-bea1-4192-a148-a66c50a03a35
+  section=c801d3e4-d742-4d91-bee1-c74e33cbb9c8 step=3a54ab81-ed75-47ab-8cfc-815106f2f3e4
+  section=89283de9-37b4-4895-8d23-e180dadd8a22 step=e12b4792-9431-4844-8fb8-a5fb14c64da0
+
+criteria:
+  Quiz
+    134b367b-290a-4cc7-ad32-57c38ed86176 type=checkpoint weight=20
+    95f1e262-7e55-4782-b2d7-2fd8e5851283 type=checkpoint weight=20
+    83857c50-f9bc-4650-9ecc-80a0c58aee8b type=checkpoint weight=20
+    09091427-4645-48fd-a902-0bc410af2179 type=checkpoint weight=20
+    49af226a-d22f-4a7c-a009-30a9864f2cd6 type=checkpoint weight=20
+
+
