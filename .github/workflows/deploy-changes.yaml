@@ -43,13 +43,13 @@ jobs:
     env: 
       NEW_RELEASE_TAG: ${{ needs.prepare-and-create-release.outputs.release-tag }}
     steps:
-      # - name: Checkout repository
-      #   uses: actions/checkout@v4
-      #   with:
-      #     ref: ${{ needs.prepare-and-create-release.outputs.release-tag }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Authenticate with GitHub CLI
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
       - name: Find Latest Pre-Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
         id: get-pre-release
         run: |
           LATEST_PRE_RELEASE=$(gh release list --repo ${{ github.repository }} --json tagName,isPrerelease --jq '.[] | select(.isPrerelease == true) | .tagName' | head -n 1)
