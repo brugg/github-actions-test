@@ -1,4 +1,4 @@
-name: Course Change Detection
+name: Curriculym Deployment
 
 on:
   workflow_dispatch:  # Allows manual triggering of the workflow
@@ -35,6 +35,7 @@ jobs:
             --title "${{ env.TAG }}" \
             --notes "Release notes or description" \
             --draft=false
+            --pre-release=true
 
   update-release:
     runs-on: ubuntu-latest
@@ -50,12 +51,13 @@ jobs:
         id: get-pre-release
         run: |
           LATEST_PRE_RELEASE=$(gh release list --repo ${{ github.repository }} --pre-release | head -n 1 | awk '{print $1}')
-          echo "::set-output name=tag_name::$LATEST_PRE_RELEASE"
+          echo "tag_name=$LATEST_PRE_RELEASE" >> $GITHUB_ENV"
+        # echo "::set-output name=tag_name::$LATEST_PRE_RELEASE"
       # echo "new_release_tag=$TAG_NAME" >> $GITHUB_OUTPUT # To share with other jobs
     
       - name: Promote Pre-Release to Release
-        if: steps.get-pre-release.outputs.tag_name
-        run: gh release edit "${{ steps.get-pre-release.outputs.tag_name }}" --repo ${{ github.repository }} --draft=false --pre-release=false
+        if: env.NEW_RELEASE_TAG
+        run: gh release edit "${{ env.NEW_RELEASE_TAG }}" --repo ${{ github.repository }} --draft=false --pre-release=false
         
       # - name: Promote Pre-Release to Release
       #   run: gh release edit "${{ env.NEW_RELEASE_TAG }}" --repo ${{ github.repository }} --draft=false --pre-release=false
