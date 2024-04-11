@@ -50,9 +50,9 @@ jobs:
       - name: Find Latest Pre-Release
         id: get-pre-release
         run: |
-          LATEST_PRE_RELEASE=$(gh release list --repo ${{ github.repository }} --prerelease | head -n 1 | awk '{print $1}')
+          LATEST_PRE_RELEASE=$(gh release list --json tagName,isPrerelease --jq '.[] | select(.isPrerelease == true) | .tagName' | head -n 1)
           echo "tag_name=$LATEST_PRE_RELEASE" >> $GITHUB_ENV"
-        # echo "::set-output name=tag_name::$LATEST_PRE_RELEASE"
+      # echo "::set-output name=tag_name::$LATEST_PRE_RELEASE"
       # echo "new_release_tag=$TAG_NAME" >> $GITHUB_OUTPUT # To share with other jobs
     
       - name: Promote Pre-Release to Release
