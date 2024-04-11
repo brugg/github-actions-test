@@ -54,7 +54,7 @@ jobs:
         run: |
           LATEST_PRE_RELEASE=$(gh release list --repo ${{ github.repository }} --json tagName,isPrerelease --jq '.[] | select(.isPrerelease == true) | .tagName' | head -n 1)
           echo "LATEST_PRE_RELEASE=$LATEST_PRE_RELEASE"
-          echo "tag_name=$LATEST_PRE_RELEASE" >> $GITHUB_ENV"
+          echo "tag_name=$LATEST_PRE_RELEASE" >> $GITHUB_ENV
       
       - name: Promote Pre-Release to Release
         if: env.NEW_RELEASE_TAG
