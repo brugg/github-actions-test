@@ -58,4 +58,4 @@ jobs:
       
       - name: Promote Pre-Release to Release
         if: env.NEW_RELEASE_TAG
-        run: gh release edit "${{ env.NEW_RELEASE_TAG }}" --repo ${{ github.repository }} --draft=false --prerelease=false
+        run: gh release edit "${{ env.NEW_RELEASE_TAG }}" --repo ${{ github.repository }} --draft=false --prerelease=false --latest 
