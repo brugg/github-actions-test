@@ -32,10 +32,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create ${{ env.TAG }} \
+            --prerelease \
             --title "${{ env.TAG }}" \
             --notes "Release notes or description" \
             --draft=false
-            --pre-release=true
 
   update-release:
     runs-on: ubuntu-latest
