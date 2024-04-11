@@ -53,41 +53,9 @@ jobs:
         id: get-pre-release
         run: |
           LATEST_PRE_RELEASE=$(gh release list --repo ${{ github.repository }} --json tagName,isPrerelease --jq '.[] | select(.isPrerelease == true) | .tagName' | head -n 1)
+          echo "LATEST_PRE_RELEASE=$LATEST_PRE_RELEASE"
           echo "tag_name=$LATEST_PRE_RELEASE" >> $GITHUB_ENV"
-      # echo "::set-output name=tag_name::$LATEST_PRE_RELEASE"
-      # echo "new_release_tag=$TAG_NAME" >> $GITHUB_OUTPUT # To share with other jobs
-    
+      
       - name: Promote Pre-Release to Release
         if: env.NEW_RELEASE_TAG
         run: gh release edit "${{ env.NEW_RELEASE_TAG }}" --repo ${{ github.repository }} --draft=false --pre-release=false
-        
-      # - name: Promote Pre-Release to Release
-      #   run: gh release edit "${{ env.NEW_RELEASE_TAG }}" --repo ${{ github.repository }} --draft=false --pre-release=false
-      
-      # - uses: actions/cache@v4
-      #   id: cache-virtualenv
-      #   with:
-      #     path: ".virtualenv"
-      #     key: "python-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}"
-
-      # - if: steps.cache-virtualenv.outputs.cache-hit != 'true'
-      #   run: make --no-print-directory require-virtualenv
-
-      # - uses: actions/setup-python@v5
-      #   id: setup-python
-      #   with:
-      #     python-version: "3.9"
-            
-      # - name: Install dependencies
-      #   run: |
-      #     python -m pip install --upgrade pip
-      #     pip install PyGithub
-      
-      # - name: Print Current Working Directory
-      #   run: pwd
-      
-      # - name: Detect Changes
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     REPOSITORY_NAME: ${{ github.repository }}
-      #   run: python3 tools/deployment/detect_changes.py
