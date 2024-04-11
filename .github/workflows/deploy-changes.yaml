@@ -48,9 +48,11 @@ jobs:
       #   with:
       #     ref: ${{ needs.prepare-and-create-release.outputs.release-tag }}
       - name: Find Latest Pre-Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
         id: get-pre-release
         run: |
-          LATEST_PRE_RELEASE=$(gh release list --json tagName,isPrerelease --jq '.[] | select(.isPrerelease == true) | .tagName' | head -n 1)
+          LATEST_PRE_RELEASE=$(gh release list --repo ${{ github.repository }} --json tagName,isPrerelease --jq '.[] | select(.isPrerelease == true) | .tagName' | head -n 1)
           echo "tag_name=$LATEST_PRE_RELEASE" >> $GITHUB_ENV"
       # echo "::set-output name=tag_name::$LATEST_PRE_RELEASE"
       # echo "new_release_tag=$TAG_NAME" >> $GITHUB_OUTPUT # To share with other jobs
