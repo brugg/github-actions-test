@@ -14,8 +14,8 @@ jobs:
     outputs:
       release-tag: ${{ steps.define-tag.outputs.tag }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      # - name: Checkout repository
+      #   uses: actions/checkout@v4
 
       - name: Define the new tag
         id: define-tag
@@ -43,8 +43,8 @@ jobs:
     env: 
       NEW_RELEASE_TAG: ${{ needs.prepare-and-create-release.outputs.release-tag }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      # - name: Checkout repository
+      #   uses: actions/checkout@v4
       
       - name: Authenticate with GitHub CLI
         run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
