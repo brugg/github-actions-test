@@ -58,6 +58,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
+      - name: List all folders
+        run: find . -type d ! -path '*/\.*' -print
+      
       - name: Configure sparse-checkout
         run: |
           git config core.sparseCheckout true
@@ -66,6 +69,7 @@ jobs:
 
       - name: Pull LFS objects for sparse-checked-out paths
         run: |
+          # included="${{ matrix.directory }}/,tools/,file1.md"
           git lfs pull --include="${{ matrix.directory }}/"
     
       - name: Print current directory
