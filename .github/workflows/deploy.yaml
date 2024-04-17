@@ -57,12 +57,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-    
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          path: ${{ matrix.directory }}
-          lfs: true
+      
+      - name: Configure sparse-checkout
+        run: |
+          git config core.sparseCheckout true
+          echo "${{ matrix.directory }}/" >> .git/info/sparse-checkout
+          git read-tree -mu HEAD
+
+      - name: Pull LFS objects for sparse-checked-out paths
+        run: |
+          git lfs pull --include="${{ matrix.directory }}/"
     
       - name: Print current directory
         run: |
