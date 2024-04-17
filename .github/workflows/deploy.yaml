@@ -72,7 +72,9 @@ jobs:
         run: find . -type d ! -path '*/\.*' -print
 
       - name: List all files in courses
-        run: find courses -type f ! -path '*/\.*' -print
+        run: ls -lRh courses
+
+          # find courses -type f ! -path '*/\.*' -print
 
   # update-release:
   #   runs-on: ubuntu-latest
