@@ -75,6 +75,7 @@ jobs:
       - name: Print current directory
         run: |
           echo "Processing in directory ${{ matrix.directory }}"
+          pwd
       
       - name: List all folders
         run: find . -type d ! -path '*/\.*' -print
