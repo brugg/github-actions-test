@@ -52,16 +52,27 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        directory: ["dir1", "dir2", "dir3"] 
+        directory: ['courses/data-science-and-ai-a-practice-problems/assets', 'courses/data-science-and-ai-a-practice-problems/projects/1.1_fortune-teller-practice-problem-1/assets', 'courses/data-science-and-ai-a-practice-problems/projects/1.1_fortune-teller-practice-problem-3/assets']
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
     
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: ${{ matrix.directory }}
+          lfs: true
+    
       - name: Print current directory
         run: |
-          ls -a
           echo "Processing in directory ${{ matrix.directory }}"
+      
+      - name: List all folders
+        run: find . -type d ! -path '*/\.*' -print
+
+      - name: List all files
+        run: find . -type f ! -path '*/\.*' -print
 
   # update-release:
   #   runs-on: ubuntu-latest
