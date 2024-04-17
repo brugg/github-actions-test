@@ -75,7 +75,9 @@ jobs:
       - name: Pull LFS objects for sparse-checked-out paths
         run: |
           # included="${{ matrix.directory }}/,tools/,file1.md"
-          git lfs pull --include="${{ matrix.directory }}/"
+          # git lfs pull --include="${{ matrix.directory }}/"
+          git lfs fetch --include="${{ matrix.directory }}/"
+          git lfs checkout --include="${{ matrix.directory }}/"
     
       - name: Print current directory
         run: |
