@@ -7,44 +7,38 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Check if main branch
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "Error: Workflow cannot be run on the 'main' branch."
+            exit 1
+          fi
+
       - name: Checkout the repo
         uses: actions/checkout@v4
         with:
             fetch-depth: 0
       
-      - name: Check branch
-        id: check_branch
-        run: |
-          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
-            echo "Selected branch is 'main'. Skipping rebase and deployment."
-            echo "skip=true" >> $GITHUB_OUTPUT
-          else
-            echo "Selected branch is not 'main'. Proceeding with rebase and deployment."
-            echo "skip=false" >> $GITHUB_OUTPUT
-          fi
-
       - name: Configure Git
-        if: steps.check_branch.outputs.skip != 'true'
         run: |
           git config user.name "GitHub Actions"
           git config user.email "github.actions@helloworldcs.org"
 
       - name: Rebase main into current branch
-        if: steps.check_branch.outputs.skip != 'true'
         run: |
           git fetch origin main
           git rebase origin/main
         id: rebase
 
       - name: Push changes
-        if: steps.check_branch.outputs.skip != 'true' && success()
+        if: success()
         run: git push --force-with-lease origin HEAD
 
       - name: Run a bash command
-        if: steps.check_branch.outputs.skip != 'true' && success()
+        if: success()
         run: echo "Rebase successful, starting deployment."
 
       - name: Handle rebase conflicts
-        if: steps.check_branch.outputs.skip != 'true' && failure()
+        if: failure()
         run: echo "Rebase conflicts detected. Please resolve manually."
         continue-on-error: true
