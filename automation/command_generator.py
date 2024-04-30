@@ -4,8 +4,11 @@ from .data.curriculum_change import *
 
 from typing import List
 
+# MAIN CHANGES
+
 class CommandGenerator:
     
+
     def generate_commands(self, changes):
         courses = self.__get_courses_list(changes)
         
