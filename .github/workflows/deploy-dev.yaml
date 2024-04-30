@@ -1,0 +1,37 @@
+name: Deploy Dev Env
+
+on:
+    workflow_dispatch:
+
+jobs:
+  rebase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+        with:
+            fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+            git config user.name "GitHub Actions"
+            git config user.email "github.actions@helloworldcs.org"
+
+      - name: Rebase main into current branch
+        run: |
+            git fetch origin main
+            git rebase origin/main
+        id: rebase
+
+      - name: Push changes
+        if: success()
+        run: git push origin HEAD
+
+      - name: Run a bash command
+        if: success()
+        run: echo "Rebase successful, starting deployment."
+
+      - name: Handle rebase conflicts
+        if: failure()
+        run: echo "Rebase conflicts detected. Please resolve manually."
+        continue-on-error: true
