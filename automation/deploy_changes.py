@@ -1,6 +1,8 @@
 from .data.change import Change
 from .command_generator import *
 
+
+# no conflict changes
 class DeployChanges:
     def __init__(self, github_client):
         self.github_client = github_client
