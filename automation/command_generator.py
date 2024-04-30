@@ -6,9 +6,6 @@ from typing import List
 
 class CommandGenerator:
     
-# TEST CHANGES
-# Changes in main - CONFLICT!!
-
     def generate_commands(self, changes):
         courses = self.__get_courses_list(changes)
         

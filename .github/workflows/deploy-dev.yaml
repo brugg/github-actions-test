@@ -4,36 +4,47 @@ on:
   workflow_dispatch:
 
 jobs:
-  rebase:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+            fetch-depth: 0
+      
+      - name: Check branch
+        id: check_branch
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "Selected branch is 'main'. Skipping rebase and deployment."
+            echo "::set-output name=skip::true"
+          else
+            echo "Selected branch is not 'main'. Proceeding with rebase and deployment."
+            echo "::set-output name=skip::false"
+          fi
 
       - name: Configure Git
+        if: steps.check_branch.outputs.skip != 'true'
         run: |
           git config user.name "GitHub Actions"
           git config user.email "github.actions@helloworldcs.org"
 
       - name: Rebase main into current branch
+        if: steps.check_branch.outputs.skip != 'true'
         run: |
           git fetch origin main
-          # Fetch the latest commit of the current branch and set HEAD to it
-          git checkout -B ${{ github.head_ref }} origin/${{ github.head_ref }}
           git rebase origin/main
         id: rebase
 
       - name: Push changes
-        if: success()
-        run: git push origin HEAD
+        if: steps.check_branch.outputs.skip != 'true' && success()
+        run: git push --force-with-lease origin HEAD
 
       - name: Run a bash command
-        if: success()
+        if: steps.check_branch.outputs.skip != 'true' && success()
         run: echo "Rebase successful, starting deployment."
 
       - name: Handle rebase conflicts
-        if: failure()
+        if: steps.check_branch.outputs.skip != 'true' && failure()
         run: echo "Rebase conflicts detected. Please resolve manually."
         continue-on-error: true
