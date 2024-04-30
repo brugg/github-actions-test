@@ -1,16 +1,16 @@
 name: Deploy Dev Env
 
 on:
-  workflow_dispatch:
+    workflow_dispatch:
 
 jobs:
   rebase:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+            fetch-depth: 0
 
       - name: Configure Git
         run: |
@@ -20,14 +20,12 @@ jobs:
       - name: Rebase main into current branch
         run: |
           git fetch origin main
-          # Fetch the latest commit of the current branch and set HEAD to it
-          git checkout -B ${{ github.head_ref }} origin/${{ github.head_ref }}
           git rebase origin/main
         id: rebase
 
       - name: Push changes
         if: success()
-        run: git push origin HEAD
+        run: git push --force-with-lease origin HEAD
 
       - name: Run a bash command
         if: success()
