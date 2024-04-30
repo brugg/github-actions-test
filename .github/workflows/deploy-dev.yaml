@@ -1,7 +1,7 @@
 name: Deploy Dev Env
 
 on:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   rebase:
@@ -10,17 +10,19 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v2
         with:
-            fetch-depth: 0
+          fetch-depth: 0
 
       - name: Configure Git
         run: |
-            git config user.name "GitHub Actions"
-            git config user.email "github.actions@helloworldcs.org"
+          git config user.name "GitHub Actions"
+          git config user.email "github.actions@helloworldcs.org"
 
       - name: Rebase main into current branch
         run: |
-            git fetch origin main
-            git rebase origin/main
+          git fetch origin main
+          # Fetch the latest commit of the current branch and set HEAD to it
+          git checkout -B ${{ github.head_ref }} origin/${{ github.head_ref }}
+          git rebase origin/main
         id: rebase
 
       - name: Push changes
